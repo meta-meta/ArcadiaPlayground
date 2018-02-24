@@ -22,8 +22,10 @@
   (queue+ {
            :t0       (+ (elapsed) t0)
            :duration dur
-           :start    #(send-note note 63)
-           :end      #(send-note note 0)
+           :start    (if (= note :r) #()
+                                     #(send-note note 63))
+           :end      (if (= note :r) #()
+                                     #(send-note note 0))
            })
   nil)
 
@@ -37,19 +39,102 @@
   nil)
 
 
+(defn queue-fn [t0 fn]
+  (queue+ {
+           :t0       (+ (elapsed) t0)
+           :duration 1
+           :start    fn
+           :end      #()
+           })
+  nil)
 
 (def notes-all (into (sorted-set) (range 0 128)))
 
 (defn diatonic-scale [tonic] (reductions + tonic [2 2 1 2 2 2 1]))
 
+(defn bpm->dur [bpm]
+  (/ 60 bpm))
+
+(defn pattern "queues pattern, returns duration of pattern"
+  [notes rhythm bpm]
+  (let [durations (map #(* % (bpm->dur bpm)) rhythm)
+        start-times (take (count durations)
+                          (cons 0 (reductions + durations)))]
+    (doall (map
+             (fn [note t dur] (queue-note t dur note))
+             notes
+             start-times
+             durations
+             ))
+    (reduce + durations)))
+
+
+(defn diatonic-pattern [root pattern]
+  (let [s (diatonic-scale root)]
+    (map #(if (= % :r) :r
+                       (nth s %))
+         pattern)))
+
+(defn repeat [pattern-fn]
+  (let [dur (pattern-fn)]
+    (queue-fn dur #(repeat pattern-fn))))
+
+(defn repeater [dia-root dia-seq rhythm bpm]
+  (pattern
+    (diatonic-pattern dia-root dia-seq)
+    rhythm
+    bpm))
 
 (comment
-  (queue-chord 0 1/16 [60 64 69])
-  (queue-note 0 1/16 69)
+  (do ; Eight
+    (def bpm 241)
 
-  (map #(queue-note (/ (+ %1 (Mathf/Abs (Mathf/Sin (/ %1 8)))) 8) 1/64 %2)
-       (range)
-       [60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74])
+    (defn five []
+      (repeater 74
+                [7 6 1 4 2]
+                [1 1 1 1 2]
+                bpm))
+
+    (defn four []
+      (repeater 62
+                [0 2 0 2 :r]
+                [1 1 1 1 1]
+                bpm))
+
+    (defn one []
+      (repeater 62
+                [5 :r]
+                [2/3 3/3]
+                bpm))
+
+    (defn three-long []
+      (repeater 62
+                [5 :r 6 :r 7 :r :r]
+                [20 8 20 8 20 24]
+                bpm))
+
+    (defn three-short []
+      (repeater 74
+                [:r 1 :r 4 :r 2]
+                [1/2 7/2 1/2 7/2 1/2 7/2]
+                bpm))
+
+    (defn drone []
+      (let [dur (* 10 (bpm->dur bpm))]
+        (queue-chord 0 dur [50 57])
+        dur))
+
+    (do
+      (repeat #(drone))
+      (repeat #(one))
+      (repeat #(four))
+      (repeat #(five))
+      (repeat #(three-long))
+      ;(repeat #(three-short))
+      )
+    ) ;Eight
+
+  (clear-queue)
   )
 
 (defn chord-cycle [steps]
@@ -69,7 +154,7 @@
 (comment
   (chord-cycle 20)
   (clear-queue)
+  (start)
   )
 
 
-(start)

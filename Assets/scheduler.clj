@@ -25,7 +25,7 @@
     (first evts-or-set)
     (set evts-or-set)))
 
-(defn clear-queue "clears :queue" [] (swap! s assoc :queue #{}))
+(defn clear-queue "clears :queue" [] (swap! s assoc :queue #{}) nil)
 
 (defn queue+ "adds events to :queue" [& evts]
   (swap! s update-in [:queue]
