@@ -64,11 +64,11 @@
              (fn [note t dur] (queue-note t dur note))
              notes
              start-times
-             durations
+             (map #(* 0.95 %) durations)
              ))
     (reduce + durations)))
 
-
+;TODO: allow full range
 (defn diatonic-pattern [root pattern]
   (let [s (diatonic-scale root)]
     (map #(if (= % :r) :r
@@ -84,6 +84,8 @@
     (diatonic-pattern dia-root dia-seq)
     rhythm
     bpm))
+
+(defn re [n x] (clojure.core/repeat n x))
 
 (comment
   (do ; Eight
@@ -133,9 +135,77 @@
       ;(repeat #(three-short))
       )
     ) ;Eight
+  (clear-queue)
 
+
+  (do ; Eleven
+    (def bpm 136)
+
+
+    (defn eight-seven []
+      (repeater 29
+                (flatten (concat (re 8 [7 :r])
+                                 (re 7 [5 :r])))
+                (re 30 1/2)
+                bpm))
+    (defn four []
+      (repeater 65
+                [0 2 4 5 :r]
+                (re 5 1/2)
+                bpm))
+
+    (defn six []
+      (repeater 53
+                [6 4 2 0 2 4]
+                (re 6 1/3)
+                bpm))
+
+    (do
+      (repeat #(four))
+      (repeat #(six))
+      (repeat #(eight-seven))
+      )
+    ) ;Eleven
+  (clear-queue)
+
+  (do ; Six
+    (def bpm 88)
+
+    (defn drone []
+      (let [dur (* 10 (bpm->dur bpm))]
+        (queue-chord 0 dur [46])
+        dur))
+
+    (defn five []
+      (repeater 53
+                [3 4 7 4 0]
+                (re 5 1)
+                bpm))
+
+    (defn five-rest []
+      (repeater 77
+                (concat (flatten (re 5 [0 :r])) [:r])
+                (concat (flatten (re 5 [3/5 1/5])) [4/5])
+                bpm))
+
+    (defn four []
+      (repeater 70
+                [2 3 4 0]
+                [5/3 5/3 5/3 20/3]
+                bpm))
+
+    (do
+      (repeat #(drone))
+      (repeat #(four))
+      (repeat #(five))
+      (repeat #(five-rest))
+      )
+    ) ;Six
   (clear-queue)
   )
+
+
+
 
 (defn chord-cycle [steps]
   (doall (map (fn [n t] (queue-chord (/ t 1) 1/16 n))
