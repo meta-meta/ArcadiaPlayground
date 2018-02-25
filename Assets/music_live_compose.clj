@@ -50,14 +50,25 @@
 
 (def notes-all (into (sorted-set) (range 0 128)))
 
-(defn diatonic-scale [tonic] (reductions + tonic [2 2 1 2 2 2 1]))
+(defn diatonic-scale-cycle-up
+  "lazy seq of diatonic scale starting at tonic"
+  [tonic]
+  (reductions + tonic
+              (cycle [2 2 1 2 2 2 1])))
+
+(defn diatonic-scale-cycle-dn
+  "lazy seq of diatonic scale, descending starting at tonic"
+  [tonic]
+  (reductions - tonic
+              (cycle (reverse [2 2 1 2 2 2 1]))))
 
 (defn bpm->dur [bpm]
   (/ 60 bpm))
 
 (defn pattern "queues pattern, returns duration of pattern"
   [notes rhythm bpm]
-  (let [durations (map #(* % (bpm->dur bpm)) rhythm)
+  (let [durations (map #(* % (bpm->dur bpm))
+                       (take (count notes) rhythm))
         start-times (take (count durations)
                           (cons 0 (reductions + durations)))]
     (doall (map
@@ -68,16 +79,22 @@
              ))
     (reduce + durations)))
 
-;TODO: allow full range
-(defn diatonic-pattern [root pattern]
-  (let [s (diatonic-scale root)]
-    (map #(if (= % :r) :r
-                       (nth s %))
-         pattern)))
+(defn diatonic-pattern
+  "returns seq of notes given a root and seq of scale degrees +/-"
+  [root scale-degrees]
+  (map (fn [sd]
+         (if (= sd :r)
+           :r
+           (if (> sd 0)
+             (nth (diatonic-scale-cycle-up root)
+                  sd)
+             (nth (diatonic-scale-cycle-dn root)
+                  (- sd)))))
+       scale-degrees))
 
-(defn repeat [pattern-fn]
+(defn repeat-queue [pattern-fn]
   (let [dur (pattern-fn)]
-    (queue-fn dur #(repeat pattern-fn))))
+    (queue-fn dur #(repeat-queue pattern-fn))))
 
 (defn repeater [dia-root dia-seq rhythm bpm]
   (pattern
@@ -127,11 +144,11 @@
         dur))
 
     (do
-      (repeat #(drone))
-      (repeat #(one))
-      (repeat #(four))
-      (repeat #(five))
-      (repeat #(three-long))
+      (repeat-queue #(drone))
+      (repeat-queue #(one))
+      (repeat-queue #(four))
+      (repeat-queue #(five))
+      (repeat-queue #(three-long))
       ;(repeat #(three-short))
       )
     ) ;Eight
@@ -161,9 +178,9 @@
                 bpm))
 
     (do
-      (repeat #(four))
-      (repeat #(six))
-      (repeat #(eight-seven))
+      (repeat-queue #(four))
+      (repeat-queue #(six))
+      (repeat-queue #(eight-seven))
       )
     ) ;Eleven
   (clear-queue)
@@ -176,7 +193,7 @@
         (queue-chord 0 dur [46])
         dur))
 
-    (defn five []
+    (defn five [] ;TODO: use actual tonic and -scale degrees
       (repeater 53
                 [3 4 7 4 0]
                 (re 5 1)
@@ -195,10 +212,10 @@
                 bpm))
 
     (do
-      (repeat #(drone))
-      (repeat #(four))
-      (repeat #(five))
-      (repeat #(five-rest))
+      (repeat-queue #(drone))
+      (repeat-queue #(four))
+      (repeat-queue #(five))
+      (repeat-queue #(five-rest))
       )
     ) ;Six
   (clear-queue)
@@ -209,7 +226,7 @@
 
 (defn chord-cycle [steps]
   (doall (map (fn [n t] (queue-chord (/ t 1) 1/16 n))
-              (let [scale (cycle (diatonic-scale 48))
+              (let [scale (diatonic-scale-cycle-up 48)
                     chord-degrees (map
                                     #(range % (+ % 5) 3)
                                     (range steps))
@@ -221,7 +238,53 @@
               (range steps)))
   nil)
 
+
+
+(defn range-exercise-diatonic
+  "generates a sequence of notes traversing the diatonic scale by steps within the range (low, high)"
+  [key low high step]
+  (let [r (range 0 128 step)]
+    (dedupe (filter
+              #(and (>= % low) (<= % high))
+              (diatonic-pattern key
+                                (concat r (reverse r)))))))
+
+(defn queue-range-exercises-diatonic
+  "queues range exercises cycling through keys and steps provided"
+  [low high key-step-pairs bpm]
+  (when-not (empty? key-step-pairs)
+    (let [[key step] (first key-step-pairs)
+          dur (pattern
+                (range-exercise-diatonic key low high step)
+                (clojure.core/repeat 1)
+                bpm)]
+      (queue-fn (+ 1 dur)
+                #(queue-range-exercises-diatonic
+                   low high (rest key-step-pairs) bpm)))))
+
+
+
 (comment
+
+  (let [pat (diatonic-pattern
+              60
+              (map #(int (* 15 (Mathf/Sin (/ % 10))))
+                   (range 50)))]
+    (pattern pat
+             (re (count pat) 1)
+             300))
+
+
+  (let [keys-by-fourths (map #(mod (* 5 %) 12) (range 12))
+        key-step-pairs (->> keys-by-fourths
+                            (map (fn [key]
+                                   (map #(vector %1 %2)
+                                        (clojure.core/repeat key)
+                                        (range 1 7))))
+                            (apply concat))]
+    (queue-range-exercises-diatonic 36 96 key-step-pairs 100))
+
+
   (chord-cycle 20)
   (clear-queue)
   (start)
