@@ -79,8 +79,24 @@
 
 (def notes-in-c (set (notes-in-key 0)))
 
-(defn strip-accidental [pitch-class]
+(defn strip-accidental
+  "returns the natural pitch class"
+  [pitch-class]
   (keyword (str (nth (str pitch-class) 1))))
+
+(defn extract-accidental
+  "returns the accidental or nil"
+  [pitch-class]
+  (if (< (count (str pitch-class)) 3)
+    nil
+    (keyword (apply str (drop 2 (str pitch-class))))))
+
+(defn note-data [natural-pitch-class accidental octave]
+  {
+   :pc natural-pitch-class
+   :acc accidental
+   :oct octave
+   })
 
 (def keys-data
   (->> [:sharp :flat] ; to get the accidentals in each key, we walk in either direction on the circle of 5ths
@@ -104,7 +120,7 @@
                                                    (filter identity) ; filter nil (non-accidentals)
                                                    (set) ; it's not in the order we want. more useful as a set
                                                    )
-                                  note-spellings ; TODO: maps instead of keyword manipulation :db-1 {:naturalized-note :d, :accidental :flat, :octave -1}
+                                  note-spellings
                                   (->> (range 128)
                                        (map #(let [pc (note->pitch-class %)
                                                    spelling (cond
@@ -132,7 +148,11 @@
                                                               pc ; leave it alone
                                                               )
                                                    octave (octave %)]
-                                               (keyword (str (apply str (rest (str spelling))) octave)))))
+                                               {
+                                                :pc  (strip-accidental spelling)
+                                                :acc (extract-accidental spelling)
+                                                :oct octave
+                                                })))
                                   ]
                               {
                                :key         key
@@ -141,49 +161,54 @@
                                               :f# (union #{:e#} accidentals) ; add :e#
                                               :gb (union #{:cb} accidentals) ; add :cb
                                               accidentals ; otherwise leave it alone
-                                              )
-                               :spellings note-spellings
+                                              ) ; TODO: put these in order - no need to look them up outside this
+                               :spellings   (apply vector note-spellings) ; faster lookup as vector
                                })))))))
        (flatten) ; combine both sequences. the key of c will be present in both.
        (#(zipmap (map :key %) %)) ; turn it into a map so we can dedupe and look up data by key
        )
   )
 
+(defn spell-note
+  "returns map of note spelling data: {:pc :c, :acc nil, :oct 4}"
+  [key note]
+  (nth (:spellings (key keys-data)) note))
 
-
-
-; TODO
-(defn spell-note "[:c 61] => :c#4" [key note])
 (defn note-spelling->y-and-accidental ":c#4 => {:y 0 :acc :sharp}" [spelling])
 
-(do
-  (create-glyph :staff-5 -2 2)
-  (create-glyph :staff-5 -1 2)
-  (create-glyph :clef-g -2 4)
+(comment
 
-  (create-glyph :staff-5 -2 -10)
-  (create-glyph :staff-5 -1 -10)
-  (create-glyph :clef-f -2 -4)
+  (spell-note :c 60)
+
+  (do
+
+    (create-glyph :staff-5 -2 2)
+    (create-glyph :staff-5 -1 2)
+    (create-glyph :clef-g -2 4)
+
+    (create-glyph :staff-5 -2 -10)
+    (create-glyph :staff-5 -1 -10)
+    (create-glyph :clef-f -2 -4)
 
 
-  (create-glyph :ledger 2 0)
-  (create-glyph :ledger 2 12)
+    (create-glyph :ledger 2 0)
+    (create-glyph :ledger 2 12)
 
-  (create-glyph :flat 0 0)
-  (create-glyph :note-1 1 0)
+    (create-glyph :flat 0 0)
+    (create-glyph :note-1 1 0)
 
-  (create-evt 3 2 1/2 :flat true)
+    (create-evt 3 2 1/2 :flat true)
 
-  (->> (range 10)
-       (map #(create-evt % (- % 5) 1 :flat false)))
+    (->> (range 10)
+         (map #(create-evt % (- % 5) 1 :flat false)))
 
-  (->> (range 10)
-       (map #(create-evt % (+ % 5) 1 :sharp false)))
+    (->> (range 10)
+         (map #(create-evt % (+ % 5) 1 :sharp false)))
 
-  (create-glyph :flat 2 1)
-  (create-glyph :note-1 3 1)
+    (create-glyph :flat 2 1)
+    (create-glyph :note-1 3 1)
 
-  (create-staff 10 2)
-  (create-staff 10 -10)
-  )
+    (create-staff 10 2)
+    (create-staff 10 -10)
+    ))
 
