@@ -104,33 +104,35 @@
                                                    (filter identity) ; filter nil (non-accidentals)
                                                    (set) ; it's not in the order we want. more useful as a set
                                                    )
-                                  note-spellings
+                                  note-spellings ; TODO: maps instead of keyword manipulation :db-1 {:naturalized-note :d, :accidental :flat, :octave -1}
                                   (->> (range 128)
-                                       (map #(let [pc (note->pitch-class %)]
-                                               (cond
-                                                 (and (= key :f#) (= pc :e))
-                                                 :en
+                                       (map #(let [pc (note->pitch-class %)
+                                                   spelling (cond
+                                                              (and (= key :f#) (= pc :e))
+                                                              :en
 
-                                                 (and (= key :f#) (= pc :f))
-                                                 :e
+                                                              (and (= key :f#) (= pc :f))
+                                                              :e
 
-                                                 (and (= key :gb) (= pc :c))
-                                                 :cn
+                                                              (and (= key :gb) (= pc :c))
+                                                              :cn
 
-                                                 (and (= key :gb) (= pc :b))
-                                                 :c
+                                                              (and (= key :gb) (= pc :b))
+                                                              :c
 
-                                                 (contains? accidentals pc) ;accidentals
-                                                 (strip-accidental pc) ; are spelled without accidental
+                                                              (contains? accidentals pc) ;accidentals
+                                                              (strip-accidental pc) ; are spelled without accidental
 
-                                                 (contains? ; base pc of accidentals
-                                                   (set (map strip-accidental accidentals))
-                                                   pc)
-                                                 (keyword (str (last (str (strip-accidental pc))) "n")) ; are spelled "natural"
+                                                              (contains? ; base pc of accidentals
+                                                                (set (map strip-accidental accidentals))
+                                                                pc)
+                                                              (keyword (str (last (str (strip-accidental pc))) "n")) ; are spelled "natural"
 
-                                                 true ;otherwise
-                                                 pc ; leave it alone
-                                                 ))))
+                                                              true ;otherwise
+                                                              pc ; leave it alone
+                                                              )
+                                                   octave (octave %)]
+                                               (keyword (str (apply str (rest (str spelling))) octave)))))
                                   ]
                               {
                                :key         key
@@ -147,42 +149,7 @@
        )
   )
 
-(contains? (set (map strip-accidental #{:ab :b :c#})) :c)
-(last "asd")
 
-(cond
-  false 123)
-
-(keyword (str :d))
-
-(#(case (note->pitch-class-sharps 6) ; when the key...
-    :f# (-> % ; ...is f#
-             (difference #{ :f }) ; replace :f
-             (union #{ :e# })) ; with :e#
-    :gb (-> %
-             (difference #{ :b }) ; replace :b
-             (union #{ :cb })) ; with :cb
-    ) #{ :f :a })
-
-(->> #{ :f :a }
-     (difference #{ :b }) ; replace :b
-     (union #{ :cb }))
-
-(note->pitch-class-sharps 6)
-(notes-in-key 9)
-
-
-
-(->> (range 7)
-     (map #(mod (* 7 %) 12))
-     (map (fn [note]
-            {
-             :key (note->pitch-class-sharps note)
-             :note note
-             })))
-
-
-(notes-in-key 60)
 
 
 ; TODO
