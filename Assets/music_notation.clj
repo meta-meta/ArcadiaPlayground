@@ -33,8 +33,8 @@
     ))
 
 (defn create-staff [n y]
-  (->> (range (* 3 n))
-       (map #(create-glyph :staff-5 % y))))
+  (doall (->> (range (* 3 n))
+              (map #(create-glyph :staff-5 % y)))))
 
 (defn create-evt [t y note-value accidental dotted]
   (let [x0 (* 3 t)]
@@ -98,7 +98,7 @@
    :oct octave
    })
 
-(def keys-data
+(def keys-data ; TODO cb and c# ??
   (->> [:sharp :flat] ; to get the accidentals in each key, we walk in either direction on the circle of 5ths
        (map (fn [bias]
               (let [
@@ -107,7 +107,11 @@
                                         :sharp note->pitch-class-sharps)
                     interval (case bias ; which way do we walk the circle of 5ths?
                                :flat 5 ; walking by 4ths, flat
-                               :sharp 7)] ;walking by 5ths, sharp
+                               :sharp 7)
+                    circle-order (->> (range 12)
+                                      (map #(mod (* interval %) 12))
+                                      (map note->pitch-class))
+                    ] ;walking by 5ths, sharp
                 (->> (range 7)
                      (map #(mod (* interval %) 12))
                      (map (fn [note]
@@ -120,6 +124,25 @@
                                                    (filter identity) ; filter nil (non-accidentals)
                                                    (set) ; it's not in the order we want. more useful as a set
                                                    )
+                                  accidentals-renamed (case key ; when the key...
+                                                        :f# (union #{:e#} accidentals) ; add :e#
+                                                        :gb (union #{:cb} accidentals) ; add :cb
+                                                        accidentals ; otherwise leave it alone
+                                                        )
+                                  circle-order-renamed (->> circle-order
+                                                            (map #(cond
+                                                                    (and (= key :f#)
+                                                                         (= % :f))
+                                                                    :e#
+
+                                                                    (and (= key :gb)
+                                                                         (= % :b))
+                                                                    :cb
+
+                                                                    true % ; otherwise leave it alone
+                                                                    )))
+                                  accidentals-ordered (->> circle-order-renamed
+                                                           (filter #(contains? accidentals-renamed %)))
                                   note-spellings
                                   (->> (range 128)
                                        (map #(let [pc (note->pitch-class %)
@@ -157,17 +180,14 @@
                               {
                                :key         key
                                :note        note
-                               :accidentals (case key ; when the key...
-                                              :f# (union #{:e#} accidentals) ; add :e#
-                                              :gb (union #{:cb} accidentals) ; add :cb
-                                              accidentals ; otherwise leave it alone
-                                              ) ; TODO: put these in order - no need to look them up outside this
+                               :accidentals accidentals-ordered
                                :spellings   (apply vector note-spellings) ; faster lookup as vector
                                })))))))
        (flatten) ; combine both sequences. the key of c will be present in both.
        (#(zipmap (map :key %) %)) ; turn it into a map so we can dedupe and look up data by key
        )
   )
+
 
 (defn spell-note
   "returns map of note spelling data: {:pc :c, :acc nil, :oct 4}"
@@ -176,21 +196,65 @@
 
 (defn note-spelling->y-and-accidental ":c#4 => {:y 0 :acc :sharp}" [spelling])
 
+(defn create-grand-staff []
+  (create-glyph :staff-5 -2 2)
+  (create-glyph :staff-5 -1 2)
+  (create-glyph :clef-g -2 4)
+
+  (create-glyph :staff-5 -2 -10)
+  (create-glyph :staff-5 -1 -10)
+  (create-glyph :clef-f -2 -4)
+
+  (create-staff 10 2)
+  (create-staff 10 -10))
+
+(create-grand-staff)
+
+
+(def pitch->staff-y
+  (->> (notes-in-key 0)
+       (map-indexed
+         #(apply vector [
+                         (let [{pc :pc oct :oct} (spell-note :c %2)]
+                           (keyword (str (last (str pc)) oct)))
+                         (- %1 35) ; :c4 = 60 = index 35 of notes in key of c
+                         ]))
+       (flatten)
+       (apply hash-map)
+       ))
+
+
+(defn create-keysig [key min-staff-y max-staff-y]
+  (doall
+    (->> (:accidentals (key keys-data))
+         (map-indexed #(let [pitch-class (nth (str %2) 1)
+                             y (->> (range 6)
+                                    (map (fn [o] (pitch->staff-y (keyword (str pitch-class o)))))
+                                    (filter (fn [y] (and (>= y min-staff-y)
+                                                         (<= y max-staff-y))))
+                                    (first))
+                             x %1
+                             accidental (case (last (str %2))
+                                          \# :sharp
+                                          \b :flat)]
+                         (create-glyph accidental x y))))))
+
+(defn create-keysig-treble [key]
+  (create-keysig key 4 12))
+(defn create-keysig-bass [key]
+  (create-keysig key -10 -3))
+
+(create-keysig-treble :gb)
+(create-keysig-bass :gb)
+
+
 (comment
 
   (spell-note :c 60)
 
+  (:accidentals (:cb keys-data))
+
   (do
-
-    (create-glyph :staff-5 -2 2)
-    (create-glyph :staff-5 -1 2)
-    (create-glyph :clef-g -2 4)
-
-    (create-glyph :staff-5 -2 -10)
-    (create-glyph :staff-5 -1 -10)
-    (create-glyph :clef-f -2 -4)
-
-
     (create-glyph :ledger 2 0)
     (create-glyph :ledger 2 12)
 
@@ -207,8 +271,5 @@
 
     (create-glyph :flat 2 1)
     (create-glyph :note-1 3 1)
-
-    (create-staff 10 2)
-    (create-staff 10 -10)
     ))
 
