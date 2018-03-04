@@ -227,8 +227,8 @@
   (+glyph :staff-5 -1 -10)
   (+glyph :clef-f -2 -4)
 
-  (+staff 10 2)
-  (+staff 10 -10))
+  (+staff 16 2)
+  (+staff 16 -10))
 
 (+grand-staff)
 
@@ -278,6 +278,25 @@
 
 (+keysig-grand :f#)
 
+
+(defn +time-signature [key top bot]
+  (let [x (+ 1 (count (:accidentals (key keys-data))))
+        glyph-top (keyword (str "timesig-" top))
+        glyph-bot (keyword (str "timesig-" bot))
+        ]
+    (+glyph glyph-top x 8)
+    (+glyph glyph-bot x 4)
+    (+glyph glyph-top x -4)
+    (+glyph glyph-bot x -8)
+    ))
+(+time-signature :f# 3 4)
+
+(defn +zero-line []
+  (let [x (+ 3 (count (:accidentals (:f# keys-data))))]
+    (+glyph :bar-single x 2)
+    (+glyph :bar-single x -10)
+    (+glyph :bar-short x -6)
+    ))
 
 
 (comment

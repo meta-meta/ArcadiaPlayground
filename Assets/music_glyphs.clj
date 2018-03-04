@@ -1,6 +1,7 @@
 (ns music-glyphs)
 
 (def glyphs
+  "see http://www.smufl.org/version/latest/"
   {
    :space " "
    :clef-g "\uE050"
@@ -17,6 +18,7 @@
    :timesig-7  "\uE087"
    :timesig-8  "\uE088"
    :timesig-9  "\uE089"
+   :bar-short  "\uE038"
    :bar-single  "\uE030"
    :bar-double  "\uE032"
    :note-1  "\uE1D2"
