@@ -218,7 +218,7 @@
   [key note]
   (nth (:spellings (key keys-data)) note))
 
-(defn create-grand-staff []
+(defn +grand-staff []
   (+glyph :staff-5 -2 2)
   (+glyph :staff-5 -1 2)
   (+glyph :clef-g -2 4)
@@ -230,17 +230,19 @@
   (+staff 10 2)
   (+staff 10 -10))
 
-(create-grand-staff)
+(+grand-staff)
 
 
 (def pitch->staff-y
+  "a map of pitches to vertical positions on staff :c4 -> 0"
   (->> (notes-in-key 0)
        (map-indexed
-         #(apply vector [
-                         (let [{pc :pc oct :oct} (spell-note :c %2)]
-                           (keyword (str (last (str pc)) oct)))
-                         (- %1 35) ; :c4 = 60 = index 35 of notes in key of c
-                         ]))
+         #(apply vector
+                 [
+                  (let [{pc :pc oct :oct} (spell-note :c %2)]
+                    (keyword (str (name pc) oct)))
+                  (- %1 35) ; :c4 = 60 = index 35 of notes in key of c
+                  ]))
        (flatten)
        (apply hash-map)
        ))
@@ -251,25 +253,31 @@
   [key min-staff-y max-staff-y]
   (doall
     (->> (:accidentals (key keys-data))
-         (map-indexed #(let [pitch-class (nth (str %2) 1)
-                             y (->> (range 6)
-                                    (map (fn [o] (pitch->staff-y (keyword (str pitch-class o)))))
-                                    (filter (fn [y] (and (>= y min-staff-y)
-                                                         (<= y max-staff-y))))
-                                    (first))
-                             x %1
-                             accidental (case (last (str %2))
-                                          \# :sharp
-                                          \b :flat)]
-                         (+glyph accidental x y))))))
+         (map-indexed
+           #(let [pitch-class (nth (str %2) 1)
+                  y (->> (range 6)
+                         (map (fn [o] (pitch->staff-y (keyword (str pitch-class o)))))
+                         (filter (fn [y] (and (>= y min-staff-y)
+                                              (<= y max-staff-y))))
+                         (first))
+                  x %1
+                  accidental (case (last (str %2))
+                               \# :sharp
+                               \b :flat)]
+              (+glyph accidental x y))))))
 
 (defn +keysig-treble [key]
   (+keysig key 4 12))
+
 (defn +keysig-bass [key]
   (+keysig key -10 -3))
 
-(+keysig-treble :gb)
-(+keysig-bass :gb)
+(defn +keysig-grand [key]
+  (+keysig-treble key)
+  (+keysig-bass key))
+
+(+keysig-grand :f#)
+
 
 
 (comment
