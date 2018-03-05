@@ -411,6 +411,10 @@
                false
                )))
 
+(def s (atom {
+              :key-signature :f#
+              :time-signature [3 4]
+              }))
 
 (defn set-notes! [notes]
   (game-objects-clear :notes)
@@ -422,10 +426,6 @@
 
 (set-notes! (reductions + 60 [2 2 1 2 2 2 1 2 2 1 2 2 2 1]))
 
-(def s (atom {
-              :key-signature :f#
-              :time-signature [3 4]
-              }))
 
 (defn set-keysig! [key]
   (game-objects-clear :key-signature)
