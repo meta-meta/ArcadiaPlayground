@@ -11,59 +11,24 @@
    :note-value "1/2 - the rhythmic length of a note event"
    :note "60 - the MIDI number corresponding to pitch"
    :pitch ":c4 - a keyword corresponding to pitch"
-   :pitch-class ":c - a keyword corresponding to pitch class with no octave"
+   :pitch-class ":c# - a keyword corresponding to pitch class with no octave"
+   :natural-pitch-class ":c - a keyword corresponding to a pitch-class with no accidental"
+   :accidental "one of :# :b :n"
+   :octave "4 and integer indicating the octave of a pitch"
    :glyph ":note-2-up - a keyword specifying the font character to render"
+   :staff ""
+   ;:staff-grid "?"
+   :x "position on x-dimension of staff-grid"
+   :y "position on y-dimension of staff-grid"
+   :t "position on y-dimension of staff-grid, offset from t0"
+
    })
 
-; Trying to make the glyph from scratch but seems font won't load dynamically
-;(let [obj (GameObject. "abc")
-;      tm (cmpt+ obj UnityEngine.TextMesh)]
-;  (set! (.. obj transform localScale) (v3 0.2))
-;  (set! (. tm fontSize) (int 100))
-;  (set! (. tm font) (UnityEngine.Resources/Load "Bravura"))
-;  (set! (. tm text) (str \uE050))
-;  )
 
-(def dx "smallest unit in x-dimension for rendering glyphs" 1)
-(def dy "smallest unit in y-dimension for rendering glyphs" 0.25)
-
-(defn +glyph
-  "creates a glyph at (x,y,0). returns the GameObject"
-  [glyph x y]
-  (let [go (instantiate (object-named "GlyphTemplate"))
-        tm (cmpt go TextMesh)]
-    (set! (.. go transform position) (v3 (* x dx)
-                                         (* y dy) ;center on middle c = 0
-                                         0))
-    (set! (. go name) (str glyph))
-    (set! (. tm color) (Color. 0. 0. 0. 0.5))
-    (set! (. tm text) (str (glyph glyphs)))
-    go
-    ))
-
-(defn +staff [n y]
-  (doall (->> (range (* 3 n))
-              (map #(+glyph :staff-5 % y)))))
-
-(defn +note
-  "creates a note on the staff with optionally accidental and dot"
-  [t y note-value accidental dotted]
-  (let [x0 (* 3 t)]
-    (when accidental (+glyph accidental x0 y))
-    (+glyph
-      (case note-value
-        1 :note-1
-        1/2 :note-2-up
-        1/4 :note-4-up
-        1/8 :note-8-up
-        1/16 :note-16-up
-        1/32 :note-32-up
-        )
-      (+ 1 x0) ; make room for accidental
-      y
-      )
-    (when dotted (+glyph :note-dot (+ 2 x0) y))))
-
+; Note data generation
+; Note data generation
+; Note data generation
+; Note data generation
 
 (defn note->pitch-class-b-bias
   "returns pitch class given note, with flats as accidentals"
@@ -92,8 +57,37 @@
   "a set of all notes in key of c"
   (set (notes-in-key 0)))
 
+
+; Keyword manipulation
+; Keyword manipulation
+; Keyword manipulation
+; Keyword manipulation
+
+(defn pitch->data
+  ":c#4 {:pc-natural :c, :acc #, :oct 4}"
+  [pitch]
+  (let [s (name pitch)
+        pc-natural (subs s 0 1)
+        acc-or-oct (subs s 1 2)
+        acc (if (= 2 (count s))
+              nil
+              (keyword acc-or-oct))
+        oct (int (str (last s)))]
+    {:pc-natural pc-natural
+     :acc        acc
+     :oct        oct
+     }))
+
+(defn strip-octave
+  "returns the pitch class of provided pitch"
+  [pitch]
+  (keyword (clojure.string/reverse
+             (subs
+               (clojure.string/reverse (name pitch))
+               1))))
+
 (defn strip-accidental
-  "returns the natural pitch class of provided note or pitch-class"
+  "returns the natural pitch class of provided pitch-class"
   [pitch-class]
   (keyword (subs (name pitch-class) 0 1)))
 
@@ -159,94 +153,154 @@
 
                                note-spellings
                                (->> (range 128)
-                                    (map #(let [
-                                                pc
-                                                (note->pitch-class %)
+                                    (map
+                                      #(let [
+                                             pc
+                                             (note->pitch-class %)
 
-                                                spelling
-                                                (cond
-                                                  ; corrections for :f# and :gb
-                                                  (and (= key :f#) (= pc :e))
-                                                  :en
+                                             spelling
+                                             (cond
+                                               ; corrections for :f# and :gb
+                                               (and (= key :f#) (= pc :e))
+                                               :en
 
-                                                  (and (= key :f#) (= pc :f))
-                                                  :e
+                                               (and (= key :f#) (= pc :f))
+                                               :e
 
-                                                  (and (= key :gb) (= pc :c))
-                                                  :cn
+                                               (and (= key :gb) (= pc :c))
+                                               :cn
 
-                                                  (and (= key :gb) (= pc :b))
-                                                  :c
+                                               (and (= key :gb) (= pc :b))
+                                               :c
 
-                                                  ; accidentals are spelled without accidental
-                                                  (contains? accidentals pc)
-                                                  (strip-accidental pc)
+                                               ; accidentals are spelled without accidental
+                                               (contains? accidentals pc)
+                                               (strip-accidental pc)
 
-                                                  ; base pc of accidentals are spelled "natural"
-                                                  (contains?
-                                                    (set (map strip-accidental accidentals))
-                                                    pc)
-                                                  (keyword (str (name (strip-accidental pc))
-                                                                "n"))
+                                               ; base pc of accidentals are spelled "natural"
+                                               (contains?
+                                                 (set (map strip-accidental accidentals))
+                                                 pc)
+                                               (keyword (str (name (strip-accidental pc))
+                                                             "n"))
 
-                                                  ;otherwise leave it alone
-                                                  true pc)
+                                               ;otherwise leave it alone
+                                               true pc)
 
-                                                octave
-                                                (octave-of-note %)
-                                                ]
-                                            {
-                                             :pc  (strip-accidental spelling)
-                                             :acc (extract-accidental spelling)
-                                             :oct octave
-                                             })))
+                                             octave
+                                             (octave-of-note %)
+                                             ]
+                                         (keyword (str (name spelling) octave))))
+                                    (apply vector) ; faster lookup as vector
+                                    )
                                ]
-                           {
-                            :key         key
-                            :note        note
-                            :accidentals accidentals-ordered
-                            :spellings   (apply vector note-spellings) ; faster lookup as vector
-                            })))))))
+                           [key
+                            {
+                             :accidentals accidentals-ordered
+                             :spellings   note-spellings
+                             }])))))))
        (flatten) ; combine both sequences. the key of c will be present in both.
-       (#(zipmap (map :key %) %)) ; turn it into a map so we can dedupe and look up data by key
+       (apply hash-map) ; turn it into a map so we can dedupe and look up data by key
        )
   )
 
 
 (defn spell-note
-  "returns map of note spelling data: {:pc :c, :acc nil, :oct 4}"
+  "returns the spelling of the note in given key :c#4"
   [key note]
   (nth (:spellings (key keys-data)) note))
 
-(defn +grand-staff []
-  (+glyph :staff-5 -2 2)
-  (+glyph :staff-5 -1 2)
-  (+glyph :clef-g -2 4)
 
-  (+glyph :staff-5 -2 -10)
-  (+glyph :staff-5 -1 -10)
-  (+glyph :clef-f -2 -4)
-
-  (+staff 16 2)
-  (+staff 16 -10))
-
-(+grand-staff)
-
-
-(def pitch->staff-y
-  "a map of pitches to vertical positions on staff :c4 -> 0"
+(def natural-pitch->staff-y
+  "a map of pitches in the key of c to vertical positions on staff :c4 -> 0"
   (->> (notes-in-key 0)
        (map-indexed
          #(apply vector
-                 [
-                  (let [{pc :pc oct :oct} (spell-note :c %2)]
-                    (keyword (str (name pc) oct)))
+                 [(spell-note :c %2)
                   (- %1 35) ; :c4 = 60 = index 35 of notes in key of c
                   ]))
        (flatten)
        (apply hash-map)
        ))
 
+
+; Create Game Objects
+; Create Game Objects
+; Create Game Objects
+; Create Game Objects
+
+(def game-objects
+  "an atom containing a map of GameObjects we control"
+  (atom {
+         :staff          #{}
+         :key-signature  #{}
+         :time-signature #{}
+         :notes          #{}
+         }))
+
+(defn game-objects+
+  "adds game-objects to the game-object atom"
+  [category go-or-gos]
+  (swap! game-objects
+         update-in
+         [category]
+         #(union % (set (flatten [go-or-gos])))))
+
+(defn game-objects-clear
+  "clears game-objects from the scene and from the game-object atom"
+  [category]
+  (doseq [go (category @game-objects)]
+    (destroy go))
+  (swap! game-objects
+         assoc-in
+         [category]
+         #{}))
+
+(defn +glyph
+  "creates a glyph at (x,y,0). returns the GameObject"
+  [glyph x y]
+  (let [go (instantiate (object-named "GlyphTemplate"))
+        tm (cmpt go TextMesh)
+        dx 1 ;smallest unit in x-dimension for rendering glyphs
+        dy 0.25 ;smallest unit in y-dimension for rendering glyphs
+        ]
+    (set! (.. go transform position) (v3 (* x dx)
+                                         (* y dy) ;center on middle c = 0
+                                         0))
+    (set! (. go name) (str glyph))
+    (set! (. tm color) (Color. 0. 0. 0. 0.6))
+    (set! (. tm text) (str (glyph glyphs)))
+    go
+    ))
+
+; Trying to make the glyph from scratch but seems font won't load dynamically
+;(let [obj (GameObject. "abc")
+;      tm (cmpt+ obj UnityEngine.TextMesh)]
+;  (set! (.. obj transform localScale) (v3 0.2))
+;  (set! (. tm fontSize) (int 100))
+;  (set! (. tm font) (UnityEngine.Resources/Load "Bravura"))
+;  (set! (. tm text) (str \uE050))
+;  )
+
+(defn +staff [n y]
+  (doall (->> (range (* 3 n))
+              (map #(+glyph :staff-5 % y)))))
+
+(defn +grand-staff
+  "adds grand-staff to the scene and to the :staff category of the game-objects atom"
+  []
+  (let [game-objects [
+                      (+glyph :staff-5 -2 2)
+                      (+glyph :staff-5 -1 2)
+                      (+glyph :clef-g -2 4)
+
+                      (+glyph :staff-5 -2 -10)
+                      (+glyph :staff-5 -1 -10)
+                      (+glyph :clef-f -2 -4)
+
+                      (+staff 16 2)
+                      (+staff 16 -10)]]
+    (game-objects+ :staff game-objects)))
 
 (defn +keysig
   "creates the glyphs of the given key signature within a vertical range on the staff"
@@ -256,7 +310,7 @@
          (map-indexed
            #(let [pitch-class (nth (str %2) 1)
                   y (->> (range 6)
-                         (map (fn [o] (pitch->staff-y (keyword (str pitch-class o)))))
+                         (map (fn [o] (natural-pitch->staff-y (keyword (str pitch-class o)))))
                          (filter (fn [y] (and (>= y min-staff-y)
                                               (<= y max-staff-y))))
                          (first))
@@ -273,31 +327,130 @@
   (+keysig key -10 -3))
 
 (defn +keysig-grand [key]
-  (+keysig-treble key)
-  (+keysig-bass key))
+  (let [game-objects [
+                      (+keysig-treble key)
+                      (+keysig-bass key)]]
+    (game-objects+ :key-signature game-objects)))
 
-(+keysig-grand :f#)
+(defn +time-signature
+  "adds time-signature to the scene and to game-objects. timesig is a vector e.g. [3 4]"
+  [[beats-per-measure note-value-of-beat]]
+  (let [x (+ 1 (count (:accidentals (:f# keys-data)))) ; TODO: double digits
+        glyph-top (keyword (str "timesig-" beats-per-measure))
+        glyph-bot (keyword (str "timesig-" note-value-of-beat))
+        game-objects [
+                      (+glyph glyph-top x 8)
+                      (+glyph glyph-bot x 4)
+                      (+glyph glyph-top x -4)
+                      (+glyph glyph-bot x -8)]]
+    (game-objects+ :time-signature game-objects)))
 
+(defn +bar [x]
+  "creates a bar at x"
+  [(+glyph :bar-single x 2)
+   (+glyph :bar-single x -10)
+   (+glyph :bar-short x -6)])
 
-(defn +time-signature [key top bot]
-  (let [x (+ 1 (count (:accidentals (key keys-data))))
-        glyph-top (keyword (str "timesig-" top))
-        glyph-bot (keyword (str "timesig-" bot))
-        ]
-    (+glyph glyph-top x 8)
-    (+glyph glyph-bot x 4)
-    (+glyph glyph-top x -4)
-    (+glyph glyph-bot x -8)
-    ))
-(+time-signature :f# 3 4)
+(def x0 ;TODO: make this actually 0 and put key/time-sig in negatives
+  "the zero-line"
+  (+ 3 (count (:accidentals (:f# keys-data)))))
 
 (defn +zero-line []
-  (let [x (+ 3 (count (:accidentals (:f# keys-data))))]
-    (+glyph :bar-single x 2)
-    (+glyph :bar-single x -10)
-    (+glyph :bar-short x -6)
-    ))
+  "creates a bar at the zero line"
+  (game-objects+ :staff (+bar (- x0 1))))
 
+(defn +note-raw
+  "creates a note on the staff with optionally accidental and dot"
+  [t y note-value accidental dotted]
+  (let [x (+ x0 (* 3 t))
+        game-objects [
+                      (when accidental (+glyph (case accidental
+                                                 :b :flat
+                                                 :n :natural
+                                                 :# :sharp)
+                                               x
+                                               y))
+                      (+glyph
+                        (case note-value
+                          1 :note-1
+                          1/2 :note-2-up
+                          1/4 :note-4-up
+                          1/8 :note-8-up
+                          1/16 :note-16-up
+                          1/32 :note-32-up
+                          )
+                        (+ 1 x) ; make room for accidental
+                        y
+                        )
+                      (when dotted (+glyph :note-dot (+ 2 x) y))
+                      (when (or (= 0 y)
+                                (and (> y 10) (even? y))
+                                (and (< y -10) (even? y)))
+                        (doall (->> (cond
+                                      (> y 10) (range 12 (+ 1 y) 2)
+                                      (< y -10) (range y -10 2)
+                                      (= y 0) [0])
+                                    (map #(+glyph :ledger (+ 1 x) %)))))
+                      ]]
+    (game-objects+ :notes game-objects)))
+
+(defn +note
+  "creates a note spelled and positioned on the staff"
+  [key note t]
+  (let [pitch (spell-note key note)
+        {pc-natural :pc-natural
+         acc        :acc
+         oct        :oct
+         } (pitch->data pitch)
+        natural-pitch (keyword (str (name pc-natural) oct))
+        ]
+    (+note-raw t
+               (natural-pitch natural-pitch->staff-y)
+               1
+               acc
+               false
+               )))
+
+
+(defn set-notes! [notes]
+  (game-objects-clear :notes)
+  (doall (->> notes
+              (map-indexed #(+note
+                              (:key-signature @s)
+                              %2
+                              %1)))))
+
+(set-notes! (reductions + 60 [2 2 1 2 2 2 1 2 2 1 2 2 2 1]))
+
+(def s (atom {
+              :key-signature :f#
+              :time-signature [3 4]
+              }))
+
+(defn set-keysig! [key]
+  (game-objects-clear :key-signature)
+  (swap! s assoc :key-signature key)
+  (+keysig-grand key))
+
+; TODO: schedule a set-timesig! upcoming timesig is rendered in time in meter and swaps timesig when crossing the zero line
+(defn set-timesig! [timesig]
+  (game-objects-clear :time-signature)
+  (swap! s assoc :time-signature timesig)
+  (+time-signature timesig))
+
+
+(do (+grand-staff)
+    (+zero-line)
+    (set-keysig! :f) ; when setting, must reset notes
+    (set-timesig! [9 8])
+    )
+(comment
+  (do (game-objects-clear :staff)
+      (game-objects-clear :key-signature)
+      (game-objects-clear :time-signature)
+      (game-objects-clear :notes)
+      )
+  )
 
 (comment
 
@@ -312,13 +465,13 @@
     (+glyph :flat 0 0)
     (+glyph :note-1 1 0)
 
-    (+note 3 2 1/2 :flat true)
+    (+note-raw 3 2 1/2 :flat true)
 
     (->> (range 10)
-         (map #(+note % (- % 5) 1 :flat false)))
+         (map #(+note-raw % (- % 5) 1 :flat false)))
 
     (->> (range 10)
-         (map #(+note % (+ % 5) 1 :sharp false)))
+         (map #(+note-raw % (+ % 5) 1 :sharp false)))
 
     (+glyph :flat 2 1)
     (+glyph :note-1 3 1)
