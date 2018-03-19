@@ -30,22 +30,22 @@
 ; Note data generation
 ; Note data generation
 
-(defn note->pitch-class-b-bias
+(defn- note->pitch-class-b-bias
   "returns pitch class given note, with flats as accidentals"
   [note]
   (nth (cycle [:c :db :d :eb :e :f :gb :g :ab :a :bb :b]) note))
 
-(defn note->pitch-class-#-bias
+(defn- note->pitch-class-#-bias
   "returns pitch class given note, with sharps as accidentals"
   [note]
   (nth (cycle [:c :c# :d :d# :e :f :f# :g :g# :a :a# :b]) note))
 
-(defn octave-of-note
+(defn- octave-of-note
   "returns the octave # of a given note see: https://en.wikipedia.org/wiki/Scientific_pitch_notation#Table_of_note_frequencies"
   [note]
   (- (int (/ note 12)) 1))
 
-(defn notes-in-key
+(defn- notes-in-key
   "returns all notes in the major key of the given note"
   [note]
   (->> (cycle [2 2 1 2 2 2 1])
@@ -63,7 +63,7 @@
 ; Keyword manipulation
 ; Keyword manipulation
 
-(defn pitch->data
+(defn- pitch->data
   ":c#4 {:pc-natural :c, :acc #, :oct 4}"
   [pitch]
   (let [s (name pitch)
@@ -78,7 +78,7 @@
      :oct        oct
      }))
 
-(defn strip-octave
+(defn- strip-octave
   "returns the pitch class of provided pitch"
   [pitch]
   (keyword (clojure.string/reverse
@@ -86,12 +86,12 @@
                (clojure.string/reverse (name pitch))
                1))))
 
-(defn strip-accidental
+(defn- strip-accidental
   "returns the natural pitch class of provided pitch-class"
   [pitch-class]
   (keyword (subs (name pitch-class) 0 1)))
 
-(defn extract-accidental
+(defn- extract-accidental
   "returns the accidental or nil"
   [pitch-class]
   (if (< (count (name pitch-class)) 2)
@@ -205,7 +205,7 @@
   )
 
 
-(defn spell-note
+(defn- spell-note
   "returns the spelling of the note in given key :c#4"
   [key note]
   (nth (:spellings (key keys-data)) note))
@@ -236,9 +236,10 @@
          :key-signature  #{}
          :time-signature #{}
          :notes          #{}
+         :played-notes   #{}
          }))
 
-(defn game-objects+
+(defn- game-objects+
   "adds game-objects to the game-object atom"
   [category go-or-gos]
   (swap! game-objects
@@ -246,7 +247,18 @@
          [category]
          #(union % (set (flatten [go-or-gos])))))
 
-(defn game-objects-clear
+(defn- game-objects-
+  "removes game-objects from the game-object atom and destroys them"
+  [category go-or-gos]
+  (let [gos (set (flatten [go-or-gos]))]
+    (swap! game-objects
+           update-in
+           [category]
+           #(difference % gos))
+    (doseq [go gos]
+      (destroy go))))
+
+(defn- game-objects-clear
   "clears game-objects from the scene and from the game-object atom"
   [category]
   (doseq [go (category @game-objects)]
@@ -256,7 +268,7 @@
          [category]
          #{}))
 
-(defn +glyph
+(defn- +glyph
   "creates a glyph at (x,y,0). returns the GameObject"
   [glyph x y]
   (let [go (instantiate (object-named "GlyphTemplate"))
@@ -282,11 +294,11 @@
 ;  (set! (. tm text) (str \uE050))
 ;  )
 
-(defn +staff [n y]
+(defn- +staff [n y]
   (doall (->> (range (* 3 n))
               (map #(+glyph :staff-5 % y)))))
 
-(defn +grand-staff
+(defn- +grand-staff
   "adds grand-staff to the scene and to the :staff category of the game-objects atom"
   []
   (let [game-objects [
@@ -302,7 +314,7 @@
                       (+staff 16 -10)]]
     (game-objects+ :staff game-objects)))
 
-(defn +keysig
+(defn- +keysig
   "creates the glyphs of the given key signature within a vertical range on the staff"
   [key min-staff-y max-staff-y]
   (doall
@@ -320,19 +332,19 @@
                                \b :flat)]
               (+glyph accidental x y))))))
 
-(defn +keysig-treble [key]
+(defn- +keysig-treble [key]
   (+keysig key 4 12))
 
-(defn +keysig-bass [key]
+(defn- +keysig-bass [key]
   (+keysig key -10 -3))
 
-(defn +keysig-grand [key]
+(defn- +keysig-grand [key]
   (let [game-objects [
                       (+keysig-treble key)
                       (+keysig-bass key)]]
     (game-objects+ :key-signature game-objects)))
 
-(defn +time-signature
+(defn- +time-signature
   "adds time-signature to the scene and to game-objects. timesig is a vector e.g. [3 4]"
   [[beats-per-measure note-value-of-beat]]
   (let [x (+ 1 (count (:accidentals (:f# keys-data)))) ; TODO: double digits
@@ -355,13 +367,13 @@
   "the zero-line"
   (+ 3 (count (:accidentals (:f# keys-data)))))
 
-(defn +zero-line []
+(defn- +zero-line []
   "creates a bar at the zero line"
   (game-objects+ :staff (+bar (- x0 1))))
 
-(defn +note-raw
+(defn- +note-raw ; TODO: offset when minor second notes would be in same position
   "creates a note on the staff with optionally accidental and dot"
-  [t y note-value accidental dotted]
+  [t y note-value accidental dotted game-object-bin]
   (let [x (+ x0 (* 3 t))
         game-objects [
                       (when accidental (+glyph (case accidental
@@ -392,12 +404,17 @@
                                       (= y 0) [0])
                                     (map #(+glyph :ledger (+ 1 x) %)))))
                       ]]
-    (game-objects+ :notes game-objects)))
+    (game-objects+ game-object-bin game-objects)))
 
-(defn +note
+(def s (atom {
+              :key-signature :f#
+              :time-signature [3 4]
+              }))
+
+(defn- +note
   "creates a note spelled and positioned on the staff"
-  [key note t]
-  (let [pitch (spell-note key note)
+  [note t game-object-bin]
+  (let [pitch (spell-note (:key-signature @s) note)
         {pc-natural :pc-natural
          acc        :acc
          oct        :oct
@@ -409,23 +426,23 @@
                1
                acc
                false
+               game-object-bin
                )))
 
-(def s (atom {
-              :key-signature :f#
-              :time-signature [3 4]
-              }))
+(defn -note
+  "removes note from registry and scene"
+  [go]
+  (game-objects- :notes go))
 
-(defn set-notes! [notes]
+(defn- set-notes! [notes]
   (game-objects-clear :notes)
   (doall (->> notes
-              (map-indexed #(+note
-                              (:key-signature @s)
-                              %2
-                              %1)))))
+              (map-indexed #(+note %2 %1 :notes)))))
 
-(set-notes! (reductions + 60 [2 2 1 2 2 2 1 2 2 1 2 2 2 1]))
-
+(defn set-played-notes! [notes->vels]
+  (game-objects-clear :played-notes)
+  (doall (->> notes->vels
+              (map #(+note (first %) 0 :played-notes)))))
 
 (defn set-keysig! [key]
   (game-objects-clear :key-signature)
@@ -441,9 +458,18 @@
 
 (do (+grand-staff)
     (+zero-line)
-    (set-keysig! :f) ; when setting, must reset notes
-    (set-timesig! [9 8])
-    )
+    (set-timesig! [4 4]))
+
+(comment
+  (do (+grand-staff)
+      (+zero-line)
+      (set-keysig! :f) ; when setting, must reset notes
+      (set-timesig! [4 8])
+      (doall (->> (range 12 40 12)
+                  (map #(+bar %))))
+      (set-notes! (reductions + 60 [2 2 1 2 2 2 1 2 2 1 2 2 2 1]))
+      ))
+
 (comment
   (do (game-objects-clear :staff)
       (game-objects-clear :key-signature)
