@@ -369,75 +369,81 @@
 
 (defn- +zero-line []
   "creates a bar at the zero line"
-  (game-objects+ :staff (+bar (- x0 1))))
+  (game-objects+ :staff (+bar (- x0 1)))
+  )
 
 (defn- +note-raw ; TODO: offset when minor second notes would be in same position
   "creates a note on the staff with optionally accidental and dot"
-  [t y note-value accidental dotted game-object-bin]
+  [t y note-value accidental dotted category]
   (let [x (+ x0 (* 3 t))
-        game-objects [
-                      (when accidental (+glyph (case accidental
-                                                 :b :flat
-                                                 :n :natural
-                                                 :# :sharp)
-                                               x
-                                               y))
-                      (+glyph
-                        (case note-value
-                          1 :note-1
-                          1/2 :note-2-up
-                          1/4 :note-4-up
-                          1/8 :note-8-up
-                          1/16 :note-16-up
-                          1/32 :note-32-up
-                          )
-                        (+ 1 x) ; make room for accidental
-                        y
-                        )
-                      (when dotted (+glyph :note-dot (+ 2 x) y))
-                      (when (or (= 0 y)
-                                (and (> y 10) (even? y))
-                                (and (< y -10) (even? y)))
-                        (doall (->> (cond
-                                      (> y 10) (range 12 (+ 1 y) 2)
-                                      (< y -10) (range y -10 2)
-                                      (= y 0) [0])
-                                    (map #(+glyph :ledger (+ 1 x) %)))))
-                      ]]
-    (game-objects+ game-object-bin game-objects)))
+        glyph-gos [
+                   (when accidental (+glyph (case accidental
+                                              :b :flat
+                                              :n :natural
+                                              :# :sharp)
+                                            x
+                                            y))
+                   (+glyph (case note-value
+                             1 :note-1
+                             1/2 :note-2-up
+                             1/4 :note-4-up
+                             1/8 :note-8-up
+                             1/16 :note-16-up
+                             1/32 :note-32-up
+                             )
+                           (+ 1 x) ; make room for accidental
+                           y)
+                   (when dotted (+glyph :note-dot (+ 2 x) y))
+                   (when (or (= 0 y) (> y 10) (< y -10))
+                     (doall (->> (cond
+                                   (> y 10) (range 12 (+ 1 y) 2)
+                                   (< y -10) (range y -10 2)
+                                   (= y 0) [0])
+                                 (map #(+glyph :ledger (+ 1 x) %)))))
+                   ]
+        go (GameObject. (str "note-"
+                             note-value "-"
+                             y "-"
+                             accidental "-"
+                             (when dotted "o")))
+        ]
+    (set! (.. go transform position) (v3 x y 0))
+    (doseq [glyph-go (filter identity (flatten glyph-gos))]
+      (child+ go glyph-go true))
+    (game-objects+ category go)
+    go
+    ))
 
 (def s (atom {
               :key-signature :f#
               :time-signature [3 4]
               }))
 
-(defn- +note
-  "creates a note spelled and positioned on the staff"
-  [note t game-object-bin]
-  (let [pitch (spell-note (:key-signature @s) note)
-        {pc-natural :pc-natural
-         acc        :acc
-         oct        :oct
-         } (pitch->data pitch)
-        natural-pitch (keyword (str (name pc-natural) oct))
-        ]
-    (+note-raw t
-               (natural-pitch natural-pitch->staff-y)
-               1
-               acc
-               false
-               game-object-bin
-               )))
+(defn +note
+  "creates a note spelled and positioned on the staff. returns the GameObject containing the glyphs for the note"
+  ([note t category]
+   (let [pitch (spell-note (:key-signature @s) note)
+         {pc-natural :pc-natural
+          acc        :acc
+          oct        :oct
+          } (pitch->data pitch)
+         natural-pitch (keyword (str (name pc-natural) oct))
+         ]
+     (+note-raw t
+                (natural-pitch natural-pitch->staff-y)
+                1
+                acc
+                false
+                category
+                )))
+  ([note t] (+note note t :notes)))
+
 
 (defn -note
   "removes note from registry and scene"
   [go]
   (game-objects- :notes go))
 
-(defn- set-notes! [notes]
-  (game-objects-clear :notes)
-  (doall (->> notes
-              (map-indexed #(+note %2 %1 :notes)))))
 
 (defn set-played-notes! [notes->vels]
   (game-objects-clear :played-notes)
@@ -467,8 +473,8 @@
       (set-timesig! [4 8])
       (doall (->> (range 12 40 12)
                   (map #(+bar %))))
-      (set-notes! (reductions + 60 [2 2 1 2 2 2 1 2 2 1 2 2 2 1]))
       ))
+
 
 (comment
   (do (game-objects-clear :staff)
@@ -479,6 +485,12 @@
   )
 
 (comment
+  (defn- set-notes! [notes]
+    (game-objects-clear :notes)
+    (doall (->> notes
+                (map-indexed #(+note %2 %1 :notes)))))
+
+  (set-notes! (reductions + 60 [2 2 1 2 2 2 1 2 2 1 2 2 2 1]))
 
   (spell-note :f# 60)
 

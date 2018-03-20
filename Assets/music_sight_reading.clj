@@ -13,4 +13,4 @@
 
 (hook+ (object-named "App") :update :sight-reading #'game-loop)
 
-(set-keysig! :bb) 
+(set-keysig! :bb)
