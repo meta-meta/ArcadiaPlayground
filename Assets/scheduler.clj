@@ -60,7 +60,6 @@
        (not (evt-ended? evt))))
 
 
-
 (defn dequeue-missed-evts "removes events from :queue which have not been activated but whose end time has passed" []
   (let [missed-evts (filter evt-ended? (:queue @s))]
     (queue- missed-evts)
@@ -81,10 +80,22 @@
     (active- evts)
     (past+ evts)))
 
+(defn update-queued-evts
+  "calls :update-active fn of active events" []
+  (let [evts (filter #(contains? % :update-queued) (:queue @s))]
+    (doall (map #((:update-queued %)) evts))))
+
+(defn update-active-evts
+  "calls :update-active fn of active events" []
+  (let [evts (filter #(contains? % :update-active) (:active @s))]
+    (doall (map #((:update-active %)) evts))))
+
 (defn game-loop [obj key]
   (dequeue-missed-evts)
   (activate-ready-evts)
   (deactivate-past-evts)
+  (update-queued-evts)
+  (update-active-evts)
   )
 
 ; TODO figure out how to run this all on another thread for higher resolution timing
