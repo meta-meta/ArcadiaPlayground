@@ -18,10 +18,10 @@
 
 (hook+ (object-named "App") :update :sight-reading #'game-loop)
 
-(defn move-go [go t0]
+(defn move-go [go t0 rate]
   (let [seconds-left (- t0 (elapsed))]
     (set! (.. go transform position)
-          (v3 (+ music-notation/x0 (* 3 seconds-left)) 0 0))))
+          (v3 (+ music-notation/x0 (* rate (* 3 seconds-left))) 0 0))))
 
 (defn queue-event
   "queues an event"
@@ -33,7 +33,7 @@
              :duration      1
              :start         #()
              :end           #(-note go)
-             :update-queued #(move-go go t0)
+             :update-queued #(move-go go t0 1)
 
              :update-active (fn []
                               (doseq [child (children go)]
@@ -42,17 +42,14 @@
                                   (set! (. tm color) (if playing?
                                                        (Color. 0. 1. 0. 0.6)
                                                        (Color. 1. 0. 0. 0.6)))))
-                              ;(move-go go t0)
-                              (let [seconds-left (- t0 (elapsed))]
-                                (set! (.. go transform position)
-                                      (v3 (+ music-notation/x0 (/ (* 3 seconds-left) 2)) 0 0)))
+                              (move-go go t0 1/2)
                               )
              }))
   nil)
 
 
 (doall (map (fn [n t] (queue-event (+ 5 t) n 1))
-            (range-exercise-diatonic 53 48 72 2)
+            (range-exercise-diatonic 53 48 72 3)
             (reductions + (clojure.core/repeat 1))))
 
 
