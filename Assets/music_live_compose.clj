@@ -242,12 +242,13 @@
 
 (defn range-exercise-diatonic
   "generates a sequence of notes traversing the diatonic scale by steps within the range (low, high)"
-  [key low high step]
-  (let [r (range 0 128 step)]
-    (dedupe (filter
-              #(and (>= % low) (<= % high))
-              (diatonic-pattern key
-                                (concat r (reverse r)))))))
+  ([key low high step offset]
+   (let [r (range offset 128 step)]
+     (dedupe (filter
+               #(and (>= % low) (<= % high))
+               (diatonic-pattern (mod key 12)
+                                 (concat r (reverse r)))))))
+  ([key low high step] (range-exercise-diatonic key low high step 0)))
 
 (defn queue-range-exercises-diatonic
   "queues range exercises cycling through keys and steps provided"

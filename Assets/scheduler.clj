@@ -82,13 +82,13 @@
 
 (defn update-queued-evts
   "calls :update-active fn of active events" []
-  (let [evts (filter #(contains? % :update-queued) (:queue @s))]
-    (doall (map #((:update-queued %)) evts))))
+  (doseq [evt (:queue @s)]
+    (when (contains? evt :update-queued) ((:update-queued evt)))))
 
 (defn update-active-evts
   "calls :update-active fn of active events" []
-  (let [evts (filter #(contains? % :update-active) (:active @s))]
-    (doall (map #((:update-active %)) evts))))
+  (doseq [evt (:active @s)]
+    (when (contains? evt :update-active) ((:update-active evt)))))
 
 (defn game-loop [obj key]
   (dequeue-missed-evts)

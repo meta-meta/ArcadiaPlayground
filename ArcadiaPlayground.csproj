@@ -325,6 +325,9 @@
     <Compile Include="Assets\Arcadia\Helpers\TimeSnap.cs" />
     <Compile Include="Assets\Arcadia\Helpers\UnityStatusHelper.cs" />
     <Compile Include="Assets\Arcadia\Helpers\Util.cs" />
+    <Compile Include="Assets\Klak\Spout\Internal\PluginEntry.cs" />
+    <Compile Include="Assets\Klak\Spout\SpoutReceiver.cs" />
+    <Compile Include="Assets\Klak\Spout\SpoutSender.cs" />
     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscBlobEvent.cs" />
     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscBoolEvent.cs" />
     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscCharEvent.cs" />
@@ -352,6 +355,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Arcadia\Infrastructure\certdata.txt" />
+    <None Include="Assets\Klak\Spout\Internal\Resources\Fixup.cginc" />
+    <None Include="Assets\Klak\Spout\Internal\Resources\Fixup.shader" />
     <None Include="Assets\OSC simpl\Documents\Versions.txt" />
     <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Cutout Wireframe.shader" />
     <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Double-Sided Cutout Wireframe.shader" />

@@ -396,8 +396,8 @@
                    (when dotted (+glyph :note-dot (+ 2 x) y))
                    (when (or (= 0 y) (> y 10) (< y -10))
                      (doall (->> (cond
-                                   (> y 10) (range 12 (+ 1 y) 2)
-                                   (< y -10) (range y -10 2)
+                                   (> y 10) (range 12 (if (odd? y) y (+ 1 y)) 2)
+                                   (< y -10) (range (if (even? y) y (+ 1 y)) -10 2)
                                    (= y 0) [0])
                                  (map #(+glyph :ledger (+ 1 x) %)))))
                    ]
@@ -443,6 +443,9 @@
   "removes note from registry and scene"
   [go]
   (game-objects- :notes go))
+
+(defn clear-notes "clears all notes from staff" []
+  (game-objects-clear :notes))
 
 
 (defn set-played-notes! [notes->vels]

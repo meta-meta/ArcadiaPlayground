@@ -3,25 +3,49 @@
         [arcadia.linear]
         [music-instrument-state :only [get-notes]]
         [music-live-compose]
-        [music-notation :only [set-played-notes!
+        [music-notation :only [clear-notes
+                               set-played-notes!
                                set-keysig!
                                +note
                                -note]]
-        [scheduler :only [now start clear-queue queue+ elapsed evt-seconds-left]]
+        [scheduler :only [now start clear-queue queue+ elapsed]]
         )
-  (:import (UnityEngine Color TextMesh)))
+  (:import (UnityEngine Color GameObject Mathf TextMesh)))
 
 
 (defn game-loop [obj key]
-  (set-played-notes! (get-notes))
-  )
+  (set-played-notes! (get-notes)))
 
 (hook+ (object-named "App") :update :sight-reading #'game-loop)
 
-(defn move-go [go t0 rate]
+(defn scroll-go "scrolls :note event on staff by x"
+  [^GameObject go x]
+  (set! (.. go transform position)
+        (v3 (+ music-notation/x0 (* 3 x)) 0 -0.1)))
+
+(defn set-go-color "sets color of :note event"
+  [^GameObject go r g b a]
+  (doseq [child (children go)]
+    (set! (. (cmpt child TextMesh) color)
+          (Color. r g b a))))
+
+(defn update-queued "invoked on every :queued event every frame"
+  [note go t0]
   (let [seconds-left (- t0 (elapsed))]
-    (set! (.. go transform position)
-          (v3 (+ music-notation/x0 (* rate (* 3 seconds-left))) 0 0))))
+    (scroll-go go seconds-left)))
+
+(defn update-active "invoked on every :active event every frame"
+  [note go t0]
+  (let [[r g b] (if
+                  (contains? (get-notes) note)
+                  [0 1 0]
+                  [1 0 0])
+        secs-til-active (- t0 (elapsed))]
+    (set-go-color go r g b (+ 1 secs-til-active))
+    (scroll-go go (+ secs-til-active
+                     (Mathf/Pow secs-til-active 2)))))
+
+
 
 (defn queue-event
   "queues an event"
@@ -33,25 +57,45 @@
              :duration      1
              :start         #()
              :end           #(-note go)
-             :update-queued #(move-go go t0 1)
-
-             :update-active (fn []
-                              (doseq [child (children go)]
-                                (let [tm (cmpt child TextMesh)
-                                      playing? (contains? (get-notes) note)]
-                                  (set! (. tm color) (if playing?
-                                                       (Color. 0. 1. 0. 0.6)
-                                                       (Color. 1. 0. 0. 0.6)))))
-                              (move-go go t0 1/2)
-                              )
+             :update-queued #(update-queued note go t0)
+             :update-active #(update-active note go t0)
              }))
   nil)
 
 
-(doall (map (fn [n t] (queue-event (+ 5 t) n 1))
-            (range-exercise-diatonic 53 48 72 3)
-            (reductions + (clojure.core/repeat 1))))
+(defn clear []
+  (clear-notes)
+  (clear-queue))
+
+
+; TODO: put all notes in a sequence as children of container object, scroll container instead of individual notes
+;(doseq [glyph-go (filter identity (flatten glyph-gos))]
+;  (child+ go glyph-go true))
+
+(comment
+
+  (set-keysig! :c)
+
+  (doall (map (fn [n t] (queue-event (+ 1 t) n 1))
+              (concat
+                ;(range-exercise-diatonic 60 34 99 1)
+                ;(range-exercise-diatonic 60 34 99 2 0)
+                ;(range-exercise-diatonic 60 34 99 2 1)
+                (range-exercise-diatonic 60 34 99 3 0)
+                (range-exercise-diatonic 60 34 99 3 1)
+                (range-exercise-diatonic 60 34 99 3 2)
+                (range-exercise-diatonic 60 34 99 4 0)
+                (range-exercise-diatonic 60 34 99 4 1)
+                (range-exercise-diatonic 60 34 99 4 2)
+                (range-exercise-diatonic 60 34 99 4 3)
+                )
+              (reductions + (clojure.core/repeat 0.75))))
+
+  (clear)
+
+  (set-keysig! :db)
+
+  )
 
 
 
-(set-keysig! :c)

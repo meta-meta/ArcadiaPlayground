@@ -302,12 +302,28 @@
     <Compile Include="Assets\Arcadia\Editor\EditorCallbacks.cs" />
     <Compile Include="Assets\Arcadia\Editor\Initialization.cs" />
     <Compile Include="Assets\Arcadia\Editor\Repl.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\FocusedWindowFullscreen.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\FullscreenOnPlay.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\FullscreenPreferences.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\FullscreenRects.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\FullscreenUtility.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\FullscreenView.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\GameViewFullscreen.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\MainViewFullscreen.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\MenuItems.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\PrefItem.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\ReflectionUtility.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\SceneViewFullscreen.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\Shortcut.cs" />
+    <Compile Include="Assets\Fullscreen\Editor\Tracker.cs" />
     <Compile Include="Assets\OSC simpl\Base\Internal\Editor\OscInInspector.cs" />
     <Compile Include="Assets\OSC simpl\Base\Internal\Editor\OscMappingDrawer.cs" />
     <Compile Include="Assets\OSC simpl\Base\Internal\Editor\OscOutInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Arcadia\Infrastructure\certdata.txt" />
+    <None Include="Assets\Klak\Spout\Internal\Resources\Fixup.cginc" />
+    <None Include="Assets\Klak\Spout\Internal\Resources\Fixup.shader" />
     <None Include="Assets\OSC simpl\Documents\Versions.txt" />
     <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Cutout Wireframe.shader" />
     <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Double-Sided Cutout Wireframe.shader" />
