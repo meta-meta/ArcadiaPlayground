@@ -99,7 +99,9 @@
   )
 
 ; TODO figure out how to run this all on another thread for higher resolution timing
-(hook+ (object-named "App") :update :scheduler #'game-loop)
+(if-not (hook (object-named "App") :update :scheduler)
+  (hook+ (object-named "App") :update :scheduler #'game-loop))
+
 ;(hook- (object-named "App") :update :default)
 
 (start)

@@ -24,92 +24,12 @@
     <favorites_list name="ArcadiaPlayground" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="arcadia_test.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/arcadia_test.clj">
+    <leaf>
+      <file leaf-file-name="music_sight_reading.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/music_sight_reading.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="geometry.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/geometry.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArcadiaWorksheet.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ArcadiaWorksheet.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="99" column="7" lean-forward="false" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configuration.edn" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/configuration.edn">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nrepl.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/nrepl.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scheduler.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/scheduler.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="67" column="35" lean-forward="true" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="music_live_compose.clj" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/music_live_compose.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="osc.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/osc.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scratch.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="420">
+              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,12 +50,35 @@
       <find>polygon-uvs</find>
       <find>make-dodecahedron</find>
       <find>:fn</find>
-      <find>:note</find>
       <find>Mathf</find>
       <find>import</find>
+      <find>diatonic-scale</find>
+      <find>defn gobj</find>
+      <find>gobj</find>
+      <find>gameObject</find>
+      <find>set!</find>
+      <find>:note</find>
+      <find>:acc</find>
+      <find>:pc</find>
+      <find>:key-signature</find>
+      <find>hash</find>
+      <find>assoc</find>
+      <find>apply has</find>
+      <find>clef</find>
+      <find>+note</find>
+      <find>set-notes!</find>
+      <find>s</find>
+      <find>game-object-bin</find>
+      <find>GameObject.</find>
+      <find>color</find>
+      <find>log</find>
+      <find>child</find>
+      <find>set-keysig!</find>
+      <find>GetController</find>
     </findStrings>
     <replaceStrings>
       <replace>:start</replace>
+      <replace>category</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -165,9 +108,16 @@
         <option value="$PROJECT_DIR$/Assets/ArcadiaWorksheet.clj" />
         <option value="$PROJECT_DIR$/Assets/geometry.clj" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
-        <option value="$PROJECT_DIR$/Assets/osc.clj" />
-        <option value="$PROJECT_DIR$/Assets/scheduler.clj" />
+        <option value="$PROJECT_DIR$/Assets/musical_notation.clj" />
+        <option value="$PROJECT_DIR$/Assets/music_glyphs.clj" />
+        <option value="$PROJECT_DIR$/Assets/music_instrument_state.clj" />
         <option value="$PROJECT_DIR$/Assets/music_live_compose.clj" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Assets/osc.clj" />
+        <option value="$PROJECT_DIR$/Assets/music_notation.clj" />
+        <option value="$PROJECT_DIR$/Assets/music_sight_reading.clj" />
+        <option value="$PROJECT_DIR$/Assets/scheduler.clj" />
+        <option value="$PROJECT_DIR$/Assets/theremin.clj" />
       </list>
     </option>
   </component>
@@ -178,10 +128,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="20" />
-    <option name="y" value="40" />
-    <option name="width" value="2520" />
-    <option name="height" value="1200" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -198,8 +146,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,17 +161,11 @@
               <item name="ArcadiaPlayground" type="462c0819:PsiDirectoryNode" />
               <item name="Arcadia" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ArcadiaPlayground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArcadiaPlayground" type="462c0819:PsiDirectoryNode" />
-              <item name="Assets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +175,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Clojure" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -247,7 +190,7 @@
       <recent name="C:\Projects\ArcadiaPlayground\Assets" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1519450950514">{:repl-history {:ide [], :local [], :remote [{:command &quot;(+ 1 1 )&quot;, :offset 7, :ns &quot;cursive.repl.runtime&quot;} {:command &quot;(+ 1 2)&quot;, :offset 6, :ns &quot;cursive.repl.runtime&quot;} {:command &quot;Mathf&quot;, :offset 5, :ns &quot;music-live-compose&quot;} {:command &quot;(import UnityEngine.Mathf)&quot;, :offset 26, :ns &quot;music-live-compose&quot;} {:command &quot;(defn queue-note [t0 dur note]\n  (queue+ {\n           :t0       (+ (elapsed) t0)\n           :duration dur\n           :start    #(send \&quot;/organ\&quot; [note 63])\n           :end      #(send \&quot;/organ\&quot; [note 0])\n           }))&quot;, :offset 215, :ns &quot;music-live-compose&quot;} {:command &quot;(defn queue-chord [t0 dur notes]\n  (queue+ {\n           :t0       (+ (elapsed) t0)\n           :duration dur\n           :start    #(doall (map (fn [note] (send \&quot;/organ\&quot; [note 63])) notes))\n           :end      #(doall (map (fn [note] (send \&quot;/organ\&quot; [note 0])) notes))\n           }))&quot;, :offset 281, :ns &quot;music-live-compose&quot;} {:command &quot;(def notes-all (into (sorted-set) (range 0 128)))&quot;, :offset 49, :ns &quot;music-live-compose&quot;} {:command &quot;(defn diatonic-scale [tonic] (reductions + tonic [2 2 1 2 2 2 1]))&quot;, :offset 66, :ns &quot;music-live-compose&quot;} {:command &quot;(do (queue-chord 0 1/2 [60 64 69]) nil)&quot;, :offset 39, :ns &quot;music-live-compose&quot;} {:command &quot;(defn queue-chord [t0 dur notes]\n  (queue+ {\n           :t0       (+ (elapsed) t0)\n           :duration dur\n           :start    #(doall (map (fn [note] (send \&quot;/organ\&quot; [note 63])) \n                                  notes))\n           :end      #(doall (map (fn [note] (send \&quot;/organ\&quot; [note 0])) \n                                  notes))\n           }))&quot;, :offset 351, :ns &quot;music-live-compose&quot;} {:command &quot;(let [seq (-&gt;&gt; (range 1000)\n               (map #(int (+ 48 (* 60 (Mathf/Sin (* 0.06 %))))))\n               (filter #(= 0 (mod % 5)))\n               (map (fn [n]\n                      (fn [t]\n                        (queue-note\n                          (+ 0 (elapsed) (/ t 10))\n                          1/2\n                          n\n                          )\n                        ))))]\n  (map (fn [i f] (f i) i) (range) seq)\n  )&quot;, :offset 437, :ns &quot;music-live-compose&quot;} {:command &quot;(let [seq (-&gt;&gt; (range 1000)\n               (map #(int (+ 48 (* 60 (Mathf/Sin (* 0.06 %))))))\n               (filter #(= 0 (mod % 2)))\n               (map (fn [n]\n                      (fn [t]\n                        (queue-note\n                          (+ 0 (elapsed) (/ t 10))\n                          1/2\n                          n\n                          )\n                        ))))]\n  (map (fn [i f] (f i) i) (range) seq)\n  )&quot;, :offset 437, :ns &quot;music-live-compose&quot;} {:command &quot;(do (queue-note 0 10 69) nil)&quot;, :offset 29, :ns &quot;music-live-compose&quot;} {:command &quot;(send \&quot;/organ\&quot; [note 63])&quot;, :offset 25, :ns &quot;music-live-compose&quot;} {:command &quot;(send \&quot;/organ\&quot; [60 63])&quot;, :offset 23, :ns &quot;music-live-compose&quot;} {:command &quot;(send \&quot;/organ\&quot; [60 0])&quot;, :offset 22, :ns &quot;music-live-compose&quot;} {:command &quot;(send \&quot;/organ\&quot; [60 65])&quot;, :offset 23, :ns &quot;music-live-compose&quot;} {:command &quot;(doall (map (fn [note] (send \&quot;/organ\&quot; [note 63]))\n            [60 64 68]))&quot;, :offset 74, :ns &quot;music-live-compose&quot;} {:command &quot;(doall (map (fn [note] (send \&quot;/organ\&quot; [note 0]))\n            [60 64 68]))&quot;, :offset 73, :ns &quot;music-live-compose&quot;} {:command &quot;(defn send-note [note vel] (send \&quot;/organ\&quot; [note vel]))&quot;, :offset 54, :ns &quot;music-live-compose&quot;} {:command &quot;(defn queue-note [t0 dur note]\n  (queue+ {\n           :t0       (+ (elapsed) t0)\n           :duration dur\n           :start    #(send-note note 63)\n           :end      #(send-note note 0)\n           }))&quot;, :offset 203, :ns &quot;music-live-compose&quot;} {:command &quot;(defn send-chord [notes vel]\n  (doall (map (fn [note] (send-note note 63))\n              notes)))&quot;, :offset 97, :ns &quot;music-live-compose&quot;} {:command &quot;(defn queue-chord [t0 dur notes]\n  (queue+ {\n           :t0       (+ (elapsed) t0)\n           :duration dur\n           :start    #(send-chord notes 63)\n           :end      #(send-chord notes 0)\n           }))&quot;, :offset 209, :ns &quot;music-live-compose&quot;} {:command &quot;(comment\n  (send-note 60 63)\n  (send-note 60 0)\n  (send-chord [60 64 68] 63)\n  (send-chord [60 64 68] 0)\n  )&quot;, :offset 108, :ns &quot;music-live-compose&quot;} {:command &quot;(send-note 60 63)&quot;, :offset 17, :ns &quot;music-live-compose&quot;} {:command &quot;(send-note 60 0)&quot;, :offset 16, :ns &quot;music-live-compose&quot;} {:command &quot;(defn send-chord [notes vel]\n  (doall (map (fn [note] (send-note note vel))\n              notes)))&quot;, :offset 98, :ns &quot;music-live-compose&quot;} {:command &quot;(send-chord [60 64 68] 0)&quot;, :offset 25, :ns &quot;music-live-compose&quot;} {:command &quot;(send-chord [60 64 68] 63)&quot;, :offset 26, :ns &quot;music-live-compose&quot;} {:command &quot;(send-chord [60 64 68 80] 63)&quot;, :offset 29, :ns &quot;music-live-compose&quot;} {:command &quot;(send-chord [60 64 68 80] 0)&quot;, :offset 28, :ns &quot;music-live-compose&quot;} {:command &quot;(do (queue-chord 1 10 [60 64 69]) nil)&quot;, :offset 38, :ns &quot;music-live-compose&quot;} {:command &quot;(do (queue-chord 0 10 [60 64 69]) nil)&quot;, :offset 38, :ns &quot;music-live-compose&quot;} {:command &quot;(elapsed)&quot;, :offset 9, :ns &quot;music-live-compose&quot;} {:command &quot;now&quot;, :offset 3, :ns &quot;scheduler&quot;} {:command &quot;(defn dequeue-missed-evts \&quot;removes events from :queue which have not been activated but whose end time has passed\&quot; []\n  (let [missed-evts (filter evt-ended? (:queue @s))])\n  (queue- missed-evts)\n  (log \&quot;missed\&quot; missed-evts))&quot;, :offset 224, :ns &quot;scheduler&quot;} {:command &quot;(defn dequeue-missed-evts \&quot;removes events from :queue which have not been activated but whose end time has passed\&quot; []\n  (let [missed-evts (filter evt-ended? (:queue @s))]\n    (queue- missed-evts)\n    (log \&quot;missed\&quot; missed-evts)))&quot;, :offset 228, :ns &quot;scheduler&quot;} {:command &quot;(ns scheduler\n  (:use [arcadia.core]\n        [clojure.set :only [difference union]])\n  (:import (UnityEngine Time)))&quot;, :offset 116, :ns &quot;music-live-compose&quot;} {:command &quot;(defn dequeue-missed-evts \&quot;removes events from :queue which have not been activated but whose end time has passed\&quot; []\n  (let [missed-evts (filter evt-ended? (:queue @s))]\n    (queue- missed-evts)\n    (if (&gt; 0 (count missed-evts))\n      (log \&quot;missed\&quot; missed-evts))))&quot;, :offset 265, :ns &quot;scheduler&quot;} {:command &quot;(ns music-live-compose\n  (:use [scheduler :only [start clear-queue queue+ elapsed]])\n  (:use [osc :only [send]])\n  (:import [UnityEngine.Mathf]))&quot;, :offset 145, :ns &quot;scheduler&quot;} {:command &quot;(do (queue-chord 5 10 [60 64 69]) nil)&quot;, :offset 38, :ns &quot;music-live-compose&quot;} {:command &quot;(do (queue-chord 1 1 [60 64 69]) nil)&quot;, :offset 37, :ns &quot;music-live-compose&quot;} {:command &quot;(do (queue-chord 0 1 [60 64 69]) nil)&quot;, :offset 37, :ns &quot;music-live-compose&quot;} {:command &quot;(do\n  (doall (map (fn [n t] (queue-chord (/ t 4) 1/2 n))\n              (let [scale (cycle (diatonic-scale 60))\n                    chord-degrees (map\n                                    #(range % (+ % 5) 2)\n                                    (range 12))\n                    ]\n                (map #(nth scale %) chord-degrees)\n                )\n              (range 8)))\n  nil)&quot;, :offset 378, :ns &quot;music-live-compose&quot;} {:command &quot;(diatonic-scale 60)&quot;, :offset 19, :ns &quot;music-live-compose&quot;} {:command &quot;(map\n  #(range % (+ % 5) 2)\n  (range 12))&quot;, :offset 41, :ns &quot;music-live-compose&quot;} {:command &quot;(do (queue-note 0 1/16 69) nil)&quot;, :offset 31, :ns &quot;music-live-compose&quot;} {:command &quot;(let [scale (cycle (diatonic-scale 48))\n      chord-degrees (map\n                      #(range % (+ % 5) 2)\n                      (range 12))\n      ]\n  (map #(nth scale %) chord-degrees)\n  chord-degrees\n  )&quot;, :offset 206, :ns &quot;music-live-compose&quot;} {:command &quot;(let [scale (cycle (diatonic-scale 48))\n      chord-degrees (map\n                      #(range % (+ % 5) 2)\n                      (range 12))\n      ]\n  (map #(nth scale %) chord-degrees)\n  )&quot;, :offset 190, :ns &quot;music-live-compose&quot;} {:command &quot;(let [scale (cycle (diatonic-scale 48))\n      chord-degrees (map\n                      #(range % (+ % 5) 2)\n                      (range 12))\n      ]\n  (map #(nth [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17] %) chord-degrees)\n  )&quot;, :offset 230, :ns &quot;music-live-compose&quot;} {:command &quot;(let [scale (cycle (diatonic-scale 48))\n      chord-degrees (map\n                      #(range % (+ % 5) 2)\n                      (range 12))\n      ]\n  (map (fn [notes] (map #(nth scale %)\n                        notes)) \n       chord-degrees)\n  )&quot;, :offset 247, :ns &quot;music-live-compose&quot;} {:command &quot;(do\n  (doall (map (fn [n t] (queue-chord (/ t 4) 1/2 n))\n              (let [scale (cycle (diatonic-scale 48))\n                    chord-degrees (map\n                                    #(range % (+ % 5) 2)\n                                    (range 12))\n                    ]\n                (map (fn [notes] (map #(nth scale %)\n                                      notes))\n                     chord-degrees)\n                )\n              (range 12)))\n  nil)&quot;, :offset 463, :ns &quot;music-live-compose&quot;} {:command &quot;(defn chord-cycle [steps]\n  (doall (map (fn [n t] (queue-chord (/ t 4) 1/2 n))\n              (let [scale (cycle (diatonic-scale 48))\n                    chord-degrees (map\n                                    #(range % (+ % 5) 2)\n                                    (range steps))\n                    ]\n                (map (fn [notes] (map #(nth scale %)\n                                      notes))\n                     chord-degrees)\n                )\n              (range steps)))\n  nil)&quot;, :offset 491, :ns &quot;music-live-compose&quot;} {:command &quot;(chord-cycle 1)&quot;, :offset 15, :ns &quot;music-live-compose&quot;} {:command &quot;(chord-cycle 2)&quot;, :offset 15, :ns &quot;music-live-compose&quot;} {:command &quot;(defn chord-cycle [steps]\n  (doall (map (fn [n t] (queue-chord (/ t 4) 1/16 n))\n              (let [scale (cycle (diatonic-scale 48))\n                    chord-degrees (map\n                                    #(range % (+ % 5) 2)\n                                    (range steps))\n                    ]\n                (map (fn [notes] (map #(nth scale %)\n                                      notes))\n                     chord-degrees)\n                )\n              (range steps)))\n  nil)&quot;, :offset 492, :ns &quot;music-live-compose&quot;} {:command &quot;(chord-cycle 3)&quot;, :offset 15, :ns &quot;music-live-compose&quot;} {:command &quot;(chord-cycle 4)&quot;, :offset 15, :ns &quot;music-live-compose&quot;} {:command &quot;(chord-cycle 5)&quot;, :offset 15, :ns &quot;music-live-compose&quot;} {:command &quot;(chord-cycle 6)&quot;, :offset 15, :ns &quot;music-live-compose&quot;} {:command &quot;(chord-cycle 8)&quot;, :offset 15, :ns &quot;music-live-compose&quot;} {:command &quot;(chord-cycle 2000)&quot;, :offset 18, :ns &quot;music-live-compose&quot;} {:command &quot;(defn chord-cycle [steps]\n  (doall (map (fn [n t] (queue-chord (/ t 8) 1/16 n))\n              (let [scale (cycle (diatonic-scale 48))\n                    chord-degrees (map\n                                    #(range % (+ % 5) 3)\n                                    (range steps))\n                    ]\n                (map (fn [notes] (map #(nth scale %)\n                                      notes))\n                     chord-degrees)\n                )\n              (range steps)))\n  nil)&quot;, :offset 492, :ns &quot;music-live-compose&quot;} {:command &quot;(defn chord-cycle [steps]\n  (doall (map (fn [n t] (queue-chord (/ t 16) 1/16 n))\n              (let [scale (cycle (diatonic-scale 48))\n                    chord-degrees (map\n                                    #(range % (+ % 5) 3)\n                                    (range steps))\n                    ]\n                (map (fn [notes] (map #(nth scale %)\n                                      notes))\n                     chord-degrees)\n                )\n              (range steps)))\n  nil)&quot;, :offset 493, :ns &quot;music-live-compose&quot;} {:command &quot;(defn chord-cycle [steps]\n  (doall (map (fn [n t] (queue-chord (/ t 8) 1/64 n))\n              (let [scale (cycle (diatonic-scale 48))\n                    chord-degrees (map\n                                    #(range % (+ % 5) 3)\n                                    (range steps))\n                    ]\n                (map (fn [notes] (map #(nth scale %)\n                                      notes))\n                     chord-degrees)\n                )\n              (range steps)))\n  nil)&quot;, :offset 492, :ns &quot;music-live-compose&quot;} {:command &quot;(defn chord-cycle [steps]\n  (doall (map (fn [n t] (queue-chord (/ t 4) 1/64 n))\n              (let [scale (cycle (diatonic-scale 48))\n                    chord-degrees (map\n                                    #(range % (+ % 5) 3)\n                                    (range steps))\n                    ]\n                (map (fn [notes] (map #(nth scale %)\n                                      notes))\n                     chord-degrees)\n                )\n              (range steps)))\n  nil)&quot;, :offset 492, :ns &quot;music-live-compose&quot;} {:command &quot;(defn chord-cycle [steps]\n  (doall (map (fn [n t] (queue-chord (/ t 4) 1/16 n))\n              (let [scale (cycle (diatonic-scale 48))\n                    chord-degrees (map\n                                    #(range % (+ % 5) 3)\n                                    (range steps))\n                    ]\n                (map (fn [notes] (map #(nth scale %)\n                                      notes))\n                     chord-degrees)\n                )\n              (range steps)))\n  nil)&quot;, :offset 492, :ns &quot;music-live-compose&quot;} {:command &quot;(chord-cycle 200)&quot;, :offset 17, :ns &quot;music-live-compose&quot;} {:command &quot;(defn chord-cycle [steps]\n  (doall (map (fn [n t] (queue-chord (/ t 1) 1/16 n))\n              (let [scale (cycle (diatonic-scale 48))\n                    chord-degrees (map\n                                    #(range % (+ % 5) 3)\n                                    (range steps))\n                    ]\n                (map (fn [notes] (map #(nth scale %)\n                                      notes))\n                     chord-degrees)\n                )\n              (range steps)))\n  nil)&quot;, :offset 492, :ns &quot;music-live-compose&quot;} {:command &quot;(do (queue-chord 0 1/16 [60 64 69]) nil)&quot;, :offset 40, :ns &quot;music-live-compose&quot;} {:command &quot;(defn queue-chord [t0 dur notes]\n  (queue+ {\n           :t0       (+ (elapsed) t0)\n           :duration dur\n           :start    #(send-chord notes 63)\n           :end      #(send-chord notes 0)\n           })\n  nil)&quot;, :offset 215, :ns &quot;music-live-compose&quot;} {:command &quot;(defn queue-note [t0 dur note]\n  (queue+ {\n           :t0       (+ (elapsed) t0)\n           :duration dur\n           :start    #(send-note note 63)\n           :end      #(send-note note 0)\n           })\n  nil)&quot;, :offset 209, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note %2 1/16 %1) \n     (range)\n     [60 62 64 66])&quot;, :offset 63, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note %1 1/16 %2) \n     (range)\n     [60 62 64 66])&quot;, :offset 63, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note %1 1/16 %2) \n     (range)\n     [60 62 64 66 69 80])&quot;, :offset 69, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note %1 1/16 %2) \n     (range)\n     [60 62 64 66 69 74])&quot;, :offset 69, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note (+ %1 %1) 1/16 %2) \n     (range)\n     [60 62 64 66 69 74])&quot;, :offset 76, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note (+ %1 (Mathf/Sin %1)) 1/16 %2) \n     (range)\n     [60 62 64 66 69 74])&quot;, :offset 88, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note (+ %1 (Mathf/Sin %1)) 1/16 %2) \n     (range)\n     [60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74])&quot;, :offset 124, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note (/ (+ %1 (Mathf/Sin %1)) 4) 1/16 %2) \n     (range)\n     [60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74])&quot;, :offset 130, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note (/ (+ %1 (Mathf/Abs (Mathf/Sin %1))) 4) 1/16 %2) \n     (range)\n     [60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74])&quot;, :offset 142, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note (/ (+ %1 (Mathf/Abs (Mathf/Sin %1))) 4) 1/16 %2) \n     (range)\n     [60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74])&quot;, :offset 214, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note (/ (+ %1 (Mathf/Abs (Mathf/Sin %1))) 8) 1/16 %2) \n     (range)\n     [60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74])&quot;, :offset 214, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note (/ (+ %1 (Mathf/Abs (Mathf/Sin %1))) 8) 1/64 %2) \n     (range)\n     [60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74])&quot;, :offset 214, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note (/ (+ %1 (Mathf/Abs (Mathf/Sin (/ %1 8)))) 8) 1/64 %2) \n     (range)\n     [60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74])&quot;, :offset 220, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note (/ (+ %1 (Mathf/Abs (Mathf/Sin (/ %1 8)))) 8) 1/64 %2) \n     (range)\n     [60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 7460 62 64 66 69 74])&quot;, :offset 309, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note (/ (+ %1 (Mathf/Abs (Mathf/Sin (/ %1 8)))) 8) 1/64 %2) \n     (range)\n     [60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74])&quot;, :offset 310, :ns &quot;music-live-compose&quot;} {:command &quot;(let [seq (-&gt;&gt; (range 1000)\n               (map #(int (+ 48 (* 30 (Mathf/Sin (* 0.06 %))))))\n               (filter #(= 0 (mod % 2)))\n               (map (fn [n]\n                      (fn [t]\n                        (queue-note\n                          (+ 0 (elapsed) (/ t 10))\n                          1/2\n                          n\n                          )\n                        ))))]\n  (map (fn [i f] (f i) i) (range) seq)\n  )&quot;, :offset 437, :ns &quot;music-live-compose&quot;} {:command &quot;(let [seq (-&gt;&gt; (range 1000)\n               (map #(int (+ 48 (* 30 (Mathf/Sin (* 0.06 %))))))\n               (filter #(= 0 (mod % 2)))\n               (map (fn [n]\n                      (fn [t]\n                        (queue-note\n                          (+ 0 (elapsed) (/ t 10))\n                          1/16\n                          n\n                          )\n                        ))))]\n  (map (fn [i f] (f i) i) (range) seq)\n  )&quot;, :offset 438, :ns &quot;music-live-compose&quot;} {:command &quot;(let [seq (-&gt;&gt; (range 1000)\n               (map #(int (+ 48 (* 30 (Mathf/Sin (* 0.06 %))))))\n               (filter #(= 0 (mod % 2)))\n               (map (fn [n]\n                      (fn [t]\n                        (queue-note\n                          (+ 0 (elapsed) (/ t 10))\n                          1/16\n                          n\n                          )\n                        ))))]\n  (doall (map (fn [i f] (f i) i) (range) seq))\n  )&quot;, :offset 446, :ns &quot;music-live-compose&quot;} {:command &quot;(let [seq (-&gt;&gt; (range 1000)\n               (map #(int (+ 48 (* 30 (Mathf/Sin (* 0.06 %))))))\n               (filter #(= 0 (mod % 2)))\n               (doall (map (fn [n]\n                             (fn [t]\n                               (queue-note\n                                 (+ 0 (elapsed) (/ t 10))\n                                 1/16\n                                 n\n                                 )\n                               )))))]\n  (map (fn [i f] (f i) i) (range) seq)\n  )&quot;, :offset 495, :ns &quot;music-live-compose&quot;} {:command &quot;(let [seq (-&gt;&gt; (range 1000)\n               (map #(int (+ 48 (* 30 (Mathf/Sin (* 0.06 %))))))\n               (filter #(= 0 (mod % 2)))\n               (map (fn [n]\n                      (fn [t]\n                        (queue-note\n                          (+ 0 (elapsed) (/ t 10))\n                          1/16\n                          n\n                          )\n                        ))))]\n  (doall\n    (map (fn [i f] (f i) i) (range) seq))\n  )&quot;, :offset 450, :ns &quot;music-live-compose&quot;} {:command &quot;(let [seq (-&gt;&gt; (range 1000)\n               (map #(int (+ 48 (* 30 (Mathf/Sin (* 0.06 %))))))\n               (filter #(= 0 (mod % 2)))\n               (map (fn [n]\n                      (fn [t]\n                        (queue-note\n                          (+ 0 (elapsed) (/ t 1))\n                          1/16\n                          n\n                          )\n                        ))))]\n  (doall\n    (map (fn [i f] (f i) i) (range) seq))\n  )&quot;, :offset 449, :ns &quot;music-live-compose&quot;} {:command &quot;(start)&quot;, :offset 7, :ns &quot;music-live-compose&quot;} {:command &quot;(clear-queue)&quot;, :offset 13, :ns &quot;music-live-compose&quot;} {:command &quot;(chord-cycle 20)&quot;, :offset 16, :ns &quot;music-live-compose&quot;} {:command &quot;(send-chord [60 64 68 74] 63)&quot;, :offset 29, :ns &quot;music-live-compose&quot;} {:command &quot;(send-chord [60 64 68 74] 0)&quot;, :offset 28, :ns &quot;music-live-compose&quot;} {:command &quot;(queue-note 0 1/16 69)&quot;, :offset 22, :ns &quot;music-live-compose&quot;} {:command &quot;(queue-chord 0 1/16 [60 64 69])&quot;, :offset 31, :ns &quot;music-live-compose&quot;} {:command &quot;(map #(queue-note (/ (+ %1 (Mathf/Abs (Mathf/Sin (/ %1 8)))) 8) 1/64 %2)\n       (range)\n       [60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74 60 62 64 66 69 74])&quot;, :offset 313, :ns &quot;music-live-compose&quot;}]}}</component>
+  <component name="ReplState" timestamp="1522451936989">{:repl-history {:ide [], :local [], :remote [{:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 61 34 99 1)\n                (range-exercise-diatonic 61 34 99 2 0)\n                (range-exercise-diatonic 61 34 99 2 1))\n              (reductions + (clojure.core/repeat 0.75))))&quot;, :offset 292, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn game-loop [obj key]\n  (set-played-notes! (get-notes))\n  )&quot;, :offset 63, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn scroll-go [^GameObject go x]\n  (set! (.. go transform position)\n        (v3 (+ music-notation/x0 (* 3 x)) 0 -0.1)))&quot;, :offset 121, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn set-go-color [^GameObject go r g b a]\n  (doseq [child (children go)]\n    (set! (. (cmpt child TextMesh) color)\n          (Color. r g b a))))&quot;, :offset 146, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn update-queued [note go t0]\n  (let [seconds-left (- t0 (elapsed))]\n    (scroll-go go seconds-left)\n    ))&quot;, :offset 110, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn update-active [note go t0]\n  (let [[r g b] (if (contains? (get-notes) note) [0 1 0] [1 0 0])\n        seconds-left (- t0 (elapsed))]\n    (set-go-color go r g b (+ 1 seconds-left))\n    (scroll-go go (+ seconds-left (* seconds-left seconds-left))))\n  )&quot;, :offset 255, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn queue-event\n  \&quot;queues an event\&quot;\n  [t note duration]\n  (let [go (+note note t)\n        t0 (+ (elapsed) t)]\n    (queue+ {\n             :t0            t0\n             :duration      1\n             :start         #()\n             :end           #(-note go)\n             :update-queued #(update-queued note go t0)\n\n             :update-active #(update-active note go t0)\n             }))\n  nil)&quot;, :offset 395, :ns &quot;music-sight-reading&quot;} {:command &quot;(set-keysig! :b)&quot;, :offset 16, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 59 34 99 1)\n                (range-exercise-diatonic 59 34 99 2 0)\n                (range-exercise-diatonic 59 34 99 2 1))\n              (reductions + (clojure.core/repeat 0.75))))&quot;, :offset 292, :ns &quot;music-sight-reading&quot;} {:command &quot;(Mathf/square 2)&quot;, :offset 16, :ns &quot;music-sight-reading&quot;} {:command &quot;(Mathf/Pow 2 2)&quot;, :offset 15, :ns &quot;music-sight-reading&quot;} {:command &quot;(Mathf/Pow 2 3)&quot;, :offset 15, :ns &quot;music-sight-reading&quot;} {:command &quot;(Mathf/Pow 3 2)&quot;, :offset 15, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn update-active \&quot;invoked on every :active event every frame\&quot; \n  [note go t0]\n  (let [[r g b] (if \n                  (contains? (get-notes) note) \n                  [0 1 0] \n                  [1 0 0])\n        secs-til-active (- t0 (elapsed))]\n    (set-go-color go r g b (+ 1 secs-til-active))\n    (scroll-go go (+ secs-til-active \n                     (Mathf/Pow secs-til-active 2)))))&quot;, :offset 388, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn set-go-color \&quot;sets color of :note event\&quot; \n  [^GameObject go r g b a]\n  (doseq [child (children go)]\n    (set! (. (cmpt child TextMesh) color)\n          (Color. r g b a))))&quot;, :offset 177, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn scroll-go \&quot;scrolls :note event on staff by x\&quot; \n  [^GameObject go x]\n  (set! (.. go transform position)\n        (v3 (+ music-notation/x0 (* 3 x)) 0 -0.1)))&quot;, :offset 160, :ns &quot;music-sight-reading&quot;} {:command &quot;(set-keysig! :f)&quot;, :offset 16, :ns &quot;music-sight-reading&quot;} {:command &quot;(set-keysig! :a)&quot;, :offset 16, :ns &quot;music-sight-reading&quot;} {:command &quot;(set-keysig! :g)&quot;, :offset 16, :ns &quot;music-sight-reading&quot;} {:command &quot;(set-keysig! :ab)&quot;, :offset 17, :ns &quot;music-sight-reading&quot;} {:command &quot;(set-keysig! :d)&quot;, :offset 16, :ns &quot;music-sight-reading&quot;} {:command &quot;(hook+ (object-named \&quot;App\&quot;) :update :sight-reading #'game-loop)&quot;, :offset 63, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn scroll-go \&quot;scrolls :note event on staff by x\&quot;\n  [^GameObject go x]\n  (set! (.. go transform position)\n        (v3 (+ music-notation/x0 (* 3 x)) 0 -0.1)))&quot;, :offset 159, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn set-go-color \&quot;sets color of :note event\&quot;\n  [^GameObject go r g b a]\n  (doseq [child (children go)]\n    (set! (. (cmpt child TextMesh) color)\n          (Color. r g b a))))&quot;, :offset 176, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn update-active \&quot;invoked on every :active event every frame\&quot;\n  [note go t0]\n  (let [[r g b] (if\n                  (contains? (get-notes) note)\n                  [0 1 0]\n                  [1 0 0])\n        secs-til-active (- t0 (elapsed))]\n    (set-go-color go r g b (+ 1 secs-til-active))\n    (scroll-go go (+ secs-til-active\n                     (Mathf/Pow secs-til-active 2)))))&quot;, :offset 383, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn clear []\n  (clear-notes)\n  (clear-queue))&quot;, :offset 47, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn update-queued \&quot;invoked on every :queued event every frame\&quot;\n  [note go t0]\n  (let [seconds-left (- t0 (elapsed))]\n    (scroll-go go seconds-left)))&quot;, :offset 152, :ns &quot;music-sight-reading&quot;} {:command &quot;(defn queue-event\n  \&quot;queues an event\&quot;\n  [t note duration]\n  (let [go (+note note t)\n        t0 (+ (elapsed) t)]\n    (queue+ {\n             :t0            t0\n             :duration      1\n             :start         #()\n             :end           #(-note go)\n             :update-queued #(update-queued note go t0)\n             :update-active #(update-active note go t0)\n             }))\n  nil)&quot;, :offset 394, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 34 99 1)\n                (range-exercise-diatonic 60 34 99 2 0)\n                (range-exercise-diatonic 60 34 99 2 1))\n              (reductions + (clojure.core/repeat 0.75))))&quot;, :offset 292, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 34 99 1)\n                (range-exercise-diatonic 60 34 99 2 0)\n                (range-exercise-diatonic 60 34 99 2 1)\n                (range-exercise-diatonic 60 34 99 3 0)\n                (range-exercise-diatonic 60 34 99 3 1)\n                (range-exercise-diatonic 60 34 99 3 2)\n                )\n              (reductions + (clojure.core/repeat 0.75))))&quot;, :offset 474, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                ;(range-exercise-diatonic 60 34 99 1)\n                ;(range-exercise-diatonic 60 34 99 2 0)\n                ;(range-exercise-diatonic 60 34 99 2 1)\n                (range-exercise-diatonic 60 34 99 3 0)\n                (range-exercise-diatonic 60 34 99 3 1)\n                (range-exercise-diatonic 60 34 99 3 2)\n                (range-exercise-diatonic 60 34 99 4 0)\n                (range-exercise-diatonic 60 34 99 4 1)\n                (range-exercise-diatonic 60 34 99 4 2)\n                (range-exercise-diatonic 60 34 99 4 3)\n                )\n              (reductions + (clojure.core/repeat 0.75))))&quot;, :offset 697, :ns &quot;music-sight-reading&quot;} {:command &quot;(ns theremin\n  (:use [osc :only [send]])\n  (:import [UnityEngine.Mathf]))&quot;, :offset 73, :ns &quot;music-sight-reading&quot;} {:command &quot;(ns theremin\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [osc :only [send]])\n  (:import (UnityEngine Mathf)))&quot;, :offset 121, :ns &quot;theremin&quot;} {:command &quot;(def left-hand (object-named \&quot;Hand - Left\&quot;))&quot;, :offset 44, :ns &quot;theremin&quot;} {:command &quot;(.. left-hand tranform position)&quot;, :offset 32, :ns &quot;theremin&quot;} {:command &quot;(.. left-hand transform position)&quot;, :offset 33, :ns &quot;theremin&quot;} {:command &quot;(def right-hand (object-named \&quot;Hand - Right\&quot;))&quot;, :offset 46, :ns &quot;theremin&quot;} {:command &quot;(dir arcadia.linear)&quot;, :offset 20, :ns &quot;theremin&quot;} {:command &quot;(def freq (object-named \&quot;Frequency\&quot;))&quot;, :offset 37, :ns &quot;theremin&quot;} {:command &quot;(def freq-obj (object-named \&quot;Frequency\&quot;))&quot;, :offset 41, :ns &quot;theremin&quot;} {:command &quot;(.. freq-obj transform position)&quot;, :offset 32, :ns &quot;theremin&quot;} {:command &quot;(def amp-obj (object-named \&quot;Amplitude\&quot;))&quot;, :offset 40, :ns &quot;theremin&quot;} {:command &quot;(ns theremin\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [osc :only [send]])\n  (:import (UnityEngine GameObject Mathf)))&quot;, :offset 132, :ns &quot;theremin&quot;} {:command &quot;(defn get-pos [^GameObject go] (.. go transform position))&quot;, :offset 58, :ns &quot;theremin&quot;} {:command &quot;(get-pos amp-obj)&quot;, :offset 17, :ns &quot;theremin&quot;} {:command &quot;(. (v3 0 0 1) sqrMagnitude)&quot;, :offset 27, :ns &quot;theremin&quot;} {:command &quot;(. (v3 0 1 1) sqrMagnitude)&quot;, :offset 27, :ns &quot;theremin&quot;} {:command &quot;(. (v3 1 1 1) sqrMagnitude)&quot;, :offset 27, :ns &quot;theremin&quot;} {:command &quot;(. (v3 1 1 1) Distance)&quot;, :offset 23, :ns &quot;theremin&quot;} {:command &quot;(Vector3/Distance (get-pos amp-obj) (get-pos left-hand))&quot;, :offset 56, :ns &quot;theremin&quot;} {:command &quot;(defn send-state []\n  (let [freq 0\n        amp 0])\n  (send \&quot;/theremin\&quot; [freq amp]))&quot;, :offset 83, :ns &quot;theremin&quot;} {:command &quot;(defn send-state []\n  (let [freq 0\n        amp 0]\n    (send \&quot;/theremin\&quot; [freq amp])))&quot;, :offset 85, :ns &quot;theremin&quot;} {:command &quot;(defn send-state []\n  (let [freq 0\n        amp 2.333]\n    (send \&quot;/theremin\&quot; [freq amp])))&quot;, :offset 89, :ns &quot;theremin&quot;} {:command &quot;(defn send [addr msg]\n  (let [msg (cond\n              (coll? msg) (to-array (map int msg)) ; TODO other types in array\n              (int? msg) (int msg)\n              (float? msg) (float msg)\n              :else msg)]\n    (. osc-out (Send addr msg))))&quot;, :offset 252, :ns &quot;osc&quot;} {:command &quot;(defn send-state []\n  (let [freq 1.224\n        amp 2.333]\n    (send \&quot;/theremin\&quot; freq)))&quot;, :offset 87, :ns &quot;theremin&quot;} {:command &quot;(defn send-state []\n  (let [freq 1.224\n        amp 2.333]\n    (send \&quot;/theremin\&quot; [freq])))&quot;, :offset 89, :ns &quot;theremin&quot;} {:command &quot;(defn send-state []\n  (let [freq 1.224\n        amp 2.333]\n    (send \&quot;/theremin/amp\&quot; amp)\n    (send \&quot;/theremin/freq\&quot; freq)\n    ))&quot;, :offset 128, :ns &quot;theremin&quot;} {:command &quot;(defn send-state []\n  (send \&quot;/theremin/amp\&quot; (Vector3/Distance (get-pos amp-obj) (get-pos left-hand)))\n  (send \&quot;/theremin/freq\&quot; (Vector3/Distance (get-pos freq-obj) (get-pos right-hand))))&quot;, :offset 187, :ns &quot;theremin&quot;} {:command &quot;(send-state)&quot;, :offset 12, :ns &quot;theremin&quot;} {:command &quot;(defn game-loop [obj key]\n  (send-state)\n  )&quot;, :offset 44, :ns &quot;theremin&quot;} {:command &quot;(hook+ (object-named \&quot;App\&quot;) :update :theremin #'game-loop)&quot;, :offset 58, :ns &quot;theremin&quot;} {:command &quot;(ns theremin\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [osc :only [send]])\n  (:import (UnityEngine GameObject Mathf Vector2 Vector3)))&quot;, :offset 148, :ns &quot;theremin&quot;} {:command &quot;(ns music-notation\n  (use arcadia.core\n       arcadia.linear\n       clojure.set)\n  (:use [music-glyphs :only [glyphs]])\n  (:import (UnityEngine Color GameObject Mesh MeshFilter MeshRenderer Mathf TextMesh Vector2 Vector3))\n  )&quot;, :offset 226, :ns &quot;music-sight-reading&quot;} {:command &quot;(+note 60 0 :played-notes)&quot;, :offset 26, :ns &quot;music-notation&quot;} {:command &quot;(+note 60 -1 :played-notes)&quot;, :offset 27, :ns &quot;music-notation&quot;} {:command &quot;(+note -1 0 :played-notes)&quot;, :offset 26, :ns &quot;music-notation&quot;} {:command &quot;(+note 0 0 :played-notes)&quot;, :offset 25, :ns &quot;music-notation&quot;} {:command &quot;(+note 1 0 :played-notes)&quot;, :offset 25, :ns &quot;music-notation&quot;} {:command &quot;(+note 128 0 :played-notes)&quot;, :offset 27, :ns &quot;music-notation&quot;} {:command &quot;(defn game-loop [obj key]\n  (set-played-notes! (get-notes)))&quot;, :offset 60, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                ;(range-exercise-diatonic 60 34 99 1)\n                ;(range-exercise-diatonic 60 34 99 2 0)\n                ;(range-exercise-diatonic 60 34 99 2 1)\n                (range-exercise-diatonic 60 34 99 3 0)\n                (range-exercise-diatonic 60 34 99 3 1)\n                (range-exercise-diatonic 60 34 99 3 2)\n                (range-exercise-diatonic 60 34 99 4 0)\n                (range-exercise-diatonic 60 34 99 4 1)\n                (range-exercise-diatonic 60 34 99 4 2)\n                (range-exercise-diatonic 60 34 99 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 694, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 34 90 1)\n                (range-exercise-diatonic 60 34 90 2 0)\n                (range-exercise-diatonic 60 34 90 2 1)\n                (range-exercise-diatonic 60 34 90 3 0)\n                (range-exercise-diatonic 60 34 90 3 1)\n                (range-exercise-diatonic 60 34 90 3 2)\n                (range-exercise-diatonic 60 34 90 4 0)\n                (range-exercise-diatonic 60 34 90 4 1)\n                (range-exercise-diatonic 60 34 90 4 2)\n                (range-exercise-diatonic 60 34 90 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 84 1)\n                (range-exercise-diatonic 60 48 84 2 0)\n                (range-exercise-diatonic 60 48 84 2 1)\n                (range-exercise-diatonic 60 48 84 3 0)\n                (range-exercise-diatonic 60 48 84 3 1)\n                (range-exercise-diatonic 60 48 84 3 2)\n                (range-exercise-diatonic 60 48 84 4 0)\n                (range-exercise-diatonic 60 48 84 4 1)\n                (range-exercise-diatonic 60 48 84 4 2)\n                (range-exercise-diatonic 60 48 84 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 84 1)\n                (range-exercise-diatonic 60 48 84 2 0)\n                (range-exercise-diatonic 60 48 84 2 1)\n                (range-exercise-diatonic 60 48 84 3 0)\n                (range-exercise-diatonic 60 48 84 3 1)\n                (range-exercise-diatonic 60 48 84 3 2)\n                (range-exercise-diatonic 60 48 84 4 0)\n                (range-exercise-diatonic 60 48 84 4 1)\n                (range-exercise-diatonic 60 48 84 4 2)\n                (range-exercise-diatonic 60 48 84 4 3)\n                )\n              (reductions + (clojure.core/repeat 2))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(hook (object-named \&quot;App\&quot;) :update :scheduler)&quot;, :offset 46, :ns &quot;scheduler&quot;} {:command &quot;(def sixense-input (cmpt (object-named \&quot;SixenseInput\&quot;) \&quot;SixenseInput\&quot;))&quot;, :offset 71, :ns &quot;theremin&quot;} {:command &quot;(. sixense-input Docked)&quot;, :offset 24, :ns &quot;theremin&quot;} {:command &quot;(. sixense-input Controllers)&quot;, :offset 29, :ns &quot;theremin&quot;} {:command &quot;(members SixenseInput)&quot;, :offset 22, :ns &quot;theremin&quot;} {:command &quot;(fields SixenseInput)&quot;, :offset 21, :ns &quot;theremin&quot;} {:command &quot;(dir arcadia.core)&quot;, :offset 18, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input GetController 1)&quot;, :offset 34, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input (GetController 1))&quot;, :offset 36, :ns &quot;theremin&quot;} {:command &quot;(SixenseInput/GetController 1)&quot;, :offset 30, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input Controllers)&quot;, :offset 30, :ns &quot;theremin&quot;} {:command &quot;(SixenseInput/Controllers)&quot;, :offset 26, :ns &quot;theremin&quot;} {:command &quot;(first (SixenseInput/Controllers))&quot;, :offset 34, :ns &quot;theremin&quot;} {:command &quot;(. (first (SixenseInput/Controllers)) Docked)&quot;, :offset 45, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked)))&quot;, :offset 57, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked))\n     (filter identity))&quot;, :offset 80, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked))\n     (filter identity)\n     (count))&quot;, :offset 93, :ns &quot;theremin&quot;} {:command &quot;(&gt; 0 1)&quot;, :offset 7, :ns &quot;theremin&quot;} {:command &quot;(&lt; 0 1)&quot;, :offset 7, :ns &quot;theremin&quot;} {:command &quot;(defn is-docked []\n  (&lt; 0\n     (-&gt;&gt; (SixenseInput/Controllers)\n          (map #(. % Docked))\n          (filter identity)\n          (count))))&quot;, :offset 141, :ns &quot;theremin&quot;} {:command &quot;(ns theremin\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [osc :only [send]])\n  (:import (UnityEngine GameObject Mathf Vector3)))&quot;, :offset 140, :ns &quot;theremin&quot;} {:command &quot;(defn send-state []\n  (send \&quot;/theremin/amp\&quot; (if (is-docked) 0 \n                                        (Vector3/Distance (get-pos amp-obj) (get-pos left-hand))))\n  (send \&quot;/theremin/freq\&quot; (if (is-docked) 0 \n                                         (Vector3/Distance (get-pos freq-obj) (get-pos right-hand)))))&quot;, :offset 308, :ns &quot;theremin&quot;} {:command &quot;(ns music-sight-reading\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes]]\n        [music-live-compose]\n        [music-notation :only [clear-notes\n                               set-played-notes!\n                               set-keysig!\n                               +note\n                               -note]]\n        [scheduler :only [now start clear-queue queue+ elapsed]]\n        )\n  (:import (UnityEngine Color GameObject Mathf TextMesh)))&quot;, :offset 496, :ns &quot;theremin&quot;} {:command &quot;(set-keysig! :db)&quot;, :offset 17, :ns &quot;music-sight-reading&quot;} {:command &quot;(set-keysig! :c)&quot;, :offset 16, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 72 1)\n                (range-exercise-diatonic 60 48 72 2 0)\n                (range-exercise-diatonic 60 48 72 2 1)\n                (range-exercise-diatonic 60 48 72 3 0)\n                (range-exercise-diatonic 60 48 72 3 1)\n                (range-exercise-diatonic 60 48 72 3 2)\n                (range-exercise-diatonic 60 48 72 4 0)\n                (range-exercise-diatonic 60 48 72 4 1)\n                (range-exercise-diatonic 60 48 72 4 2)\n                (range-exercise-diatonic 60 48 72 4 3)\n                )\n              (reductions + (clojure.core/repeat 2))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(clear)&quot;, :offset 7, :ns &quot;music-sight-reading&quot;}]}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -319,6 +262,13 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -345,6 +295,34 @@
       <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -422,11 +400,19 @@
       <workItem from="1517077769052" duration="53343000" />
       <workItem from="1517998215032" duration="600000" />
       <workItem from="1519431410786" duration="8715000" />
+      <workItem from="1519493556261" duration="76598000" />
+      <workItem from="1520074429665" duration="38842000" />
+      <workItem from="1520353859299" duration="28333000" />
+      <workItem from="1521327301068" duration="4433000" />
+      <workItem from="1521399947370" duration="11391000" />
+      <workItem from="1521471562474" duration="10860000" />
+      <workItem from="1522032669921" duration="13476000" />
+      <workItem from="1522176764161" duration="31812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104519000" />
+    <option name="totallyTimeSpent" value="320264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,28 +434,58 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.303125" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2484375" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18203124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2703125" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -486,19 +502,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/arcadia_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/geometry.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -514,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -522,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -538,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -546,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -554,7 +556,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
           <caret line="59" column="7" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
-          <folding />
+          <folding>
+            <marker date="1522187705989" expanded="true" signature="0:145" ph="(ns music-live-compose ...)" />
+            <marker date="1522187705989" expanded="true" signature="231:329" ph="(defn send-chord ...)" />
+            <marker date="1522187705989" expanded="true" signature="331:445" ph="(comment ...)" />
+            <marker date="1522187705989" expanded="true" signature="447:772" ph="(defn queue-note ...)" />
+            <marker date="1522187705989" expanded="true" signature="774:989" ph="(defn queue-chord ...)" />
+            <marker date="1522187705989" expanded="true" signature="992:1157" ph="(defn queue-fn ...)" />
+            <marker date="1522187705989" expanded="true" signature="1210:1360" ph="(defn diatonic-scale-cycle-up ...)" />
+            <marker date="1522187705989" expanded="true" signature="1362:1534" ph="(defn diatonic-scale-cycle-dn ...)" />
+            <marker date="1522187705989" expanded="true" signature="1536:1570" ph="(defn bpm-&gt;dur ...)" />
+            <marker date="1522187705989" expanded="true" signature="1572:2054" ph="(defn pattern ...)" />
+            <marker date="1522187705989" expanded="true" signature="2056:2417" ph="(defn diatonic-pattern ...)" />
+            <marker date="1522187705989" expanded="true" signature="2419:2524" ph="(defn repeat-queue ...)" />
+            <marker date="1522187705989" expanded="true" signature="2526:2642" ph="(defn repeater ...)" />
+            <marker date="1522187705989" expanded="true" signature="2687:5041" ph="(comment ...)" />
+            <marker date="1522187705989" expanded="true" signature="5046:5539" ph="(defn chord-cycle ...)" />
+            <marker date="1522187705989" expanded="true" signature="5543:5984" ph="(defn range-exercise-diatonic ...)" />
+            <marker date="1522187705989" expanded="true" signature="5986:6480" ph="(defn queue-range-exercises-diatonic ...)" />
+            <marker date="1522187705989" expanded="true" signature="6484:7179" ph="(comment ...)" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -562,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -570,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -594,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -602,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,7 +640,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
-          <folding />
+          <folding>
+            <marker date="1522187705989" expanded="true" signature="0:145" ph="(ns music-live-compose ...)" />
+            <marker date="1522187705989" expanded="true" signature="231:329" ph="(defn send-chord ...)" />
+            <marker date="1522187705989" expanded="true" signature="331:445" ph="(comment ...)" />
+            <marker date="1522187705989" expanded="true" signature="447:772" ph="(defn queue-note ...)" />
+            <marker date="1522187705989" expanded="true" signature="774:989" ph="(defn queue-chord ...)" />
+            <marker date="1522187705989" expanded="true" signature="992:1157" ph="(defn queue-fn ...)" />
+            <marker date="1522187705989" expanded="true" signature="1210:1360" ph="(defn diatonic-scale-cycle-up ...)" />
+            <marker date="1522187705989" expanded="true" signature="1362:1534" ph="(defn diatonic-scale-cycle-dn ...)" />
+            <marker date="1522187705989" expanded="true" signature="1536:1570" ph="(defn bpm-&gt;dur ...)" />
+            <marker date="1522187705989" expanded="true" signature="1572:2054" ph="(defn pattern ...)" />
+            <marker date="1522187705989" expanded="true" signature="2056:2417" ph="(defn diatonic-pattern ...)" />
+            <marker date="1522187705989" expanded="true" signature="2419:2524" ph="(defn repeat-queue ...)" />
+            <marker date="1522187705989" expanded="true" signature="2526:2642" ph="(defn repeater ...)" />
+            <marker date="1522187705989" expanded="true" signature="2687:5041" ph="(comment ...)" />
+            <marker date="1522187705989" expanded="true" signature="5046:5539" ph="(defn chord-cycle ...)" />
+            <marker date="1522187705989" expanded="true" signature="5543:5984" ph="(defn range-exercise-diatonic ...)" />
+            <marker date="1522187705989" expanded="true" signature="5986:6480" ph="(defn queue-range-exercises-diatonic ...)" />
+            <marker date="1522187705989" expanded="true" signature="6484:7179" ph="(comment ...)" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -634,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,15 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/geometry.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,15 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/osc.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,18 +799,1002 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scheduler.clj">
+    <entry file="file://$PROJECT_DIR$/Assets/music_glyphs.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="67" column="35" lean-forward="true" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
+        <state relative-caret-position="544">
+          <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OSC simpl/OscIn.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2884">
+          <caret line="334" column="38" lean-forward="false" selection-start-line="334" selection-start-column="38" selection-end-line="334" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Arcadia/Source/arcadia/linear.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="95" column="11" lean-forward="true" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
+          <folding>
+            <marker date="1511890474505" expanded="true" signature="0:313" ph="(ns arcadia.linear ...)" />
+            <marker date="1511890474505" expanded="true" signature="897:978" ph="(defn- mtag ...)" />
+            <marker date="1511890474505" expanded="true" signature="980:1118" ph="(defn nestl ...)" />
+            <marker date="1511890474505" expanded="true" signature="1120:3000" ph="(defmacro def-vop-lower ...)" />
+            <marker date="1511890474505" expanded="true" signature="3083:3516" ph="(defn v2 ...)" />
+            <marker date="1511890474505" expanded="true" signature="3518:3965" ph="(defn v3 ...)" />
+            <marker date="1511890474505" expanded="true" signature="3967:4428" ph="(defn v4 ...)" />
+            <marker date="1511890474505" expanded="true" signature="4430:4753" ph="(defn qt ...)" />
+            <marker date="1511890474505" expanded="true" signature="4825:4979" ph="(def-vop-lower v2+ ...)" />
+            <marker date="1511890474505" expanded="true" signature="4981:5135" ph="(def-vop-lower v3+ ...)" />
+            <marker date="1511890474505" expanded="true" signature="5137:5291" ph="(def-vop-lower v4+ ...)" />
+            <marker date="1511890474505" expanded="true" signature="5363:5526" ph="(def-vop-lower v2- ...)" />
+            <marker date="1511890474505" expanded="true" signature="5528:5691" ph="(def-vop-lower v3- ...)" />
+            <marker date="1511890474505" expanded="true" signature="5693:5857" ph="(def-vop-lower v4- ...)" />
+            <marker date="1511890474505" expanded="true" signature="6233:6345" ph="(definline v2* ...)" />
+            <marker date="1511890474505" expanded="true" signature="6347:6459" ph="(definline v3* ...)" />
+            <marker date="1511890474505" expanded="true" signature="6461:6573" ph="(definline v4* ...)" />
+            <marker date="1511890474505" expanded="true" signature="6647:6740" ph="(definline v2div ...)" />
+            <marker date="1511890474505" expanded="true" signature="6742:6835" ph="(definline v3div ...)" />
+            <marker date="1511890474505" expanded="true" signature="6837:6930" ph="(definline v4div ...)" />
+            <marker date="1511890474505" expanded="true" signature="7208:7572" ph="(defn qq* ...)" />
+            <marker date="1511890474505" expanded="true" signature="7574:7707" ph="(definline qv* ...)" />
+            <marker date="1511890474505" expanded="true" signature="7709:7775" ph="(definline q* ...)" />
+            <marker date="1511890474505" expanded="true" signature="7777:7880" ph="(definline euler ...)" />
+            <marker date="1511890474505" expanded="true" signature="7882:7976" ph="(definline euler-angles ...)" />
+            <marker date="1511890474505" expanded="true" signature="8450:8562" ph="(definline angle-axis ...)" />
+            <marker date="1511890474505" expanded="true" signature="8564:8672" ph="(definline qforward ...)" />
+            <marker date="1511890474505" expanded="true" signature="8674:8759" ph="(definline aa ...)" />
+            <marker date="1511890474505" expanded="true" signature="8761:9295" ph="(defn qlookat ...)" />
+            <marker date="1511890474505" expanded="true" signature="9372:9434" ph="(definline v2scale ...)" />
+            <marker date="1511890474505" expanded="true" signature="9436:9498" ph="(definline v3scale ...)" />
+            <marker date="1511890474505" expanded="true" signature="9500:9562" ph="(definline v4scale ...)" />
+            <marker date="1511890474505" expanded="true" signature="9646:9841" ph="(definline point-pivot ...)" />
+            <marker date="1511890474505" expanded="true" signature="9921:10065" ph="(defn- binding-gen ...)" />
+            <marker date="1511890474505" expanded="true" signature="10067:10630" ph="(defn- matrix4x4-inline ...)" />
+            <marker date="1511890474505" expanded="true" signature="10632:11124" ph="(defn matrix4x4 ...)" />
+            <marker date="1511890474505" expanded="true" signature="11126:11441" ph="(defn m* ...)" />
+            <marker date="1511890474505" expanded="true" signature="11443:11511" ph="(definline determinant ...)" />
+            <marker date="1511890474505" expanded="true" signature="11513:11569" ph="(definline transpose ...)" />
+            <marker date="1511890474505" expanded="true" signature="11571:11641" ph="(definline column ...)" />
+            <marker date="1511890474505" expanded="true" signature="11643:11707" ph="(definline row ...)" />
+            <marker date="1511890474505" expanded="true" signature="11709:11819" ph="(definline put-column ...)" />
+            <marker date="1511890474505" expanded="true" signature="11821:11925" ph="(definline put-row ...)" />
+            <marker date="1511890474505" expanded="true" signature="11927:12050" ph="(definline ortho ...)" />
+            <marker date="1511890474505" expanded="true" signature="12052:12163" ph="(definline perspective ...)" />
+            <marker date="1511890474505" expanded="true" signature="12165:12225" ph="(definline inverse ...)" />
+            <marker date="1511890474505" expanded="true" signature="12227:12341" ph="(defn trs ...)" />
+            <marker date="1511890474505" expanded="true" signature="12458:12535" ph="(defn- run-tests ...)" />
+            <marker date="1511890474505" expanded="true" signature="12608:12746" ph="(defn- close-enough-v2 ...)" />
+            <marker date="1511890474505" expanded="true" signature="12748:12886" ph="(defn- close-enough-v3 ...)" />
+            <marker date="1511890474505" expanded="true" signature="12888:13026" ph="(defn- close-enough-v4 ...)" />
+            <marker date="1511890474505" expanded="true" signature="13028:13391" ph="(test/deftest- test-addition ...)" />
+            <marker date="1511890474505" expanded="true" signature="13393:13671" ph="(test/deftest- test-rotation ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Arcadia/Source/arcadia/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="287" column="9" lean-forward="true" selection-start-line="287" selection-start-column="9" selection-end-line="287" selection-end-column="9" />
+          <folding>
+            <marker date="1511890474314" expanded="true" signature="0:919" ph="(ns arcadia.core ...)" />
+            <marker date="1511890474314" expanded="true" signature="1065:1255" ph="(defn log ...)" />
+            <marker date="1511890474314" expanded="true" signature="1992:2302" ph="(definline null-obj? ...)" />
+            <marker date="1511890474314" expanded="true" signature="2325:2465" ph="(definline obj-nil ...)" />
+            <marker date="1511890474314" expanded="true" signature="2669:3633" ph="(defn instantiate ...)" />
+            <marker date="1511890474314" expanded="true" signature="3635:4452" ph="(defn create-primitive ...)" />
+            <marker date="1511890474314" expanded="true" signature="4454:4841" ph="(defn destroy ...)" />
+            <marker date="1511890474314" expanded="true" signature="4843:5071" ph="(defn destroy-immediate ...)" />
+            <marker date="1511890474314" expanded="true" signature="5073:5310" ph="(defn retire ...)" />
+            <marker date="1511890474314" expanded="true" signature="5312:5565" ph="(definline object-typed ...)" />
+            <marker date="1511890474314" expanded="true" signature="5567:5792" ph="(definline objects-typed ...)" />
+            <marker date="1511890474314" expanded="true" signature="5794:5948" ph="(definline object-named ...)" />
+            <marker date="1511890474314" expanded="true" signature="5950:6381" ph="(defn objects-named ...)" />
+            <marker date="1511890474314" expanded="true" signature="6383:6659" ph="(definline object-tagged ...)" />
+            <marker date="1511890474314" expanded="true" signature="6661:7017" ph="(definline objects-tagged ...)" />
+            <marker date="1511890474314" expanded="true" signature="7104:7589" ph="(defprotocol IEntityComponent ...)" />
+            <marker date="1511890474314" expanded="true" signature="7591:7732" ph="(defmacro do-reduce ...)" />
+            <marker date="1511890474314" expanded="true" signature="7734:8013" ph="(defmacro do-components ...)" />
+            <marker date="1511890474314" expanded="true" signature="8015:8797" ph="(extend-protocol IEntityComponent ...)" />
+            <marker date="1511890474314" expanded="true" signature="8879:9571" ph="(defprotocol ISceneGraph ...)" />
+            <marker date="1511890474314" expanded="true" signature="9573:10975" ph="(extend-protocol ISceneGraph ...)" />
+            <marker date="1511890474314" expanded="true" signature="11059:11303" ph="(defn ensure-cmpt ...)" />
+            <marker date="1511890474314" expanded="true" signature="11386:11437" ph="(defn- meta-tag ...)" />
+            <marker date="1511890474314" expanded="true" signature="11439:11526" ph="(defn- gentagged ...)" />
+            <marker date="1511890474314" expanded="true" signature="11528:11613" ph="(defmacro with-gobj ...)" />
+            <marker date="1511890474314" expanded="true" signature="11615:12062" ph="(defmacro with-cmpt ...)" />
+            <marker date="1511890474314" expanded="true" signature="12064:12409" ph="(defmacro if-cmpt ...)" />
+            <marker date="1511890474314" expanded="true" signature="12489:12548" ph="(defn gobj-seq ...)" />
+            <marker date="1511890474314" expanded="true" signature="12625:12712" ph="(defn- clojurized-keyword ...)" />
+            <marker date="1511890474314" expanded="true" signature="12714:12766" ph="(defn- message-keyword ...)" />
+            <marker date="1511890474314" expanded="true" signature="12768:13043" ph="(def hook-types ...)" />
+            <marker date="1511890474314" expanded="true" signature="13045:13178" ph="(defn- ensure-hook-type ...)" />
+            <marker date="1511890474314" expanded="true" signature="13180:13234" ph="(s/def ...)" />
+            <marker date="1511890474314" expanded="true" signature="13236:13281" ph="(s/def ...)" />
+            <marker date="1511890474314" expanded="true" signature="13283:13615" ph="(s/fdef hook+ ...)" />
+            <marker date="1511890474314" expanded="true" signature="13617:14577" ph="(defn hook+ ...)" />
+            <marker date="1511890474314" expanded="true" signature="14579:14840" ph="(defn hook-var ...)" />
+            <marker date="1511890474314" expanded="true" signature="14842:15348" ph="(defn hook- ...)" />
+            <marker date="1511890474314" expanded="true" signature="15350:15618" ph="(defn clear-hook ...)" />
+            <marker date="1511890474314" expanded="true" signature="15620:16174" ph="(defn hook ...)" />
+            <marker date="1511890474314" expanded="true" signature="16506:16633" ph="(defn hook? ...)" />
+            <marker date="1511890474314" expanded="true" signature="16888:16935" ph="(defprotocol ISnapshotable ...)" />
+            <marker date="1511890474314" expanded="true" signature="17011:17082" ph="(defn- ensure-state ...)" />
+            <marker date="1511890474314" expanded="true" signature="17084:17423" ph="(defn state ...)" />
+            <marker date="1511890474314" expanded="true" signature="17444:17553" ph="(defn- maybe-mutable ...)" />
+            <marker date="1511890474314" expanded="true" signature="17555:17784" ph="(defn state+ ...)" />
+            <marker date="1511890474314" expanded="true" signature="17786:18017" ph="(defn state- ...)" />
+            <marker date="1511890474314" expanded="true" signature="18019:18154" ph="(defn clear-state ...)" />
+            <marker date="1511890474314" expanded="true" signature="18156:18908" ph="(defn update-state ...)" />
+            <marker date="1511890474314" expanded="true" signature="18985:19063" ph="(def hook-type-&gt;hook-type-key ...)" />
+            <marker date="1511890474314" expanded="true" signature="19065:19145" ph="(defn- hook-&gt;hook-type-key ...)" />
+            <marker date="1511890474314" expanded="true" signature="19147:19278" ph="(def hook-type-key-&gt;fastkeys-key ...)" />
+            <marker date="1511890474314" expanded="true" signature="19339:19464" ph="(def hook-ks ...)" />
+            <marker date="1511890474314" expanded="true" signature="19466:19538" ph="(def hook-fastkeys ...)" />
+            <marker date="1511890474314" expanded="true" signature="19733:20042" ph="(s/def ...)" />
+            <marker date="1511890474314" expanded="true" signature="20044:20165" ph="(defn role- ...)" />
+            <marker date="1511890474314" expanded="true" signature="20167:20344" ph="(s/fdef role+ ...)" />
+            <marker date="1511890474314" expanded="true" signature="20346:20652" ph="(defn role+ ...)" />
+            <marker date="1511890474314" expanded="true" signature="20654:20753" ph="(s/fdef role ...)" />
+            <marker date="1511890474314" expanded="true" signature="20944:21041" ph="(defn- maybe-snapshot ...)" />
+            <marker date="1511890474314" expanded="true" signature="21043:21366" ph="(defn- inner-role-step ...)" />
+            <marker date="1511890474314" expanded="true" signature="21368:21967" ph="(defn role ...)" />
+            <marker date="1511890474314" expanded="true" signature="21969:22261" ph="(defn- roles-step ...)" />
+            <marker date="1511890474314" expanded="true" signature="22306:22655" ph="(defn roles ...)" />
+            <marker date="1511890474314" expanded="true" signature="22954:23054" ph="(s/def ...)" />
+            <marker date="1511890474314" expanded="true" signature="23056:23305" ph="(defn mutable-dispatch ...)" />
+            <marker date="1511890474314" expanded="true" signature="23407:23744" ph="(defmulti mutable ...)" />
+            <marker date="1511890474314" expanded="true" signature="23746:24271" ph="(defprotocol IMutable ...)" />
+            <marker date="1511890474314" expanded="true" signature="24273:24436" ph="(defn- expand-type-sym ...)" />
+            <marker date="1511890474314" expanded="true" signature="24639:33167" ph="(defmacro defmutable ...)" />
+            <marker date="1511890474314" expanded="true" signature="33169:33364" ph="(defmacro defmutable-once ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/geometry.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <marker date="1513229668503" expanded="true" signature="0:144" ph="(ns geometry ...)" />
+            <marker date="1513229668503" expanded="true" signature="147:457" ph="(defn new-go-mesh ...)" />
+            <marker date="1513229668503" expanded="true" signature="459:676" ph="(defn mesh ...)" />
+            <marker date="1513229668503" expanded="true" signature="678:1084" ph="(defn update-mesh! ...)" />
+            <marker date="1513229668503" expanded="true" signature="1130:1276" ph="(defn verts-2d-&gt;v3-xy ...)" />
+            <marker date="1513229668503" expanded="true" signature="1278:1398" ph="(defn verts-2d-&gt;v2 ...)" />
+            <marker date="1513229668503" expanded="true" signature="1400:1754" ph="(defn polygon-verts-2d ...)" />
+            <marker date="1513229668503" expanded="true" signature="1756:1910" ph="(defn polygon-uvs ...)" />
+            <marker date="1513229668503" expanded="true" signature="1912:2199" ph="(defn polygon-tris ...)" />
+            <marker date="1513229668503" expanded="true" signature="2201:2444" ph="(defn polygon-tris-flipped ...)" />
+            <marker date="1513229668503" expanded="true" signature="2446:2736" ph="(defn generate-polygon-mesh! ...)" />
+            <marker date="1513229668503" expanded="true" signature="2738:3032" ph="(defn polygon ...)" />
+            <marker date="1513229668503" expanded="true" signature="3034:3725" ph="(comment ...)" />
+            <marker date="1513229668503" expanded="true" signature="3777:4326" ph="(defn dod-verts ...)" />
+            <marker date="1513229668503" expanded="true" signature="4328:4596" ph="(def pents ...)" />
+            <marker date="1513229668503" expanded="true" signature="4598:4752" ph="(defn pentagon ...)" />
+            <marker date="1513229668503" expanded="true" signature="4871:4956" ph="(defn centroid ...)" />
+            <marker date="1513229668503" expanded="true" signature="5168:6126" ph="(defn dodecahedron ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/music_instrument_state.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1521409216605" expanded="true" signature="0:80" ph="(ns music-instrument-state ...)" />
+            <marker date="1521409216605" expanded="true" signature="147:384" ph="(def s ...)" />
+            <marker date="1521409216605" expanded="true" signature="386:531" ph="(defn- on-note ...)" />
+            <marker date="1521409216605" expanded="true" signature="561:740" ph="(defn get-notes ...)" />
+            <marker date="1521409216605" expanded="true" signature="742:818" ph="(defn get-note ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Arcadia/Source/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="2093" column="6" lean-forward="false" selection-start-line="2093" selection-start-column="6" selection-end-line="2093" selection-end-column="6" />
+          <folding>
+            <marker date="1511890474567" expanded="true" signature="464:549" ph="(ns clojure.core ...)" />
+            <marker date="1511890474567" expanded="true" signature="590:738" ph="(def list ...)" />
+            <marker date="1511890474567" expanded="true" signature="740:952" ph="(def cons ...)" />
+            <marker date="1511890474567" expanded="true" signature="1038:1169" ph="(def let ...)" />
+            <marker date="1511890474567" expanded="true" signature="1173:1304" ph="(def loop ...)" />
+            <marker date="1511890474567" expanded="true" signature="1310:1532" ph="(def fn ...)" />
+            <marker date="1511890474567" expanded="true" signature="1536:1776" ph="(def first ...)" />
+            <marker date="1511890474567" expanded="true" signature="1778:2051" ph="(def next ...)" />
+            <marker date="1511890474567" expanded="true" signature="2053:2296" ph="(def rest ...)" />
+            <marker date="1511890474567" expanded="true" signature="2299:2828" ph="(def conj ...)" />
+            <marker date="1511890474567" expanded="true" signature="2841:2984" ph="(def second ...)" />
+            <marker date="1511890474567" expanded="true" signature="2986:3131" ph="(def ffirst ...)" />
+            <marker date="1511890474567" expanded="true" signature="3133:3275" ph="(def nfirst ...)" />
+            <marker date="1511890474567" expanded="true" signature="3277:3418" ph="(def fnext ...)" />
+            <marker date="1511890474567" expanded="true" signature="3420:3559" ph="(def nnext ...)" />
+            <marker date="1511890474567" expanded="true" signature="3561:4100" ph="(def seq ...)" />
+            <marker date="1511890474567" expanded="true" signature="4102:4377" ph="(def instance? ...)" />
+            <marker date="1511890474567" expanded="true" signature="4422:4584" ph="(def seq? ...)" />
+            <marker date="1511890474567" expanded="true" signature="4586:4738" ph="(def char? ...)" />
+            <marker date="1511890474567" expanded="true" signature="4766:4919" ph="(def string? ...)" />
+            <marker date="1511890474567" expanded="true" signature="4921:5103" ph="(def map? ...)" />
+            <marker date="1511890474567" expanded="true" signature="5105:5300" ph="(def vector? ...)" />
+            <marker date="1511890474567" expanded="true" signature="5302:6157" ph="(def assoc ...)" />
+            <marker date="1511890474567" expanded="true" signature="6222:6476" ph="(def meta ...)" />
+            <marker date="1511890474567" expanded="true" signature="6478:6746" ph="(def with-meta ...)" />
+            <marker date="1511890474567" expanded="true" signature="6748:6818" ph="(def assert-valid-fdecl ...)" />
+            <marker date="1511890474567" expanded="true" signature="6820:8719" ph="(def sigs ...)" />
+            <marker date="1511890474567" expanded="true" signature="8722:8937" ph="(def last ...)" />
+            <marker date="1511890474567" expanded="true" signature="8945:9250" ph="(def butlast ...)" />
+            <marker date="1511890474567" expanded="true" signature="9254:11938" ph="(def defn ...)" />
+            <marker date="1511890474567" expanded="true" signature="11974:12313" ph="(defn to-array ...)" />
+            <marker date="1511890474567" expanded="true" signature="12369:12660" ph="(defn cast ...)" />
+            <marker date="1511890474567" expanded="true" signature="12699:13069" ph="(defn vector ...)" />
+            <marker date="1511890474567" expanded="true" signature="13071:13449" ph="(defn vec ...)" />
+            <marker date="1511890474567" expanded="true" signature="13451:13727" ph="(defn hash-map ...)" />
+            <marker date="1511890474567" expanded="true" signature="13729:13958" ph="(defn hash-set ...)" />
+            <marker date="1511890474567" expanded="true" signature="13960:14370" ph="(defn sorted-map ...)" />
+            <marker date="1511890474567" expanded="true" signature="14372:14696" ph="(defn sorted-map-by ...)" />
+            <marker date="1511890474567" expanded="true" signature="14699:15062" ph="(defn sorted-set ...)" />
+            <marker date="1511890474567" expanded="true" signature="15066:15346" ph="(defn sorted-set-by ...)" />
+            <marker date="1511890474567" expanded="true" signature="15373:15584" ph="(defn nil? ...)" />
+            <marker date="1511890474567" expanded="true" signature="15586:17641" ph="(def defmacro ...)" />
+            <marker date="1511890474567" expanded="true" signature="17675:17828" ph="(defmacro when ...)" />
+            <marker date="1511890474567" expanded="true" signature="17830:17994" ph="(defmacro when-not ...)" />
+            <marker date="1511890474567" expanded="true" signature="17996:18161" ph="(defn false? ...)" />
+            <marker date="1511890474567" expanded="true" signature="18163:18325" ph="(defn true? ...)" />
+            <marker date="1511890474567" expanded="true" signature="18327:18467" ph="(defn not ...)" />
+            <marker date="1511890474567" expanded="true" signature="18469:18602" ph="(defn some? ...)" />
+            <marker date="1511890474567" expanded="true" signature="18604:18698" ph="(defn boolean? ...)" />
+            <marker date="1511890474567" expanded="true" signature="18700:18792" ph="(defn any? ...)" />
+            <marker date="1511890474567" expanded="true" signature="18794:19436" ph="(defn str ...)" />
+            <marker date="1511890474567" expanded="true" signature="19439:19560" ph="(defn symbol? ...)" />
+            <marker date="1511890474567" expanded="true" signature="19562:19686" ph="(defn keyword? ...)" />
+            <marker date="1511890474567" expanded="true" signature="19688:19941" ph="(defn symbol ...)" />
+            <marker date="1511890474567" expanded="true" signature="19943:20299" ph="(defn gensym ...)" />
+            <marker date="1511890474567" expanded="true" signature="20301:20939" ph="(defmacro cond ...)" />
+            <marker date="1511890474567" expanded="true" signature="20952:21409" ph="(defn keyword ...)" />
+            <marker date="1511890474567" expanded="true" signature="21411:22005" ph="(defn find-keyword ...)" />
+            <marker date="1511890474567" expanded="true" signature="22008:22201" ph="(defn spread ...)" />
+            <marker date="1511890474567" expanded="true" signature="22203:22577" ph="(defn list* ...)" />
+            <marker date="1511890474567" expanded="true" signature="22579:23108" ph="(defn apply ...)" />
+            <marker date="1511890474567" expanded="true" signature="23114:23329" ph="(defn vary-meta ...)" />
+            <marker date="1511890474567" expanded="true" signature="23331:23695" ph="(defmacro lazy-seq ...)" />
+            <marker date="1511890474567" expanded="true" signature="23701:23831" ph="(defn chunk-buffer ...)" />
+            <marker date="1511890474567" expanded="true" signature="23833:23906" ph="(defn chunk-append ...)" />
+            <marker date="1511890474567" expanded="true" signature="23908:23993" ph="(defn chunk ...)" />
+            <marker date="1511890474567" expanded="true" signature="23995:24114" ph="(defn chunk-first ...)" />
+            <marker date="1511890474567" expanded="true" signature="24116:24229" ph="(defn chunk-rest ...)" />
+            <marker date="1511890474567" expanded="true" signature="24231:24344" ph="(defn chunk-next ...)" />
+            <marker date="1511890474567" expanded="true" signature="24346:24504" ph="(defn chunk-cons ...)" />
+            <marker date="1511890474567" expanded="true" signature="24508:24581" ph="(defn chunked-seq? ...)" />
+            <marker date="1511890474567" expanded="true" signature="24583:25482" ph="(defn concat ...)" />
+            <marker date="1511890474567" expanded="true" signature="25576:25931" ph="(defmacro delay ...)" />
+            <marker date="1511890474567" expanded="true" signature="25933:26070" ph="(defn delay? ...)" />
+            <marker date="1511890474567" expanded="true" signature="26072:26247" ph="(defn force ...)" />
+            <marker date="1511890474567" expanded="true" signature="26253:26503" ph="(defmacro if-not ...)" />
+            <marker date="1511890474567" expanded="true" signature="26508:26716" ph="(defn identical? ...)" />
+            <marker date="1511890474567" expanded="true" signature="26732:27364" ph="(defn = ...)" />
+            <marker date="1511890474567" expanded="true" signature="27937:28112" ph="(defn not= ...)" />
+            <marker date="1511890474567" expanded="true" signature="28118:28553" ph="(defn compare ...)" />
+            <marker date="1511890474567" expanded="true" signature="28555:28929" ph="(defmacro and ...)" />
+            <marker date="1511890474567" expanded="true" signature="28931:29300" ph="(defmacro or ...)" />
+            <marker date="1511890474567" expanded="true" signature="29360:29537" ph="(defn zero? ...)" />
+            <marker date="1511890474567" expanded="true" signature="29541:29807" ph="(defn count ...)" />
+            <marker date="1511890474567" expanded="true" signature="29809:30075" ph="(defn int ...)" />
+            <marker date="1511890474567" expanded="true" signature="30077:30562" ph="(defn nth ...)" />
+            <marker date="1511890474567" expanded="true" signature="30566:30951" ph="(defn &lt; ...)" />
+            <marker date="1511890474567" expanded="true" signature="30958:31172" ph="(defn inc' ...)" />
+            <marker date="1511890474567" expanded="true" signature="31174:31447" ph="(defn inc ...)" />
+            <marker date="1511890474567" expanded="true" signature="31509:31987" ph="(defn reduce1 ...)" />
+            <marker date="1511890474567" expanded="true" signature="32003:32153" ph="(defn reverse ...)" />
+            <marker date="1511890474567" expanded="true" signature="32168:32707" ph="(defn nary-inline ...)" />
+            <marker date="1511890474567" expanded="true" signature="32820:33163" ph="(defn +' ...)" />
+            <marker date="1511890474567" expanded="true" signature="33165:33543" ph="(defn + ...)" />
+            <marker date="1511890474567" expanded="true" signature="33545:33902" ph="(defn *' ...)" />
+            <marker date="1511890474567" expanded="true" signature="33904:34301" ph="(defn * ...)" />
+            <marker date="1511890474567" expanded="true" signature="34303:34612" ph="(defn / ...)" />
+            <marker date="1511890474567" expanded="true" signature="34614:34989" ph="(defn -' ...)" />
+            <marker date="1511890474567" expanded="true" signature="34991:35400" ph="(defn - ...)" />
+            <marker date="1511890474567" expanded="true" signature="35402:35796" ph="(defn &lt;= ...)" />
+            <marker date="1511890474567" expanded="true" signature="35798:36183" ph="(defn &gt; ...)" />
+            <marker date="1511890474567" expanded="true" signature="36185:36579" ph="(defn &gt;= ...)" />
+            <marker date="1511890474567" expanded="true" signature="36581:36985" ph="(defn == ...)" />
+            <marker date="1511890474567" expanded="true" signature="36987:37209" ph="(defn max ...)" />
+            <marker date="1511890474567" expanded="true" signature="37211:37430" ph="(defn min ...)" />
+            <marker date="1511890474567" expanded="true" signature="37432:37643" ph="(defn dec' ...)" />
+            <marker date="1511890474567" expanded="true" signature="37645:37915" ph="(defn dec ...)" />
+            <marker date="1511890474567" expanded="true" signature="37921:38189" ph="(defn unchecked-inc-int ...)" />
+            <marker date="1511890474567" expanded="true" signature="38191:38447" ph="(defn unchecked-inc ...)" />
+            <marker date="1511890474567" expanded="true" signature="38449:38714" ph="(defn unchecked-dec-int ...)" />
+            <marker date="1511890474567" expanded="true" signature="38716:38969" ph="(defn unchecked-dec ...)" />
+            <marker date="1511890474567" expanded="true" signature="38971:39238" ph="(defn unchecked-negate-int ...)" />
+            <marker date="1511890474567" expanded="true" signature="39240:39493" ph="(defn unchecked-negate ...)" />
+            <marker date="1511890474567" expanded="true" signature="39495:39765" ph="(defn unchecked-add-int ...)" />
+            <marker date="1511890474567" expanded="true" signature="39767:40026" ph="(defn unchecked-add ...)" />
+            <marker date="1511890474567" expanded="true" signature="40028:40320" ph="(defn unchecked-subtract-int ...)" />
+            <marker date="1511890474567" expanded="true" signature="40322:40597" ph="(defn unchecked-subtract ...)" />
+            <marker date="1511890474567" expanded="true" signature="40599:40888" ph="(defn unchecked-multiply-int ...)" />
+            <marker date="1511890474567" expanded="true" signature="40890:41168" ph="(defn unchecked-multiply ...)" />
+            <marker date="1511890474567" expanded="true" signature="41170:41455" ph="(defn unchecked-divide-int ...)" />
+            <marker date="1511890474567" expanded="true" signature="41457:41764" ph="(defn unchecked-remainder-int ...)" />
+            <marker date="1511890474567" expanded="true" signature="41766:41965" ph="(defn pos? ...)" />
+            <marker date="1511890474567" expanded="true" signature="41967:42151" ph="(defn neg? ...)" />
+            <marker date="1511890474567" expanded="true" signature="42153:42375" ph="(defn quot ...)" />
+            <marker date="1511890474567" expanded="true" signature="42377:42599" ph="(defn rem ...)" />
+            <marker date="1511890474567" expanded="true" signature="42601:42743" ph="(defn rationalize ...)" />
+            <marker date="1511890474567" expanded="true" signature="42756:42902" ph="(defn bit-not ...)" />
+            <marker date="1511890474567" expanded="true" signature="42905:43112" ph="(defn bit-and ...)" />
+            <marker date="1511890474567" expanded="true" signature="43114:43309" ph="(defn bit-or ...)" />
+            <marker date="1511890474567" expanded="true" signature="43311:43521" ph="(defn bit-xor ...)" />
+            <marker date="1511890474567" expanded="true" signature="43523:43774" ph="(defn bit-and-not ...)" />
+            <marker date="1511890474567" expanded="true" signature="43777:43897" ph="(defn bit-clear ...)" />
+            <marker date="1511890474567" expanded="true" signature="43899:44013" ph="(defn bit-set ...)" />
+            <marker date="1511890474567" expanded="true" signature="44015:44132" ph="(defn bit-flip ...)" />
+            <marker date="1511890474567" expanded="true" signature="44134:44251" ph="(defn bit-test ...)" />
+            <marker date="1511890474567" expanded="true" signature="44254:44428" ph="(defn bit-shift-left ...)" />
+            <marker date="1511890474567" expanded="true" signature="44430:44608" ph="(defn bit-shift-right ...)" />
+            <marker date="1511890474567" expanded="true" signature="44610:44838" ph="(defn unsigned-bit-shift-right ...)" />
+            <marker date="1511890474567" expanded="true" signature="44841:45359" ph="(defn integer? ...)" />
+            <marker date="1511890474567" expanded="true" signature="45390:45677" ph="(defn even? ...)" />
+            <marker date="1511890474567" expanded="true" signature="45720:45859" ph="(defn odd? ...)" />
+            <marker date="1511890474567" expanded="true" signature="45861:45927" ph="(defn int? ...)" />
+            <marker date="1511890474567" expanded="true" signature="45929:46061" ph="(defn pos-int? ...)" />
+            <marker date="1511890474567" expanded="true" signature="46063:46195" ph="(defn neg-int? ...)" />
+            <marker date="1511890474567" expanded="true" signature="46197:46339" ph="(defn nat-int? ...)" />
+            <marker date="1511890474567" expanded="true" signature="46341:46432" ph="(defn double? ...)" />
+            <marker date="1511890474567" expanded="true" signature="46439:46751" ph="(defn complement ...)" />
+            <marker date="1511890474567" expanded="true" signature="46753:46898" ph="(defn constantly ...)" />
+            <marker date="1511890474567" expanded="true" signature="46900:46982" ph="(defn identity ...)" />
+            <marker date="1511890474567" expanded="true" signature="47017:47244" ph="(defn peek ...)" />
+            <marker date="1511890474567" expanded="true" signature="47246:47554" ph="(defn pop ...)" />
+            <marker date="1511890474567" expanded="true" signature="47569:48109" ph="(defn map-entry? ...)" />
+            <marker date="1511890474567" expanded="true" signature="48111:48562" ph="(defn contains? ...)" />
+            <marker date="1511890474567" expanded="true" signature="48564:48879" ph="(defn get ...)" />
+            <marker date="1511890474567" expanded="true" signature="48881:49226" ph="(defn dissoc ...)" />
+            <marker date="1511890474567" expanded="true" signature="49228:49604" ph="(defn disj ...)" />
+            <marker date="1511890474567" expanded="true" signature="49606:49759" ph="(defn find ...)" />
+            <marker date="1511890474567" expanded="true" signature="49761:50168" ph="(defn select-keys ...)" />
+            <marker date="1511890474567" expanded="true" signature="50170:50327" ph="(defn keys ...)" />
+            <marker date="1511890474567" expanded="true" signature="50329:50488" ph="(defn vals ...)" />
+            <marker date="1511890474567" expanded="true" signature="50490:50647" ph="(defn key ...)" />
+            <marker date="1511890474567" expanded="true" signature="50683:50842" ph="(defn val ...)" />
+            <marker date="1511890474567" expanded="true" signature="50880:51120" ph="(defn rseq ...)" />
+            <marker date="1511890474567" expanded="true" signature="51122:51306" ph="(defn name ...)" />
+            <marker date="1511890474567" expanded="true" signature="51308:51503" ph="(defn namespace ...)" />
+            <marker date="1511890474567" expanded="true" signature="51507:51617" ph="(defn ident? ...)" />
+            <marker date="1511890474567" expanded="true" signature="51619:51764" ph="(defn simple-ident? ...)" />
+            <marker date="1511890474567" expanded="true" signature="51766:51909" ph="(defn qualified-ident? ...)" />
+            <marker date="1511890474567" expanded="true" signature="51911:52047" ph="(defn simple-symbol? ...)" />
+            <marker date="1511890474567" expanded="true" signature="52049:52183" ph="(defn qualified-symbol? ...)" />
+            <marker date="1511890474567" expanded="true" signature="52185:52324" ph="(defn simple-keyword? ...)" />
+            <marker date="1511890474567" expanded="true" signature="52326:52463" ph="(defn qualified-keyword? ...)" />
+            <marker date="1511890474567" expanded="true" signature="52467:52761" ph="(defmacro locking ...)" />
+            <marker date="1511890474567" expanded="true" signature="52763:53242" ph="(defmacro .. ...)" />
+            <marker date="1511890474567" expanded="true" signature="53246:53799" ph="(defmacro -&gt; ...)" />
+            <marker date="1511890474567" expanded="true" signature="53801:54334" ph="(defmacro -&gt;&gt; ...)" />
+            <marker date="1511890474567" expanded="true" signature="54347:54827" ph="(defn check-valid-options ...)" />
+            <marker date="1511890474567" expanded="true" signature="54868:57161" ph="(defmacro defmulti ...)" />
+            <marker date="1511890474567" expanded="true" signature="57163:57417" ph="(defmacro defmethod ...)" />
+            <marker date="1511890474567" expanded="true" signature="57419:57575" ph="(defn remove-all-methods ...)" />
+            <marker date="1511890474567" expanded="true" signature="57577:57763" ph="(defn remove-method ...)" />
+            <marker date="1511890474567" expanded="true" signature="57765:58031" ph="(defn prefer-method ...)" />
+            <marker date="1511890474567" expanded="true" signature="58033:58215" ph="(defn methods ...)" />
+            <marker date="1511890474567" expanded="true" signature="58217:58488" ph="(defn get-method ...)" />
+            <marker date="1511890474567" expanded="true" signature="58490:58678" ph="(defn prefers ...)" />
+            <marker date="1511890474567" expanded="true" signature="58703:59082" ph="(defmacro assert-args ...)" />
+            <marker date="1511890474567" expanded="true" signature="59084:59686" ph="(defmacro if-let ...)" />
+            <marker date="1511890474567" expanded="true" signature="59688:60182" ph="(defmacro when-let ...)" />
+            <marker date="1511890474567" expanded="true" signature="60184:60799" ph="(defmacro if-some ...)" />
+            <marker date="1511890474567" expanded="true" signature="60801:61267" ph="(defmacro when-some ...)" />
+            <marker date="1511890474567" expanded="true" signature="61269:61812" ph="(defn push-thread-bindings ...)" />
+            <marker date="1511890474567" expanded="true" signature="61814:62035" ph="(defn pop-thread-bindings ...)" />
+            <marker date="1511890474567" expanded="true" signature="62037:62234" ph="(defn get-thread-bindings ...)" />
+            <marker date="1511890474567" expanded="true" signature="62236:63220" ph="(defmacro binding ...)" />
+            <marker date="1511890474567" expanded="true" signature="63222:63639" ph="(defn with-bindings* ...)" />
+            <marker date="1511890474567" expanded="true" signature="63641:63970" ph="(defmacro with-bindings ...)" />
+            <marker date="1511890474567" expanded="true" signature="63972:64417" ph="(defn bound-fn* ...)" />
+            <marker date="1511890474567" expanded="true" signature="64419:64769" ph="(defmacro bound-fn ...)" />
+            <marker date="1511890474567" expanded="true" signature="64771:64962" ph="(defn find-var ...)" />
+            <marker date="1511890474567" expanded="true" signature="64965:65561" ph="(defn binding-conveyor-fn ...)" />
+            <marker date="1511890474567" expanded="true" signature="65636:65883" ph="(defn setup-reference ...)" />
+            <marker date="1511890474567" expanded="true" signature="65889:67136" ph="(defn agent ...)" />
+            <marker date="1511890474567" expanded="true" signature="67138:67250" ph="(defn set-agent-send-executor! ...)" />
+            <marker date="1511890474567" expanded="true" signature="67404:67524" ph="(defn set-agent-send-off-executor! ...)" />
+            <marker date="1511890474567" expanded="true" signature="67676:68037" ph="(defn send-via ...)" />
+            <marker date="1511890474567" expanded="true" signature="68170:68532" ph="(defn send ...)" />
+            <marker date="1511890474567" expanded="true" signature="68662:69037" ph="(defn send-off ...)" />
+            <marker date="1511890474567" expanded="true" signature="69163:69668" ph="(defn release-pending-sends ...)" />
+            <marker date="1511890474567" expanded="true" signature="69670:70641" ph="(defn add-watch ...)" />
+            <marker date="1511890474567" expanded="true" signature="70643:70819" ph="(defn remove-watch ...)" />
+            <marker date="1511890474567" expanded="true" signature="70821:71057" ph="(defn agent-error ...)" />
+            <marker date="1511890474567" expanded="true" signature="71059:71840" ph="(defn restart-agent ...)" />
+            <marker date="1511890474567" expanded="true" signature="71842:72197" ph="(defn set-error-handler! ...)" />
+            <marker date="1511890474567" expanded="true" signature="72199:72393" ph="(defn error-handler ...)" />
+            <marker date="1511890474567" expanded="true" signature="72395:73188" ph="(defn set-error-mode! ...)" />
+            <marker date="1511890474567" expanded="true" signature="73190:73346" ph="(defn error-mode ...)" />
+            <marker date="1511890474567" expanded="true" signature="73348:73590" ph="(defn agent-errors ...)" />
+            <marker date="1511890474567" expanded="true" signature="73592:73868" ph="(defn clear-agent-errors ...)" />
+            <marker date="1511890474567" expanded="true" signature="73870:74106" ph="(defn shutdown-agents ...)" />
+            <marker date="1511890474567" expanded="true" signature="74109:75399" ph="(defn ref ...)" />
+            <marker date="1511890474567" expanded="true" signature="75401:76101" ph="(defn deref-future ...)" />
+            <marker date="1511890474567" expanded="true" signature="76107:77162" ph="(defn deref ...)" />
+            <marker date="1511890474567" expanded="true" signature="77164:77750" ph="(defn atom ...)" />
+            <marker date="1511890474567" expanded="true" signature="77752:78234" ph="(defn swap! ...)" />
+            <marker date="1511890474567" expanded="true" signature="78238:78535" ph="(defn compare-and-set! ...)" />
+            <marker date="1511890474567" expanded="true" signature="78537:78733" ph="(defn reset! ...)" />
+            <marker date="1511890474567" expanded="true" signature="78735:79302" ph="(defn set-validator ...)" />
+            <marker date="1511890474567" expanded="true" signature="79304:79460" ph="(defn get-validator ...)" />
+            <marker date="1511890474567" expanded="true" signature="79462:79726" ph="(defn alter-meta! ...)" />
+            <marker date="1511890474567" expanded="true" signature="79728:79926" ph="(defn reset-meta! ...)" />
+            <marker date="1511890474567" expanded="true" signature="79929:80501" ph="(defn commute ...)" />
+            <marker date="1511890474567" expanded="true" signature="80503:80790" ph="(defn alter ...)" />
+            <marker date="1511890474567" expanded="true" signature="80792:80966" ph="(defn ref-set ...)" />
+            <marker date="1511890474567" expanded="true" signature="80968:81115" ph="(defn ref-history-count ...)" />
+            <marker date="1511890474567" expanded="true" signature="81117:81344" ph="(defn ref-min-history ...)" />
+            <marker date="1511890474567" expanded="true" signature="81346:81573" ph="(defn ref-max-history ...)" />
+            <marker date="1511890474567" expanded="true" signature="81575:81880" ph="(defn ensure ...)" />
+            <marker date="1511890474567" expanded="true" signature="81882:82395" ph="(defmacro sync ...)" />
+            <marker date="1511890474567" expanded="true" signature="82398:82938" ph="(defmacro io! ...)" />
+            <marker date="1511890474567" expanded="true" signature="82947:83114" ph="(defn volatile! ...)" />
+            <marker date="1511890474567" expanded="true" signature="83116:83305" ph="(defn vreset! ...)" />
+            <marker date="1511890474567" expanded="true" signature="83307:83597" ph="(defmacro vswap! ...)" />
+            <marker date="1511890474567" expanded="true" signature="83599:83713" ph="(defn volatile? ...)" />
+            <marker date="1511890474567" expanded="true" signature="83774:84296" ph="(defn comp ...)" />
+            <marker date="1511890474567" expanded="true" signature="84298:85591" ph="(defn juxt ...)" />
+            <marker date="1511890474567" expanded="true" signature="85593:86537" ph="(defn partial ...)" />
+            <marker date="1511890474567" expanded="true" signature="86598:87814" ph="(defn sequence ...)" />
+            <marker date="1511890474567" expanded="true" signature="87816:88070" ph="(defn every? ...)" />
+            <marker date="1511890474567" expanded="true" signature="88072:88254" ph="(def not-every? ...)" />
+            <marker date="1511890474567" expanded="true" signature="88256:88623" ph="(defn some ...)" />
+            <marker date="1511890474567" expanded="true" signature="88625:88803" ph="(def not-any? ...)" />
+            <marker date="1511890474567" expanded="true" signature="88844:89236" ph="(defmacro dotimes ...)" />
+            <marker date="1511890474567" expanded="true" signature="89249:90931" ph="(defn map ...)" />
+            <marker date="1511890474567" expanded="true" signature="90933:91138" ph="(defmacro declare ...)" />
+            <marker date="1511890474567" expanded="true" signature="91155:91475" ph="(defn mapcat ...)" />
+            <marker date="1511890474567" expanded="true" signature="91478:92401" ph="(defn filter ...)" />
+            <marker date="1511890474567" expanded="true" signature="92412:92727" ph="(defn remove ...)" />
+            <marker date="1511890474567" expanded="true" signature="92729:92866" ph="(defn reduced ...)" />
+            <marker date="1511890474567" expanded="true" signature="92868:93072" ph="(defn reduced? ...)" />
+            <marker date="1511890474567" expanded="true" signature="93074:93219" ph="(defn ensure-reduced ...)" />
+            <marker date="1511890474567" expanded="true" signature="93221:93348" ph="(defn unreduced ...)" />
+            <marker date="1511890474567" expanded="true" signature="93350:94143" ph="(defn take ...)" />
+            <marker date="1511890474567" expanded="true" signature="94145:94735" ph="(defn take-while ...)" />
+            <marker date="1511890474567" expanded="true" signature="94737:95443" ph="(defn drop ...)" />
+            <marker date="1511890474567" expanded="true" signature="95445:95635" ph="(defn drop-last ...)" />
+            <marker date="1511890474567" expanded="true" signature="95637:95950" ph="(defn take-last ...)" />
+            <marker date="1511890474567" expanded="true" signature="95952:96794" ph="(defn drop-while ...)" />
+            <marker date="1511890474567" expanded="true" signature="96800:96972" ph="(defn cycle ...)" />
+            <marker date="1511890474567" expanded="true" signature="96988:97134" ph="(defn split-at ...)" />
+            <marker date="1511890474567" expanded="true" signature="97136:97324" ph="(defn split-with ...)" />
+            <marker date="1511890474567" expanded="true" signature="97326:97525" ph="(defn repeat ...)" />
+            <marker date="1511890474567" expanded="true" signature="97529:97679" ph="(defn replicate ...)" />
+            <marker date="1511890474567" expanded="true" signature="97681:97858" ph="(defn iterate ...)" />
+            <marker date="1511890474567" expanded="true" signature="97860:98823" ph="(defn range ...)" />
+            <marker date="1511890474567" expanded="true" signature="98825:99154" ph="(defn merge ...)" />
+            <marker date="1511890474567" expanded="true" signature="99156:99767" ph="(defn merge-with ...)" />
+            <marker date="1511890474567" expanded="true" signature="99771:100102" ph="(defn zipmap ...)" />
+            <marker date="1511890474567" expanded="true" signature="100104:100459" ph="(defn line-seq ...)" />
+            <marker date="1511890474567" expanded="true" signature="100469:100671" ph="(defn comparator ...)" />
+            <marker date="1511890474567" expanded="true" signature="100673:101375" ph="(defn sort ...)" />
+            <marker date="1511890474567" expanded="true" signature="101377:102003" ph="(defn sort-by ...)" />
+            <marker date="1511890474567" expanded="true" signature="102073:102590" ph="(defn dorun ...)" />
+            <marker date="1511890474567" expanded="true" signature="102592:103093" ph="(defn doall ...)" />
+            <marker date="1511890474567" expanded="true" signature="103095:103316" ph="(defn nthnext ...)" />
+            <marker date="1511890474567" expanded="true" signature="103318:103542" ph="(defn nthrest ...)" />
+            <marker date="1511890474567" expanded="true" signature="103544:104431" ph="(defn partition ...)" />
+            <marker date="1511890474567" expanded="true" signature="104448:104613" ph="(defn eval ...)" />
+            <marker date="1511890474567" expanded="true" signature="104615:107595" ph="(defmacro doseq ...)" />
+            <marker date="1511890474567" expanded="true" signature="107597:108292" ph="(defn await ...)" />
+            <marker date="1511890474567" expanded="true" signature="108343:108444" ph="(defn await1 ...)" />
+            <marker date="1511890474567" expanded="true" signature="108446:109181" ph="(defn await-for ...)" />
+            <marker date="1511890474567" expanded="true" signature="109259:109762" ph="(defmacro dotimes ...)" />
+            <marker date="1511890474567" expanded="true" signature="110097:110287" ph="(defn transient ...)" />
+            <marker date="1511890474567" expanded="true" signature="110289:110590" ph="(defn persistent! ...)" />
+            <marker date="1511890474567" expanded="true" signature="110592:110882" ph="(defn conj! ...)" />
+            <marker date="1511890474567" expanded="true" signature="110884:111374" ph="(defn assoc! ...)" />
+            <marker date="1511890474567" expanded="true" signature="111376:111700" ph="(defn dissoc! ...)" />
+            <marker date="1511890474567" expanded="true" signature="111702:111916" ph="(defn pop! ...)" />
+            <marker date="1511890474567" expanded="true" signature="111919:112298" ph="(defn disj! ...)" />
+            <marker date="1511890474567" expanded="true" signature="112331:112627" ph="(defn into1 ...)" />
+            <marker date="1511890474567" expanded="true" signature="112629:113418" ph="(defmacro import ...)" />
+            <marker date="1511890474567" expanded="true" signature="113420:113928" ph="(defn into-array ...)" />
+            <marker date="1511890474567" expanded="true" signature="113930:113994" ph="(defn array ...)" />
+            <marker date="1511890474567" expanded="true" signature="113996:114120" ph="(defn class ...)" />
+            <marker date="1511890474567" expanded="true" signature="114144:114291" ph="(defn type ...)" />
+            <marker date="1511890474567" expanded="true" signature="114293:114504" ph="(defn num ...)" />
+            <marker date="1511890474567" expanded="true" signature="114508:114650" ph="(defn long ...)" />
+            <marker date="1511890474567" expanded="true" signature="114654:114844" ph="(defn float ...)" />
+            <marker date="1511890474567" expanded="true" signature="114846:114996" ph="(defn double ...)" />
+            <marker date="1511890474567" expanded="true" signature="114998:115188" ph="(defn short ...)" />
+            <marker date="1511890474567" expanded="true" signature="115190:115375" ph="(defn byte ...)" />
+            <marker date="1511890474567" expanded="true" signature="115377:115562" ph="(defn char ...)" />
+            <marker date="1511890474567" expanded="true" signature="115566:115720" ph="(defn boolean ...)" />
+            <marker date="1511890474567" expanded="true" signature="115722:115923" ph="(defn unchecked-byte ...)" />
+            <marker date="1511890474567" expanded="true" signature="115957:116162" ph="(defn unchecked-short ...)" />
+            <marker date="1511890474567" expanded="true" signature="116196:116401" ph="(defn unchecked-char ...)" />
+            <marker date="1511890474567" expanded="true" signature="116403:116600" ph="(defn unchecked-int ...)" />
+            <marker date="1511890474567" expanded="true" signature="116634:116835" ph="(defn unchecked-long ...)" />
+            <marker date="1511890474567" expanded="true" signature="116869:117060" ph="(defn unchecked-float ...)" />
+            <marker date="1511890474567" expanded="true" signature="117094:117289" ph="(defn unchecked-double ...)" />
+            <marker date="1511890474567" expanded="true" signature="117324:117449" ph="(defn number? ...)" />
+            <marker date="1511890474567" expanded="true" signature="117480:117702" ph="(defn mod ...)" />
+            <marker date="1511890474567" expanded="true" signature="117704:117822" ph="(defn ratio? ...)" />
+            <marker date="1511890474567" expanded="true" signature="117824:117973" ph="(defn numerator ...)" />
+            <marker date="1511890474567" expanded="true" signature="117975:118130" ph="(defn denominator ...)" />
+            <marker date="1511890474567" expanded="true" signature="118132:118249" ph="(defn decimal? ...)" />
+            <marker date="1511890474567" expanded="true" signature="118251:118410" ph="(defn float? ...)" />
+            <marker date="1511890474567" expanded="true" signature="118426:118568" ph="(defn rational? ...)" />
+            <marker date="1511890474567" expanded="true" signature="118570:119212" ph="(defn bigint ...)" />
+            <marker date="1511890474567" expanded="true" signature="119214:119920" ph="(defn biginteger ...)" />
+            <marker date="1511890474567" expanded="true" signature="119922:120777" ph="(defn bigdec ...)" />
+            <marker date="1511890474567" expanded="true" signature="120915:121067" ph="(defmulti print-method ...)" />
+            <marker date="1511890474567" expanded="true" signature="121116:121238" ph="(defn pr-on ...)" />
+            <marker date="1511890474567" expanded="true" signature="121240:121717" ph="(defn pr ...)" />
+            <marker date="1511890474567" expanded="true" signature="121722:121787" ph="(def system-newline ...)" />
+            <marker date="1511890474567" expanded="true" signature="121854:122019" ph="(defn newline ...)" />
+            <marker date="1511890474567" expanded="true" signature="122021:122199" ph="(defn flush ...)" />
+            <marker date="1511890474567" expanded="true" signature="122201:122399" ph="(defn prn ...)" />
+            <marker date="1511890474567" expanded="true" signature="122401:122657" ph="(defn print ...)" />
+            <marker date="1511890474567" expanded="true" signature="122659:122817" ph="(defn println ...)" />
+            <marker date="1511890474567" expanded="true" signature="122819:123955" ph="(defn read ...)" />
+            <marker date="1511890474567" expanded="true" signature="123957:124125" ph="(defn read-line ...)" />
+            <marker date="1511890474567" expanded="true" signature="124370:124795" ph="(defn read-string ...)" />
+            <marker date="1511890474567" expanded="true" signature="124797:125230" ph="(defn subvec ...)" />
+            <marker date="1511890474567" expanded="true" signature="125235:126157" ph="(defmacro with-open ...)" />
+            <marker date="1511890474567" expanded="true" signature="126159:126664" ph="(defmacro doto ...)" />
+            <marker date="1511890474567" expanded="true" signature="126666:127151" ph="(defmacro memfn ...)" />
+            <marker date="1511890474567" expanded="true" signature="127153:127546" ph="(defmacro time ...)" />
+            <marker date="1511890474567" expanded="true" signature="127609:127814" ph="(defn alength ...)" />
+            <marker date="1511890474567" expanded="true" signature="127816:128017" ph="(defn aclone ...)" />
+            <marker date="1511890474567" expanded="true" signature="128198:128619" ph="(defn aget ...)" />
+            <marker date="1511890474567" expanded="true" signature="128621:129010" ph="(defn aset ...)" />
+            <marker date="1511890474567" expanded="true" signature="129012:129443" ph="(defmacro def-aset ...)" />
+            <marker date="1511890474567" expanded="true" signature="129445:129580" ph="(def-aset aset-int ...)" />
+            <marker date="1511890474567" expanded="true" signature="129582:129721" ph="(def-aset aset-long ...)" />
+            <marker date="1511890474567" expanded="true" signature="129723:129874" ph="(def-aset aset-boolean ...)" />
+            <marker date="1511890474567" expanded="true" signature="129876:130019" ph="(def-aset aset-float ...)" />
+            <marker date="1511890474567" expanded="true" signature="130021:130168" ph="(def-aset aset-double ...)" />
+            <marker date="1511890474567" expanded="true" signature="130170:130313" ph="(def-aset aset-short ...)" />
+            <marker date="1511890474567" expanded="true" signature="130315:130454" ph="(def-aset aset-byte ...)" />
+            <marker date="1511890474567" expanded="true" signature="130456:130595" ph="(def-aset aset-char ...)" />
+            <marker date="1511890474567" expanded="true" signature="130719:131779" ph="(defn make-array ...)" />
+            <marker date="1511890474567" expanded="true" signature="131878:132607" ph="(defn to-array-2d ...)" />
+            <marker date="1511890474567" expanded="true" signature="132609:132802" ph="(defn macroexpand-1 ...)" />
+            <marker date="1511890474567" expanded="true" signature="132804:133149" ph="(defn macroexpand ...)" />
+            <marker date="1511890474567" expanded="true" signature="133151:133315" ph="(defn create-struct ...)" />
+            <marker date="1511890474567" expanded="true" signature="133317:133471" ph="(defmacro defstruct ...)" />
+            <marker date="1511890474567" expanded="true" signature="133474:133839" ph="(defn struct-map ...)" />
+            <marker date="1511890474567" expanded="true" signature="133841:134143" ph="(defn struct ...)" />
+            <marker date="1511890474567" expanded="true" signature="134145:134560" ph="(defn accessor ...)" />
+            <marker date="1511890474567" expanded="true" signature="134563:134742" ph="(defn load-reader ...)" />
+            <marker date="1511890474567" expanded="true" signature="134744:135121" ph="(defn load-string ...)" />
+            <marker date="1511890474567" expanded="true" signature="135123:135263" ph="(defn set? ...)" />
+            <marker date="1511890474567" expanded="true" signature="135267:135606" ph="(defn set ...)" />
+            <marker date="1511890474567" expanded="true" signature="135608:135883" ph="(defn filter-key ...)" />
+            <marker date="1511890474567" expanded="true" signature="135885:136048" ph="(defn find-ns ...)" />
+            <marker date="1511890474567" expanded="true" signature="136050:136293" ph="(defn create-ns ...)" />
+            <marker date="1511890474567" expanded="true" signature="136295:136503" ph="(defn remove-ns ...)" />
+            <marker date="1511890474567" expanded="true" signature="136505:136627" ph="(defn all-ns ...)" />
+            <marker date="1511890474567" expanded="true" signature="136629:136974" ph="(defn the-ns ...)" />
+            <marker date="1511890474567" expanded="true" signature="136976:137104" ph="(defn ns-name ...)" />
+            <marker date="1511890474567" expanded="true" signature="137106:137245" ph="(defn ns-map ...)" />
+            <marker date="1511890474567" expanded="true" signature="137247:137393" ph="(defn ns-unmap ...)" />
+            <marker date="1511890474567" expanded="true" signature="137518:137907" ph="(defn ns-publics ...)" />
+            <marker date="1511890474567" expanded="true" signature="137909:138082" ph="(defn ns-imports ...)" />
+            <marker date="1511890474567" expanded="true" signature="138104:138407" ph="(defn ns-interns ...)" />
+            <marker date="1511890474567" expanded="true" signature="138409:140134" ph="(defn refer ...)" />
+            <marker date="1511890474567" expanded="true" signature="140136:140440" ph="(defn ns-refers ...)" />
+            <marker date="1511890474567" expanded="true" signature="140442:140789" ph="(defn alias ...)" />
+            <marker date="1511890474567" expanded="true" signature="140791:140928" ph="(defn ns-aliases ...)" />
+            <marker date="1511890474567" expanded="true" signature="140930:141081" ph="(defn ns-unalias ...)" />
+            <marker date="1511890474567" expanded="true" signature="141083:141649" ph="(defn take-nth ...)" />
+            <marker date="1511890474567" expanded="true" signature="141651:142203" ph="(defn interleave ...)" />
+            <marker date="1511890474567" expanded="true" signature="142205:142325" ph="(defn var-get ...)" />
+            <marker date="1511890474567" expanded="true" signature="142327:142502" ph="(defn var-set ...)" />
+            <marker date="1511890474567" expanded="true" signature="142504:143258" ph="(defmacro with-local-vars ...)" />
+            <marker date="1511890474567" expanded="true" signature="143260:143716" ph="(defn ns-resolve ...)" />
+            <marker date="1511890474567" expanded="true" signature="143718:143907" ph="(defn resolve ...)" />
+            <marker date="1511890474567" expanded="true" signature="143909:144204" ph="(defn array-map ...)" />
+            <marker date="1511890474567" expanded="true" signature="144249:147986" ph="(defn destructure ...)" />
+            <marker date="1511890474567" expanded="true" signature="147988:148464" ph="(defmacro let ...)" />
+            <marker date="1511890474567" expanded="true" signature="148466:149031" ph="(defn maybe-destructured ...)" />
+            <marker date="1511890474567" expanded="true" signature="149089:152085" ph="(defmacro fn ...)" />
+            <marker date="1511890474567" expanded="true" signature="152087:153143" ph="(defmacro loop ...)" />
+            <marker date="1511890474567" expanded="true" signature="153145:153556" ph="(defmacro when-first ...)" />
+            <marker date="1511890474567" expanded="true" signature="153558:153883" ph="(defmacro lazy-cat ...)" />
+            <marker date="1511890474567" expanded="true" signature="153885:158337" ph="(defmacro for ...)" />
+            <marker date="1511890474567" expanded="true" signature="158339:158414" ph="(defmacro comment ...)" />
+            <marker date="1511890474567" expanded="true" signature="158416:158741" ph="(defmacro with-out-str ...)" />
+            <marker date="1511890474567" expanded="true" signature="158743:159112" ph="(defmacro with-in-str ...)" />
+            <marker date="1511890474567" expanded="true" signature="159114:159255" ph="(defn pr-str ...)" />
+            <marker date="1511890474567" expanded="true" signature="159257:159397" ph="(defn prn-str ...)" />
+            <marker date="1511890474567" expanded="true" signature="159399:159549" ph="(defn print-str ...)" />
+            <marker date="1511890474567" expanded="true" signature="159551:159707" ph="(defn println-str ...)" />
+            <marker date="1511890474567" expanded="true" signature="159773:160015" ph="(defn ex-info ...)" />
+            <marker date="1511890474567" expanded="true" signature="160017:160217" ph="(defn ex-data ...)" />
+            <marker date="1511890474567" expanded="true" signature="160219:160647" ph="(defmacro assert ...)" />
+            <marker date="1511890474567" expanded="true" signature="160677:160899" ph="(defn test ...)" />
+            <marker date="1511890474567" expanded="true" signature="160986:161389" ph="(defn re-pattern ...)" />
+            <marker date="1511890474567" expanded="true" signature="161458:161832" ph="(defn re-matcher ...)" />
+            <marker date="1511890474567" expanded="true" signature="161894:162478" ph="(defn re-groups ...)" />
+            <marker date="1511890474567" expanded="true" signature="162480:162906" ph="(defn re-seq ...)" />
+            <marker date="1511890474567" expanded="true" signature="162908:163277" ph="(defn re-matches ...)" />
+            <marker date="1511890474567" expanded="true" signature="163280:163761" ph="(defn re-find ...)" />
+            <marker date="1511890474567" expanded="true" signature="163763:164004" ph="(defn rand ...)" />
+            <marker date="1511890474567" expanded="true" signature="164006:164145" ph="(defn rand-int ...)" />
+            <marker date="1511890474567" expanded="true" signature="164147:164314" ph="(defmacro defn- ...)" />
+            <marker date="1511890474567" expanded="true" signature="164316:164955" ph="(defn tree-seq ...)" />
+            <marker date="1511890474567" expanded="true" signature="164957:165318" ph="(defn file-seq ...)" />
+            <marker date="1511890474567" expanded="true" signature="165320:165504" ph="(defn xml-seq ...)" />
+            <marker date="1511890474567" expanded="true" signature="165506:165663" ph="(defn special-symbol? ...)" />
+            <marker date="1511890474567" expanded="true" signature="165665:165796" ph="(defn var? ...)" />
+            <marker date="1511890474567" expanded="true" signature="165798:166141" ph="(defn subs ...)" />
+            <marker date="1511890474567" expanded="true" signature="166218:166444" ph="(defn max-key ...)" />
+            <marker date="1511890474567" expanded="true" signature="166446:166669" ph="(defn min-key ...)" />
+            <marker date="1511890474567" expanded="true" signature="166671:167505" ph="(defn distinct ...)" />
+            <marker date="1511890474567" expanded="true" signature="167509:168120" ph="(defn replace ...)" />
+            <marker date="1511890474567" expanded="true" signature="168122:168515" ph="(defmacro dosync ...)" />
+            <marker date="1511890474567" expanded="true" signature="168517:169338" ph="(defmacro with-precision ...)" />
+            <marker date="1511890474567" expanded="true" signature="169341:169489" ph="(defn mk-bound-fn ...)" />
+            <marker date="1511890474567" expanded="true" signature="169491:170210" ph="(defn subseq ...)" />
+            <marker date="1511890474567" expanded="true" signature="170212:170941" ph="(defn rsubseq ...)" />
+            <marker date="1511890474567" expanded="true" signature="170943:171219" ph="(defn repeatedly ...)" />
+            <marker date="1511890474567" expanded="true" signature="171541:171805" ph="(defn hash ...)" />
+            <marker date="1511890474567" expanded="true" signature="171808:172276" ph="(defn mix-collection-hash ...)" />
+            <marker date="1511890474567" expanded="true" signature="172297:172586" ph="(defn hash-ordered-coll ...)" />
+            <marker date="1511890474567" expanded="true" signature="172636:173041" ph="(defn hash-unordered-coll ...)" />
+            <marker date="1511890474567" expanded="true" signature="173092:173718" ph="(defn interpose ...)" />
+            <marker date="1511890474567" expanded="true" signature="173720:174220" ph="(defmacro definline ...)" />
+            <marker date="1511890474567" expanded="true" signature="174229:174467" ph="(defn empty ...)" />
+            <marker date="1511890474567" expanded="true" signature="174469:174944" ph="(defmacro amap ...)" />
+            <marker date="1511890474567" expanded="true" signature="174946:175349" ph="(defmacro areduce ...)" />
+            <marker date="1511890474567" expanded="true" signature="175351:175665" ph="(defn float-array ...)" />
+            <marker date="1511890474567" expanded="true" signature="175667:175991" ph="(defn boolean-array ...)" />
+            <marker date="1511890474567" expanded="true" signature="175993:176302" ph="(defn byte-array ...)" />
+            <marker date="1511890474567" expanded="true" signature="176304:176613" ph="(defn char-array ...)" />
+            <marker date="1511890474567" expanded="true" signature="176615:176929" ph="(defn short-array ...)" />
+            <marker date="1511890474567" expanded="true" signature="176931:177250" ph="(defn double-array ...)" />
+            <marker date="1511890474567" expanded="true" signature="177252:177468" ph="(defn object-array ...)" />
+            <marker date="1511890474567" expanded="true" signature="177470:177774" ph="(defn int-array ...)" />
+            <marker date="1511890474567" expanded="true" signature="177776:178085" ph="(defn long-array ...)" />
+            <marker date="1511890474567" expanded="true" signature="178087:178193" ph="(definline booleans ...)" />
+            <marker date="1511890474567" expanded="true" signature="178195:178293" ph="(definline bytes ...)" />
+            <marker date="1511890474567" expanded="true" signature="178295:178393" ph="(definline chars ...)" />
+            <marker date="1511890474567" expanded="true" signature="178395:178496" ph="(definline shorts ...)" />
+            <marker date="1511890474567" expanded="true" signature="178498:178598" ph="(definline floats ...)" />
+            <marker date="1511890474567" expanded="true" signature="178600:178694" ph="(definline ints ...)" />
+            <marker date="1511890474567" expanded="true" signature="178696:178799" ph="(definline doubles ...)" />
+            <marker date="1511890474567" expanded="true" signature="178801:178898" ph="(definline longs ...)" />
+            <marker date="1511890474567" expanded="true" signature="181071:181188" ph="(defn class? ...)" />
+            <marker date="1511890474567" expanded="true" signature="183514:183722" ph="(defn alter-var-root ...)" />
+            <marker date="1511890474567" expanded="true" signature="183724:184027" ph="(defn bound? ...)" />
+            <marker date="1511890474567" expanded="true" signature="184029:184332" ph="(defn thread-bound? ...)" />
+            <marker date="1511890474567" expanded="true" signature="184334:184499" ph="(defn make-hierarchy ...)" />
+            <marker date="1511890474567" expanded="true" signature="184501:184562" ph="(def global-hierarchy ...)" />
+            <marker date="1511890474567" expanded="true" signature="184564:184690" ph="(defn not-empty ...)" />
+            <marker date="1511890474567" expanded="true" signature="184692:185071" ph="(defn bases ...)" />
+            <marker date="1511890474567" expanded="true" signature="185073:185442" ph="(defn supers ...)" />
+            <marker date="1511890474567" expanded="true" signature="185444:186402" ph="(defn isa? ...)" />
+            <marker date="1511890474567" expanded="true" signature="186404:186881" ph="(defn parents ...)" />
+            <marker date="1511890474567" expanded="true" signature="186883:187536" ph="(defn ancestors ...)" />
+            <marker date="1511890474567" expanded="true" signature="187556:188149" ph="(defn descendants ...)" />
+            <marker date="1511890474567" expanded="true" signature="188169:189765" ph="(defn derive ...)" />
+            <marker date="1511890474567" expanded="true" signature="189786:190577" ph="(defn underive ...)" />
+            <marker date="1511890474567" expanded="true" signature="190580:190934" ph="(defn distinct? ...)" />
+            <marker date="1511890474567" expanded="true" signature="191844:192215" ph="(defn iterator-seq ...)" />
+            <marker date="1511890474567" expanded="true" signature="192289:192435" ph="(defn enumeration-seq ...)" />
+            <marker date="1511890474567" expanded="true" signature="192460:192683" ph="(defn format ...)" />
+            <marker date="1511890474567" expanded="true" signature="192732:192870" ph="(defn printf ...)" />
+            <marker date="1511890474567" expanded="true" signature="192923:193286" ph="(defmacro with-loading-context ...)" />
+            <marker date="1511890474567" expanded="true" signature="193288:196133" ph="(defmacro ns ...)" />
+            <marker date="1511890474567" expanded="true" signature="196135:196284" ph="(defmacro refer-clojure ...)" />
+            <marker date="1511890474567" expanded="true" signature="196287:196530" ph="(defmacro defonce ...)" />
+            <marker date="1511890474567" expanded="true" signature="196616:196762" ph="(defonce *loaded-libs* ...)" />
+            <marker date="1511890474567" expanded="true" signature="196764:196891" ph="(defonce *pending-paths* ...)" />
+            <marker date="1511890474567" expanded="true" signature="196893:197009" ph="(defonce *loading-verbosely* ...)" />
+            <marker date="1511890474567" expanded="true" signature="197011:197905" ph="(defn- throw-if ...)" />
+            <marker date="1511890474567" expanded="true" signature="197907:198087" ph="(defn- libspec? ...)" />
+            <marker date="1511890474567" expanded="true" signature="198089:198213" ph="(defn- prependss ...)" />
+            <marker date="1511890474567" expanded="true" signature="198215:198412" ph="(defn- root-resource ...)" />
+            <marker date="1511890474567" expanded="true" signature="198429:198572" ph="(defn- root-directory ...)" />
+            <marker date="1511890474567" expanded="true" signature="198624:199078" ph="(defn- load-one ...)" />
+            <marker date="1511890474567" expanded="true" signature="199080:199551" ph="(defn- load-all ...)" />
+            <marker date="1511890474567" expanded="true" signature="199553:201275" ph="(defn- load-lib ...)" />
+            <marker date="1511890474567" expanded="true" signature="201277:202219" ph="(defn- load-libs ...)" />
+            <marker date="1511890474567" expanded="true" signature="202221:202814" ph="(defn- check-cyclic-dependency ...)" />
+            <marker date="1511890474567" expanded="true" signature="202827:205486" ph="(defn require ...)" />
+            <marker date="1511890474567" expanded="true" signature="205488:205913" ph="(defn use ...)" />
+            <marker date="1511890474567" expanded="true" signature="205915:206039" ph="(defn loaded-libs ...)" />
+            <marker date="1511890474567" expanded="true" signature="206041:206802" ph="(defn load ...)" />
+            <marker date="1511890474567" expanded="true" signature="206825:207214" ph="(defn compile ...)" />
+            <marker date="1511890474567" expanded="true" signature="207266:207789" ph="(defn get-in ...)" />
+            <marker date="1511890474567" expanded="true" signature="207791:208133" ph="(defn assoc-in ...)" />
+            <marker date="1511890474567" expanded="true" signature="208135:208603" ph="(defn update-in ...)" />
+            <marker date="1511890474567" expanded="true" signature="208605:209170" ph="(defn update ...)" />
+            <marker date="1511890474567" expanded="true" signature="209172:209370" ph="(defn empty? ...)" />
+            <marker date="1511890474567" expanded="true" signature="209372:209527" ph="(defn coll? ...)" />
+            <marker date="1511890474567" expanded="true" signature="209529:209672" ph="(defn list? ...)" />
+            <marker date="1511890474567" expanded="true" signature="209674:209861" ph="(defn ifn? ...)" />
+            <marker date="1511890474567" expanded="true" signature="209865:210015" ph="(defn fn? ...)" />
+            <marker date="1511890474567" expanded="true" signature="210025:210175" ph="(defn associative? ...)" />
+            <marker date="1511890474567" expanded="true" signature="210177:210324" ph="(defn sequential? ...)" />
+            <marker date="1511890474567" expanded="true" signature="210326:210461" ph="(defn sorted? ...)" />
+            <marker date="1511890474567" expanded="true" signature="210463:210616" ph="(defn counted? ...)" />
+            <marker date="1511890474567" expanded="true" signature="210618:210765" ph="(defn reversible? ...)" />
+            <marker date="1511890474567" expanded="true" signature="210767:210927" ph="(defn indexed? ...)" />
+            <marker date="1511890474567" expanded="true" signature="210929:211032" ph="(def *1 ...)" />
+            <marker date="1511890474567" expanded="true" signature="211034:211144" ph="(def *2 ...)" />
+            <marker date="1511890474567" expanded="true" signature="211146:211255" ph="(def *3 ...)" />
+            <marker date="1511890474567" expanded="true" signature="211257:211375" ph="(def *e ...)" />
+            <marker date="1511890474567" expanded="true" signature="211377:211992" ph="(defn trampoline ...)" />
+            <marker date="1511890474567" expanded="true" signature="211994:212596" ph="(defn intern ...)" />
+            <marker date="1511890474567" expanded="true" signature="212598:212844" ph="(defmacro while ...)" />
+            <marker date="1511890474567" expanded="true" signature="212846:213369" ph="(defn memoize ...)" />
+            <marker date="1511890474567" expanded="true" signature="213371:215001" ph="(defmacro condp ...)" />
+            <marker date="1511890474567" expanded="true" signature="215214:215344" ph="(defmacro add-doc-and-meta ...)" />
+            <marker date="1511890474567" expanded="true" signature="215346:215513" ph="(add-doc-and-meta *file* ...)" />
+            <marker date="1511890474567" expanded="true" signature="215515:215656" ph="(add-doc-and-meta *command-line-args* ...)" />
+            <marker date="1511890474567" expanded="true" signature="215658:215866" ph="(add-doc-and-meta *warn-on-reflection* ...)" />
+            <marker date="1511890474567" expanded="true" signature="215868:216085" ph="(add-doc-and-meta *compile-path* ...)" />
+            <marker date="1511890474567" expanded="true" signature="216087:216193" ph="(add-doc-and-meta *compile-files* ...)" />
+            <marker date="1511890474567" expanded="true" signature="216195:216497" ph="(add-doc-and-meta *unchecked-math* ...)" />
+            <marker date="1511890474567" expanded="true" signature="216499:216870" ph="(add-doc-and-meta *compiler-options* ...)" />
+            <marker date="1511890474567" expanded="true" signature="216872:216984" ph="(add-doc-and-meta *ns* ...)" />
+            <marker date="1511890474567" expanded="true" signature="216986:217170" ph="(add-doc-and-meta *in* ...)" />
+            <marker date="1511890474567" expanded="true" signature="217172:217352" ph="(add-doc-and-meta *out* ...)" />
+            <marker date="1511890474567" expanded="true" signature="217354:217525" ph="(add-doc-and-meta *err* ...)" />
+            <marker date="1511890474567" expanded="true" signature="217527:217678" ph="(add-doc-and-meta *flush-on-newline* ...)" />
+            <marker date="1511890474567" expanded="true" signature="217680:217886" ph="(add-doc-and-meta *print-meta* ...)" />
+            <marker date="1511890474567" expanded="true" signature="217888:218068" ph="(add-doc-and-meta *print-dup* ...)" />
+            <marker date="1511890474567" expanded="true" signature="218070:218294" ph="(add-doc-and-meta *print-readably* ...)" />
+            <marker date="1511890474567" expanded="true" signature="218296:219474" ph="(add-doc-and-meta *read-eval* ...)" />
+            <marker date="1511890474567" expanded="true" signature="219476:219597" ph="(defn future? ...)" />
+            <marker date="1511890474567" expanded="true" signature="219640:219768" ph="(defn future-done? ...)" />
+            <marker date="1511890474567" expanded="true" signature="219813:220346" ph="(defmacro letfn ...)" />
+            <marker date="1511890474567" expanded="true" signature="220348:221328" ph="(defn fnil ...)" />
+            <marker date="1511890474567" expanded="true" signature="221358:221439" ph="(defn- shift-mask ...)" />
+            <marker date="1511890474567" expanded="true" signature="221546:221912" ph="(defn- maybe-min-hash ...)" />
+            <marker date="1511890474567" expanded="true" signature="221914:222303" ph="(defn- case-map ...)" />
+            <marker date="1511890474567" expanded="true" signature="222305:222515" ph="(defn- fits-table? ...)" />
+            <marker date="1511890474567" expanded="true" signature="222517:223260" ph="(defn- prep-ints ...)" />
+            <marker date="1511890474567" expanded="true" signature="223262:224857" ph="(defn- merge-hash-collisions ...)" />
+            <marker date="1511890474567" expanded="true" signature="224859:226384" ph="(defn- prep-hashes ...)" />
+            <marker date="1511890474567" expanded="true" signature="226387:229457" ph="(defmacro case ...)" />
+            <marker date="1511890474567" expanded="true" signature="229706:230041" ph="(defn seqable? ...)" />
+            <marker date="1511890474567" expanded="true" signature="230179:230217" ph="(defprotocol Inst ...)" />
+            <marker date="1511890474567" expanded="true" signature="230219:230705" ph="(extend-protocol Inst ...)" />
+            <marker date="1511890474567" expanded="true" signature="230707:230839" ph="(defn inst-ms ...)" />
+            <marker date="1511890474567" expanded="true" signature="230841:230934" ph="(defn inst? ...)" />
+            <marker date="1511890474567" expanded="true" signature="230951:231907" ph="(defn reduce ...)" />
+            <marker date="1511890474567" expanded="true" signature="231909:232208" ph="(extend-protocol clojure.core.protocols/IKVReduce ...)" />
+            <marker date="1511890474567" expanded="true" signature="232210:232696" ph="(defn reduce-kv ...)" />
+            <marker date="1511890474567" expanded="true" signature="232698:233020" ph="(defn completing ...)" />
+            <marker date="1511890474567" expanded="true" signature="233022:233873" ph="(defn transduce ...)" />
+            <marker date="1511890474567" expanded="true" signature="233875:234424" ph="(defn into ...)" />
+            <marker date="1511890474567" expanded="true" signature="234426:235045" ph="(defn mapv ...)" />
+            <marker date="1511890474567" expanded="true" signature="235047:235344" ph="(defn filterv ...)" />
+            <marker date="1511890474567" expanded="true" signature="235460:235740" ph="(defn- normalize-slurp-opts ...)" />
+            <marker date="1511890474567" expanded="true" signature="235742:236329" ph="(defn slurp ...)" />
+            <marker date="1511890474567" expanded="true" signature="236400:236719" ph="(defn spit ...)" />
+            <marker date="1511890474567" expanded="true" signature="236858:237315" ph="(defn future-call ...)" />
+            <marker date="1511890474567" expanded="true" signature="237963:238386" ph="(defmacro future ...)" />
+            <marker date="1511890474567" expanded="true" signature="238389:238523" ph="(defn future-cancel ...)" />
+            <marker date="1511890474567" expanded="true" signature="238560:238703" ph="(defn future-cancelled? ...)" />
+            <marker date="1511890474567" expanded="true" signature="238740:239749" ph="(defn pmap ...)" />
+            <marker date="1511890474567" expanded="true" signature="239751:239909" ph="(defn pcalls ...)" />
+            <marker date="1511890474567" expanded="true" signature="239911:240108" ph="(defmacro pvalues ...)" />
+            <marker date="1511890474567" expanded="true" signature="240234:241734" ph="(let ...)" />
+            <marker date="1511890474567" expanded="true" signature="241742:242089" ph="(add-doc-and-meta *clojure-version* ...)" />
+            <marker date="1511890474567" expanded="true" signature="242097:242513" ph="(defn clojure-version ...)" />
+            <marker date="1511890474567" expanded="true" signature="242515:243634" ph="(defn promise ...)" />
+            <marker date="1511890474567" expanded="true" signature="243644:243866" ph="(defn deliver ...)" />
+            <marker date="1511890474567" expanded="true" signature="243880:244192" ph="(defn flatten ...)" />
+            <marker date="1511890474567" expanded="true" signature="244194:244588" ph="(defn group-by ...)" />
+            <marker date="1511890474567" expanded="true" signature="244590:246446" ph="(defn partition-by ...)" />
+            <marker date="1511890474567" expanded="true" signature="246448:246721" ph="(defn frequencies ...)" />
+            <marker date="1511890474567" expanded="true" signature="246723:247202" ph="(defn reductions ...)" />
+            <marker date="1511890474567" expanded="true" signature="247204:247442" ph="(defn rand-nth ...)" />
+            <marker date="1511890474567" expanded="true" signature="247444:249039" ph="(defn partition-all ...)" />
+            <marker date="1511890474567" expanded="true" signature="249041:249464" ph="(defn shuffle ...)" />
+            <marker date="1511890474567" expanded="true" signature="249501:250654" ph="(defn map-indexed ...)" />
+            <marker date="1511890474567" expanded="true" signature="250656:251618" ph="(defn keep ...)" />
+            <marker date="1511890474567" expanded="true" signature="251620:252972" ph="(defn keep-indexed ...)" />
+            <marker date="1511890474567" expanded="true" signature="252974:253274" ph="(defn bounded-count ...)" />
+            <marker date="1511890474567" expanded="true" signature="253276:255018" ph="(defn every-pred ...)" />
+            <marker date="1511890474567" expanded="true" signature="255020:256565" ph="(defn some-fn ...)" />
+            <marker date="1511890474567" expanded="true" signature="256567:257726" ph="(defn- assert-valid-fdecl ...)" />
+            <marker date="1511890474567" expanded="true" signature="257728:258516" ph="(defn with-redefs-fn ...)" />
+            <marker date="1511890474567" expanded="true" signature="258518:259172" ph="(defmacro with-redefs ...)" />
+            <marker date="1511890474567" expanded="true" signature="259174:259345" ph="(defn realized? ...)" />
+            <marker date="1511890474567" expanded="true" signature="259347:259968" ph="(defmacro cond-&gt; ...)" />
+            <marker date="1511890474567" expanded="true" signature="259970:260596" ph="(defmacro cond-&gt;&gt; ...)" />
+            <marker date="1511890474567" expanded="true" signature="260598:260989" ph="(defmacro as-&gt; ...)" />
+            <marker date="1511890474567" expanded="true" signature="260991:261415" ph="(defmacro some-&gt; ...)" />
+            <marker date="1511890474567" expanded="true" signature="261417:261844" ph="(defmacro some-&gt;&gt; ...)" />
+            <marker date="1511890474567" expanded="true" signature="261846:261971" ph="(defn preserving-reduced ...)" />
+            <marker date="1511890474567" expanded="true" signature="261973:262273" ph="(defn cat ...)" />
+            <marker date="1511890474567" expanded="true" signature="262275:262764" ph="(defn dedupe ...)" />
+            <marker date="1511890474567" expanded="true" signature="262766:263042" ph="(defn random-sample ...)" />
+            <marker date="1511890474567" expanded="true" signature="263044:263628" ph="(deftype Eduction ...)" />
+            <marker date="1511890474567" expanded="true" signature="263630:263999" ph="(defn eduction ...)" />
+            <marker date="1511890474567" expanded="true" signature="264001:264203" ph="(defmethod print-method ...)" />
+            <marker date="1511890474567" expanded="true" signature="264205:264413" ph="(defn run! ...)" />
+            <marker date="1511890474567" expanded="true" signature="264418:264590" ph="(defn tagged-literal? ...)" />
+            <marker date="1511890474567" expanded="true" signature="264592:264799" ph="(defn tagged-literal ...)" />
+            <marker date="1511890474567" expanded="true" signature="264801:264985" ph="(defn reader-conditional? ...)" />
+            <marker date="1511890474567" expanded="true" signature="264987:265292" ph="(defn reader-conditional ...)" />
+            <marker date="1511890474567" expanded="true" signature="265364:265656" ph="(def default-data-readers ...)" />
+            <marker date="1511890474567" expanded="true" signature="265674:266780" ph="(def *data-readers* ...)" />
+            <marker date="1511890474567" expanded="true" signature="266782:267100" ph="(def *default-data-reader-fn* ...)" />
+            <marker date="1511890474567" expanded="true" signature="267102:267657" ph="(defn- data-reader-urls ...)" />
+            <marker date="1511890474567" expanded="true" signature="267708:267815" ph="(defn- data-reader-var ...)" />
+            <marker date="1511890474567" expanded="true" signature="267817:269520" ph="(defn- load-data-reader-file ...)" />
+            <marker date="1511890474567" expanded="true" signature="269522:269727" ph="(defn- load-data-readers ...)" />
+            <marker date="1511890474567" expanded="true" signature="269729:269972" ph="(try ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/osc.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <marker date="1522265679526" expanded="true" signature="0:32" ph="(ns osc ...)" />
+            <marker date="1522265679526" expanded="true" signature="198:450" ph="(defn send ...)" />
+            <marker date="1522265679526" expanded="true" signature="452:618" ph="(defn listen ...)" />
+            <marker date="1522265679526" expanded="true" signature="620:773" ph="(comment ...)" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/music_live_compose.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="54" />
+          <folding>
+            <marker date="1522187705989" expanded="true" signature="0:145" ph="(ns music-live-compose ...)" />
+            <marker date="1522187705989" expanded="true" signature="231:329" ph="(defn send-chord ...)" />
+            <marker date="1522187705989" expanded="true" signature="331:445" ph="(comment ...)" />
+            <marker date="1522187705989" expanded="true" signature="447:772" ph="(defn queue-note ...)" />
+            <marker date="1522187705989" expanded="true" signature="774:989" ph="(defn queue-chord ...)" />
+            <marker date="1522187705989" expanded="true" signature="992:1157" ph="(defn queue-fn ...)" />
+            <marker date="1522187705989" expanded="true" signature="1210:1360" ph="(defn diatonic-scale-cycle-up ...)" />
+            <marker date="1522187705989" expanded="true" signature="1362:1534" ph="(defn diatonic-scale-cycle-dn ...)" />
+            <marker date="1522187705989" expanded="true" signature="1536:1570" ph="(defn bpm-&gt;dur ...)" />
+            <marker date="1522187705989" expanded="true" signature="1572:2054" ph="(defn pattern ...)" />
+            <marker date="1522187705989" expanded="true" signature="2056:2417" ph="(defn diatonic-pattern ...)" />
+            <marker date="1522187705989" expanded="true" signature="2419:2524" ph="(defn repeat-queue ...)" />
+            <marker date="1522187705989" expanded="true" signature="2526:2642" ph="(defn repeater ...)" />
+            <marker date="1522187705989" expanded="true" signature="2687:5041" ph="(comment ...)" />
+            <marker date="1522187705989" expanded="true" signature="5046:5539" ph="(defn chord-cycle ...)" />
+            <marker date="1522187705989" expanded="true" signature="5543:5984" ph="(defn range-exercise-diatonic ...)" />
+            <marker date="1522187705989" expanded="true" signature="5986:6480" ph="(defn queue-range-exercises-diatonic ...)" />
+            <marker date="1522187705989" expanded="true" signature="6484:7179" ph="(comment ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/music_notation.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="437" column="24" lean-forward="true" selection-start-line="437" selection-start-column="24" selection-end-line="437" selection-end-column="24" />
+          <folding>
+            <marker date="1522268137256" expanded="true" signature="0:226" ph="(ns music-notation ...)" />
+            <marker date="1522268137256" expanded="true" signature="228:981" ph="(def lexicon ...)" />
+            <marker date="1522268137256" expanded="true" signature="1077:1244" ph="(defn- note-&gt;pitch-class-b-bias ...)" />
+            <marker date="1522268137256" expanded="true" signature="1246:1414" ph="(defn- note-&gt;pitch-class-##-bias ...)" />
+            <marker date="1522268137256" expanded="true" signature="1416:1601" ph="(defn- octave-of-note ...)" />
+            <marker date="1522268137256" expanded="true" signature="1603:1824" ph="(defn- notes-in-key ...)" />
+            <marker date="1522268137256" expanded="true" signature="1826:1902" ph="(def notes-in-c ...)" />
+            <marker date="1522268137256" expanded="true" signature="1998:2354" ph="(defn- pitch-&gt;data ...)" />
+            <marker date="1522268137256" expanded="true" signature="2356:2559" ph="(defn- strip-octave ...)" />
+            <marker date="1522268137256" expanded="true" signature="2561:2703" ph="(defn- strip-accidental ...)" />
+            <marker date="1522268137256" expanded="true" signature="2705:2873" ph="(defn- extract-accidental ...)" />
+            <marker date="1522268137256" expanded="true" signature="2879:8029" ph="(def keys-data ...)" />
+            <marker date="1522268137256" expanded="true" signature="8032:8160" ph="(defn- spell-note ...)" />
+            <marker date="1522268137256" expanded="true" signature="8163:8516" ph="(def natural-pitch-&gt;staff-y ...)" />
+            <marker date="1522268137256" expanded="true" signature="8608:8848" ph="(def game-objects ...)" />
+            <marker date="1522268137256" expanded="true" signature="8850:9050" ph="(defn- game-objects+ ...)" />
+            <marker date="1522268137256" expanded="true" signature="9052:9346" ph="(defn- game-objects- ...)" />
+            <marker date="1522268137256" expanded="true" signature="9348:9587" ph="(defn- game-objects-clear ...)" />
+            <marker date="1522268137256" expanded="true" signature="9589:10206" ph="(defn- +glyph ...)" />
+            <marker date="1522268137256" expanded="true" signature="10548:10643" ph="(defn- +staff ...)" />
+            <marker date="1522268137256" expanded="true" signature="10645:11171" ph="(defn- +grand-staff ...)" />
+            <marker date="1522268137256" expanded="true" signature="11173:11921" ph="(defn- +keysig ...)" />
+            <marker date="1522268137256" expanded="true" signature="11923:11972" ph="(defn- +keysig-treble ...)" />
+            <marker date="1522268137256" expanded="true" signature="11974:12023" ph="(defn- +keysig-bass ...)" />
+            <marker date="1522268137256" expanded="true" signature="12025:12210" ph="(defn- +keysig-grand ...)" />
+            <marker date="1522268137256" expanded="true" signature="12212:12828" ph="(defn- +time-signature ...)" />
+            <marker date="1522268137256" expanded="true" signature="12830:12955" ph="(defn +bar ...)" />
+            <marker date="1522268137256" expanded="true" signature="12957:13092" ph="(def x0 ...)" />
+            <marker date="1522268137256" expanded="true" signature="13094:13194" ph="(defn- +zero-line ...)" />
+            <marker date="1522268137256" expanded="true" signature="13196:15229" ph="(defn- +note-raw ...)" />
+            <marker date="1522268137256" expanded="true" signature="15231:15332" ph="(def s ...)" />
+            <marker date="1522268137256" expanded="true" signature="15385:15987" ph="(defn +note ...)" />
+            <marker date="1522268137256" expanded="true" signature="15989:16077" ph="(defn -note ...)" />
+            <marker date="1522268137256" expanded="true" signature="16079:16160" ph="(defn clear-notes ...)" />
+            <marker date="1522268137256" expanded="true" signature="16163:16321" ph="(defn set-played-notes! ...)" />
+            <marker date="1522268137256" expanded="true" signature="16323:16444" ph="(defn set-keysig! ...)" />
+            <marker date="1522268137256" expanded="true" signature="16570:16708" ph="(defn set-timesig! ...)" />
+            <marker date="1522268137256" expanded="true" signature="16711:16772" ph="(do ...)" />
+            <marker date="1522268137256" expanded="true" signature="16774:16985" ph="(comment ...)" />
+            <marker date="1522268137256" expanded="true" signature="16988:17161" ph="(comment ...)" />
+            <marker date="1522268137256" expanded="true" signature="17163:17777" ph="(comment ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scheduler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1522274759206" expanded="true" signature="0:116" ph="(ns scheduler ...)" />
+            <marker date="1522274759206" expanded="true" signature="118:252" ph="(def s ...)" />
+            <marker date="1522274759206" expanded="true" signature="307:386" ph="(defn now ...)" />
+            <marker date="1522274759206" expanded="true" signature="541:611" ph="(defn start ...)" />
+            <marker date="1522274759206" expanded="true" signature="674:781" ph="(defn as-set ...)" />
+            <marker date="1522274759206" expanded="true" signature="853:964" ph="(defn queue+ ...)" />
+            <marker date="1522274759206" expanded="true" signature="966:1076" ph="(defn queue- ...)" />
+            <marker date="1522274759206" expanded="true" signature="1079:1186" ph="(defn active+ ...)" />
+            <marker date="1522274759206" expanded="true" signature="1188:1301" ph="(defn active- ...)" />
+            <marker date="1522274759206" expanded="true" signature="1304:1401" ph="(defn past+ ...)" />
+            <marker date="1522274759206" expanded="true" signature="1403:1510" ph="(defn past- ...)" />
+            <marker date="1522274759206" expanded="true" signature="1513:1601" ph="(defn evt-started? ...)" />
+            <marker date="1522274759206" expanded="true" signature="1603:1707" ph="(defn evt-ended? ...)" />
+            <marker date="1522274759206" expanded="true" signature="1709:1853" ph="(defn evt-ready? ...)" />
+            <marker date="1522274759206" expanded="true" signature="1856:2121" ph="(defn dequeue-missed-evts ...)" />
+            <marker date="1522274759206" expanded="true" signature="2123:2391" ph="(defn activate-ready-evts ...)" />
+            <marker date="1522274759206" expanded="true" signature="2393:2635" ph="(defn deactivate-past-evts ...)" />
+            <marker date="1522274759206" expanded="true" signature="2637:2803" ph="(defn update-queued-evts ...)" />
+            <marker date="1522274759206" expanded="true" signature="2805:2972" ph="(defn update-active-evts ...)" />
+            <marker date="1522274759206" expanded="true" signature="2974:3122" ph="(defn game-loop ...)" />
+            <marker date="1522274759206" expanded="true" signature="3209:3326" ph="(if-not ...)" />
+            <marker date="1522274759206" expanded="true" signature="3395:3651" ph="(defn loop-queue ...)" />
+            <marker date="1522274759206" expanded="true" signature="3667:3942" ph="(queue+ ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SixenseInput/Scripts/SixenseInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="204" column="42" lean-forward="false" selection-start-line="204" selection-start-column="29" selection-end-line="204" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/theremin.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="102" lean-forward="true" selection-start-line="31" selection-start-column="102" selection-end-line="31" selection-end-column="102" />
+          <folding>
+            <marker date="1522276158283" expanded="true" signature="0:140" ph="(ns theremin ...)" />
+            <marker date="1522276158283" expanded="true" signature="422:563" ph="(defn is-docked ...)" />
+            <marker date="1522276158283" expanded="true" signature="678:984" ph="(defn send-state ...)" />
+            <marker date="1522276158283" expanded="true" signature="988:1032" ph="(defn game-loop ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/music_sight_reading.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding />
         </state>
       </provider>

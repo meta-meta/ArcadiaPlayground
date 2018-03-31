@@ -352,6 +352,12 @@
     <Compile Include="Assets\OSC simpl\Base\OscTimeTag.cs" />
     <Compile Include="Assets\OSC simpl\OscIn.cs" />
     <Compile Include="Assets\OSC simpl\OscOut.cs" />
+    <Compile Include="Assets\SixenseInput\DemoScenes\Scripts\SixenseHand.cs" />
+    <Compile Include="Assets\SixenseInput\DemoScenes\Scripts\SixenseHandsController.cs" />
+    <Compile Include="Assets\SixenseInput\DemoScenes\Scripts\SixenseInputTest.cs" />
+    <Compile Include="Assets\SixenseInput\DemoScenes\Scripts\SixenseObjectController.cs" />
+    <Compile Include="Assets\SixenseInput\Scripts\SixenseInput.cs" />
+    <Compile Include="Assets\SixenseInput\Scripts\SixensePlugin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Arcadia\Infrastructure\certdata.txt" />

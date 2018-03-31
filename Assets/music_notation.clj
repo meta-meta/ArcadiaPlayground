@@ -419,6 +419,7 @@
               :time-signature [3 4]
               }))
 
+; TODO: note 0 produces "no matching clause" error
 (defn +note
   "creates a note spelled and positioned on the staff. returns the GameObject containing the glyphs for the note"
   ([note t category]
@@ -437,7 +438,6 @@
                 category
                 )))
   ([note t] (+note note t :notes)))
-
 
 (defn -note
   "removes note from registry and scene"

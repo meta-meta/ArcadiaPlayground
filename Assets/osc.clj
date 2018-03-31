@@ -11,6 +11,7 @@
   (let [msg (cond
               (coll? msg) (to-array (map int msg)) ; TODO other types in array
               (int? msg) (int msg)
+              (float? msg) (float msg)
               :else msg)]
     (. osc-out (Send addr msg))))
 
