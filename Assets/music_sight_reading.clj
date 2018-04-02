@@ -49,16 +49,21 @@
 
 (defn queue-event
   "queues an event"
-  [t note duration]
-  (let [go (+note note t)
+  [t duration note]
+  (let [go (if (= note :r) (GameObject.) ;TODO: +rest
+                           (+note note t))
         t0 (+ (elapsed) t)]
     (queue+ {
              :t0            t0
              :duration      1
-             :start         #()
-             :end           #(-note go)
-             :update-queued #(update-queued note go t0)
-             :update-active #(update-active note go t0)
+             :start         #(do
+                               (when (not= note :r) (send-note note 63))
+                               )
+             :end           #(do
+                               (when (not= note :r) (send-note note 0))
+                               (-note go))
+             :update-queued (if (= note :r) #() #(update-queued note go t0))
+             :update-active (if (= note :r) #() #(update-active note go t0))
              }))
   nil)
 
@@ -74,9 +79,30 @@
 
 (comment
 
+  (defn key->keyword [n] (nth [:c :db :d :eb :e :f :gb :g :ab :a :bb :b]
+                              n))
   (set-keysig! :c)
 
-  (doall (map (fn [n t] (queue-event (+ 1 t) n 1))
+  (queue-program
+    (->> keys-by-fourths
+         (map (fn [key]
+                (->> (range 1 7)
+                     (map (fn [step]
+                            (fn []
+                              (set-keysig! (key->keyword key))
+                              (queue-pattern
+                                (concat [:r] (range-exercise-diatonic (+ 48 key) 48 84 step))
+                                (clojure.core/repeat 1)
+                                60
+                                queue-event))
+                            )))))
+         (apply concat)))
+
+  (clear)
+
+
+
+  (doall (map (fn [n t] (queue-event (+ 1 t) 1 n))
               (concat
                 (range-exercise-diatonic 60 48 72 1)
                 (range-exercise-diatonic 60 48 72 2 0)
@@ -94,6 +120,27 @@
   (clear)
 
   (set-keysig! :db)
+
+
+  (def perf-state (atom {
+                         :history [1 4 3 4 1]
+                         :exercises {
+                                    :ex-c [0]
+                                    :ex-b [0.2 0.4 0.22 0.32 0.30]
+                                    }
+                         }))
+
+  (def stringified (pr-str @perf-state))
+  (read-string stringified)
+  (defn load-perf-state []
+    (reset! perf-state (read-string stringified))
+    nil)
+
+  (load-perf-state)
+  @perf-state
+
+
+
 
   )
 
