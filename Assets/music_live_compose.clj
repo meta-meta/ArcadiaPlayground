@@ -18,7 +18,7 @@
   (send-chord [60 64 68 74] 0)
   )
 
-(defn queue-note [t0 dur note]
+(defn queue-note [idx t0 dur note]
   (queue+ {
            :t0       (+ (elapsed) t0)
            :duration dur
@@ -68,13 +68,14 @@
   (/ 60 bpm))
 
 (defn queue-pattern
-  "queues pattern, returns duration of pattern. If queuer is provided, it will be invoked for each note of the pattern with start time, duration, note"
+  "queues pattern, returns duration of pattern. If queuer is provided, it will be invoked for each note of the pattern with index, start time, duration, note"
   ([notes rhythm bpm queuer]
    (let [durations (map #(* % (bpm->dur bpm))
                         (take (count notes) rhythm))
          start-times (take (count durations)
                            (cons 0 (reductions + durations)))]
      (doall (map queuer
+                 (range)
                  start-times
                  (map #(* 0.95 %) durations)
                  notes

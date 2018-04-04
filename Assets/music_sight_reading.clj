@@ -10,7 +10,38 @@
                                -note]]
         [scheduler :only [now start clear-queue queue+ elapsed]]
         )
-  (:import (UnityEngine Color GameObject Mathf TextMesh)))
+  (:import (UnityEngine Color GameObject Mathf TextMesh Time)))
+
+(def perf-state (atom {
+                       :history []
+                       :exercises {}
+                       }))
+
+
+(defn prep-stats-for-exercise [exercise timestamp]
+  (swap! perf-state assoc-in [:exercises exercise timestamp] []))
+
+(defn set-stat [exercise timestamp idx val]
+  (swap! perf-state assoc-in [:exercises exercise timestamp idx] val))
+
+(defn get-stat [exercise timestamp idx]
+  (get-in @perf-state [:exercises exercise timestamp idx]))
+
+(defn save-perf-state []
+  (spit "perf-data.edn" (pr-str @perf-state)))
+
+(defn load-perf-state []
+  (reset! perf-state (read-string (slurp "perf-data.edn")))
+  nil)
+
+(comment
+  (prep-stats-for-exercise :123 1)
+  (set-stat :123 1 0 1.3)
+  (get-stat :123 1 0)
+  @perf-state
+  (save-perf-state)
+  (load-perf-state)
+  )
 
 
 (defn game-loop [obj key]
@@ -35,35 +66,38 @@
     (scroll-go go seconds-left)))
 
 (defn update-active "invoked on every :active event every frame"
-  [note go t0]
-  (let [[r g b] (if
-                  (contains? (get-notes) note)
-                  [0 1 0]
-                  [1 0 0])
-        secs-til-active (- t0 (elapsed))]
-    (set-go-color go r g b (+ 1 secs-til-active))
+  [note go t0 duration get-stat-fn set-stat-fn]
+  (let [secs-til-active (- t0 (elapsed))
+        score (* (Time/deltaTime) ;TODO high res time
+                 duration ; TODO  check math
+                 (if (contains? (get-notes) note) 1/2 -1/2))
+        next-stat-val (+ (or (get-stat-fn) 0.5) score)
+        [r g b] [(- 1 next-stat-val) next-stat-val 0]]
+    (set-stat-fn next-stat-val)
+    (set-go-color go r g b (+ 1 (Mathf/Pow secs-til-active 3)))
     (scroll-go go (+ secs-til-active
                      (Mathf/Pow secs-til-active 2)))))
 
-
-
 (defn queue-event
   "queues an event"
-  [t duration note]
+  [get-stat-fn set-stat-fn idx t duration note]
   (let [go (if (= note :r) (GameObject.) ;TODO: +rest
                            (+note note t))
         t0 (+ (elapsed) t)]
     (queue+ {
              :t0            t0
-             :duration      1
+             :duration      duration
              :start         #(do
                                (when (not= note :r) (send-note note 63))
+                               ;(set-stat-fn idx 0.5) ; not needed here if we guard in update-active
                                )
              :end           #(do
                                (when (not= note :r) (send-note note 0))
                                (-note go))
              :update-queued (if (= note :r) #() #(update-queued note go t0))
-             :update-active (if (= note :r) #() #(update-active note go t0))
+             :update-active #(update-active note go t0 duration
+                                            (partial get-stat-fn idx)
+                                            (partial set-stat-fn idx))
              }))
   nil)
 
@@ -88,18 +122,26 @@
          (map (fn [key]
                 (->> (range 1 7)
                      (map (fn [step]
-                            (fn []
-                              (set-keysig! (key->keyword key))
-                              (queue-pattern
-                                (concat [:r] (range-exercise-diatonic (+ 48 key) 48 84 step))
-                                (clojure.core/repeat 1)
-                                60
-                                queue-event))
-                            )))))
+                            (let [timestamp (now) ;TODO use time when actually played instead of queued?
+                                  exercise (keyword (str "range-" key "-by-" step)) ;TODO hash the pattern for uid
+                                  ]
+                              (fn []
+                                (set-keysig! (key->keyword key))
+                                (prep-stats-for-exercise exercise timestamp)
+                                (queue-pattern
+                                  (concat [:r] (range-exercise-diatonic (+ 48 key) 48 84 step)) ;notes
+                                  (clojure.core/repeat 1) ;rhythm
+                                  60 ;bpm
+                                  (partial queue-event ;queuer fn per note
+                                           (partial get-stat exercise timestamp) ; to be called with idx
+                                           (partial set-stat exercise timestamp) ; to be called with idx, val
+                                           ))
+                                )))))))
          (apply concat)))
 
-  (clear)
+  @perf-state
 
+  (clear)
 
 
   (doall (map (fn [n t] (queue-event (+ 1 t) 1 n))
@@ -120,26 +162,6 @@
   (clear)
 
   (set-keysig! :db)
-
-
-  (def perf-state (atom {
-                         :history [1 4 3 4 1]
-                         :exercises {
-                                    :ex-c [0]
-                                    :ex-b [0.2 0.4 0.22 0.32 0.30]
-                                    }
-                         }))
-
-  (def stringified (pr-str @perf-state))
-  (read-string stringified)
-  (defn load-perf-state []
-    (reset! perf-state (read-string stringified))
-    nil)
-
-  (load-perf-state)
-  @perf-state
-
-
 
 
   )
