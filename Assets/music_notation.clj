@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 (ns music-notation
   (use arcadia.core
        arcadia.linear
@@ -407,7 +415,7 @@
                              accidental "-"
                              (when dotted "o")))
         ]
-    (set! (.. go transform position) (v3 x 0 0)) ; not setting y here because this is grid-y. actual translation y is calculated in +glyph based on dY. TODO: formalize distinction between grid x,y and translation x,y,z
+    (set! (.. go transform position) (v3 x 0 1)) ; not setting y here because this is grid-y. actual translation y is calculated in +glyph based on dY. TODO: formalize distinction between grid x,y and translation x,y,z
     (doseq [glyph-go (filter identity (flatten glyph-gos))]
       (child+ go glyph-go true))
     (game-objects+ category go)

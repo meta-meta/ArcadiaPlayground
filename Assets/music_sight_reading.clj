@@ -1,3 +1,19 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 (ns music-sight-reading
   (:use [arcadia.core]
         [arcadia.linear]

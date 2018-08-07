@@ -4,8 +4,17 @@
         [osc :only [send]])
   (:import (UnityEngine GameObject Mathf Vector3)))
 
-(def left-hand (object-named "Hand - Left"))
-(def right-hand (object-named "Hand - Right"))
+(comment "sixense"
+         (def left-hand (object-named "Hand - Left"))
+         (def right-hand (object-named "Hand - Right")))
+
+(def left-hand (object-named "CapsuleHand_L"))
+(def right-hand (object-named "CapsuleHand_R"))
+(def ch-right (cmpt right-hand "CapsuleHand"))
+(defn get-leap-pos [hand]
+  (apply v3 (.. hand GetLeapHand PalmPosition ToFloatArray)))
+(get-leap-pos right-hand)
+
 (def amp-obj (object-named "Amplitude"))
 (def freq-obj (object-named "Frequency"))
 
@@ -14,7 +23,7 @@
 
 (defn is-docked []
   (< 0
-     (->> (SixenseInput/Controllers)
+     (->> (SixenseInput/Controllers)s
           (map #(. % Docked))
           (filter identity)
           (count))))
