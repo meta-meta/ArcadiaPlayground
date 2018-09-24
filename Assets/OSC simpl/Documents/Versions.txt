@@ -1,3 +1,9 @@
+1.3 (2018/05/30X)
+
+	– Fixed 2018.2 issue. Network class had ben removed. Switched to Dns class for retrieving local ip address.
+
+
+
 1.2 (2016/12/10)
 
 	– Added workaround for Unity 5.5 overload method issue.

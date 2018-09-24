@@ -14,7 +14,7 @@ using System.Text.RegularExpressions;
 using System.Net.Sockets;
 using OscSimpl;
 
-#pragma warning disable 169 // Don't complain over editor foldout flags (_settingsFoldout etc.)
+//#pragma warning disable 169 // Don't complain over editor foldout flags (_settingsFoldout etc.)
 
 /// <summary>
 /// MonoBehaviour for receiving OscMessage objects.
@@ -56,8 +56,14 @@ public class OscIn : MonoBehaviour
 	/// </summary>
 	public static string ipAddress {
 		get {
-			string address = Network.player.ipAddress;
-			if( address == IPAddress.Any.ToString() ) return IPAddress.Loopback.ToString();
+            IPHostEntry host = Dns.GetHostEntry( Dns.GetHostName() );
+			string address = IPAddress.Loopback.ToString();
+            foreach( IPAddress ip in host.AddressList ){
+                if( ip.AddressFamily == AddressFamily.InterNetwork ){
+                    address = ip.ToString();
+                    break;
+                }
+            }
 			return address;
 		}
 	}
@@ -131,6 +137,7 @@ public class OscIn : MonoBehaviour
 	[SerializeField] bool _mappingsFoldout;
 	[SerializeField] bool _messagesFoldout;
 
+	const string logPrepend = "<b>[OscIn]</b> ";
 
 	#region Udp
 
@@ -326,7 +333,7 @@ public class OscIn : MonoBehaviour
 
 		// Validate port number range
 		if( port < OscHelper.portMin || port > OscHelper.portMax ){
-			Debug.LogWarning( "<b>[OscIn]</b> Open failed. Port " + port + " is out of range." + Environment.NewLine );
+			Debug.LogWarning( logPrepend + "Open failed. Port " + port + " is out of range." + Environment.NewLine );
 			return false;
 		}
 		_port = port;
@@ -337,7 +344,7 @@ public class OscIn : MonoBehaviour
 				_mode = OscReceiveMode.UnicastBroadcastMulticast;
 				_multicastAddress = multicastAddress;
 			} else {
-				Debug.LogWarning( "<b>[OscIn]</b> Open failed. Multicast IP address " + multicastAddress + " is out not valid. It must be in range 224.0.0.0 to 239.255.255.255." + Environment.NewLine );
+				Debug.LogWarning( logPrepend + "Open failed. Multicast IP address " + multicastAddress + " is out not valid. It must be in range 224.0.0.0 to 239.255.255.255." + Environment.NewLine );
 				return false;
 			}
 		} else {
@@ -373,13 +380,13 @@ public class OscIn : MonoBehaviour
 			// Socket error reference: https://msdn.microsoft.com/en-us/library/windows/desktop/ms740668(v=vs.85).aspx
 
 			if( e is SocketException && ( e as SocketException ).ErrorCode == 10048 ){ // "Address already in use"
-				Debug.LogWarning( "<b>[OscIn]</b> Could not open port " + _port + " because another application is listening on it." + Environment.NewLine );
+				Debug.LogWarning( logPrepend + "Could not open port " + _port + " because another application is listening on it." + Environment.NewLine );
 
 			} else if( e is SocketException && _mode == OscReceiveMode.UnicastBroadcastMulticast ) {
-				Debug.LogWarning( "<b>[OscIn]</b> Could not subscribe to multicast group. Perhaps you are offline, or your router is not multicast enabled." + Environment.NewLine + (e as SocketException).ErrorCode + ": " + e.ToString() );
+				Debug.LogWarning( logPrepend + "Could not subscribe to multicast group. Perhaps you are offline, or your router is not multicast enabled." + Environment.NewLine + (e as SocketException).ErrorCode + ": " + e.ToString() );
 			
 			} else if( e.Data is ArgumentOutOfRangeException ){
-				Debug.LogWarning( string.Format( "[OscIn] Could not open port {0}. Invalid Port Number.\n{1}", _port, e.ToString() ) );
+				Debug.LogWarning( string.Format( logPrepend + "Could not open port {0}. Invalid Port Number.\n{1}", _port, e.ToString() ) );
 
 			} else {
 				//Debug.Log( e );
@@ -392,8 +399,8 @@ public class OscIn : MonoBehaviour
 		// Deal with the success
 		if( Application.isPlaying ){
 			string logString;
-			if( _mode == OscReceiveMode.UnicastBroadcast ) logString = "[OscIn] Listening for unicast and broadcast messages on port " + _port + Environment.NewLine;
-			else logString = "<b>[OscIn]</b> Listening for multicast messages on address " + _multicastAddress + ", unicast and broadcast messages on port " + _port + Environment.NewLine;
+			if( _mode == OscReceiveMode.UnicastBroadcast ) logString = logPrepend + "Listening for unicast and broadcast messages on port " + _port + Environment.NewLine;
+			else logString = logPrepend + "Listening for multicast messages on address " + _multicastAddress + ", unicast and broadcast messages on port " + _port + Environment.NewLine;
 			//logString += "Buffer size: " + _udpClient.Client.ReceiveBufferSize + " bytes. " + Environment.NewLine;
 			Debug.Log( logString );
 		}
@@ -434,7 +441,7 @@ public class OscIn : MonoBehaviour
 			if( e is ObjectDisposedException ){
 				// Ignore.
 			} else {
-				Debug.LogWarning( "[OscIn] Error occurred while receiving message." + Environment.NewLine + e.ToString() );
+				Debug.LogWarning( logPrepend + "Error occurred while receiving message." + Environment.NewLine + e.ToString() );
 			}
 		}
 	}
@@ -645,13 +652,13 @@ public class OscIn : MonoBehaviour
 	{
 		// Check address for slash
 		if( address.Length < 2 || address[0] != '/' ){
-			Debug.LogWarning( "<b>[OscIn]</b> Ignored attempt to create mapping. OSC addresses must begin with slash '/'." );
+			Debug.LogWarning( logPrepend + "Ignored attempt to create mapping. OSC addresses must begin with slash '/'." );
 			return false;
 		}
 
 		// Check for whitespace
 		if( address.Contains(" ") ){
-			Debug.LogWarning( "<b>[OscIn]</b> Ignored attempt to create mapping. OSC addresses are advised not to contain whitespaces." );
+			Debug.LogWarning( logPrepend + "Ignored attempt to create mapping. OSC addresses are advised not to contain whitespaces." );
 			return false;
 		}
 
@@ -848,7 +855,7 @@ public class OscIn : MonoBehaviour
 	string BuildFailedToMapMessage( string address, OscMessageType type, OscMessageType mappedType )
 	{
 		return string.Format(
-			"<b>[OscIn]</b> Failed to map address'{0}' to method with argument type '{1}'. Address is already set to receive type '{2}', either in the editor, or by a script. " + Environment.NewLine
+			logPrepend + "Failed to map address'{0}' to method with argument type '{1}'. Address is already set to receive type '{2}', either in the editor, or by a script. " + Environment.NewLine
 			+ "Only one type per address is allowed.", address, type, mappedType );
 	}
 

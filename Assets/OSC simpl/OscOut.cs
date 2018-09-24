@@ -120,6 +120,8 @@ public class OscOut : MonoBehaviour
 
 	OscBundle _endOfFrameBundle;
 
+	const string logPrepend = "<b>[OscOut]</b> ";
+
 
 	void Awake()
 	{
@@ -185,10 +187,10 @@ public class OscOut : MonoBehaviour
 		IPAddress ip;
 		if( string.IsNullOrEmpty( ipAddress ) ) ipAddress = IPAddress.Loopback.ToString();
 		if( ipAddress == IPAddress.Any.ToString() || !IPAddress.TryParse( ipAddress, out ip ) ){
-			Debug.LogWarning( "<b>[OscOut]</b> Open failed. Invalid IP address " + ipAddress + "." + Environment.NewLine );
+			Debug.LogWarning( logPrepend + "Open failed. Invalid IP address " + ipAddress + "." + Environment.NewLine );
 			return false;
 		} else if( ip.AddressFamily != AddressFamily.InterNetwork ){
-			Debug.LogWarning( "<b>[OscOut]</b> Open failed. Only IPv4 addresses are supported. " + ipAddress + " is " + ip.AddressFamily + "." + Environment.NewLine );
+			Debug.LogWarning( logPrepend + "Open failed. Only IPv4 addresses are supported. " + ipAddress + " is " + ip.AddressFamily + "." + Environment.NewLine );
 			return false;
 		}
 		_ipAddress = ipAddress;
@@ -206,7 +208,7 @@ public class OscOut : MonoBehaviour
 
 		// Validate port number range
 		if( port < OscHelper.portMin || port > OscHelper.portMax ){
-			Debug.LogWarning( "<b>[OscOut]</b> Open failed. Port " + port + " is out of range." + Environment.NewLine );
+			Debug.LogWarning( logPrepend + "Open failed. Port " + port + " is out of range." + Environment.NewLine );
 			return false;
 		}
 		_port = port;
@@ -270,7 +272,7 @@ public class OscOut : MonoBehaviour
 			case OscSendMode.UnicastToSelf: addressTypeString = "local"; break;
 			}
 			Debug.Log(
-				"<b>[OscOut]</b> Ready to send to " + addressTypeString + " address " + ipAddress + " on port " + port + "." + Environment.NewLine// + 
+				logPrepend + "Ready to send to " + addressTypeString + " address " + ipAddress + " on port " + port + "." + Environment.NewLine// + 
 				//"Buffer size: " + _udpClient.Client.SendBufferSize + " bytes."
 			);
 		}
@@ -342,14 +344,14 @@ public class OscOut : MonoBehaviour
 				// Ignore.
 
 			} else if( ex.ErrorCode == 10040 ){ // "Message too long"
-				Debug.LogWarning( "<b>[OscOut]</b> Failed to send message. Packet is too big (" + data.Length + " bytes)." );
+				Debug.LogWarning( logPrepend + "Failed to send message. Packet is too big (" + data.Length + " bytes)." );
 
 			} else {
-				Debug.LogWarning( "<b>[OscOut]</b> Failed to send message to " + ipAddress + " on port " + port + Environment.NewLine + ex.ErrorCode + ": " + ex.ToString() );
+				Debug.LogWarning( logPrepend + "Failed to send message to " + ipAddress + " on port " + port + Environment.NewLine + ex.ErrorCode + ": " + ex.ToString() );
 			}
 			return false;
 		} catch( Exception ex ) {
-			Debug.LogWarning( "<b>[OscOut]</b> Failed to send message to " + ipAddress + " on port " + port + Environment.NewLine + ex.ToString() );
+			Debug.LogWarning( logPrepend + "Failed to send message to " + ipAddress + " on port " + port + Environment.NewLine + ex.ToString() );
 			return false;
 		}
 
