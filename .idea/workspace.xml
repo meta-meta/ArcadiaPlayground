@@ -1,170 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/nrepl.clj" line="41" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5fcc031-efa8-4017-a5f6-6119c991dc38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.compiler.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.config.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.core.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.array_utils.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.asset_watcher.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.benchmarking.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.components.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.editor_callbacks.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.editor_interop.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.file_system.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.filewatcher.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.filewatcher_dummy.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.functions.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.hook_help.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.leiningen.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.macro.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.map_utils.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.messages.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.mozroots.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.name_utils.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.namespace.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.spec.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.state.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.state_help.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.test.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.thread.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.internal.tracker.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.introspection.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.linear.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.literals.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.packages.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.packages.data.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/arcadia.repl.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.clr.io.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.clr.shell.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.core.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.core.protocols.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.core.reducers.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.core.server.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.core_clr.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.core_deftype.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.core_print.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.core_proxy.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.data.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.edn.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.genclass.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.gvec.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.instant.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.main.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.pprint.cl_format.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.pprint.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.pprint.column_writer.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.pprint.dispatch.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.pprint.pprint_base.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.pprint.pretty_writer.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.pprint.print_table.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.pprint.utilities.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.reflect.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.reflect.clr.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.repl.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.set.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.spec.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.spec.gen.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.stacktrace.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.string.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.template.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.test.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.test.junit.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.test.tap.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.uuid.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.walk.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arcadia/Compiled/clojure.zip.clj.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.26.0/Android/OVRPlugin.aar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.26.0/Android/OVRPlugin.aar.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.26.0/OSXUniversal/OVRPlugin.bundle.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.26.0/OSXUniversal/OVRPlugin.bundle/Contents.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.26.0/OSXUniversal/OVRPlugin.bundle/Contents/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.26.0/OSXUniversal/OVRPlugin.bundle/Contents/Info.plist.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.26.0/OSXUniversal/OVRPlugin.bundle/Contents/MacOS.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.26.0/OSXUniversal/OVRPlugin.bundle/Contents/MacOS/OVRPlugin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.26.0/OSXUniversal/OVRPlugin.bundle/Contents/MacOS/OVRPlugin.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.26.0/Win/OVRPlugin.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.26.0/Win/OVRPlugin.dll.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.26.0/Win64/OVRPlugin.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.26.0/Win64/OVRPlugin.dll.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UnityPackageManager/manifest.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Arcadia" afterPath="$PROJECT_DIR$/Assets/Arcadia" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Documents/Reference.pdf" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Documents/Reference.pdf" />
+    <list default="true" id="e5fcc031-efa8-4017-a5f6-6119c991dc38" name="Default" comment="upgrade to latest Unity 2018-2.9f1;&#10;update OVR plugin;&#10;update OSC simpl;&#10;add Arcadia and arcadia.nrepl as submodules;&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/studio.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/arcadia.nrepl" afterPath="$PROJECT_DIR$/Assets/arcadia.nrepl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/music_instrument_state.clj" afterPath="$PROJECT_DIR$/Assets/music_instrument_state.clj" />
+    </list>
+    <list id="683ade52-2a0d-4562-9c79-69c2ad9da45a" name="New changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Models/room-2018-5-16.obj.meta" afterPath="$PROJECT_DIR$/Assets/Models/room-2018-5-16.obj.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Models/room-2018-6-24.obj.meta" afterPath="$PROJECT_DIR$/Assets/Models/room-2018-6-24.obj.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor/OscInInspector.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor/OscInInspector.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor/OscInInspector.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor/OscInInspector.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor/OscMappingDrawer.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor/OscMappingDrawer.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor/OscMappingDrawer.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor/OscMappingDrawer.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor/OscOutInspector.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor/OscOutInspector.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor/OscOutInspector.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Editor/OscOutInspector.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscBlobEvent.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscBlobEvent.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscBlobEvent.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscBlobEvent.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscBoolEvent.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscBoolEvent.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscBoolEvent.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscBoolEvent.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscCharEvent.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscCharEvent.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscCharEvent.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscCharEvent.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscColorEvent.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscColorEvent.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscColorEvent.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscColorEvent.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscDoubleEvent.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscDoubleEvent.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscDoubleEvent.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscDoubleEvent.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscFloatEvent.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscFloatEvent.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscFloatEvent.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscFloatEvent.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscIntEvent.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscIntEvent.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscIntEvent.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscIntEvent.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscLongEvent.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscLongEvent.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscLongEvent.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscLongEvent.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscMessageEvent.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscMessageEvent.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscMessageEvent.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscMessageEvent.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscStringEvent.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscStringEvent.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscStringEvent.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscStringEvent.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscTimeTagEvent.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscTimeTagEvent.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscTimeTagEvent.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/Events/OscTimeTagEvent.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscHelper.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscHelper.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscHelper.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscHelper.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscMapping.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscMapping.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscMapping.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscMapping.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscMessageType.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscMessageType.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscMessageType.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscMessageType.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscPacket.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscPacket.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscPacket.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscPacket.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscBundle.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscBundle.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscBundle.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscBundle.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscImpulse.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscImpulse.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscImpulse.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscImpulse.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscMessage.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscMessage.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscMessage.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscMessage.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscReceiveMode.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscReceiveMode.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscReceiveMode.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscReceiveMode.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscRemoteStatus.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscRemoteStatus.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscRemoteStatus.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscRemoteStatus.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscSendMode.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscSendMode.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscSendMode.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscSendMode.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscTimeTag.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscTimeTag.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscTimeTag.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Base/OscTimeTag.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Documents.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Documents.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Documents/Manual.pdf.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Documents/Manual.pdf.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Documents/Reference.pdf.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Documents/Reference.pdf.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Documents/Versions.txt" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Documents/Versions.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/Documents/Versions.txt.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/Documents/Versions.txt.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/OscIn.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/OscIn.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/OscIn.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/OscIn.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/OscOut.cs" afterPath="$PROJECT_DIR$/Assets/OSC simpl/OscOut.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/OSC simpl/OscOut.cs.meta" afterPath="$PROJECT_DIR$/Assets/OSC simpl/OscOut.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -194,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <file leaf-file-name="studio.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/studio.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="200">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -280,8 +129,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
         <option value="$PROJECT_DIR$/Assets/musical_notation.clj" />
         <option value="$PROJECT_DIR$/Assets/music_glyphs.clj" />
-        <option value="$PROJECT_DIR$/Assets/music_instrument_state.clj" />
-        <option value="$PROJECT_DIR$/Assets/osc.clj" />
         <option value="$PROJECT_DIR$/Assets/scheduler.clj" />
         <option value="$PROJECT_DIR$/Assets/music_live_compose.clj" />
         <option value="$PROJECT_DIR$/Assets/arcadia.nrepl/.nrepl-port" />
@@ -293,6 +140,10 @@
         <option value="$PROJECT_DIR$/Assets/monitors.clj" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/nrepl.clj" />
+        <option value="$PROJECT_DIR$/Assets/studio.clj" />
+        <option value="$PROJECT_DIR$/Assets/osc.clj" />
+        <option value="$PROJECT_DIR$/Assets/music_instrument_state.clj" />
       </list>
     </option>
   </component>
@@ -310,8 +161,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="3440" />
-    <option name="height" value="1440" />
+    <option name="width" value="1720" />
+    <option name="height" value="1400" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -339,148 +190,7 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arcadia.nrepl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arcadia.nrepl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arcadia.nrepl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arcadia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arcadia.nrepl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arcadia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
@@ -495,7 +205,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -507,15 +217,15 @@
     <property name="SearchEverywhereHistoryKey" value="ovrhaptics&#9;FILE&#9;file://D:/Projects/Unity Projects/ArcadiaPlayground/Assets/Oculus/VR/Scripts/OVRHapticsClip.cs&#10;giti&#9;FILE&#9;file://C:/Projects/ArcadiaPlayground/.gitignore" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="cursive.last.file.extension.D\:/Projects/Unity Projects/ArcadiaPlayground/Assets" value="clj" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\ArcadiaPlayground\Assets" />
       <recent name="D:\Projects\Unity Projects\ArcadiaPlayground\Assets" />
       <recent name="C:\Projects\ArcadiaPlayground\Assets" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1537819492300">{:repl-history {:ide [], :local [], :remote [{:command &quot;(hook+ (object-named \&quot;App\&quot;) :update :theremin #'game-loop)&quot;, :offset 58, :ns &quot;theremin&quot;} {:command &quot;(ns theremin\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [osc :only [send]])\n  (:import (UnityEngine GameObject Mathf Vector2 Vector3)))&quot;, :offset 148, :ns &quot;theremin&quot;} {:command &quot;(ns music-notation\n  (use arcadia.core\n       arcadia.linear\n       clojure.set)\n  (:use [music-glyphs :only [glyphs]])\n  (:import (UnityEngine Color GameObject Mesh MeshFilter MeshRenderer Mathf TextMesh Vector2 Vector3))\n  )&quot;, :offset 226, :ns &quot;music-sight-reading&quot;} {:command &quot;(+note 60 0 :played-notes)&quot;, :offset 26, :ns &quot;music-notation&quot;} {:command &quot;(+note 60 -1 :played-notes)&quot;, :offset 27, :ns &quot;music-notation&quot;} {:command &quot;(+note -1 0 :played-notes)&quot;, :offset 26, :ns &quot;music-notation&quot;} {:command &quot;(+note 0 0 :played-notes)&quot;, :offset 25, :ns &quot;music-notation&quot;} {:command &quot;(+note 1 0 :played-notes)&quot;, :offset 25, :ns &quot;music-notation&quot;} {:command &quot;(+note 128 0 :played-notes)&quot;, :offset 27, :ns &quot;music-notation&quot;} {:command &quot;(defn game-loop [obj key]\n  (set-played-notes! (get-notes)))&quot;, :offset 60, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                ;(range-exercise-diatonic 60 34 99 1)\n                ;(range-exercise-diatonic 60 34 99 2 0)\n                ;(range-exercise-diatonic 60 34 99 2 1)\n                (range-exercise-diatonic 60 34 99 3 0)\n                (range-exercise-diatonic 60 34 99 3 1)\n                (range-exercise-diatonic 60 34 99 3 2)\n                (range-exercise-diatonic 60 34 99 4 0)\n                (range-exercise-diatonic 60 34 99 4 1)\n                (range-exercise-diatonic 60 34 99 4 2)\n                (range-exercise-diatonic 60 34 99 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 694, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 34 90 1)\n                (range-exercise-diatonic 60 34 90 2 0)\n                (range-exercise-diatonic 60 34 90 2 1)\n                (range-exercise-diatonic 60 34 90 3 0)\n                (range-exercise-diatonic 60 34 90 3 1)\n                (range-exercise-diatonic 60 34 90 3 2)\n                (range-exercise-diatonic 60 34 90 4 0)\n                (range-exercise-diatonic 60 34 90 4 1)\n                (range-exercise-diatonic 60 34 90 4 2)\n                (range-exercise-diatonic 60 34 90 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 84 1)\n                (range-exercise-diatonic 60 48 84 2 0)\n                (range-exercise-diatonic 60 48 84 2 1)\n                (range-exercise-diatonic 60 48 84 3 0)\n                (range-exercise-diatonic 60 48 84 3 1)\n                (range-exercise-diatonic 60 48 84 3 2)\n                (range-exercise-diatonic 60 48 84 4 0)\n                (range-exercise-diatonic 60 48 84 4 1)\n                (range-exercise-diatonic 60 48 84 4 2)\n                (range-exercise-diatonic 60 48 84 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 84 1)\n                (range-exercise-diatonic 60 48 84 2 0)\n                (range-exercise-diatonic 60 48 84 2 1)\n                (range-exercise-diatonic 60 48 84 3 0)\n                (range-exercise-diatonic 60 48 84 3 1)\n                (range-exercise-diatonic 60 48 84 3 2)\n                (range-exercise-diatonic 60 48 84 4 0)\n                (range-exercise-diatonic 60 48 84 4 1)\n                (range-exercise-diatonic 60 48 84 4 2)\n                (range-exercise-diatonic 60 48 84 4 3)\n                )\n              (reductions + (clojure.core/repeat 2))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(hook (object-named \&quot;App\&quot;) :update :scheduler)&quot;, :offset 46, :ns &quot;scheduler&quot;} {:command &quot;(def sixense-input (cmpt (object-named \&quot;SixenseInput\&quot;) \&quot;SixenseInput\&quot;))&quot;, :offset 71, :ns &quot;theremin&quot;} {:command &quot;(. sixense-input Docked)&quot;, :offset 24, :ns &quot;theremin&quot;} {:command &quot;(. sixense-input Controllers)&quot;, :offset 29, :ns &quot;theremin&quot;} {:command &quot;(members SixenseInput)&quot;, :offset 22, :ns &quot;theremin&quot;} {:command &quot;(fields SixenseInput)&quot;, :offset 21, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input GetController 1)&quot;, :offset 34, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input (GetController 1))&quot;, :offset 36, :ns &quot;theremin&quot;} {:command &quot;(SixenseInput/GetController 1)&quot;, :offset 30, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input Controllers)&quot;, :offset 30, :ns &quot;theremin&quot;} {:command &quot;(SixenseInput/Controllers)&quot;, :offset 26, :ns &quot;theremin&quot;} {:command &quot;(first (SixenseInput/Controllers))&quot;, :offset 34, :ns &quot;theremin&quot;} {:command &quot;(. (first (SixenseInput/Controllers)) Docked)&quot;, :offset 45, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked)))&quot;, :offset 57, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked))\n     (filter identity))&quot;, :offset 80, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked))\n     (filter identity)\n     (count))&quot;, :offset 93, :ns &quot;theremin&quot;} {:command &quot;(&gt; 0 1)&quot;, :offset 7, :ns &quot;theremin&quot;} {:command &quot;(&lt; 0 1)&quot;, :offset 7, :ns &quot;theremin&quot;} {:command &quot;(defn is-docked []\n  (&lt; 0\n     (-&gt;&gt; (SixenseInput/Controllers)\n          (map #(. % Docked))\n          (filter identity)\n          (count))))&quot;, :offset 141, :ns &quot;theremin&quot;} {:command &quot;(defn send-state []\n  (send \&quot;/theremin/amp\&quot; (if (is-docked) 0 \n                                        (Vector3/Distance (get-pos amp-obj) (get-pos left-hand))))\n  (send \&quot;/theremin/freq\&quot; (if (is-docked) 0 \n                                         (Vector3/Distance (get-pos freq-obj) (get-pos right-hand)))))&quot;, :offset 308, :ns &quot;theremin&quot;} {:command &quot;(ns music-sight-reading\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes]]\n        [music-live-compose]\n        [music-notation :only [clear-notes\n                               set-played-notes!\n                               set-keysig!\n                               +note\n                               -note]]\n        [scheduler :only [now start clear-queue queue+ elapsed]]\n        )\n  (:import (UnityEngine Color GameObject Mathf TextMesh)))&quot;, :offset 496, :ns &quot;theremin&quot;} {:command &quot;(set-keysig! :db)&quot;, :offset 17, :ns &quot;music-sight-reading&quot;} {:command &quot;(set-keysig! :c)&quot;, :offset 16, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 72 1)\n                (range-exercise-diatonic 60 48 72 2 0)\n                (range-exercise-diatonic 60 48 72 2 1)\n                (range-exercise-diatonic 60 48 72 3 0)\n                (range-exercise-diatonic 60 48 72 3 1)\n                (range-exercise-diatonic 60 48 72 3 2)\n                (range-exercise-diatonic 60 48 72 4 0)\n                (range-exercise-diatonic 60 48 72 4 1)\n                (range-exercise-diatonic 60 48 72 4 2)\n                (range-exercise-diatonic 60 48 72 4 3)\n                )\n              (reductions + (clojure.core/repeat 2))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(clear)&quot;, :offset 7, :ns &quot;music-sight-reading&quot;} {:command &quot;(ns haptics\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import (UnityEngine Mathf))\n  (:import OVRManager)\n  )&quot;, :offset 160, :ns &quot;haptics&quot;} {:command &quot;OVRManager&quot;, :offset 10, :ns &quot;haptics&quot;} {:command &quot;(dir arcadia.core)&quot;, :offset 18, :ns &quot;haptics&quot;} {:command &quot;(cmpt+ app OVRManager)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(ns haptics\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import OVRManager OVRHaptics (UnityEngine Mathf))\n  )&quot;, :offset 159, :ns &quot;haptics&quot;} {:command &quot;OVRHaptics&quot;, :offset 10, :ns &quot;haptics&quot;} {:command &quot;(dir arcadia.introspection)&quot;, :offset 27, :ns &quot;haptics&quot;} {:command &quot;(ns haptics\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import OVRManager OVRHaptics OVRHapticsClip (UnityEngine Mathf))\n  )&quot;, :offset 174, :ns &quot;haptics&quot;} {:command &quot;OVRHapticsClip&quot;, :offset 14, :ns &quot;haptics&quot;} {:command &quot;clip&quot;, :offset 4, :ns &quot;haptics&quot;} {:command &quot;(. clip Capacity)&quot;, :offset 17, :ns &quot;haptics&quot;} {:command &quot;(. clip Count)&quot;, :offset 14, :ns &quot;haptics&quot;} {:command &quot;(.. OVRHaptics Config)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(.. OVRHaptics/Config)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(. OVRHaptics/Config)&quot;, :offset 21, :ns &quot;haptics&quot;} {:command &quot;(. OVRHaptics Config/SampleRateHz)&quot;, :offset 34, :ns &quot;haptics&quot;} {:command &quot;OVRHaptics/Config&quot;, :offset 17, :ns &quot;haptics&quot;} {:command &quot;(byte 1)&quot;, :offset 8, :ns &quot;haptics&quot;} {:command &quot;(aset-byte (. clip Samples) 0 12)&quot;, :offset 33, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (.clip Capacity))]\n  (aset-byte (. clip Samples) i 12)\n  )&quot;, :offset 75, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) i 12)\n  )&quot;, :offset 76, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 (Mathf/Pi) 2) (/ i 160)))\n  )&quot;, :offset 141, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 (Mathf/PI) 2) (/ i 160)))\n  )&quot;, :offset 141, :ns &quot;haptics&quot;} {:command &quot;Mathf/PI&quot;, :offset 8, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 Mathf/PI 2) (/ i 160)))\n  )&quot;, :offset 139, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 Mathf/PI 2 (/ i 160))))\n  )&quot;, :offset 139, :ns &quot;haptics&quot;} {:command &quot;(defn scale [inMin inMax outMin outMax in]\n  (let [diffIn (- inMax inMin)\n        normIn (/ in diffIn)\n        ]\n    normIn) \n  )&quot;, :offset 129, :ns &quot;haptics&quot;} {:command &quot;(defn scale [inMin inMax outMin outMax in]\n  (let [diffIn (- inMax inMin)\n        normIn (/ (- in inMin) diffIn)\n        ]\n    normIn) \n  )&quot;, :offset 139, :ns &quot;haptics&quot;} {:command &quot;(defn scale [inMin inMax outMin outMax in]\n  (let [diffIn (- inMax inMin)\n        normIn (/ (- in inMin) diffIn)\n        diffOut (- outMax outMin)\n        ]\n    (+ outMin (* normIn diffOut))) \n  )&quot;, :offset 196, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1. 0 255 -1)&quot;, :offset 23, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1. 0 255 1)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1. 0 255 0)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples)\n             i\n             (scale -1. 1. \n                    0 255\n                    (Mathf/Sin (* 5 Mathf/PI 2 (/ i 160))))))&quot;, :offset 197, :ns &quot;haptics&quot;} {:command &quot;(.. OVRHaptics LeftChannel (Preempt clip))&quot;, :offset 42, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1.\n                    0 255\n                    -1000)&quot;, :offset 66, :ns &quot;haptics&quot;} {:command &quot;(defn play-clip\n  (.. OVRHaptics LeftChannel (Preempt clip)))&quot;, :offset 61, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 3 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 4 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(def clip (OVRHapticsClip. 256))&quot;, :offset 32, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 40 Mathf/PI 2 (/ i total)))))&quot;, :offset 111, :ns &quot;haptics&quot;} {:command &quot;(def clip (OVRHapticsClip. 160))&quot;, :offset 32, :ns &quot;haptics&quot;} {:command &quot;(set! (. clip Count) (. clip Capacity))&quot;, :offset 39, :ns &quot;haptics&quot;} {:command &quot;(defn set-samples [fn]\n  (doseq [i (range (. clip Capacity))]\n    (aset-byte (. clip Samples)\n               i\n               (fn i (. clip Capacity)))))&quot;, :offset 153, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 5 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn play-clip []\n  (.. OVRHaptics LeftChannel (Preempt clip)))&quot;, :offset 64, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 500 Mathf/PI 2 (/ i total)))))&quot;, :offset 112, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 300 Mathf/PI 2 (/ i total)))))&quot;, :offset 112, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 100 Mathf/PI 2 (/ i total)))))&quot;, :offset 112, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Cos (* 1 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 1 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 1 Mathf/PI 2 (/ i total)) Mathf/PI) )))&quot;, :offset 124, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 1 Mathf/PI 2 (/ i total)) (/ Mathf/PI 2)) )))&quot;, :offset 130, :ns &quot;haptics&quot;} {:command &quot;(. clip Samples)&quot;, :offset 16, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 10 Mathf/PI 2 (/ i total)) (/ Mathf/PI 2)) )))&quot;, :offset 131, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 2 Mathf/PI 2 (/ i total)) (/ Mathf/PI 2)) )))&quot;, :offset 130, :ns &quot;haptics&quot;} {:command &quot;(set-samples sin-samples)&quot;, :offset 25, :ns &quot;haptics&quot;} {:command &quot;(play-clip)&quot;, :offset 11, :ns &quot;haptics&quot;} {:command &quot;(def left-hand (object-named \&quot;CapsuleHand_L\&quot;))&quot;, :offset 46, :ns &quot;theremin&quot;} {:command &quot;(ns theremin\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [osc :only [send]])\n  (:import (UnityEngine GameObject Mathf Vector3)))&quot;, :offset 140, :ns &quot;theremin&quot;} {:command &quot;(ns monitors\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import (UnityEngine Mathf))\n  )&quot;, :offset 138, :ns &quot;cursive.repl.runtime&quot;} {:command &quot;(def mon (object-named \&quot;StaticMonitor\&quot;))&quot;, :offset 40, :ns &quot;monitors&quot;}]}}</component>
+  <component name="ReplState" timestamp="1537846565349">{:repl-history {:ide [], :local [], :remote [{:command &quot;(+note 60 0 :played-notes)&quot;, :offset 26, :ns &quot;music-notation&quot;} {:command &quot;(+note 60 -1 :played-notes)&quot;, :offset 27, :ns &quot;music-notation&quot;} {:command &quot;(+note -1 0 :played-notes)&quot;, :offset 26, :ns &quot;music-notation&quot;} {:command &quot;(+note 0 0 :played-notes)&quot;, :offset 25, :ns &quot;music-notation&quot;} {:command &quot;(+note 1 0 :played-notes)&quot;, :offset 25, :ns &quot;music-notation&quot;} {:command &quot;(+note 128 0 :played-notes)&quot;, :offset 27, :ns &quot;music-notation&quot;} {:command &quot;(defn game-loop [obj key]\n  (set-played-notes! (get-notes)))&quot;, :offset 60, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                ;(range-exercise-diatonic 60 34 99 1)\n                ;(range-exercise-diatonic 60 34 99 2 0)\n                ;(range-exercise-diatonic 60 34 99 2 1)\n                (range-exercise-diatonic 60 34 99 3 0)\n                (range-exercise-diatonic 60 34 99 3 1)\n                (range-exercise-diatonic 60 34 99 3 2)\n                (range-exercise-diatonic 60 34 99 4 0)\n                (range-exercise-diatonic 60 34 99 4 1)\n                (range-exercise-diatonic 60 34 99 4 2)\n                (range-exercise-diatonic 60 34 99 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 694, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 34 90 1)\n                (range-exercise-diatonic 60 34 90 2 0)\n                (range-exercise-diatonic 60 34 90 2 1)\n                (range-exercise-diatonic 60 34 90 3 0)\n                (range-exercise-diatonic 60 34 90 3 1)\n                (range-exercise-diatonic 60 34 90 3 2)\n                (range-exercise-diatonic 60 34 90 4 0)\n                (range-exercise-diatonic 60 34 90 4 1)\n                (range-exercise-diatonic 60 34 90 4 2)\n                (range-exercise-diatonic 60 34 90 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 84 1)\n                (range-exercise-diatonic 60 48 84 2 0)\n                (range-exercise-diatonic 60 48 84 2 1)\n                (range-exercise-diatonic 60 48 84 3 0)\n                (range-exercise-diatonic 60 48 84 3 1)\n                (range-exercise-diatonic 60 48 84 3 2)\n                (range-exercise-diatonic 60 48 84 4 0)\n                (range-exercise-diatonic 60 48 84 4 1)\n                (range-exercise-diatonic 60 48 84 4 2)\n                (range-exercise-diatonic 60 48 84 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 84 1)\n                (range-exercise-diatonic 60 48 84 2 0)\n                (range-exercise-diatonic 60 48 84 2 1)\n                (range-exercise-diatonic 60 48 84 3 0)\n                (range-exercise-diatonic 60 48 84 3 1)\n                (range-exercise-diatonic 60 48 84 3 2)\n                (range-exercise-diatonic 60 48 84 4 0)\n                (range-exercise-diatonic 60 48 84 4 1)\n                (range-exercise-diatonic 60 48 84 4 2)\n                (range-exercise-diatonic 60 48 84 4 3)\n                )\n              (reductions + (clojure.core/repeat 2))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(hook (object-named \&quot;App\&quot;) :update :scheduler)&quot;, :offset 46, :ns &quot;scheduler&quot;} {:command &quot;(def sixense-input (cmpt (object-named \&quot;SixenseInput\&quot;) \&quot;SixenseInput\&quot;))&quot;, :offset 71, :ns &quot;theremin&quot;} {:command &quot;(. sixense-input Docked)&quot;, :offset 24, :ns &quot;theremin&quot;} {:command &quot;(. sixense-input Controllers)&quot;, :offset 29, :ns &quot;theremin&quot;} {:command &quot;(members SixenseInput)&quot;, :offset 22, :ns &quot;theremin&quot;} {:command &quot;(fields SixenseInput)&quot;, :offset 21, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input GetController 1)&quot;, :offset 34, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input (GetController 1))&quot;, :offset 36, :ns &quot;theremin&quot;} {:command &quot;(SixenseInput/GetController 1)&quot;, :offset 30, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input Controllers)&quot;, :offset 30, :ns &quot;theremin&quot;} {:command &quot;(SixenseInput/Controllers)&quot;, :offset 26, :ns &quot;theremin&quot;} {:command &quot;(first (SixenseInput/Controllers))&quot;, :offset 34, :ns &quot;theremin&quot;} {:command &quot;(. (first (SixenseInput/Controllers)) Docked)&quot;, :offset 45, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked)))&quot;, :offset 57, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked))\n     (filter identity))&quot;, :offset 80, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked))\n     (filter identity)\n     (count))&quot;, :offset 93, :ns &quot;theremin&quot;} {:command &quot;(&gt; 0 1)&quot;, :offset 7, :ns &quot;theremin&quot;} {:command &quot;(&lt; 0 1)&quot;, :offset 7, :ns &quot;theremin&quot;} {:command &quot;(defn is-docked []\n  (&lt; 0\n     (-&gt;&gt; (SixenseInput/Controllers)\n          (map #(. % Docked))\n          (filter identity)\n          (count))))&quot;, :offset 141, :ns &quot;theremin&quot;} {:command &quot;(defn send-state []\n  (send \&quot;/theremin/amp\&quot; (if (is-docked) 0 \n                                        (Vector3/Distance (get-pos amp-obj) (get-pos left-hand))))\n  (send \&quot;/theremin/freq\&quot; (if (is-docked) 0 \n                                         (Vector3/Distance (get-pos freq-obj) (get-pos right-hand)))))&quot;, :offset 308, :ns &quot;theremin&quot;} {:command &quot;(ns music-sight-reading\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes]]\n        [music-live-compose]\n        [music-notation :only [clear-notes\n                               set-played-notes!\n                               set-keysig!\n                               +note\n                               -note]]\n        [scheduler :only [now start clear-queue queue+ elapsed]]\n        )\n  (:import (UnityEngine Color GameObject Mathf TextMesh)))&quot;, :offset 496, :ns &quot;theremin&quot;} {:command &quot;(set-keysig! :db)&quot;, :offset 17, :ns &quot;music-sight-reading&quot;} {:command &quot;(set-keysig! :c)&quot;, :offset 16, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 72 1)\n                (range-exercise-diatonic 60 48 72 2 0)\n                (range-exercise-diatonic 60 48 72 2 1)\n                (range-exercise-diatonic 60 48 72 3 0)\n                (range-exercise-diatonic 60 48 72 3 1)\n                (range-exercise-diatonic 60 48 72 3 2)\n                (range-exercise-diatonic 60 48 72 4 0)\n                (range-exercise-diatonic 60 48 72 4 1)\n                (range-exercise-diatonic 60 48 72 4 2)\n                (range-exercise-diatonic 60 48 72 4 3)\n                )\n              (reductions + (clojure.core/repeat 2))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(clear)&quot;, :offset 7, :ns &quot;music-sight-reading&quot;} {:command &quot;(ns haptics\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import (UnityEngine Mathf))\n  (:import OVRManager)\n  )&quot;, :offset 160, :ns &quot;haptics&quot;} {:command &quot;OVRManager&quot;, :offset 10, :ns &quot;haptics&quot;} {:command &quot;(dir arcadia.core)&quot;, :offset 18, :ns &quot;haptics&quot;} {:command &quot;(cmpt+ app OVRManager)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(ns haptics\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import OVRManager OVRHaptics (UnityEngine Mathf))\n  )&quot;, :offset 159, :ns &quot;haptics&quot;} {:command &quot;OVRHaptics&quot;, :offset 10, :ns &quot;haptics&quot;} {:command &quot;(dir arcadia.introspection)&quot;, :offset 27, :ns &quot;haptics&quot;} {:command &quot;(ns haptics\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import OVRManager OVRHaptics OVRHapticsClip (UnityEngine Mathf))\n  )&quot;, :offset 174, :ns &quot;haptics&quot;} {:command &quot;OVRHapticsClip&quot;, :offset 14, :ns &quot;haptics&quot;} {:command &quot;clip&quot;, :offset 4, :ns &quot;haptics&quot;} {:command &quot;(. clip Capacity)&quot;, :offset 17, :ns &quot;haptics&quot;} {:command &quot;(. clip Count)&quot;, :offset 14, :ns &quot;haptics&quot;} {:command &quot;(.. OVRHaptics Config)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(.. OVRHaptics/Config)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(. OVRHaptics/Config)&quot;, :offset 21, :ns &quot;haptics&quot;} {:command &quot;(. OVRHaptics Config/SampleRateHz)&quot;, :offset 34, :ns &quot;haptics&quot;} {:command &quot;OVRHaptics/Config&quot;, :offset 17, :ns &quot;haptics&quot;} {:command &quot;(byte 1)&quot;, :offset 8, :ns &quot;haptics&quot;} {:command &quot;(aset-byte (. clip Samples) 0 12)&quot;, :offset 33, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (.clip Capacity))]\n  (aset-byte (. clip Samples) i 12)\n  )&quot;, :offset 75, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) i 12)\n  )&quot;, :offset 76, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 (Mathf/Pi) 2) (/ i 160)))\n  )&quot;, :offset 141, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 (Mathf/PI) 2) (/ i 160)))\n  )&quot;, :offset 141, :ns &quot;haptics&quot;} {:command &quot;Mathf/PI&quot;, :offset 8, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 Mathf/PI 2) (/ i 160)))\n  )&quot;, :offset 139, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 Mathf/PI 2 (/ i 160))))\n  )&quot;, :offset 139, :ns &quot;haptics&quot;} {:command &quot;(defn scale [inMin inMax outMin outMax in]\n  (let [diffIn (- inMax inMin)\n        normIn (/ in diffIn)\n        ]\n    normIn) \n  )&quot;, :offset 129, :ns &quot;haptics&quot;} {:command &quot;(defn scale [inMin inMax outMin outMax in]\n  (let [diffIn (- inMax inMin)\n        normIn (/ (- in inMin) diffIn)\n        ]\n    normIn) \n  )&quot;, :offset 139, :ns &quot;haptics&quot;} {:command &quot;(defn scale [inMin inMax outMin outMax in]\n  (let [diffIn (- inMax inMin)\n        normIn (/ (- in inMin) diffIn)\n        diffOut (- outMax outMin)\n        ]\n    (+ outMin (* normIn diffOut))) \n  )&quot;, :offset 196, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1. 0 255 -1)&quot;, :offset 23, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1. 0 255 1)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1. 0 255 0)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples)\n             i\n             (scale -1. 1. \n                    0 255\n                    (Mathf/Sin (* 5 Mathf/PI 2 (/ i 160))))))&quot;, :offset 197, :ns &quot;haptics&quot;} {:command &quot;(.. OVRHaptics LeftChannel (Preempt clip))&quot;, :offset 42, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1.\n                    0 255\n                    -1000)&quot;, :offset 66, :ns &quot;haptics&quot;} {:command &quot;(defn play-clip\n  (.. OVRHaptics LeftChannel (Preempt clip)))&quot;, :offset 61, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 3 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 4 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(def clip (OVRHapticsClip. 256))&quot;, :offset 32, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 40 Mathf/PI 2 (/ i total)))))&quot;, :offset 111, :ns &quot;haptics&quot;} {:command &quot;(def clip (OVRHapticsClip. 160))&quot;, :offset 32, :ns &quot;haptics&quot;} {:command &quot;(set! (. clip Count) (. clip Capacity))&quot;, :offset 39, :ns &quot;haptics&quot;} {:command &quot;(defn set-samples [fn]\n  (doseq [i (range (. clip Capacity))]\n    (aset-byte (. clip Samples)\n               i\n               (fn i (. clip Capacity)))))&quot;, :offset 153, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 5 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn play-clip []\n  (.. OVRHaptics LeftChannel (Preempt clip)))&quot;, :offset 64, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 500 Mathf/PI 2 (/ i total)))))&quot;, :offset 112, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 300 Mathf/PI 2 (/ i total)))))&quot;, :offset 112, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 100 Mathf/PI 2 (/ i total)))))&quot;, :offset 112, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Cos (* 1 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 1 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 1 Mathf/PI 2 (/ i total)) Mathf/PI) )))&quot;, :offset 124, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 1 Mathf/PI 2 (/ i total)) (/ Mathf/PI 2)) )))&quot;, :offset 130, :ns &quot;haptics&quot;} {:command &quot;(. clip Samples)&quot;, :offset 16, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 10 Mathf/PI 2 (/ i total)) (/ Mathf/PI 2)) )))&quot;, :offset 131, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 2 Mathf/PI 2 (/ i total)) (/ Mathf/PI 2)) )))&quot;, :offset 130, :ns &quot;haptics&quot;} {:command &quot;(set-samples sin-samples)&quot;, :offset 25, :ns &quot;haptics&quot;} {:command &quot;(play-clip)&quot;, :offset 11, :ns &quot;haptics&quot;} {:command &quot;(def left-hand (object-named \&quot;CapsuleHand_L\&quot;))&quot;, :offset 46, :ns &quot;theremin&quot;} {:command &quot;(ns theremin\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [osc :only [send]])\n  (:import (UnityEngine GameObject Mathf Vector3)))&quot;, :offset 140, :ns &quot;theremin&quot;} {:command &quot;(ns monitors\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import (UnityEngine Mathf))\n  )&quot;, :offset 138, :ns &quot;cursive.repl.runtime&quot;} {:command &quot;(def mon (object-named \&quot;StaticMonitor\&quot;))&quot;, :offset 40, :ns &quot;monitors&quot;} {:command &quot;(ns studio\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes]]\n        ))&quot;, :offset 120, :ns &quot;cursive.repl.runtime&quot;} {:command &quot;*ns*&quot;, :offset 4, :ns &quot;studio&quot;} {:command &quot;(+ 1 1)&quot;, :offset 7, :ns &quot;studio&quot;}]}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -894,6 +604,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e5fcc031-efa8-4017-a5f6-6119c991dc38" name="Default" comment="" />
+      <changelist id="683ade52-2a0d-4562-9c79-69c2ad9da45a" name="New changelist" comment="" />
       <created>1511890553604</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -919,12 +630,21 @@
       <workItem from="1529902633485" duration="888000" />
       <workItem from="1530402595224" duration="4287000" />
       <workItem from="1533671485280" duration="3074000" />
-      <workItem from="1537817615153" duration="734000" />
+      <workItem from="1537817615153" duration="3818000" />
+      <workItem from="1537830182632" duration="5019000" />
     </task>
+    <task id="LOCAL-00001" summary="upgrade to latest Unity 2018-2.9f1;&#10;update OVR plugin;&#10;update OSC simpl;&#10;add Arcadia and arcadia.nrepl as submodules;&#10;">
+      <created>1537819625210</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537819625210</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="380386000" />
+    <option name="totallyTimeSpent" value="388489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -936,7 +656,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="3440" height="1440" extended-state="6" />
+    <frame x="0" y="0" width="1720" height="1400" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -944,29 +664,29 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24970931" sideWeight="0.8229167" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29011628" sideWeight="0.63785714" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4652778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24970931" sideWeight="0.17708333" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994187" sideWeight="0.4970458" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29011628" sideWeight="0.36214286" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994187" sideWeight="0.4970458" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08372093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16744186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1013,6 +733,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upgrade to latest Unity 2018-2.9f1;&#10;update OVR plugin;&#10;update OSC simpl;&#10;add Arcadia and arcadia.nrepl as submodules;&#10;" />
+    <MESSAGE value="set arcadia.nrepl revision" />
+    <option name="LAST_COMMIT_MESSAGE" value="set arcadia.nrepl revision" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -1024,7 +750,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/nrepl.clj" />
     <entry file="file://$PROJECT_DIR$/Assets/scheduler.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1154,13 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scheduler.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="119" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -1186,27 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/music_instrument_state.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/music_notation.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/osc.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1245,13 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/theremin.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
@@ -1263,13 +953,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="815">
           <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/music_sight_reading.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1281,17 +965,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/arcadia.nrepl.iml" />
-    <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/nrepl.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/repl/client.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <marker date="1537819393498" expanded="true" signature="59:179" ph="..." />
+            <marker date="1537819393498" expanded="true" signature="101:168" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1305,10 +994,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+    <entry file="file://$PROJECT_DIR$/Assets/theremin.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="850">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1537801494571" expanded="true" signature="0:140" ph="(ns theremin ...)" />
+            <marker date="1537801494571" expanded="true" signature="142:271" ph="(comment ...)" />
+            <marker date="1537801494571" expanded="true" signature="415:502" ph="(defn get-leap-pos ...)" />
+            <marker date="1537801494571" expanded="true" signature="718:860" ph="(defn is-docked ...)" />
+            <marker date="1537801494571" expanded="true" signature="975:1281" ph="(defn send-state ...)" />
+            <marker date="1537801494571" expanded="true" signature="1285:1329" ph="(defn game-loop ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/nrepl.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding>
+            <marker date="1537830648465" expanded="true" signature="0:440" ph="(ns arcadia.nrepl ...)" />
+            <marker date="1537830648465" expanded="true" signature="466:723" ph="(def filter-patterns ...)" />
+            <marker date="1537830648465" expanded="true" signature="725:906" ph="(defn valid-expr? ...)" />
+            <marker date="1537830648465" expanded="true" signature="908:1034" ph="(defn extract-prompt-ns ...)" />
+            <marker date="1537830648465" expanded="true" signature="1036:1459" ph="(defn prepare-response ...)" />
+            <marker date="1537830648465" expanded="true" signature="1461:1806" ph="(defn arcadia-eval ...)" />
+            <marker date="1537830648465" expanded="true" signature="1808:1962" ph="(defn wrap-arcadia-repl ...)" />
+            <marker date="1537830648465" expanded="true" signature="1964:2120" ph="(set-descriptor! ...)" />
+            <marker date="1537830648465" expanded="true" signature="2122:2309" ph="(defn -main ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/music_sight_reading.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <marker date="1537801494558" expanded="true" signature="16:517" ph="(ns music-sight-reading ...)" />
+            <marker date="1537801494558" expanded="true" signature="519:641" ph="(def perf-state ...)" />
+            <marker date="1537801494558" expanded="true" signature="644:760" ph="(defn prep-stats-for-exercise ...)" />
+            <marker date="1537801494558" expanded="true" signature="762:876" ph="(defn set-stat ...)" />
+            <marker date="1537801494558" expanded="true" signature="878:977" ph="(defn get-stat ...)" />
+            <marker date="1537801494558" expanded="true" signature="979:1050" ph="(defn save-perf-state ...)" />
+            <marker date="1537801494558" expanded="true" signature="1052:1143" ph="(defn load-perf-state ...)" />
+            <marker date="1537801494558" expanded="true" signature="1145:1294" ph="(comment ...)" />
+            <marker date="1537801494558" expanded="true" signature="1297:1357" ph="(defn game-loop ...)" />
+            <marker date="1537801494558" expanded="true" signature="1424:1583" ph="(defn scroll-go ...)" />
+            <marker date="1537801494558" expanded="true" signature="1585:1761" ph="(defn set-go-color ...)" />
+            <marker date="1537801494558" expanded="true" signature="1763:1915" ph="(defn update-queued ...)" />
+            <marker date="1537801494558" expanded="true" signature="1917:2528" ph="(defn update-active ...)" />
+            <marker date="1537801494558" expanded="true" signature="2530:3516" ph="(defn queue-event ...)" />
+            <marker date="1537801494558" expanded="true" signature="3519:3566" ph="(defn clear ...)" />
+            <marker date="1537801494558" expanded="true" signature="3771:5898" ph="(comment ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scheduler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1690">
+          <caret line="14" column="119" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="119" />
+          <folding>
+            <marker date="1537801494568" expanded="true" signature="0:116" ph="(ns scheduler ...)" />
+            <marker date="1537801494568" expanded="true" signature="118:252" ph="(def s ...)" />
+            <marker date="1537801494568" expanded="true" signature="307:386" ph="(defn now ...)" />
+            <marker date="1537801494568" expanded="true" signature="541:611" ph="(defn start ...)" />
+            <marker date="1537801494568" expanded="true" signature="674:781" ph="(defn as-set ...)" />
+            <marker date="1537801494568" expanded="true" signature="853:964" ph="(defn queue+ ...)" />
+            <marker date="1537801494568" expanded="true" signature="966:1076" ph="(defn queue- ...)" />
+            <marker date="1537801494568" expanded="true" signature="1079:1186" ph="(defn active+ ...)" />
+            <marker date="1537801494568" expanded="true" signature="1188:1301" ph="(defn active- ...)" />
+            <marker date="1537801494568" expanded="true" signature="1304:1401" ph="(defn past+ ...)" />
+            <marker date="1537801494568" expanded="true" signature="1403:1510" ph="(defn past- ...)" />
+            <marker date="1537801494568" expanded="true" signature="1513:1601" ph="(defn evt-started? ...)" />
+            <marker date="1537801494568" expanded="true" signature="1603:1707" ph="(defn evt-ended? ...)" />
+            <marker date="1537801494568" expanded="true" signature="1709:1853" ph="(defn evt-ready? ...)" />
+            <marker date="1537801494568" expanded="true" signature="1856:2121" ph="(defn dequeue-missed-evts ...)" />
+            <marker date="1537801494568" expanded="true" signature="2123:2391" ph="(defn activate-ready-evts ...)" />
+            <marker date="1537801494568" expanded="true" signature="2393:2635" ph="(defn deactivate-past-evts ...)" />
+            <marker date="1537801494568" expanded="true" signature="2637:2803" ph="(defn update-queued-evts ...)" />
+            <marker date="1537801494568" expanded="true" signature="2805:2972" ph="(defn update-active-evts ...)" />
+            <marker date="1537801494568" expanded="true" signature="2974:3122" ph="(defn game-loop ...)" />
+            <marker date="1537801494568" expanded="true" signature="3209:3326" ph="(if-not ...)" />
+            <marker date="1537801494568" expanded="true" signature="3395:3651" ph="(defn loop-queue ...)" />
+            <marker date="1537801494568" expanded="true" signature="3667:3942" ph="(queue+ ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/music_notation.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding>
+            <marker date="1537801494557" expanded="true" signature="8:234" ph="(ns music-notation ...)" />
+            <marker date="1537801494557" expanded="true" signature="236:989" ph="(def lexicon ...)" />
+            <marker date="1537801494557" expanded="true" signature="1085:1252" ph="(defn- note-&gt;pitch-class-b-bias ...)" />
+            <marker date="1537801494557" expanded="true" signature="1254:1422" ph="(defn- note-&gt;pitch-class-##-bias ...)" />
+            <marker date="1537801494557" expanded="true" signature="1424:1609" ph="(defn- octave-of-note ...)" />
+            <marker date="1537801494557" expanded="true" signature="1611:1832" ph="(defn- notes-in-key ...)" />
+            <marker date="1537801494557" expanded="true" signature="1834:1910" ph="(def notes-in-c ...)" />
+            <marker date="1537801494557" expanded="true" signature="2006:2362" ph="(defn- pitch-&gt;data ...)" />
+            <marker date="1537801494557" expanded="true" signature="2364:2567" ph="(defn- strip-octave ...)" />
+            <marker date="1537801494557" expanded="true" signature="2569:2711" ph="(defn- strip-accidental ...)" />
+            <marker date="1537801494557" expanded="true" signature="2713:2881" ph="(defn- extract-accidental ...)" />
+            <marker date="1537801494557" expanded="true" signature="2887:8037" ph="(def keys-data ...)" />
+            <marker date="1537801494557" expanded="true" signature="8040:8168" ph="(defn- spell-note ...)" />
+            <marker date="1537801494557" expanded="true" signature="8171:8524" ph="(def natural-pitch-&gt;staff-y ...)" />
+            <marker date="1537801494557" expanded="true" signature="8616:8856" ph="(def game-objects ...)" />
+            <marker date="1537801494557" expanded="true" signature="8858:9058" ph="(defn- game-objects+ ...)" />
+            <marker date="1537801494557" expanded="true" signature="9060:9354" ph="(defn- game-objects- ...)" />
+            <marker date="1537801494557" expanded="true" signature="9356:9595" ph="(defn- game-objects-clear ...)" />
+            <marker date="1537801494557" expanded="true" signature="9597:10214" ph="(defn- +glyph ...)" />
+            <marker date="1537801494557" expanded="true" signature="10556:10651" ph="(defn- +staff ...)" />
+            <marker date="1537801494557" expanded="true" signature="10653:11179" ph="(defn- +grand-staff ...)" />
+            <marker date="1537801494557" expanded="true" signature="11181:11929" ph="(defn- +keysig ...)" />
+            <marker date="1537801494557" expanded="true" signature="11931:11980" ph="(defn- +keysig-treble ...)" />
+            <marker date="1537801494557" expanded="true" signature="11982:12031" ph="(defn- +keysig-bass ...)" />
+            <marker date="1537801494557" expanded="true" signature="12033:12218" ph="(defn- +keysig-grand ...)" />
+            <marker date="1537801494557" expanded="true" signature="12220:12836" ph="(defn- +time-signature ...)" />
+            <marker date="1537801494557" expanded="true" signature="12838:12963" ph="(defn +bar ...)" />
+            <marker date="1537801494557" expanded="true" signature="12965:13100" ph="(def x0 ...)" />
+            <marker date="1537801494557" expanded="true" signature="13102:13202" ph="(defn- +zero-line ...)" />
+            <marker date="1537801494557" expanded="true" signature="13204:15237" ph="(defn- +note-raw ...)" />
+            <marker date="1537801494557" expanded="true" signature="15239:15340" ph="(def s ...)" />
+            <marker date="1537801494557" expanded="true" signature="15393:15995" ph="(defn +note ...)" />
+            <marker date="1537801494557" expanded="true" signature="15997:16085" ph="(defn -note ...)" />
+            <marker date="1537801494557" expanded="true" signature="16087:16168" ph="(defn clear-notes ...)" />
+            <marker date="1537801494557" expanded="true" signature="16171:16329" ph="(defn set-played-notes! ...)" />
+            <marker date="1537801494557" expanded="true" signature="16331:16452" ph="(defn set-keysig! ...)" />
+            <marker date="1537801494557" expanded="true" signature="16578:16716" ph="(defn set-timesig! ...)" />
+            <marker date="1537801494557" expanded="true" signature="16719:16780" ph="(do ...)" />
+            <marker date="1537801494557" expanded="true" signature="16782:16993" ph="(comment ...)" />
+            <marker date="1537801494557" expanded="true" signature="16996:17169" ph="(comment ...)" />
+            <marker date="1537801494557" expanded="true" signature="17171:17785" ph="(comment ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/osc.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1537845615242" expanded="true" signature="0:32" ph="(ns osc ...)" />
+            <marker date="1537845615242" expanded="true" signature="198:450" ph="(defn send ...)" />
+            <marker date="1537845615242" expanded="true" signature="452:618" ph="(defn listen ...)" />
+            <marker date="1537845615242" expanded="true" signature="620:773" ph="(comment ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/music_instrument_state.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <marker date="1537845987482" expanded="true" signature="0:80" ph="(ns music-instrument-state ...)" />
+            <marker date="1537845987482" expanded="true" signature="147:551" ph="(def s ...)" />
+            <marker date="1537845987482" expanded="true" signature="553:720" ph="(defn- on-note ...)" />
+            <marker date="1537845987482" expanded="true" signature="796:1039" ph="(defn get-notes ...)" />
+            <marker date="1537845987482" expanded="true" signature="1067:1198" ph="(defn get-note ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/studio.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding />
         </state>
       </provider>

@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ArcadiaPlayground.iml" filepath="$PROJECT_DIR$/.idea/ArcadiaPlayground.iml" />
       <module fileurl="file://$PROJECT_DIR$/Assets/arcadia.nrepl/arcadia.nrepl.iml" filepath="$PROJECT_DIR$/Assets/arcadia.nrepl/arcadia.nrepl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assets/arcadia.nrepl/arcadia.nrepl.iml" filepath="$PROJECT_DIR$/Assets/arcadia.nrepl/arcadia.nrepl.iml" />
     </modules>
   </component>
 </project>
