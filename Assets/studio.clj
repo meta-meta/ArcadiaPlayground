@@ -7,15 +7,15 @@
 
 (def keystation-obj (object-named "Keystation"))
 
-(defn- key+ [parent x-offset note]
+(defn- key+ [parent x-offset w note]
   (let [pivot (GameObject. (str "pivot-" note))
         key (create-primitive :cube "key")
-        [w h d] [0.025 0.03 0.155]]
+        [h d] [0.03 0.155]]
     (child+ pivot key)
     (child+ parent pivot)
     (set! (.. pivot transform localPosition) (v3 (* w x-offset) 0 0))
     (set! (.. key transform localPosition) (v3 0 0 (- (/ d 2))))
-    (set! (.. key transform localScale) (v3 w h d))
+    (set! (.. key transform localScale) (v3 (* 0.95 w) h d))
     pivot))
 
 (def notes-in-c                                             ;TODO: import from music-notation
@@ -35,7 +35,10 @@
     (->> notes
          (map-indexed (fn [index note]
                         [note
-                         (key+ keystation-obj (- index idx-of-middle-c) note)]))
+                         (key+ keystation-obj
+                               (- index idx-of-middle-c)
+                               (/ 1.225 (count notes))
+                               note)]))
          (flatten)
          (apply hash-map))))
 
