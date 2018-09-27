@@ -13,24 +13,22 @@
 
 (def notes-in-c-set (set notes-in-c))
 
-(def keystation-obj (object-named "Keystation"))
-
 (def mat-black (Resources/Load "black-keys"))
 (def mat-white (Resources/Load "white-keys"))
 
 (defn- key+ [parent x-offset w note]
   (let [pivot (GameObject. (str "pivot-" note))
         key (create-primitive :cube "key")
-        [h d] [0.03 0.155]
-        mat (if (contains? notes-in-c-set note)
-              mat-white
-              mat-black)]
+        [h d] [(* 1.25 w) (* 6.5 w)]]
     (child+ pivot key)
     (child+ parent pivot)
     (set! (.. pivot transform localPosition) (v3 (* w x-offset) 0 0))
     (set! (.. key transform localPosition) (v3 0 0 (- (/ d 2))))
     (set! (.. key transform localScale) (v3 (* 0.95 w) h d))
-    (set! (.. (cmpt key Renderer) material) mat)
+    (set! (.. (cmpt key Renderer) material)
+          (if (contains? notes-in-c-set note)
+            mat-white
+            mat-black))
     pivot))
 
 (defn- index-of [e coll] (first (keep-indexed #(if (= e %2) %1) coll)))
@@ -38,20 +36,19 @@
 (defn- notes-in-c-range [low high]
   (filter #(and (>= % low) (<= % high)) notes-in-c))
 
-(def keystation-keys
-  (let [low 21
-        high 108
-        white-notes (notes-in-c-range low high)
+(defn- keys+ "creates gameobjects for keys on a keyboard, returns a hashmap of note->gameobject"
+  [container-obj low high keyboard-width]
+  (let [white-notes (notes-in-c-range low high)
         black-notes (filter #(not (contains? notes-in-c-set %)) (range low (+ 1 high)))
         idx-of-middle-c (index-of 60 white-notes)
-        key-width (/ 1.225 (count white-notes))
+        key-width (/ keyboard-width (count white-notes))
 
         white-keys
         (->> white-notes
              (map-indexed
                (fn [index note]
                  [note
-                  (key+ keystation-obj                      ;parent
+                  (key+ container-obj                       ;parent
                         (- index idx-of-middle-c)           ;x-offset
                         key-width                           ;width
                         note)]))                            ;note
@@ -62,13 +59,13 @@
              (map-indexed
                (fn [index note]
                  [note
-                  (let [pivot (key+ keystation-obj             ;parent
-                                 (- (index-of (+ note 1) white-notes)
-                                    idx-of-middle-c
-                                    0.5)                    ;x-offset
-                                 key-width                  ;width
-                                 note                       ;note
-                                 )
+                  (let [pivot (key+ container-obj           ;parent
+                                    (- (index-of (+ note 1) white-notes)
+                                       idx-of-middle-c
+                                       0.5)                 ;x-offset
+                                    key-width               ;width
+                                    note                    ;note
+                                    )
                         key (first (children pivot))]
                     (.Translate (.. key transform) (v3 0 (/ key-width 2) 0.02))
                     (set! (.. key transform localScale)
@@ -81,15 +78,49 @@
          (apply hash-map))
     ))
 
-(defn- on-keystation-evt [evt index val]
+(def keystation-obj (object-named "Keystation"))
+(def a-300-obj (object-named "A-300"))
+
+(def object-state
+  (atom {
+         :keystation {
+                      :buttons {}
+                      :faders  {}
+                      :keys    (keys+ keystation-obj 21 108 1.225)
+                      :knobs   {}
+                      }
+         :a-300      {
+                      :buttons {}
+                      :faders  {}
+                      :keys    (keys+ a-300-obj 41 72 0.44)
+                      :knobs   {}
+                      }
+         }))
+
+
+;(defn- on-keystation-evt [evt index val]
+;  (cond (= evt :note)
+;        (let [go (keystation-keys index)]
+;          (when-not (nil? go)
+;            (set! (.. go transform localRotation)
+;                  (euler (v3 (if (= val 0) 0 -4) 0 0))))))
+;  (log "got " evt " " index " " val))
+
+(defn- on-evt [device-name evt index val]
   (cond (= evt :note)
-        (let [go (keystation-keys index)]
+        (let [go (get-in @object-state [device-name :keys index])]
           (when-not (nil? go)
             (set! (.. go transform localRotation)
-                  (euler (v3 (if (= val 0) 0 -4) 0 0))))))
-  (log "got " evt " " index " " val))
+                  (euler (v3 (if (= val 0) 0 -4) 0 0)))))))
 
-(listen :keystation #'on-keystation-evt)
+(defn- on-midi-evt [device-name]
+  (fn [evt index val]
+    (on-evt device-name evt index val)
+    (log "got " device-name " " evt " " index " " val)))
+
+;(listen :keystation #'on-keystation-evt)
+(listen :keystation (on-midi-evt :keystation))
+(listen :a-300 (on-midi-evt :a-300))
 
 
 

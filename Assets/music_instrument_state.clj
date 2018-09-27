@@ -17,6 +17,7 @@
                            }]
          (atom {
                 :default    inst-initial
+                :a-300      inst-initial
                 :keystation inst-initial
                 })))
 
@@ -27,6 +28,7 @@
     (doseq [listener listeners] (listener event index val))
     (log (str "/" instrument "/" event " " index " " val))))
 
+(o/listen "/a-300/note" (fn [osc-msg] (on-midi-evt :a-300 :note osc-msg)))
 (o/listen "/keystation/note" (fn [osc-msg] (on-midi-evt :keystation :note osc-msg)))
 
 (defn listen
