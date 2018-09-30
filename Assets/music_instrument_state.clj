@@ -19,6 +19,10 @@
                 :default    inst-initial
                 :a-300      inst-initial
                 :keystation inst-initial
+                :acoustic-pitch {
+                                 :listeners #{}
+                                 :note [0.0 0.0]
+                                 }
                 })))
 
 (defn- on-midi-evt [instrument event osc-msg]
@@ -29,8 +33,17 @@
     ;(log (str "/" instrument "/" event " " index " " val))
     ))
 
+(defn- on-pitch-evt [instrument osc-msg]
+  (let [pitch-and-amp (vec (. osc-msg (get_args)))
+        listeners (get-in @s [instrument :listeners])]
+    (swap! s assoc-in [instrument :note] pitch-and-amp)
+    (doseq [listener listeners] (listener pitch-and-amp))
+    ;(log (str "/" instrument "/" event " " index " " val))
+    ))
+
 (o/listen "/a-300/note" (fn [osc-msg] (on-midi-evt :a-300 :note osc-msg)))
 (o/listen "/keystation/note" (fn [osc-msg] (on-midi-evt :keystation :note osc-msg)))
+(o/listen "/acoustic-pitch/note" (fn [osc-msg] (on-pitch-evt :acoustic-pitch osc-msg)))
 
 (defn listen
   "registers a listener for instrument events. listener must accept args: midi-evt index val"
