@@ -116,7 +116,8 @@
 (defn- on-midi-evt [device-name]
   (fn [evt index val]
     (on-evt device-name evt index val)
-    (log "got " device-name " " evt " " index " " val)))
+    ;(log "got " device-name " " evt " " index " " val)
+    ))
 
 ;(listen :keystation #'on-keystation-evt)
 (listen :keystation (on-midi-evt :keystation))

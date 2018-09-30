@@ -663,6 +663,138 @@ MonoBehaviour:
     - Closure.lambda_method
     editorMethodCount: 0
     foldoutHandlers: 0
+  - address: /a-300/note
+    type: 0
+    OscMessageHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscMessageEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    FloatHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscFloatEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    DoubleHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscDoubleEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    IntHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscIntEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    LongHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscLongEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    StringHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscStringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    CharHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscCharEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    BoolHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscBoolEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ColorHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscColorEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    BlobHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscBlobEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    TimeTagHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscTimeTagEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ImpulseNullEmptyHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    runtimeMethodLabels:
+    - Closure.lambda_method
+    editorMethodCount: 0
+    foldoutHandlers: 0
+  - address: /keystation/note
+    type: 0
+    OscMessageHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscMessageEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    FloatHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscFloatEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    DoubleHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscDoubleEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    IntHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscIntEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    LongHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscLongEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    StringHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscStringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    CharHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscCharEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    BoolHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscBoolEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ColorHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscColorEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    BlobHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscBlobEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    TimeTagHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscTimeTagEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ImpulseNullEmptyHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    runtimeMethodLabels:
+    - Closure.lambda_method
+    editorMethodCount: 0
+    foldoutHandlers: 0
   _settingsFoldout: 1
   _mappingsFoldout: 0
   _messagesFoldout: 0
@@ -1863,6 +1995,34 @@ MonoBehaviour:
     IsRightToBeSpawned: 0
     IsEnabled: 1
     CanDuplicate: 0
+--- !u!1 &1900581491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1900581492}
+  m_Layer: 0
+  m_Name: Spiral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1900581492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900581491}
+  m_LocalRotation: {x: -0.50380534, y: 0.47900793, z: 0.4050808, w: 0.593836}
+  m_LocalPosition: {x: 0.511, y: -0.349, z: -0.597}
+  m_LocalScale: {x: 0.090895, y: 0.090895, z: 0.090895}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -99.45, y: -101.76001, z: 179.459}
 --- !u!4 &1945691333 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 468682, guid: 126d619cf4daa52469682f85c1378b4a,
