@@ -3,7 +3,11 @@
         [arcadia.introspection]
         [arcadia.linear]
         [music-instrument-state :only [get-notes listen]])
-  (:import (UnityEngine GameObject Material Renderer Resources)))
+  (:import (UnityEngine GameObject Material Renderer Resources)
+           ;(UnityEditor EditorApplication)
+           ))
+
+;(set! EditorApplication/isPlaying true)
 
 (def notes-in-c                                             ;TODO: import from music-notation
   (->> (cycle [2 2 1 2 2 2 1])
@@ -96,6 +100,26 @@
                       :knobs   {}
                       }
          }))
+
+
+
+(defn find-child "returns the first child of go with name"
+  [go name] (some #(when (= name (.name %)) %)
+                  (children go)))
+
+(def spacenav-obj (object-named "Spacenav"))
+(def spacenav-puck (find-child spacenav-obj "Puck"))
+(defn- on-spacenav [{translation :translation rotation :rotation}]
+  (set! (.. spacenav-puck transform localPosition) translation)
+  (set! (.. spacenav-puck transform localRotation) rotation)
+  )
+
+(some #(when (= name (.name %)) spacenav-obj)
+      (children spacenav-obj))
+(children spacenav-obj)
+spacenav-puck
+
+(listen :spacenav #'on-spacenav)
 
 
 ;(defn- on-keystation-evt [evt index val]

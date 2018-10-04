@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1257686913532666}
+  m_IsPrefabAsset: 1
+--- !u!1 &1257686913532666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4408273183493538}
+  - component: {fileID: 114429357512941782}
+  - component: {fileID: 114341058594288662}
+  m_Layer: 0
+  m_Name: OSC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4408273183493538
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1257686913532666}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114341058594288662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1257686913532666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a83e4d41d3144efb843adad75b278d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _port: 8000
+  _mode: 0
+  _ipAddress: 127.0.0.1
+  _remoteStatus: 2
+  onAnyMessage:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: OscSimpl.OscMessageEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  _multicastLoopback: 1
+  _bundleMessagesOnEndOfFrame: 0
+  _openOnAwake: 0
+  _settingsFoldout: 0
+  _messagesFoldout: 0
+--- !u!114 &114429357512941782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1257686913532666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64988e220a2942f9856e0017b596ba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _port: 7000
+  _mode: 0
+  _multicastAddress: 224.1.1.1
+  _filterDuplicates: 0
+  _addTimeTagsToBundledMessages: 0
+  _openOnAwake: 0
+  _dirtyMappings: 0
+  _mappings:
+  - address: /note
+    type: 0
+    OscMessageHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscMessageEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    FloatHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscFloatEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    DoubleHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscDoubleEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    IntHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscIntEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    LongHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscLongEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    StringHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscStringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    CharHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscCharEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    BoolHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscBoolEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ColorHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscColorEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    BlobHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscBlobEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    TimeTagHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscTimeTagEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ImpulseNullEmptyHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    runtimeMethodLabels:
+    - Closure.lambda_method
+    - Closure.lambda_method
+    editorMethodCount: 0
+    foldoutHandlers: 0
+  - address: /a-300/note
+    type: 0
+    OscMessageHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscMessageEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    FloatHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscFloatEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    DoubleHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscDoubleEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    IntHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscIntEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    LongHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscLongEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    StringHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscStringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    CharHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscCharEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    BoolHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscBoolEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ColorHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscColorEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    BlobHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscBlobEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    TimeTagHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscTimeTagEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ImpulseNullEmptyHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    runtimeMethodLabels:
+    - Closure.lambda_method
+    editorMethodCount: 0
+    foldoutHandlers: 0
+  - address: /keystation/note
+    type: 0
+    OscMessageHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscMessageEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    FloatHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscFloatEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    DoubleHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscDoubleEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    IntHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscIntEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    LongHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscLongEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    StringHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscStringEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    CharHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscCharEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    BoolHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscBoolEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ColorHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscColorEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    BlobHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscBlobEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    TimeTagHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: OscSimpl.OscTimeTagEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ImpulseNullEmptyHandler:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    runtimeMethodLabels:
+    - Closure.lambda_method
+    editorMethodCount: 0
+    foldoutHandlers: 0
+  _settingsFoldout: 1
+  _mappingsFoldout: 0
+  _messagesFoldout: 0

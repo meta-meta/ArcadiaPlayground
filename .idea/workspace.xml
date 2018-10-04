@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5fcc031-efa8-4017-a5f6-6119c991dc38" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ArcadiaPlayground.Editor.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ArcadiaPlayground.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/interval-11.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/interval-halo-11.mat" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/ArcadiaPlayground/v15/.suo" afterPath="$PROJECT_DIR$/.vs/ArcadiaPlayground/v15/.suo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/arcadia.nrepl" afterPath="$PROJECT_DIR$/Assets/arcadia.nrepl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArcadiaPlayground.sln" afterPath="$PROJECT_DIR$/ArcadiaPlayground.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/2018-6-24-purple-room-VR.unity" afterPath="$PROJECT_DIR$/Assets/2018-6-24-purple-room-VR.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/OvrAvatarSettings.asset" afterPath="$PROJECT_DIR$/Assets/Resources/OvrAvatarSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tablet.prefab" afterPath="$PROJECT_DIR$/Assets/Tablet.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/music_instrument_state.clj" afterPath="$PROJECT_DIR$/Assets/music_instrument_state.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/music_theory_visualization.clj" afterPath="$PROJECT_DIR$/Assets/music_theory_visualization.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/studio.clj" afterPath="$PROJECT_DIR$/Assets/studio.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/uDesktopDuplication/Materials/uDD_Screen_Unlit_Transparent.mat" afterPath="$PROJECT_DIR$/Assets/uDesktopDuplication/Materials/uDD_Screen_Unlit_Transparent.mat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" />
     </list>
     <list id="683ade52-2a0d-4562-9c79-69c2ad9da45a" name="New changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,14 +59,14 @@
     <favorites_list name="ArcadiaPlayground" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5907143">
+    <splitter split-orientation="vertical" split-proportion="0.31464872">
       <split-first>
         <leaf>
-          <file leaf-file-name="music_theory_visualization.clj" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/music_theory_visualization.clj">
+          <file leaf-file-name="music_instrument_state.clj" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/music_instrument_state.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+                <state relative-caret-position="150">
+                  <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -52,11 +76,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="music_instrument_state.clj" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/music_instrument_state.clj">
+          <file leaf-file-name="studio.clj" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/studio.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+                <state relative-caret-position="175">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -153,9 +177,9 @@
         <option value="$PROJECT_DIR$/Assets/osc.clj" />
         <option value="$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/nrepl.clj" />
         <option value="$PROJECT_DIR$/Assets/music_notation.clj" />
-        <option value="$PROJECT_DIR$/Assets/studio.clj" />
-        <option value="$PROJECT_DIR$/Assets/music_instrument_state.clj" />
         <option value="$PROJECT_DIR$/Assets/music_theory_visualization.clj" />
+        <option value="$PROJECT_DIR$/Assets/music_instrument_state.clj" />
+        <option value="$PROJECT_DIR$/Assets/studio.clj" />
       </list>
     </option>
   </component>
@@ -202,10 +226,133 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArcadiaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArcadiaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArcadiaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArcadiaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArcadiaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArcadiaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArcadiaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpaceNavigator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArcadiaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArcadiaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpaceNavigator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArcadiaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArcadiaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpaceNavigator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArcadiaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArcadiaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpaceNavigator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Contents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="ArcadiaUnity">
           <PATH>
@@ -255,7 +402,7 @@
       <recent name="C:\Projects\ArcadiaPlayground\Assets" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1538278197298">{:repl-history {:ide [], :local [], :remote [{:command &quot;(mats (str \&quot;n\&quot; 1))&quot;, :offset 18, :ns &quot;music-theory-visualization&quot;} {:command &quot;(str \&quot;n\&quot; 1)&quot;, :offset 11, :ns &quot;music-theory-visualization&quot;} {:command &quot;mats&quot;, :offset 4, :ns &quot;music-theory-visualization&quot;} {:command &quot;(-&gt;&gt; (range 12)\n     (map (fn [n] (let [pos (mod n 12)\n                        y (/ n 12)\n                        x (Mathf/Sin (* seg n))\n                        z (Mathf/Cos (* seg n))\n                        node-name (str \&quot;node-\&quot; n)\n                        note-name (str \&quot;note-\&quot; n)\n                        node (create-primitive :sphere node-name)\n                        note (create-primitive :sphere note-name)\n                        ]\n                    (child+ spiral-obj node)\n                    (child+ spiral-obj note)\n                    (set! (.. node transform localPosition) (v3 x y z))\n                    (set! (.. note transform localPosition) (v3 x y z))\n                    (set! (.. node transform localScale) (v3 0.5 0.5 0.5))\n                    (set! (.. note transform localScale) (v3 0.7 0.7 0.7))\n                    (set! (.. (cmpt node Renderer) material) (mats :node))\n                    (set! (.. (cmpt note Renderer) material) (mats n))\n                    [(keyword node-name) node\n                     (keyword note-name) note]\n                    ))))&quot;, :offset 1091, :ns &quot;music-theory-visualization&quot;} {:command &quot;(-&gt;&gt; (range 12)\n     (map (fn [n] (let [pos (mod n 12)\n                        y (/ n 12)\n                        x (Mathf/Sin (* seg n))\n                        z (Mathf/Cos (* seg n))\n                        node-name (str \&quot;node-\&quot; n)\n                        note-name (str \&quot;note-\&quot; n)\n                        node (create-primitive :sphere node-name)\n                        note (create-primitive :sphere note-name)\n                        ]\n                    (child+ spiral-obj node)\n                    (child+ spiral-obj note)\n                    (set! (.. node transform localPosition) (v3 x y z))\n                    (set! (.. note transform localPosition) (v3 x y z))\n                    (set! (.. node transform localScale) (v3 0.3 0.3 0.3))\n                    (set! (.. note transform localScale) (v3 0.5 0.5 0.5))\n                    (set! (.. (cmpt node Renderer) material) (mats :node))\n                    (set! (.. (cmpt note Renderer) material) (mats n))\n                    [(keyword node-name) node\n                     (keyword note-name) note]\n                    ))))&quot;, :offset 1091, :ns &quot;music-theory-visualization&quot;} {:command &quot;(-&gt;&gt; (range 21 109)\n     (map (fn [n] (let [pos (mod n 12)\n                        y (/ n 12)\n                        x (Mathf/Sin (* seg n))\n                        z (Mathf/Cos (* seg n))\n                        node-name (str \&quot;node-\&quot; n)\n                        note-name (str \&quot;note-\&quot; n)\n                        node (create-primitive :sphere node-name)\n                        note (create-primitive :sphere note-name)\n                        ]\n                    (child+ spiral-obj node)\n                    (child+ spiral-obj note)\n                    (set! (.. node transform localPosition) (v3 x y z))\n                    (set! (.. note transform localPosition) (v3 x y z))\n                    (set! (.. node transform localScale) (v3 0.3 0.3 0.3))\n                    (set! (.. note transform localScale) (v3 0.5 0.5 0.5))\n                    (set! (.. (cmpt node Renderer) material) (mats :node))\n                    (set! (.. (cmpt note Renderer) material) (mats n))\n                    [(keyword node-name) node\n                     (keyword note-name) note]\n                    ))))&quot;, :offset 1095, :ns &quot;music-theory-visualization&quot;} {:command &quot;(-&gt;&gt; (range 21 109)\n     (map (fn [n] (let [pos (mod n 12)\n                        y (/ n 12)\n                        x (Mathf/Sin (* seg n))\n                        z (Mathf/Cos (* seg n))\n                        node-name (str \&quot;node-\&quot; n)\n                        note-name (str \&quot;note-\&quot; n)\n                        node (create-primitive :sphere node-name)\n                        note (create-primitive :sphere note-name)\n                        ]\n                    (child+ spiral-obj node)\n                    (child+ spiral-obj note)\n                    (set! (.. node transform localPosition) (v3 x y z))\n                    (set! (.. note transform localPosition) (v3 x y z))\n                    (set! (.. node transform localScale) (v3 0.3 0.3 0.3))\n                    (set! (.. note transform localScale) (v3 0.5 0.5 0.5))\n                    (set! (.. (cmpt node Renderer) material) (mats :node))\n                    (set! (.. (cmpt note Renderer) material) (mats pos))\n                    [(keyword node-name) node\n                     (keyword note-name) note]\n                    ))))&quot;, :offset 1097, :ns &quot;music-theory-visualization&quot;} {:command &quot;(dir arcadia.core)&quot;, :offset 18, :ns &quot;music-theory-visualization&quot;} {:command &quot;Mathf/Scale&quot;, :offset 11, :ns &quot;music-theory-visualization&quot;} {:command &quot;(Mathf/Lerp 0.1 0.5 0)&quot;, :offset 22, :ns &quot;music-theory-visualization&quot;} {:command &quot;(Mathf/Lerp 0.1 0.5 1)&quot;, :offset 22, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def note-size-min 0.5)&quot;, :offset 23, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def note-size-min 0.1)&quot;, :offset 23, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def note-size-max 0.5)&quot;, :offset 23, :ns &quot;music-theory-visualization&quot;} {:command &quot;(v3 note-size-min)&quot;, :offset 18, :ns &quot;music-theory-visualization&quot;} {:command &quot;(spiral :node-21)&quot;, :offset 17, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn- on-evt [device-name evt index val]\n  (cond (= evt :note)\n        (let [go (spiral (keyword (str \&quot;note-\&quot; index)))]\n          (set! (.. go transform localScale) \n                (v3 (Mathf/Lerp note-size-min note-size-max (/ val 128))))\n          )))&quot;, :offset 255, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn- on-midi-evt [device-name]\n  (fn [evt index val]\n    (on-evt device-name evt index val)\n    (log \&quot;got \&quot; device-name \&quot; \&quot; evt \&quot; \&quot; index \&quot; \&quot; val)))&quot;, :offset 150, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def note-size-max 0.7)&quot;, :offset 23, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def spiral\n  (-&gt;&gt; (range 21 109)\n       (map (fn [n] (let [pos (mod n 12)\n                          y (/ n 12)\n                          x (Mathf/Sin (* seg n))\n                          z (Mathf/Cos (* seg n))\n                          node-name (str \&quot;node-\&quot; n)\n                          note-name (str \&quot;note-\&quot; n)\n                          node (create-primitive :sphere node-name)\n                          note (create-primitive :sphere note-name)\n                          ]\n                      (child+ spiral-obj node)\n                      (child+ spiral-obj note)\n                      (set! (.. node transform localPosition) (v3 x y z))\n                      (set! (.. note transform localPosition) (v3 x y z))\n                      (set! (.. node transform localScale) (v3 0.3))\n                      (set! (.. note transform localScale) (v3 note-size-min))\n                      (set! (.. (cmpt node Renderer) material) (mats :node))\n                      (set! (.. (cmpt note Renderer) material) (mats pos))\n                      [(keyword node-name) node\n                       (keyword note-name) note]\n                      )))\n       (flatten)\n       (apply hash-map)))&quot;, :offset 1187, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn- on-evt [device-name evt index val]\n  (cond (= evt :note)\n        (let [go (spiral (keyword (str \&quot;note-\&quot; index)))]\n          (set! (.. go transform localScale)\n                (v3 (Mathf/Lerp note-size-min note-size-max\n                                (if (= 0 val) 0.1)\n                                (/ val 128))))\n          )))&quot;, :offset 337, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn- on-evt [device-name evt index val]\n  (cond (= evt :note)\n        (let [go (spiral (keyword (str \&quot;note-\&quot; index)))]\n          (set! (.. go transform localScale)\n                (v3 (Mathf/Lerp note-size-min note-size-max\n                                (if (= 0 val)\n                                  0.1\n                                  (/ val 128)))))\n          )))&quot;, :offset 373, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn- on-evt [device-name evt index val]\n  (cond (= evt :note)\n        (let [go (spiral (keyword (str \&quot;note-\&quot; index)))]\n          (log val)\n          (set! (.. go transform localScale)\n                (v3 (Mathf/Lerp note-size-min note-size-max\n                                (if (= 0 0)\n                                  0.1\n                                  (/ val 128)))))\n          )))&quot;, :offset 391, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn- on-evt [device-name evt index val]\n  (cond (= evt :note)\n        (let [go (spiral (keyword (str \&quot;note-\&quot; index)))]\n          (log val)\n          (set! (.. go transform localScale)\n                (v3 (Mathf/Lerp note-size-min note-size-max\n                                (if (= 0 val)\n                                  0.1\n                                  (/ val 128)))))\n          )))&quot;, :offset 393, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn- on-evt [device-name evt index val]\n  (cond (= evt :note)\n        (let [go (spiral (keyword (str \&quot;note-\&quot; index)))]\n          (set! (.. go transform localScale)\n                (v3 (Mathf/Lerp\n                      (if (= 0 val) 0.1 note-size-min)\n                      note-size-max\n                      (/ val 128))))\n          )))&quot;, :offset 339, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def note-size-min 0.26)&quot;, :offset 24, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def note-size-max 0.6)&quot;, :offset 23, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def note-size-max 0.58)&quot;, :offset 24, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def spiral\n  (-&gt;&gt; (range 21 109)\n       (map (fn [n] (let [pos (mod n 12)\n                          y (/ n -12)\n                          x (Mathf/Sin (* seg n))\n                          z (Mathf/Cos (* seg n))\n                          node-name (str \&quot;node-\&quot; n)\n                          note-name (str \&quot;note-\&quot; n)\n                          node (create-primitive :sphere node-name)\n                          note (create-primitive :sphere note-name)\n                          ]\n                      (child+ spiral-obj node)\n                      (child+ spiral-obj note)\n                      (set! (.. node transform localPosition) (v3 x y z))\n                      (set! (.. note transform localPosition) (v3 x y z))\n                      (set! (.. node transform localScale) (v3 (* note-size-min 0.9)))\n                      (set! (.. note transform localScale) (v3 0.1))\n                      (set! (.. (cmpt node Renderer) material) (mats :node))\n                      (set! (.. (cmpt note Renderer) material) (mats pos))\n                      [(keyword node-name) node\n                       (keyword note-name) note]\n                      )))\n       (flatten)\n       (apply hash-map)))&quot;, :offset 1196, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def spiral\n  (-&gt;&gt; (range 21 109)\n       (map (fn [n] (let [pos (mod n 12)\n                          y (/ n -12)\n                          x (Mathf/Sin (* seg n (/ y -12)))\n                          z (Mathf/Cos (* seg n (/ y -12)))\n                          node-name (str \&quot;node-\&quot; n)\n                          note-name (str \&quot;note-\&quot; n)\n                          node (create-primitive :sphere node-name)\n                          note (create-primitive :sphere note-name)\n                          ]\n                      (child+ spiral-obj node)\n                      (child+ spiral-obj note)\n                      (set! (.. node transform localPosition) (v3 x y z))\n                      (set! (.. note transform localPosition) (v3 x y z))\n                      (set! (.. node transform localScale) (v3 (* note-size-min 0.9)))\n                      (set! (.. note transform localScale) (v3 0.1))\n                      (set! (.. (cmpt node Renderer) material) (mats :node))\n                      (set! (.. (cmpt note Renderer) material) (mats pos))\n                      [(keyword node-name) node\n                       (keyword note-name) note]\n                      )))\n       (flatten)\n       (apply hash-map)))&quot;, :offset 1216, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def spiral\n  (-&gt;&gt; (range 21 109)\n       (map (fn [n] (let [pos (mod n 12)\n                          y (/ n -12)\n                          x (* (Mathf/Sin (* seg n)) (/ y -12))\n                          z (* (Mathf/Cos (* seg n)) (/ y -12))\n                          node-name (str \&quot;node-\&quot; n)\n                          note-name (str \&quot;note-\&quot; n)\n                          node (create-primitive :sphere node-name)\n                          note (create-primitive :sphere note-name)\n                          ]\n                      (child+ spiral-obj node)\n                      (child+ spiral-obj note)\n                      (set! (.. node transform localPosition) (v3 x y z))\n                      (set! (.. note transform localPosition) (v3 x y z))\n                      (set! (.. node transform localScale) (v3 (* note-size-min 0.9)))\n                      (set! (.. note transform localScale) (v3 0.1))\n                      (set! (.. (cmpt node Renderer) material) (mats :node))\n                      (set! (.. (cmpt note Renderer) material) (mats pos))\n                      [(keyword node-name) node\n                       (keyword note-name) note]\n                      )))\n       (flatten)\n       (apply hash-map)))&quot;, :offset 1224, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def spiral\n  (-&gt;&gt; (range 21 109)\n       (map (fn [n] (let [pos (mod n 12)\n                          y (/ n -12)\n                          x (* (Mathf/Sin (* seg n)) (/ y 12))\n                          z (* (Mathf/Cos (* seg n)) (/ y 12))\n                          node-name (str \&quot;node-\&quot; n)\n                          note-name (str \&quot;note-\&quot; n)\n                          node (create-primitive :sphere node-name)\n                          note (create-primitive :sphere note-name)\n                          ]\n                      (child+ spiral-obj node)\n                      (child+ spiral-obj note)\n                      (set! (.. node transform localPosition) (v3 x y z))\n                      (set! (.. note transform localPosition) (v3 x y z))\n                      (set! (.. node transform localScale) (v3 (* note-size-min 0.9)))\n                      (set! (.. note transform localScale) (v3 0.1))\n                      (set! (.. (cmpt node Renderer) material) (mats :node))\n                      (set! (.. (cmpt note Renderer) material) (mats pos))\n                      [(keyword node-name) node\n                       (keyword note-name) note]\n                      )))\n       (flatten)\n       (apply hash-map)))&quot;, :offset 1222, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def spiral\n  (-&gt;&gt; (range 21 109)\n       (map (fn [n] (let [pos (mod n 12)\n                          y (/ n -12)\n                          x (* (Mathf/Sin (* seg n)) (- 1 (/ y 12)))\n                          z (* (Mathf/Cos (* seg n)) (- 1 (/ y 12)))\n                          node-name (str \&quot;node-\&quot; n)\n                          note-name (str \&quot;note-\&quot; n)\n                          node (create-primitive :sphere node-name)\n                          note (create-primitive :sphere note-name)\n                          ]\n                      (child+ spiral-obj node)\n                      (child+ spiral-obj note)\n                      (set! (.. node transform localPosition) (v3 x y z))\n                      (set! (.. note transform localPosition) (v3 x y z))\n                      (set! (.. node transform localScale) (v3 (* note-size-min 0.9)))\n                      (set! (.. note transform localScale) (v3 0.1))\n                      (set! (.. (cmpt node Renderer) material) (mats :node))\n                      (set! (.. (cmpt note Renderer) material) (mats pos))\n                      [(keyword node-name) node\n                       (keyword note-name) note]\n                      )))\n       (flatten)\n       (apply hash-map)))&quot;, :offset 1234, :ns &quot;music-theory-visualization&quot;} {:command &quot;(/ 21 -12)&quot;, :offset 10, :ns &quot;music-theory-visualization&quot;} {:command &quot;(+ 1 (/ (/ 21 -12) 12))&quot;, :offset 23, :ns &quot;music-theory-visualization&quot;} {:command &quot;(+ 1 (/ (/ 109 -12) 12))&quot;, :offset 24, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def spiral\n  (-&gt;&gt; (range 21 109)\n       (map (fn [n] (let [pos (mod n 12)\n                          y (/ n -12)\n                          x (* (Mathf/Sin (* seg n)) (+ 1 (/ y 12)))\n                          z (* (Mathf/Cos (* seg n)) (+ 1 (/ y 12)))\n                          node-name (str \&quot;node-\&quot; n)\n                          note-name (str \&quot;note-\&quot; n)\n                          node (create-primitive :sphere node-name)\n                          note (create-primitive :sphere note-name)\n                          ]\n                      (child+ spiral-obj node)\n                      (child+ spiral-obj note)\n                      (set! (.. node transform localPosition) (v3 x y z))\n                      (set! (.. note transform localPosition) (v3 x y z))\n                      (set! (.. node transform localScale) (v3 (* note-size-min 0.9)))\n                      (set! (.. note transform localScale) (v3 0.1))\n                      (set! (.. (cmpt node Renderer) material) (mats :node))\n                      (set! (.. (cmpt note Renderer) material) (mats pos))\n                      [(keyword node-name) node\n                       (keyword note-name) note]\n                      )))\n       (flatten)\n       (apply hash-map)))&quot;, :offset 1234, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn- on-evt [device-name evt index val]\n  (cond (= evt :note)\n        (let [go (spiral (keyword (str \&quot;note-\&quot; index)))\n              scale (note-&gt;scale val)]\n          (set! (.. go transform localScale)\n                (v3 (* scale\n                       (Mathf/Lerp\n                         (if (= 0 val) 0.1 note-size-min)\n                         note-size-max\n                         (/ val 128)))))\n          )))&quot;, :offset 419, :ns &quot;music-theory-visualization&quot;} {:command &quot;(+ 1 1)&quot;, :offset 7, :ns &quot;music-instrument-state&quot;} {:command &quot;(o/listen \&quot;/acoustic-pitch/note\&quot; (fn [osc-msg] (log osc-msg)))&quot;, :offset 62, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn- on-pitch-evt [instrument osc-msg]\n  (let [pitch-and-amp (vec (. osc-msg (get_args)))\n        listeners (get-in @s [instrument :listeners])]\n    (swap! s assoc-in [instrument :note] pitch-and-amp)\n    (doseq [listener listeners] (listener pitch-and-amp))\n    ;(log (str \&quot;/\&quot; instrument \&quot;/\&quot; event \&quot; \&quot; index \&quot; \&quot; val))\n    ))&quot;, :offset 327, :ns &quot;music-instrument-state&quot;} {:command &quot;(o/listen \&quot;/acoustic-pitch/note\&quot; (fn [osc-msg] (on-pitch-evt :acoustic-pitch osc-msg)))&quot;, :offset 87, :ns &quot;music-instrument-state&quot;} {:command &quot;(def mats (-&gt;&gt; (range 12)\n               (map (fn [n] [n (Resources/Load (str \&quot;n\&quot; n))]))\n               (cons [:node (Resources/Load \&quot;node\&quot;)])\n               (flatten)\n               (apply hash-map)))&quot;, :offset 201, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def spiral-obj (object-named \&quot;Spiral\&quot;))&quot;, :offset 40, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def note-size-min 0.31)&quot;, :offset 24, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def note-size-min 0.3)&quot;, :offset 23, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def note-size-max 0.55)&quot;, :offset 24, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn note-&gt;scale [n] (+ 1 (/ (/ n -12) 12)))&quot;, :offset 45, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def seg (/ Mathf/PI 6))&quot;, :offset 24, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def spiral\n  (-&gt;&gt; (range 21 109)\n       (map (fn [n] (let [pos (mod n 12)\n                          y (/ n -12)\n                          scale (+ 1 (/ y 12))\n                          x (* (Mathf/Sin (* seg n)) scale)\n                          z (* (Mathf/Cos (* seg n)) scale)\n                          node-name (str \&quot;node-\&quot; n)\n                          note-name (str \&quot;note-\&quot; n)\n                          node (create-primitive :sphere node-name)\n                          note (create-primitive :sphere note-name)\n                          ]\n                      (child+ spiral-obj node)\n                      (child+ spiral-obj note)\n                      (set! (.. node transform localPosition) (v3 x y z))\n                      (set! (.. note transform localPosition) (v3 x y z))\n                      (set! (.. node transform localScale) (v3 (* note-size-min 0.9 scale)))\n                      (set! (.. note transform localScale) (v3 (* 0.1 scale)))\n                      (set! (.. (cmpt node Renderer) material) (mats :node))\n                      (set! (.. (cmpt note Renderer) material) (mats pos))\n                      [(keyword node-name) node\n                       (keyword note-name) note]\n                      )))\n       (flatten)\n       (apply hash-map)))&quot;, :offset 1279, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn- on-evt [device-name evt index val]\n  (cond (= evt :note)\n        (let [go (spiral (keyword (str \&quot;note-\&quot; index)))\n              scale (note-&gt;scale index)]\n          (set! (.. go transform localScale)\n                (v3 (* scale\n                       (Mathf/Lerp\n                         (if (= 0 val) 0.1 note-size-min)\n                         note-size-max\n                         (/ val 128)))))\n          )))&quot;, :offset 421, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn- on-midi-evt [device-name]\n  (fn [evt index val]\n    (on-evt device-name evt index val)))&quot;, :offset 95, :ns &quot;music-theory-visualization&quot;} {:command &quot;(listen :keystation (on-midi-evt :keystation))&quot;, :offset 46, :ns &quot;music-theory-visualization&quot;} {:command &quot;(ns music-theory-visualization\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes listen]])\n  (:import (UnityEngine GameObject Material Mathf Renderer Resources)))&quot;, :offset 241, :ns &quot;cursive.repl.runtime&quot;} {:command &quot;(def ac-pitch-obj (let [mat (Resources/Load \&quot;acoustic-pitch\&quot;)\n                        go (create-primitive :sphere \&quot;acoustic-pitch\&quot;)\n                        ]\n                    (child+ spiral-obj node)\n                    (set! (.. go transform localScale) (v3 0))\n                    (set! (.. (cmpt go Renderer) material) mat)\n                    go\n                    ))&quot;, :offset 376, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def ac-pitch-obj (let [mat (Resources/Load \&quot;acoustic-pitch\&quot;)\n                        go (create-primitive :sphere \&quot;acoustic-pitch\&quot;)\n                        ]\n                    (child+ spiral-obj go)\n                    (set! (.. go transform localScale) (v3 0))\n                    (set! (.. (cmpt go Renderer) material) mat)\n                    go\n                    ))&quot;, :offset 374, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn on-acoustic-pitch [[pitch amp]]\n  (log pitch))&quot;, :offset 52, :ns &quot;music-theory-visualization&quot;} {:command &quot;(o/listen \&quot;/acoustic-pitch/note\&quot; '#(on-acoustic-pitch))&quot;, :offset 55, :ns &quot;music-theory-visualization&quot;} {:command &quot;(listen \&quot;/acoustic-pitch/note\&quot; '#(on-acoustic-pitch))&quot;, :offset 53, :ns &quot;music-theory-visualization&quot;} {:command &quot;(listen \&quot;/acoustic-pitch/note\&quot; #'on-acoustic-pitch)&quot;, :offset 51, :ns &quot;music-theory-visualization&quot;} {:command &quot;(listen :acoustic-pitch #'on-acoustic-pitch)&quot;, :offset 44, :ns &quot;music-theory-visualization&quot;} {:command &quot;(mod 25 12)&quot;, :offset 11, :ns &quot;music-theory-visualization&quot;} {:command &quot;(mod 25.5 12)&quot;, :offset 13, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn- note-&gt;spiral-position [note vel]\n  (let [pos (mod note 12)\n        y (/ note -12)\n        scale (+ 1 (/ y 12))\n        x (* (Mathf/Sin (* seg note)) scale)\n        z (* (Mathf/Cos (* seg note)) scale)\n        ]\n    (v3 x y z)))&quot;, :offset 234, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn- note-&gt;spiral-localScale [note vel]\n  (v3 (* (note-&gt;scale note)\n         (Mathf/Lerp\n           (if (= 0 vel) 0.1 note-size-min)\n           note-size-max\n           (/ vel 128)))))&quot;, :offset 186, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn on-acoustic-pitch [[note vel]]\n  (set! (.. ac-pitch-obj transform position)\n        (note-&gt;spiral-position note vel))\n  (set! (.. ac-pitch-obj transform localScale)\n        (note-&gt;spiral-localScale note vel)))&quot;, :offset 215, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn- note-&gt;spiral-position [note]\n  (let [pos (mod note 12)\n        y (/ note -12)\n        scale (+ 1 (/ y 12))\n        x (* (Mathf/Sin (* seg note)) scale)\n        z (* (Mathf/Cos (* seg note)) scale)\n        ]\n    (v3 x y z)))&quot;, :offset 230, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn on-acoustic-pitch [[note vel]]\n  (set! (.. ac-pitch-obj transform position)\n        (note-&gt;spiral-position note))\n  (set! (.. ac-pitch-obj transform localScale)\n        (note-&gt;spiral-localScale note vel)))&quot;, :offset 211, :ns &quot;music-theory-visualization&quot;} {:command &quot;seg&quot;, :offset 3, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn on-acoustic-pitch [[note vel]]\n  (set! (.. ac-pitch-obj transform localPosition)\n        (note-&gt;spiral-position note))\n  (set! (.. ac-pitch-obj transform localScale)\n        (note-&gt;spiral-localScale note vel)))&quot;, :offset 216, :ns &quot;music-theory-visualization&quot;} {:command &quot;(dir arcadia.linear)&quot;, :offset 20, :ns &quot;music-theory-visualization&quot;} {:command &quot;(ns music-theory-visualization\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes listen]])\n  (:import (UnityEngine GameObject Material Mathf Renderer Resources Vector3)))&quot;, :offset 249, :ns &quot;music-theory-visualization&quot;} {:command &quot;Vector3/Zero&quot;, :offset 12, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn on-acoustic-pitch [[note vel]]\n  (set! (.. ac-pitch-obj transform localPosition)\n        (note-&gt;spiral-position note))\n  (set! (.. ac-pitch-obj transform localScale)\n        (if (= 0 vel)\n          (v3 0)\n          (note-&gt;spiral-localScale note vel))))&quot;, :offset 258, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn on-acoustic-pitch [[note vel]]\n  (set! (.. ac-pitch-obj transform localPosition)\n        (note-&gt;spiral-position note))\n  (log vel)\n  (set! (.. ac-pitch-obj transform localScale)\n        (if (= 0 vel)\n          (v3 0)\n          (note-&gt;spiral-localScale note vel))))&quot;, :offset 270, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn on-acoustic-pitch [[note vel]]\n  (set! (.. ac-pitch-obj transform localPosition)\n        (note-&gt;spiral-position note))\n  (set! (.. ac-pitch-obj transform localScale)\n        (if (= 0 vel)\n          (v3 5)\n          (note-&gt;spiral-localScale note vel))))&quot;, :offset 258, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn on-acoustic-pitch [[note vel]]\n  (set! (.. ac-pitch-obj transform localPosition)\n        (note-&gt;spiral-position note))\n  (set! (.. ac-pitch-obj transform localScale)\n        (if (= 0.0 vel)\n          (v3 0)\n          (note-&gt;spiral-localScale note vel))))&quot;, :offset 260, :ns &quot;music-theory-visualization&quot;} {:command &quot;(ns music-theory-visualization\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes listen]])\n  (:import (UnityEngine Color GameObject Material Mathf Renderer Resources Vector3)))&quot;, :offset 255, :ns &quot;music-theory-visualization&quot;} {:command &quot;(Color/HSVtoRGB 0.0 1.0 1.0 0.5)&quot;, :offset 32, :ns &quot;music-theory-visualization&quot;} {:command &quot;(Color/HSVtoRGB 0.0 1.0 1.0)&quot;, :offset 28, :ns &quot;music-theory-visualization&quot;} {:command &quot;Vector3/zero&quot;, :offset 12, :ns &quot;music-theory-visualization&quot;} {:command &quot;(Color/HSVtoRGB ~0.0 ~1.0 ~1.0)&quot;, :offset 31, :ns &quot;music-theory-visualization&quot;} {:command &quot;(float 1)&quot;, :offset 9, :ns &quot;music-theory-visualization&quot;} {:command &quot;(Color/HSVtoRGB 0 1 1)&quot;, :offset 22, :ns &quot;music-theory-visualization&quot;} {:command &quot;(Vector3. 0 0 1)&quot;, :offset 16, :ns &quot;music-theory-visualization&quot;} {:command &quot;Color/HSVtoRGB&quot;, :offset 14, :ns &quot;music-theory-visualization&quot;} {:command &quot;(Color/HSVToRGB 0 1 1)&quot;, :offset 22, :ns &quot;music-theory-visualization&quot;} {:command &quot;(Color/HSVToRGB 0 1 1 1)&quot;, :offset 24, :ns &quot;music-theory-visualization&quot;} {:command &quot;(Color/HSVToRGB 0 1 1 0.1)&quot;, :offset 26, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def ac-pitch-mat (Resources/Load \&quot;acoustic-pitch\&quot;))&quot;, :offset 52, :ns &quot;music-theory-visualization&quot;} {:command &quot;(SetColor ac-pitch-mat (Color/HSVToRGB 0 1 1))&quot;, :offset 46, :ns &quot;music-theory-visualization&quot;} {:command &quot;ac-pitch-mat&quot;, :offset 12, :ns &quot;music-theory-visualization&quot;} {:command &quot;ac-pitch-mat.SetColor&quot;, :offset 21, :ns &quot;music-theory-visualization&quot;} {:command &quot;(. ac-pitch-mat SetColor)&quot;, :offset 25, :ns &quot;music-theory-visualization&quot;} {:command &quot;(.SetColor ac-pitch-mat \&quot;_Color\&quot; (Color/HSVToRGB 0 1 1))&quot;, :offset 56, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn on-acoustic-pitch [[note vel]]\n  ;(.SetColor ac-pitch-mat \&quot;_Color\&quot;\n  ;           (Color/HSVToRGB (/ (mod note 12) 12) 1 1))\n  (set! (.. ac-pitch-obj transform localPosition)\n        (note-&gt;spiral-position note))\n  (set! (.. ac-pitch-obj transform localScale)\n        (if (= 0.0 vel)\n          Vector3/zero\n          (note-&gt;spiral-localScale note vel))))&quot;, :offset 359, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn on-acoustic-pitch [[note vel]]\n  (.SetColor ac-pitch-mat \&quot;_Color\&quot;\n             (Color/HSVToRGB (/ (mod note 12) 12) 1 1))\n  (set! (.. ac-pitch-obj transform localPosition)\n        (note-&gt;spiral-position note))\n  (set! (.. ac-pitch-obj transform localScale)\n        (if (= 0.0 vel)\n          Vector3/zero\n          (note-&gt;spiral-localScale note vel))))&quot;, :offset 357, :ns &quot;music-theory-visualization&quot;} {:command &quot;(.SetColor ac-pitch-mat \&quot;_Color\&quot;\n             (Color/HSVToRGB 0 0 1))&quot;, :offset 69, :ns &quot;music-theory-visualization&quot;} {:command &quot;(defn on-acoustic-pitch [[note vel]]\n  ;(.SetColor ac-pitch-mat \&quot;_Color\&quot;                          ;slows down too much\n  ;           (Color/HSVToRGB (/ (mod note 12) 12) 1 1))\n  (set! (.. ac-pitch-obj transform localPosition)\n        (note-&gt;spiral-position note))\n  (set! (.. ac-pitch-obj transform localScale)\n        (if (= 0.0 vel)\n          Vector3/zero\n          (note-&gt;spiral-localScale note vel))))&quot;, :offset 405, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def spiral\n  (-&gt;&gt; (range 21 109)\n       (map (fn [n] (let [pos (mod n 12)\n                          localPosition (note-&gt;spiral-position n)\n                          localScale (note-&gt;spiral-localScale n 0)\n                          scale (note-&gt;scale n)\n                          node-name (str \&quot;node-\&quot; n)\n                          note-name (str \&quot;note-\&quot; n)\n                          node (create-primitive :sphere node-name)\n                          note (create-primitive :sphere note-name)\n                          ]\n                      (child+ spiral-obj node)\n                      (child+ spiral-obj note)\n                      (set! (.. node transform localPosition) localPosition)\n                      (set! (.. note transform localPosition) localPosition)\n                      (set! (.. node transform localScale) (v3 (* note-size-min 0.9 scale)))\n                      (set! (.. note transform localScale) (v3 (* 0.1 scale)))\n                      (set! (.. (cmpt node Renderer) material) (mats :node))\n                      (set! (.. (cmpt note Renderer) material) (mats pos))\n                      [(keyword node-name) node\n                       (keyword note-name) note]\n                      )))\n       (flatten)\n       (apply hash-map)))&quot;, :offset 1261, :ns &quot;music-theory-visualization&quot;}]}}</component>
+  <component name="ReplState" timestamp="1538626786397">{:repl-history {:ide [], :local [], :remote [{:command &quot;(defn on-acoustic-pitch [[note vel]]\n  ;(.SetColor ac-pitch-mat \&quot;_Color\&quot;                          ;slows down too much\n  ;           (Color/HSVToRGB (/ (mod note 12) 12) 1 1))\n  (set! (.. ac-pitch-obj transform localPosition)\n        (note-&gt;spiral-position note))\n  (set! (.. ac-pitch-obj transform localScale)\n        (if (= 0.0 vel)\n          Vector3/zero\n          (note-&gt;spiral-localScale note vel))))&quot;, :offset 405, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def spiral\n  (-&gt;&gt; (range 21 109)\n       (map (fn [n] (let [pos (mod n 12)\n                          localPosition (note-&gt;spiral-position n)\n                          localScale (note-&gt;spiral-localScale n 0)\n                          scale (note-&gt;scale n)\n                          node-name (str \&quot;node-\&quot; n)\n                          note-name (str \&quot;note-\&quot; n)\n                          node (create-primitive :sphere node-name)\n                          note (create-primitive :sphere note-name)\n                          ]\n                      (child+ spiral-obj node)\n                      (child+ spiral-obj note)\n                      (set! (.. node transform localPosition) localPosition)\n                      (set! (.. note transform localPosition) localPosition)\n                      (set! (.. node transform localScale) (v3 (* note-size-min 0.9 scale)))\n                      (set! (.. note transform localScale) (v3 (* 0.1 scale)))\n                      (set! (.. (cmpt node Renderer) material) (mats :node))\n                      (set! (.. (cmpt note Renderer) material) (mats pos))\n                      [(keyword node-name) node\n                       (keyword note-name) note]\n                      )))\n       (flatten)\n       (apply hash-map)))&quot;, :offset 1261, :ns &quot;music-theory-visualization&quot;} {:command &quot;(ns studio\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes listen]])\n  (:import (UnityEngine GameObject Material Renderer Resources UnityEditor)))&quot;, :offset 227, :ns &quot;cursive.repl.runtime&quot;} {:command &quot;(+ 1 1)&quot;, :offset 7, :ns &quot;studio&quot;} {:command &quot;UnityEditor&quot;, :offset 11, :ns &quot;studio&quot;} {:command &quot;Material&quot;, :offset 8, :ns &quot;studio&quot;} {:command &quot;(ns studio\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes listen]])\n  (:import (UnityEngine GameObject Material Renderer Resources)\n           (UnityEditor EditorApplication)))&quot;, :offset 258, :ns &quot;studio&quot;} {:command &quot;EditorApplication&quot;, :offset 17, :ns &quot;studio&quot;} {:command &quot;UnityEditor/isPlaying&quot;, :offset 21, :ns &quot;studio&quot;} {:command &quot;(. UnityEditor isPlaying)&quot;, :offset 25, :ns &quot;studio&quot;} {:command &quot;(set! EditorApplication/isPlaying true)&quot;, :offset 39, :ns &quot;studio&quot;} {:command &quot;EditorApplication/isPlaying&quot;, :offset 27, :ns &quot;studio&quot;} {:command &quot;(dir arcadia.linear)&quot;, :offset 20, :ns &quot;studio&quot;} {:command &quot;(qt)&quot;, :offset 4, :ns &quot;studio&quot;} {:command &quot;(v3)&quot;, :offset 4, :ns &quot;studio&quot;} {:command &quot;(v3 0)&quot;, :offset 6, :ns &quot;studio&quot;} {:command &quot;(qt 0)&quot;, :offset 6, :ns &quot;studio&quot;} {:command &quot;(qt 0 0 0 0)&quot;, :offset 12, :ns &quot;studio&quot;} {:command &quot;(ns studio\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes listen]])\n  (:import (UnityEngine GameObject Material Renderer Resources)\n           ;(UnityEditor EditorApplication)\n           (SpaceNavigatorDriver SpaceNavigator)\n           ))&quot;, :offset 320, :ns &quot;studio&quot;} {:command &quot;(SpaceNavigator/SetRotationSensitivity 5)&quot;, :offset 41, :ns &quot;studio&quot;} {:command &quot;(SpaceNavigator/SetTranslationSensitivity 5)&quot;, :offset 44, :ns &quot;studio&quot;} {:command &quot;(dir SpaceNavigator)&quot;, :offset 20, :ns &quot;studio&quot;} {:command &quot;(ns studio\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes listen]])\n  (:import (UnityEngine GameObject Material Renderer Resources)\n           ;(UnityEditor EditorApplication)\n           (SpaceNavigatorDriver Settings SpaceNavigator)\n           ))&quot;, :offset 329, :ns &quot;studio&quot;} {:command &quot;Settings/RuntimeEditorNav&quot;, :offset 25, :ns &quot;studio&quot;} {:command &quot;(set! Settings/RuntimeEditorNav true)&quot;, :offset 37, :ns &quot;studio&quot;} {:command &quot;(.. spacenav-obj transform children)&quot;, :offset 36, :ns &quot;studio&quot;} {:command &quot;(.. spacenav-obj transform)&quot;, :offset 27, :ns &quot;studio&quot;} {:command &quot;(.. spacenav-obj transform GetChild 0)&quot;, :offset 38, :ns &quot;studio&quot;} {:command &quot;(.. spacenav-obj transform GetChild)&quot;, :offset 36, :ns &quot;studio&quot;} {:command &quot;(dir arcadia.core)&quot;, :offset 18, :ns &quot;studio&quot;} {:command &quot;(first (children spacenav-obj))&quot;, :offset 31, :ns &quot;studio&quot;} {:command &quot;(. (first (children spacenav-obj)) Name)&quot;, :offset 40, :ns &quot;studio&quot;} {:command &quot;(. (first (children spacenav-obj)) name)&quot;, :offset 40, :ns &quot;studio&quot;} {:command &quot;(apropos \&quot;find\&quot;)&quot;, :offset 16, :ns &quot;studio&quot;} {:command &quot;(defn find-child [go name] (some #(= name (.name %)) (children go)))&quot;, :offset 68, :ns &quot;studio&quot;} {:command &quot;(defn find-child [go name] (some #(when (= name (.name %)) go) (children go)))&quot;, :offset 78, :ns &quot;studio&quot;} {:command &quot;(find-child spacenav-obj \&quot;Cylinder\&quot;)&quot;, :offset 36, :ns &quot;studio&quot;} {:command &quot;(find-child spacenav-obj \&quot;Cylinders\&quot;)&quot;, :offset 37, :ns &quot;studio&quot;} {:command &quot;(ns music-instrument-state\n  (:require [osc :as o])\n  (:use [arcadia.core]\n        [clojure.set :only [difference union]])\n  (SpaceNavigatorDriver Settings SpaceNavigator)\n  )&quot;, :offset 175, :ns &quot;studio&quot;} {:command &quot;SpaceNavigator&quot;, :offset 14, :ns &quot;music-instrument-state&quot;} {:command &quot;Settings&quot;, :offset 8, :ns &quot;music-instrument-state&quot;} {:command &quot;(ns music-instrument-state\n  (:require [osc :as o])\n  (:use [arcadia.core]\n        [clojure.set :only [difference union]])\n  (:import (SpaceNavigatorDriver Settings SpaceNavigator))\n  )&quot;, :offset 185, :ns &quot;cursive.repl.runtime&quot;} {:command &quot;(def blank-128-map (-&gt;&gt; (range 128)                         ;TODO: use sparse data instead of vel 0?\n                        (map #(vector % 0))\n                        (flatten)\n                        (apply hash-map)))&quot;, :offset 221, :ns &quot;music-instrument-state&quot;} {:command &quot;(ns music-instrument-state\n  (:require [osc :as o])\n  (:use [arcadia.core\n         arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import (SpaceNavigatorDriver Settings SpaceNavigator))\n  )&quot;, :offset 209, :ns &quot;music-instrument-state&quot;} {:command &quot;(ns music-instrument-state\n  (:require [osc :as o])\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import (SpaceNavigatorDriver Settings SpaceNavigator))\n  )&quot;, :offset 210, :ns &quot;music-instrument-state&quot;} {:command &quot;(def s (let [inst-initial {\n                           :cc        blank-128-map\n                           :notes     blank-128-map\n                           :listeners #{}\n                           }]\n         (atom {\n                :default    inst-initial\n                :a-300      inst-initial\n                :keystation inst-initial\n                :acoustic-pitch {\n                                 :listeners #{}\n                                 :note [0.0 0.0]\n                                 }\n\n                :spacenav {\n                           :listeners #{}\n                           :rotation (qt 0)\n                           :translation (v3 0)\n                           }\n                })))&quot;, :offset 721, :ns &quot;music-instrument-state&quot;} {:command &quot;(def s (let [inst-initial {\n                           :cc        blank-128-map\n                           :notes     blank-128-map\n                           :listeners #{}\n                           }]\n         (atom {\n                :default    inst-initial\n                :a-300      inst-initial\n                :keystation inst-initial\n                :acoustic-pitch {\n                                 :listeners #{}\n                                 :note [0.0 0.0]\n                                 }\n\n                :spacenav {\n                           :listeners #{}\n                           :rotation (qt)\n                           :translation (v3 0)\n                           }\n                })))&quot;, :offset 719, :ns &quot;music-instrument-state&quot;} {:command &quot;@s&quot;, :offset 2, :ns &quot;music-instrument-state&quot;} {:command &quot;(def s (let [blank-128-map (-&gt;&gt; (range 128)                         ;TODO: use sparse data instead of vel 0?\n                                (map #(vector % 0))\n                                (flatten)\n                                (apply hash-map))\n             inst-initial {\n                           :cc        blank-128-map\n                           :notes     blank-128-map\n                           :listeners #{}\n                           }]\n         (atom {\n                :default    inst-initial\n                :a-300      inst-initial\n                :keystation inst-initial\n                :acoustic-pitch {\n                                 :listeners #{}\n                                 :note [0.0 0.0]\n                                 }\n\n                :spacenav {\n                           :listeners #{}\n                           :rotation (qt)\n                           :translation (v3 0)\n                           }\n                })))&quot;, :offset 972, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn- on-midi-evt [instrument event osc-msg]\n  (let [[index val] (vec (. osc-msg (get_args)))\n        listeners (get-in @s [instrument :listeners])]\n    (swap! s assoc-in [instrument event index] val)\n    (doseq [listener listeners] (listener event index val))\n    ;(log (str \&quot;/\&quot; instrument \&quot;/\&quot; event \&quot; \&quot; index \&quot; \&quot; val))\n    ))&quot;, :offset 328, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn- on-pitch-evt [instrument osc-msg]\n  (let [pitch-and-amp (vec (. osc-msg (get_args)))\n        listeners (get-in @s [instrument :listeners])]\n    (swap! s assoc-in [instrument :note] pitch-and-amp)\n    (doseq [listener listeners] (listener pitch-and-amp))\n    ;(log (str \&quot;/\&quot; instrument \&quot;/\&quot; event \&quot; \&quot; index \&quot; \&quot; val))\n    ))&quot;, :offset 327, :ns &quot;music-instrument-state&quot;} {:command &quot;(update-spacenav)&quot;, :offset 17, :ns &quot;music-instrument-state&quot;} {:command &quot;(get-in @s [:spacenav :translation])&quot;, :offset 36, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn poll [go]\n  (update-spacenav)\n  ;(swap! s assoc :keys {\n  ;                      :space (Input/GetKey (. KeyCode Space))\n  ;                      :a (Input/GetKey (. KeyCode A))\n  ;                      :b (Input/GetKey (. KeyCode B))\n  ;                      :c (Input/GetKey (. KeyCode C))\n  ;                      })\n  )&quot;, :offset 329, :ns &quot;music-instrument-state&quot;} {:command &quot;(object-named \&quot;App\&quot;)&quot;, :offset 20, :ns &quot;music-instrument-state&quot;} {:command &quot;'poll&quot;, :offset 5, :ns &quot;music-instrument-state&quot;} {:command &quot;#'poll&quot;, :offset 6, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn update-spacenav []\n  (let [spacenav {\n                  :translation (.. SpaceNavigator Translation)\n                  :rotation (.. SpaceNavigator Rotation)}\n        listeners (get-in @s [:spacenav :listeners])]\n    (log (:translation spacenav))\n    (swap! s update :spacenav #(union % spacenav))\n    (doseq [listener listeners] (listener spacenav))\n    )\n  )&quot;, :offset 366, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn poll []\n  (update-spacenav)\n  ;(swap! s assoc :keys {\n  ;                      :space (Input/GetKey (. KeyCode Space))\n  ;                      :a (Input/GetKey (. KeyCode A))\n  ;                      :b (Input/GetKey (. KeyCode B))\n  ;                      :c (Input/GetKey (. KeyCode C))\n  ;                      })\n  )&quot;, :offset 327, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn poll [obj key]\n  (update-spacenav)\n  ;(swap! s assoc :keys {\n  ;                      :space (Input/GetKey (. KeyCode Space))\n  ;                      :a (Input/GetKey (. KeyCode A))\n  ;                      :b (Input/GetKey (. KeyCode B))\n  ;                      :c (Input/GetKey (. KeyCode C))\n  ;                      })\n  )&quot;, :offset 334, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn update-spacenav []\n  (let [spacenav {\n                  :translation (.. SpaceNavigator Translation)\n                  :rotation (.. SpaceNavigator Rotation)}\n        listeners (get-in @s [:spacenav :listeners])]\n    (log (.. SpaceNavigator Rotation))\n    (swap! s update :spacenav #(union % spacenav))\n    (doseq [listener listeners] (listener spacenav))\n    )\n  )&quot;, :offset 371, :ns &quot;music-instrument-state&quot;} {:command &quot;(SpaceNavigator/SetRotationSensitivity 1)&quot;, :offset 41, :ns &quot;music-instrument-state&quot;} {:command &quot;(SpaceNavigator/SetTranslationSensitivity 0.1)&quot;, :offset 46, :ns &quot;music-instrument-state&quot;} {:command &quot;(set! Settings/RuntimeEditorNav false)&quot;, :offset 38, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn update-spacenav []\n  (let [spacenav {\n                  :translation (.. SpaceNavigator Translation)\n                  :rotation (.. SpaceNavigator Rotation)}\n        listeners (get-in @s [:spacenav :listeners])]\n    (swap! s update :spacenav #(union % spacenav))\n    (doseq [listener listeners] (listener spacenav))\n    )\n  )&quot;, :offset 332, :ns &quot;music-instrument-state&quot;} {:command &quot;(def notes-in-c                                             ;TODO: import from music-notation\n  (-&gt;&gt; (cycle [2 2 1 2 2 2 1])\n       (reductions + (- (mod 0 12) 12))\n       (drop-while #(&lt; % 0))\n       (take-while #(&lt; % 128))))&quot;, :offset 226, :ns &quot;studio&quot;} {:command &quot;(def notes-in-c-set (set notes-in-c))&quot;, :offset 37, :ns &quot;studio&quot;} {:command &quot;(def mat-black (Resources/Load \&quot;black-keys\&quot;))&quot;, :offset 45, :ns &quot;studio&quot;} {:command &quot;(def mat-white (Resources/Load \&quot;white-keys\&quot;))&quot;, :offset 45, :ns &quot;studio&quot;} {:command &quot;(defn- key+ [parent x-offset w note]\n  (let [pivot (GameObject. (str \&quot;pivot-\&quot; note))\n        key (create-primitive :cube \&quot;key\&quot;)\n        [h d] [(* 1.25 w) (* 6.5 w)]]\n    (child+ pivot key)\n    (child+ parent pivot)\n    (set! (.. pivot transform localPosition) (v3 (* w x-offset) 0 0))\n    (set! (.. key transform localPosition) (v3 0 0 (- (/ d 2))))\n    (set! (.. key transform localScale) (v3 (* 0.95 w) h d))\n    (set! (.. (cmpt key Renderer) material)\n          (if (contains? notes-in-c-set note)\n            mat-white\n            mat-black))\n    pivot))&quot;, :offset 558, :ns &quot;studio&quot;} {:command &quot;(defn- index-of [e coll] (first (keep-indexed #(if (= e %2) %1) coll)))&quot;, :offset 71, :ns &quot;studio&quot;} {:command &quot;(defn- notes-in-c-range [low high]\n  (filter #(and (&gt;= % low) (&lt;= % high)) notes-in-c))&quot;, :offset 87, :ns &quot;studio&quot;} {:command &quot;(defn- keys+ \&quot;creates gameobjects for keys on a keyboard, returns a hashmap of note-&gt;gameobject\&quot;\n  [container-obj low high keyboard-width]\n  (let [white-notes (notes-in-c-range low high)\n        black-notes (filter #(not (contains? notes-in-c-set %)) (range low (+ 1 high)))\n        idx-of-middle-c (index-of 60 white-notes)\n        key-width (/ keyboard-width (count white-notes))\n\n        white-keys\n        (-&gt;&gt; white-notes\n             (map-indexed\n               (fn [index note]\n                 [note\n                  (key+ container-obj                       ;parent\n                        (- index idx-of-middle-c)           ;x-offset\n                        key-width                           ;width\n                        note)]))                            ;note\n             )\n\n        black-keys\n        (-&gt;&gt; black-notes\n             (map-indexed\n               (fn [index note]\n                 [note\n                  (let [pivot (key+ container-obj           ;parent\n                                    (- (index-of (+ note 1) white-notes)\n                                       idx-of-middle-c\n                                       0.5)                 ;x-offset\n                                    key-width               ;width\n                                    note                    ;note\n                                    )\n                        key (first (children pivot))]\n                    (.Translate (.. key transform) (v3 0 (/ key-width 2) 0.02))\n                    (set! (.. key transform localScale)\n                          (v3 (/ key-width 2) key-width 0.1))\n                    pivot)])))\n        ]\n\n    (-&gt;&gt; (concat white-keys black-keys)\n         (flatten)\n         (apply hash-map))\n    ))&quot;, :offset 1743, :ns &quot;studio&quot;} {:command &quot;(def keystation-obj (object-named \&quot;Keystation\&quot;))&quot;, :offset 48, :ns &quot;studio&quot;} {:command &quot;(def a-300-obj (object-named \&quot;A-300\&quot;))&quot;, :offset 38, :ns &quot;studio&quot;} {:command &quot;(def object-state\n  (atom {\n         :keystation {\n                      :buttons {}\n                      :faders  {}\n                      :keys    (keys+ keystation-obj 21 108 1.225)\n                      :knobs   {}\n                      }\n         :a-300      {\n                      :buttons {}\n                      :faders  {}\n                      :keys    (keys+ a-300-obj 41 72 0.44)\n                      :knobs   {}\n                      }\n         }))&quot;, :offset 465, :ns &quot;studio&quot;} {:command &quot;(defn find-child \&quot;returns the first child of go with name\&quot;\n  [go name] (some #(when (= name (.name %)) go)\n                  (children go)))&quot;, :offset 140, :ns &quot;studio&quot;} {:command &quot;(def spacenav-obj (object-named \&quot;Spacenav\&quot;))&quot;, :offset 44, :ns &quot;studio&quot;} {:command &quot;poll&quot;, :offset 4, :ns &quot;music-instrument-state&quot;} {:command &quot;(hook+ (object-named \&quot;App\&quot;) :update #'poll)&quot;, :offset 43, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn- on-spacenav [{translation :translation rotation :rotation}]\n  (log translation))&quot;, :offset 87, :ns &quot;studio&quot;} {:command &quot;(defn- on-evt [device-name evt index val]\n  (cond (= evt :note)\n        (let [go (get-in @object-state [device-name :keys index])]\n          (when-not (nil? go)\n            (set! (.. go transform localRotation)\n                  (euler (v3 (if (= val 0) 0 -4) 0 0)))))))&quot;, :offset 270, :ns &quot;studio&quot;} {:command &quot;(defn- on-midi-evt [device-name]\n  (fn [evt index val]\n    (on-evt device-name evt index val)\n    ;(log \&quot;got \&quot; device-name \&quot; \&quot; evt \&quot; \&quot; index \&quot; \&quot; val)\n    ))&quot;, :offset 156, :ns &quot;studio&quot;} {:command &quot;(defn listen\n  \&quot;registers a listener for instrument events. listener must accept args: midi-evt index val\&quot;\n  [instrument listener]\n  (log (str instrument listener))\n  (swap! s update-in [instrument :listeners] #(union % #{listener}))\n  nil\n  )&quot;, :offset 243, :ns &quot;music-instrument-state&quot;} {:command &quot;(listen :keystation (on-midi-evt :keystation))&quot;, :offset 46, :ns &quot;studio&quot;} {:command &quot;(listen :a-300 (on-midi-evt :a-300))&quot;, :offset 36, :ns &quot;studio&quot;} {:command &quot;(listen :spacenav #'spacenav)&quot;, :offset 29, :ns &quot;studio&quot;} {:command &quot;(ns studio\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes listen]])\n  (:import (UnityEngine GameObject Material Renderer Resources)\n           ;(UnityEditor EditorApplication)\n           ))&quot;, :offset 271, :ns &quot;studio&quot;} {:command &quot;(listen :spacenav #'on-spacenav)&quot;, :offset 32, :ns &quot;studio&quot;} {:command &quot;(defn- on-spacenav [{translation :translation rotation :rotation}]\n  (log rotation))&quot;, :offset 84, :ns &quot;studio&quot;} {:command &quot;(defn- on-spacenav [{translation :translation rotation :rotation}]\n  (set! (.. spacenav-puck transform localPosition) translation)\n  (set! (.. spacenav-puck transform localRotation) rotation)\n  )&quot;, :offset 195, :ns &quot;studio&quot;} {:command &quot;spacenav-puck&quot;, :offset 13, :ns &quot;studio&quot;} {:command &quot;spacenav-obj&quot;, :offset 12, :ns &quot;studio&quot;} {:command &quot;(find-child spacenav-obj \&quot;Puck\&quot;)&quot;, :offset 32, :ns &quot;studio&quot;} {:command &quot;(children spacenav-obj)&quot;, :offset 23, :ns &quot;studio&quot;} {:command &quot;(defn find-child \&quot;returns the first child of go with name\&quot;\n  [go name] (some #(when (= name (.name %)) %)\n                  (children go)))&quot;, :offset 139, :ns &quot;studio&quot;} {:command &quot;(def spacenav-puck (find-child spacenav-obj \&quot;Puck\&quot;))&quot;, :offset 52, :ns &quot;studio&quot;} {:command &quot;(SpaceNavigator/SetTranslationSensitivity 1)&quot;, :offset 44, :ns &quot;music-instrument-state&quot;} {:command &quot;(SpaceNavigator/SetTranslationSensitivity 0.5)&quot;, :offset 46, :ns &quot;music-instrument-state&quot;} {:command &quot;(ns music-instrument-state\n  (:require [osc :as o])\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import (SpaceNavigatorDriver Settings SpaceNavigator)\n           (UnityEngine Input KeyCode)))&quot;, :offset 246, :ns &quot;cursive.repl.runtime&quot;}]}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -634,6 +781,10 @@
       <workItem from="1537974895169" duration="603000" />
       <workItem from="1538058206478" duration="5239000" />
       <workItem from="1538253601403" duration="20412000" />
+      <workItem from="1538312103254" duration="646000" />
+      <workItem from="1538332150844" duration="411000" />
+      <workItem from="1538333337115" duration="5407000" />
+      <workItem from="1538616078907" duration="9573000" />
     </task>
     <task id="LOCAL-00001" summary="upgrade to latest Unity 2018-2.9f1;&#10;update OVR plugin;&#10;update OSC simpl;&#10;add Arcadia and arcadia.nrepl as submodules;&#10;">
       <created>1537819625210</created>
@@ -674,7 +825,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435912000" />
+    <option name="totallyTimeSpent" value="451949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -694,17 +845,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2895349" sideWeight="0.6585714" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28286386" sideWeight="0.66741407" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44428572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2895349" sideWeight="0.34142858" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28286386" sideWeight="0.33258596" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994187" sideWeight="0.4970458" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16744186" sideWeight="0.48857144" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16725352" sideWeight="0.4857997" order="10" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -712,10 +864,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -788,43 +939,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/osc.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
-    <entry file="file://$PROJECT_DIR$/Assets/music_live_compose.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/arcadia_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/configuration.edn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/nrepl.clj" />
-    <entry file="file://$PROJECT_DIR$/Assets/ArcadiaWorksheet.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/geometry.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -869,13 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ArcadiaWorksheet.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="7" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1014,31 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/music_sight_reading.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <marker date="1537801494558" expanded="true" signature="16:517" ph="(ns music-sight-reading ...)" />
-            <marker date="1537801494558" expanded="true" signature="519:641" ph="(def perf-state ...)" />
-            <marker date="1537801494558" expanded="true" signature="644:760" ph="(defn prep-stats-for-exercise ...)" />
-            <marker date="1537801494558" expanded="true" signature="762:876" ph="(defn set-stat ...)" />
-            <marker date="1537801494558" expanded="true" signature="878:977" ph="(defn get-stat ...)" />
-            <marker date="1537801494558" expanded="true" signature="979:1050" ph="(defn save-perf-state ...)" />
-            <marker date="1537801494558" expanded="true" signature="1052:1143" ph="(defn load-perf-state ...)" />
-            <marker date="1537801494558" expanded="true" signature="1145:1294" ph="(comment ...)" />
-            <marker date="1537801494558" expanded="true" signature="1297:1357" ph="(defn game-loop ...)" />
-            <marker date="1537801494558" expanded="true" signature="1424:1583" ph="(defn scroll-go ...)" />
-            <marker date="1537801494558" expanded="true" signature="1585:1761" ph="(defn set-go-color ...)" />
-            <marker date="1537801494558" expanded="true" signature="1763:1915" ph="(defn update-queued ...)" />
-            <marker date="1537801494558" expanded="true" signature="1917:2528" ph="(defn update-active ...)" />
-            <marker date="1537801494558" expanded="true" signature="2530:3516" ph="(defn queue-event ...)" />
-            <marker date="1537801494558" expanded="true" signature="3519:3566" ph="(defn clear ...)" />
-            <marker date="1537801494558" expanded="true" signature="3771:5898" ph="(comment ...)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/nrepl.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -1064,49 +1146,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="247" column="12" selection-start-line="247" selection-start-column="12" selection-end-line="247" selection-end-column="12" />
-          <folding>
-            <marker date="1537801494557" expanded="true" signature="8:234" ph="(ns music-notation ...)" />
-            <marker date="1537801494557" expanded="true" signature="236:989" ph="(def lexicon ...)" />
-            <marker date="1537801494557" expanded="true" signature="1085:1252" ph="(defn- note-&gt;pitch-class-b-bias ...)" />
-            <marker date="1537801494557" expanded="true" signature="1254:1422" ph="(defn- note-&gt;pitch-class-##-bias ...)" />
-            <marker date="1537801494557" expanded="true" signature="1424:1609" ph="(defn- octave-of-note ...)" />
-            <marker date="1537801494557" expanded="true" signature="1611:1832" ph="(defn- notes-in-key ...)" />
-            <marker date="1537801494557" expanded="true" signature="1834:1910" ph="(def notes-in-c ...)" />
-            <marker date="1537801494557" expanded="true" signature="2006:2362" ph="(defn- pitch-&gt;data ...)" />
-            <marker date="1537801494557" expanded="true" signature="2364:2567" ph="(defn- strip-octave ...)" />
-            <marker date="1537801494557" expanded="true" signature="2569:2711" ph="(defn- strip-accidental ...)" />
-            <marker date="1537801494557" expanded="true" signature="2713:2881" ph="(defn- extract-accidental ...)" />
-            <marker date="1537801494557" expanded="true" signature="2887:8037" ph="(def keys-data ...)" />
-            <marker date="1537801494557" expanded="true" signature="8040:8168" ph="(defn- spell-note ...)" />
-            <marker date="1537801494557" expanded="true" signature="8171:8524" ph="(def natural-pitch-&gt;staff-y ...)" />
-            <marker date="1537801494557" expanded="true" signature="8616:8856" ph="(def game-objects ...)" />
-            <marker date="1537801494557" expanded="true" signature="8858:9058" ph="(defn- game-objects+ ...)" />
-            <marker date="1537801494557" expanded="true" signature="9060:9354" ph="(defn- game-objects- ...)" />
-            <marker date="1537801494557" expanded="true" signature="9356:9595" ph="(defn- game-objects-clear ...)" />
-            <marker date="1537801494557" expanded="true" signature="9597:10214" ph="(defn- +glyph ...)" />
-            <marker date="1537801494557" expanded="true" signature="10556:10651" ph="(defn- +staff ...)" />
-            <marker date="1537801494557" expanded="true" signature="10653:11179" ph="(defn- +grand-staff ...)" />
-            <marker date="1537801494557" expanded="true" signature="11181:11929" ph="(defn- +keysig ...)" />
-            <marker date="1537801494557" expanded="true" signature="11931:11980" ph="(defn- +keysig-treble ...)" />
-            <marker date="1537801494557" expanded="true" signature="11982:12031" ph="(defn- +keysig-bass ...)" />
-            <marker date="1537801494557" expanded="true" signature="12033:12218" ph="(defn- +keysig-grand ...)" />
-            <marker date="1537801494557" expanded="true" signature="12220:12836" ph="(defn- +time-signature ...)" />
-            <marker date="1537801494557" expanded="true" signature="12838:12963" ph="(defn +bar ...)" />
-            <marker date="1537801494557" expanded="true" signature="12965:13100" ph="(def x0 ...)" />
-            <marker date="1537801494557" expanded="true" signature="13102:13202" ph="(defn- +zero-line ...)" />
-            <marker date="1537801494557" expanded="true" signature="13204:15237" ph="(defn- +note-raw ...)" />
-            <marker date="1537801494557" expanded="true" signature="15239:15340" ph="(def s ...)" />
-            <marker date="1537801494557" expanded="true" signature="15393:15995" ph="(defn +note ...)" />
-            <marker date="1537801494557" expanded="true" signature="15997:16085" ph="(defn -note ...)" />
-            <marker date="1537801494557" expanded="true" signature="16087:16168" ph="(defn clear-notes ...)" />
-            <marker date="1537801494557" expanded="true" signature="16171:16329" ph="(defn set-played-notes! ...)" />
-            <marker date="1537801494557" expanded="true" signature="16331:16452" ph="(defn set-keysig! ...)" />
-            <marker date="1537801494557" expanded="true" signature="16578:16716" ph="(defn set-timesig! ...)" />
-            <marker date="1537801494557" expanded="true" signature="16719:16780" ph="(do ...)" />
-            <marker date="1537801494557" expanded="true" signature="16782:16993" ph="(comment ...)" />
-            <marker date="1537801494557" expanded="true" signature="16996:17169" ph="(comment ...)" />
-            <marker date="1537801494557" expanded="true" signature="17171:17785" ph="(comment ...)" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,26 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <marker date="1537801494546" expanded="true" signature="0:144" ph="(ns geometry ...)" />
-            <marker date="1537801494546" expanded="true" signature="147:457" ph="(defn new-go-mesh ...)" />
-            <marker date="1537801494546" expanded="true" signature="459:676" ph="(defn mesh ...)" />
-            <marker date="1537801494546" expanded="true" signature="678:1084" ph="(defn update-mesh! ...)" />
-            <marker date="1537801494546" expanded="true" signature="1130:1276" ph="(defn verts-2d-&gt;v3-xy ...)" />
-            <marker date="1537801494546" expanded="true" signature="1278:1398" ph="(defn verts-2d-&gt;v2 ...)" />
-            <marker date="1537801494546" expanded="true" signature="1400:1754" ph="(defn polygon-verts-2d ...)" />
-            <marker date="1537801494546" expanded="true" signature="1756:1910" ph="(defn polygon-uvs ...)" />
-            <marker date="1537801494546" expanded="true" signature="1912:2199" ph="(defn polygon-tris ...)" />
-            <marker date="1537801494546" expanded="true" signature="2201:2444" ph="(defn polygon-tris-flipped ...)" />
-            <marker date="1537801494546" expanded="true" signature="2446:2736" ph="(defn generate-polygon-mesh! ...)" />
-            <marker date="1537801494546" expanded="true" signature="2738:3032" ph="(defn polygon ...)" />
-            <marker date="1537801494546" expanded="true" signature="3034:3725" ph="(comment ...)" />
-            <marker date="1537801494546" expanded="true" signature="3777:4326" ph="(defn dod-verts ...)" />
-            <marker date="1537801494546" expanded="true" signature="4328:4596" ph="(def pents ...)" />
-            <marker date="1537801494546" expanded="true" signature="4598:4752" ph="(defn pentagon ...)" />
-            <marker date="1537801494546" expanded="true" signature="4871:4956" ph="(defn centroid ...)" />
-            <marker date="1537801494546" expanded="true" signature="5168:6126" ph="(defn dodecahedron ...)" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,37 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <marker date="1537845615242" expanded="true" signature="0:32" ph="(ns osc ...)" />
-            <marker date="1537845615242" expanded="true" signature="198:450" ph="(defn send ...)" />
-            <marker date="1537845615242" expanded="true" signature="452:618" ph="(defn listen ...)" />
-            <marker date="1537845615242" expanded="true" signature="620:773" ph="(comment ...)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/studio.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <marker date="1538260218813" expanded="true" signature="0:215" ph="(ns studio ...)" />
-            <marker date="1538260218813" expanded="true" signature="217:443" ph="(def notes-in-c ...)" />
-            <marker date="1538260218813" expanded="true" signature="577:1135" ph="(defn- key+ ...)" />
-            <marker date="1538260218813" expanded="true" signature="1210:1297" ph="(defn- notes-in-c-range ...)" />
-            <marker date="1538260218813" expanded="true" signature="1299:3042" ph="(defn- keys+ ...)" />
-            <marker date="1538260218813" expanded="true" signature="3133:3598" ph="(def object-state ...)" />
-            <marker date="1538260218813" expanded="true" signature="3891:4161" ph="(defn- on-evt ...)" />
-            <marker date="1538260218813" expanded="true" signature="4163:4319" ph="(defn- on-midi-evt ...)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/music_instrument_state.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,72 +1167,223 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="137" column="25" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpaceNavigator/Plugins/SpaceNavigatorWindows.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1061">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1537801891953" expanded="true" signature="0:313" ph="(ns arcadia.linear ...)" />
-            <marker date="1537801891953" expanded="true" signature="790:871" ph="(defn- mtag ...)" />
-            <marker date="1537801891953" expanded="true" signature="873:1011" ph="(defn nestl ...)" />
-            <marker date="1537801891953" expanded="true" signature="1045:1211" ph="(defn- casting ...)" />
-            <marker date="1537801891953" expanded="true" signature="1213:1506" ph="(defn inliner ...)" />
-            <marker date="1537801891953" expanded="true" signature="1508:1665" ph="(defn- inline-arity-pred ...)" />
-            <marker date="1537801891953" expanded="true" signature="1667:4546" ph="(defmacro def-vop-lower ...)" />
-            <marker date="1537801891953" expanded="true" signature="4629:5062" ph="(defn v2 ...)" />
-            <marker date="1537801891953" expanded="true" signature="5064:5511" ph="(defn v3 ...)" />
-            <marker date="1537801891953" expanded="true" signature="5513:5974" ph="(defn v4 ...)" />
-            <marker date="1537801891953" expanded="true" signature="5976:6299" ph="(defn qt ...)" />
-            <marker date="1537801891953" expanded="true" signature="6371:6751" ph="(def-vop-lower v2+ ...)" />
-            <marker date="1537801891953" expanded="true" signature="6753:7133" ph="(def-vop-lower v3+ ...)" />
-            <marker date="1537801891953" expanded="true" signature="7135:7515" ph="(def-vop-lower v4+ ...)" />
-            <marker date="1537801891953" expanded="true" signature="7587:8004" ph="(def-vop-lower v2- ...)" />
-            <marker date="1537801891953" expanded="true" signature="8006:8423" ph="(def-vop-lower v3- ...)" />
-            <marker date="1537801891953" expanded="true" signature="8425:8840" ph="(def-vop-lower v4- ...)" />
-            <marker date="1537801891953" expanded="true" signature="8912:9476" ph="(def-vop-lower v2* ...)" />
-            <marker date="1537801891953" expanded="true" signature="9478:10042" ph="(def-vop-lower v3* ...)" />
-            <marker date="1537801891953" expanded="true" signature="10044:10608" ph="(def-vop-lower v4* ...)" />
-            <marker date="1537801891953" expanded="true" signature="10682:11190" ph="(def-vop-lower v2div ...)" />
-            <marker date="1537801891953" expanded="true" signature="11192:11700" ph="(def-vop-lower v3div ...)" />
-            <marker date="1537801891953" expanded="true" signature="11702:12210" ph="(def-vop-lower v4div ...)" />
-            <marker date="1537801891953" expanded="true" signature="12525:12966" ph="(def-vop-lower qq* ...)" />
-            <marker date="1537801891953" expanded="true" signature="13084:13672" ph="(def-vop-lower qv* ...)" />
-            <marker date="1537801891953" expanded="true" signature="13674:14092" ph="(def-vop-lower q* ...)" />
-            <marker date="1537801891953" expanded="true" signature="14094:14295" ph="(definline euler ...)" />
-            <marker date="1537801891953" expanded="true" signature="14297:14509" ph="(definline euler-angles ...)" />
-            <marker date="1537801891953" expanded="true" signature="14511:14840" ph="(definline to-angle-axis ...)" />
-            <marker date="1537801891953" expanded="true" signature="14842:15129" ph="(definline angle-axis ...)" />
-            <marker date="1537801891953" expanded="true" signature="15131:15400" ph="(definline qforward ...)" />
-            <marker date="1537801891953" expanded="true" signature="15402:15629" ph="(definline aa ...)" />
-            <marker date="1537801891953" expanded="true" signature="15631:16165" ph="(defn qlookat ...)" />
-            <marker date="1537801891953" expanded="true" signature="16242:16672" ph="(def-vop-lower v2scale ...)" />
-            <marker date="1537801891953" expanded="true" signature="16674:17104" ph="(def-vop-lower v3scale ...)" />
-            <marker date="1537801891953" expanded="true" signature="17106:17536" ph="(def-vop-lower v4scale ...)" />
-            <marker date="1537801891953" expanded="true" signature="17620:17836" ph="(definline point-pivot ...)" />
-            <marker date="1537801891953" expanded="true" signature="17916:18060" ph="(defn- binding-gen ...)" />
-            <marker date="1537801891953" expanded="true" signature="18062:18625" ph="(defn- matrix4x4-inline ...)" />
-            <marker date="1537801891953" expanded="true" signature="18627:19119" ph="(defn matrix4x4 ...)" />
-            <marker date="1537801891953" expanded="true" signature="19121:19436" ph="(defn m* ...)" />
-            <marker date="1537801891953" expanded="true" signature="19438:19506" ph="(definline determinant ...)" />
-            <marker date="1537801891953" expanded="true" signature="19508:19564" ph="(definline transpose ...)" />
-            <marker date="1537801891953" expanded="true" signature="19566:19636" ph="(definline column ...)" />
-            <marker date="1537801891953" expanded="true" signature="19638:19702" ph="(definline row ...)" />
-            <marker date="1537801891953" expanded="true" signature="19704:19814" ph="(definline put-column ...)" />
-            <marker date="1537801891953" expanded="true" signature="19816:19920" ph="(definline put-row ...)" />
-            <marker date="1537801891953" expanded="true" signature="19922:20045" ph="(definline ortho ...)" />
-            <marker date="1537801891953" expanded="true" signature="20047:20158" ph="(definline perspective ...)" />
-            <marker date="1537801891953" expanded="true" signature="20160:20220" ph="(definline inverse ...)" />
-            <marker date="1537801891953" expanded="true" signature="20222:20336" ph="(defn trs ...)" />
-            <marker date="1537801891953" expanded="true" signature="20453:20530" ph="(defn- run-tests ...)" />
-            <marker date="1537801891953" expanded="true" signature="20603:20741" ph="(defn- close-enough-v2 ...)" />
-            <marker date="1537801891953" expanded="true" signature="20743:20881" ph="(defn- close-enough-v3 ...)" />
-            <marker date="1537801891953" expanded="true" signature="20883:21021" ph="(defn- close-enough-v4 ...)" />
-            <marker date="1537801891953" expanded="true" signature="21023:21386" ph="(test/deftest- test-addition ...)" />
-            <marker date="1537801891953" expanded="true" signature="21388:21666" ph="(test/deftest- test-rotation ...)" />
+            <marker date="1537801494104" expanded="true" signature="103:2682" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="219:2626" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="353:884" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="479:879" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="548:841" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="928:1498" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="1028:1493" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="1113:1492" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="1212:1491" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="1823:2100" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="1832:2027" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="1859:1968" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="2378:2594" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="2387:2521" ph="{...}" />
+            <marker date="1537801494104" expanded="true" signature="2437:2516" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpaceNavigator/Plugins/QuaternionExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537801494088" expanded="true" signature="51:1510" ph="{...}" />
+            <marker date="1537801494088" expanded="true" signature="96:1508" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpaceNavigator/Editor/SpaceNavigatorWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537801494063" expanded="true" signature="82:1091" ph="{...}" />
+            <marker date="1537801494063" expanded="true" signature="164:1089" ph="{...}" />
+            <marker date="1537801494063" expanded="true" signature="299:444" ph="{...}" />
+            <marker date="1537801494063" expanded="true" signature="479:570" ph="{...}" />
+            <marker date="1537801494063" expanded="true" signature="605:696" ph="{...}" />
+            <marker date="1537801494063" expanded="true" signature="995:1086" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpaceNavigator/Editor/ViewportController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="59" column="67" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="67" />
+          <folding>
+            <marker date="1537801494065" expanded="true" signature="153:12187" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="218:12185" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="880:1105" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="1176:1291" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="1334:1421" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="1473:2889" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="1586:1655" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="2172:2211" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="2239:2686" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="3135:4049" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="3521:3894" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="3553:3768" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="3774:3889" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="4091:5129" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="4192:4230" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="4585:4738" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="4744:4974" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="5177:7243" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="5751:7239" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="5873:6266" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="6295:6484" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="6490:6868" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="7288:9262" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="7833:9140" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="9304:9627" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="10077:10612" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="10238:10414" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="10751:11122" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="10791:11118" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="11164:11246" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="11353:11664" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="11531:11660" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="11734:11937" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="11796:11932" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="12004:12156" ph="{...}" />
+            <marker date="1537801494065" expanded="true" signature="12027:12151" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/music_theory_visualization.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+        <state relative-caret-position="275">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <marker date="1538277119705" expanded="true" signature="0:255" ph="(ns music-theory-visualization ...)" />
+            <marker date="1538277119705" expanded="true" signature="257:458" ph="(def mats ...)" />
+            <marker date="1538277119705" expanded="true" signature="622:821" ph="(defn- note-&gt;spiral-position ...)" />
+            <marker date="1538277119705" expanded="true" signature="823:1009" ph="(defn- note-&gt;spiral-localScale ...)" />
+            <marker date="1538277119705" expanded="true" signature="1011:2272" ph="(def spiral ...)" />
+            <marker date="1538277119705" expanded="true" signature="2327:2545" ph="(def ac-pitch-obj ...)" />
+            <marker date="1538277119705" expanded="true" signature="2548:2969" ph="(defn- on-evt ...)" />
+            <marker date="1538277119705" expanded="true" signature="2971:3066" ph="(defn- on-midi-evt ...)" />
+            <marker date="1538277119705" expanded="true" signature="3158:3580" ph="(defn on-acoustic-pitch ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpaceNavigator/Plugins/Settings/Settings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1537801494095" expanded="true" signature="142:20464" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="393:20462" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="2921:3210" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="3241:14195" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="3478:3781" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="5246:5643" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="5649:6109" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="6292:6659" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="6665:7095" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="8810:8976" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="9499:10841" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="11105:11765" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="11134:11760" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="12057:12705" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="12086:12700" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="14296:15940" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="15024:15283" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="16041:17941" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="16858:17198" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="18255:18764" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="19086:19541" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="19790:20459" ph="{...}" />
+            <marker date="1537801494095" expanded="true" signature="20147:20455" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ArcadiaWorksheet.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+          <folding>
+            <marker date="1537801488828" expanded="true" signature="0:5641" ph="(do ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpaceNavigator/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpaceNavigator/Plugins/SpaceNavigator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <marker date="1537801494096" expanded="true" signature="142:1438" ph="{...}" />
+            <marker date="1537801494096" expanded="true" signature="197:1436" ph="{...}" />
+            <marker date="1537801494096" expanded="true" signature="964:1273" ph="{...}" />
+            <marker date="1537801494096" expanded="true" signature="973:1239" ph="{...}" />
+            <marker date="1537801494096" expanded="true" signature="1002:1212" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/music_sight_reading.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+          <folding>
+            <marker date="1537801494558" expanded="true" signature="16:517" ph="(ns music-sight-reading ...)" />
+            <marker date="1537801494558" expanded="true" signature="519:641" ph="(def perf-state ...)" />
+            <marker date="1537801494558" expanded="true" signature="644:760" ph="(defn prep-stats-for-exercise ...)" />
+            <marker date="1537801494558" expanded="true" signature="762:876" ph="(defn set-stat ...)" />
+            <marker date="1537801494558" expanded="true" signature="878:977" ph="(defn get-stat ...)" />
+            <marker date="1537801494558" expanded="true" signature="979:1050" ph="(defn save-perf-state ...)" />
+            <marker date="1537801494558" expanded="true" signature="1052:1143" ph="(defn load-perf-state ...)" />
+            <marker date="1537801494558" expanded="true" signature="1145:1294" ph="(comment ...)" />
+            <marker date="1537801494558" expanded="true" signature="1297:1357" ph="(defn game-loop ...)" />
+            <marker date="1537801494558" expanded="true" signature="1424:1583" ph="(defn scroll-go ...)" />
+            <marker date="1537801494558" expanded="true" signature="1585:1761" ph="(defn set-go-color ...)" />
+            <marker date="1537801494558" expanded="true" signature="1763:1915" ph="(defn update-queued ...)" />
+            <marker date="1537801494558" expanded="true" signature="1917:2528" ph="(defn update-active ...)" />
+            <marker date="1537801494558" expanded="true" signature="2530:3516" ph="(defn queue-event ...)" />
+            <marker date="1537801494558" expanded="true" signature="3519:3566" ph="(defn clear ...)" />
+            <marker date="1537801494558" expanded="true" signature="3771:5898" ph="(comment ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/music_instrument_state.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/studio.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>

@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: uDD_Screen_Unlit_Transparent
   m_Shader: {fileID: 4800000, guid: 32b14c1fb31640f43b002138823eb1e1, type: 3}
@@ -74,11 +74,11 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Radius: 10.5
+    - _Radius: 3.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Thickness: 1
+    - _Thickness: 0.01
     - _UVSec: 0
     - _Width: 1
     - _ZWrite: 1

@@ -1,16 +1,25 @@
 (ns music-instrument-state
   (:require [osc :as o])
   (:use [arcadia.core]
-        [clojure.set :only [difference union]]))
+        [arcadia.linear]
+        [clojure.set :only [difference union]])
+  (:import (SpaceNavigatorDriver Settings SpaceNavigator)
+           (UnityEngine Input KeyCode)))
+
+; TODO find me a better home
+(SpaceNavigator/SetRotationSensitivity 1)
+(SpaceNavigator/SetTranslationSensitivity 0.5)
+(set! Settings/RuntimeEditorNav false)
+
 
 ; Make sure "Filter Duplicates" is unchecked in OscIn component
 
-(def blank-128-map (->> (range 128)                         ;TODO: use sparse data instead of vel 0?
-                        (map #(vector % 0))
-                        (flatten)
-                        (apply hash-map)))
 
-(def s (let [inst-initial {
+(def s (let [blank-128-map (->> (range 128)                         ;TODO: use sparse data instead of vel 0?
+                                (map #(vector % 0))
+                                (flatten)
+                                (apply hash-map))
+             inst-initial {
                            :cc        blank-128-map
                            :notes     blank-128-map
                            :listeners #{}
@@ -23,6 +32,12 @@
                                  :listeners #{}
                                  :note [0.0 0.0]
                                  }
+
+                :spacenav {
+                           :listeners #{}
+                           :rotation (qt)
+                           :translation (v3 0)
+                           }
                 })))
 
 (defn- on-midi-evt [instrument event osc-msg]
@@ -41,6 +56,28 @@
     ;(log (str "/" instrument "/" event " " index " " val))
     ))
 
+(defn update-spacenav []
+  (let [spacenav {
+                  :translation (.. SpaceNavigator Translation)
+                  :rotation (.. SpaceNavigator Rotation)}
+        listeners (get-in @s [:spacenav :listeners])]
+    (swap! s update :spacenav #(union % spacenav))
+    (doseq [listener listeners] (listener spacenav))
+    )
+  )
+
+(defn poll [obj key]
+  (update-spacenav)
+  ;(swap! s assoc :keys {
+  ;                      :space (Input/GetKey (. KeyCode Space))
+  ;                      :a (Input/GetKey (. KeyCode A))
+  ;                      :b (Input/GetKey (. KeyCode B))
+  ;                      :c (Input/GetKey (. KeyCode C))
+  ;                      })
+  )
+
+(hook+ (object-named "App") :update #'poll)
+
 (o/listen "/a-300/note" (fn [osc-msg] (on-midi-evt :a-300 :note osc-msg)))
 (o/listen "/keystation/note" (fn [osc-msg] (on-midi-evt :keystation :note osc-msg)))
 (o/listen "/acoustic-pitch/note" (fn [osc-msg] (on-pitch-evt :acoustic-pitch osc-msg)))
@@ -50,6 +87,7 @@
   [instrument listener]
   (log (str instrument listener))
   (swap! s update-in [instrument :listeners] #(union % #{listener}))
+  nil
   )
 
 (defn get-notes
