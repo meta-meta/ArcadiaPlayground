@@ -1,6 +1,6 @@
 [submodule "assets/Arcadia"]
 	path = assets/Arcadia
-	url = https://github.com/arcadia-unity/Arcadia.git
+	url = git@github.com:arcadia-unity/Arcadia.git
 [submodule "assets/arcadia.nrepl"]
 	path = assets/arcadia.nrepl
 	url = git@github.com:spacepluk/arcadia.nrepl.git
