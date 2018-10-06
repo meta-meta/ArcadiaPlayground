@@ -5,7 +5,10 @@
 
 (import UnityEngine.Mathf)
 
-(defn send-note [note vel] (send "/organ" [note vel]))
+(defn send-note [note vel]
+  (send "/organ" [note vel])
+  ;TODO: display note spiral
+  )
 
 (defn send-chord [notes vel]
   (doall (map (fn [note] (send-note note vel))
@@ -225,8 +228,6 @@
     ) ;Six
   (clear-queue)
   )
-
-
 
 
 (defn chord-cycle [steps]

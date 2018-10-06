@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5fcc031-efa8-4017-a5f6-6119c991dc38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/arcadia.nrepl/arcadia.nrepl.iml" />
-    </list>
+    <list default="true" id="e5fcc031-efa8-4017-a5f6-6119c991dc38" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +9,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -26,17 +23,16 @@
     <expand />
     <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="ArcadiaPlayground" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="project.clj" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/project.clj">
+      <file leaf-file-name="monitors.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/monitors.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -95,15 +91,15 @@
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../../GradleTesting/OculusRiftSandbox" value="25592081990678" />
-        <entry key="$PROJECT_DIR$/../../GradleTesting/p5-Helpers" value="4263985918322" />
-        <entry key="$PROJECT_DIR$/../../GradleTesting/p5-Rift" value="9949332677483" />
-        <entry key="$PROJECT_DIR$/../../GradleTesting/p5-Spatial" value="7106659788834" />
-        <entry key="$PROJECT_DIR$/../../GradleTesting/p5Test - Copy" value="4265374749593" />
-        <entry key="$PROJECT_DIR$/../../_Testing/GradleTesting/ClojureTest" value="4284523109949" />
-        <entry key="$PROJECT_DIR$/../../_Testing/GradleTesting/PS3Eye" value="4283686922722" />
-        <entry key="$PROJECT_DIR$/../../_Testing/GradleTesting/ProcessingVanillaTest" value="4283531799719" />
-        <entry key="$PROJECT_DIR$/../../_Testing/GradleTesting/p5-rift-repl" value="28482719123389" />
+        <entry key="C:/GradleTesting/OculusRiftSandbox" value="25592081990678" />
+        <entry key="C:/GradleTesting/p5-Helpers" value="4263985918322" />
+        <entry key="C:/GradleTesting/p5-Rift" value="9949332677483" />
+        <entry key="C:/GradleTesting/p5-Spatial" value="7106659788834" />
+        <entry key="C:/GradleTesting/p5Test - Copy" value="4265374749593" />
+        <entry key="C:/_Testing/GradleTesting/ClojureTest" value="4284523109949" />
+        <entry key="C:/_Testing/GradleTesting/PS3Eye" value="4283686922722" />
+        <entry key="C:/_Testing/GradleTesting/ProcessingVanillaTest" value="4283531799719" />
+        <entry key="C:/_Testing/GradleTesting/p5-rift-repl" value="28482719123389" />
       </map>
     </option>
   </component>
@@ -121,7 +117,6 @@
         <option value="$PROJECT_DIR$/Assets/music_instrument_state.clj" />
         <option value="$PROJECT_DIR$/Assets/osc.clj" />
         <option value="$PROJECT_DIR$/Assets/scheduler.clj" />
-        <option value="$PROJECT_DIR$/Assets/music_live_compose.clj" />
         <option value="$PROJECT_DIR$/Assets/arcadia.nrepl/.nrepl-port" />
         <option value="$PROJECT_DIR$/Assets/music_sight_reading.clj" />
         <option value="$PROJECT_DIR$/Assets/music_notation.clj" />
@@ -130,6 +125,8 @@
         <option value="$PROJECT_DIR$/Assets/theremin.clj" />
         <option value="$PROJECT_DIR$/Assets/monitors.clj" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Assets/functional_objects.clj" />
+        <option value="$PROJECT_DIR$/Assets/music_live_compose.clj" />
       </list>
     </option>
   </component>
@@ -139,26 +136,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="3440" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="2586" />
     <option name="height" value="1440" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -175,140 +155,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arcadia.nrepl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arcadia.nrepl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arcadia.nrepl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arcadia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arcadia.nrepl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arcadia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="ArcadiaPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArcadiaPlayground" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArcadiaPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArcadiaPlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="Assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArcadiaPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArcadiaPlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="Assets" type="462c0819:PsiDirectoryNode" />
+              <item name="arcadia.nrepl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,7 +191,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ArcadiaTest" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="cursive.last.file.extension.C\:/Projects/ArcadiaPlayground/Assets" value="clj" />
@@ -330,7 +202,6 @@
     <property name="SearchEverywhereHistoryKey" value="ovrhaptics&#9;FILE&#9;file://D:/Projects/Unity Projects/ArcadiaPlayground/Assets/Oculus/VR/Scripts/OVRHapticsClip.cs&#10;giti&#9;FILE&#9;file://C:/Projects/ArcadiaPlayground/.gitignore" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="cursive.last.file.extension.D\:/Projects/Unity Projects/ArcadiaPlayground/Assets" value="clj" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -338,7 +209,7 @@
       <recent name="C:\Projects\ArcadiaPlayground\Assets" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1533676616123">{:repl-history {:ide [], :local [], :remote [{:command &quot;(hook+ (object-named \&quot;App\&quot;) :update :theremin #'game-loop)&quot;, :offset 58, :ns &quot;theremin&quot;} {:command &quot;(ns theremin\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [osc :only [send]])\n  (:import (UnityEngine GameObject Mathf Vector2 Vector3)))&quot;, :offset 148, :ns &quot;theremin&quot;} {:command &quot;(ns music-notation\n  (use arcadia.core\n       arcadia.linear\n       clojure.set)\n  (:use [music-glyphs :only [glyphs]])\n  (:import (UnityEngine Color GameObject Mesh MeshFilter MeshRenderer Mathf TextMesh Vector2 Vector3))\n  )&quot;, :offset 226, :ns &quot;music-sight-reading&quot;} {:command &quot;(+note 60 0 :played-notes)&quot;, :offset 26, :ns &quot;music-notation&quot;} {:command &quot;(+note 60 -1 :played-notes)&quot;, :offset 27, :ns &quot;music-notation&quot;} {:command &quot;(+note -1 0 :played-notes)&quot;, :offset 26, :ns &quot;music-notation&quot;} {:command &quot;(+note 0 0 :played-notes)&quot;, :offset 25, :ns &quot;music-notation&quot;} {:command &quot;(+note 1 0 :played-notes)&quot;, :offset 25, :ns &quot;music-notation&quot;} {:command &quot;(+note 128 0 :played-notes)&quot;, :offset 27, :ns &quot;music-notation&quot;} {:command &quot;(defn game-loop [obj key]\n  (set-played-notes! (get-notes)))&quot;, :offset 60, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                ;(range-exercise-diatonic 60 34 99 1)\n                ;(range-exercise-diatonic 60 34 99 2 0)\n                ;(range-exercise-diatonic 60 34 99 2 1)\n                (range-exercise-diatonic 60 34 99 3 0)\n                (range-exercise-diatonic 60 34 99 3 1)\n                (range-exercise-diatonic 60 34 99 3 2)\n                (range-exercise-diatonic 60 34 99 4 0)\n                (range-exercise-diatonic 60 34 99 4 1)\n                (range-exercise-diatonic 60 34 99 4 2)\n                (range-exercise-diatonic 60 34 99 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 694, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 34 90 1)\n                (range-exercise-diatonic 60 34 90 2 0)\n                (range-exercise-diatonic 60 34 90 2 1)\n                (range-exercise-diatonic 60 34 90 3 0)\n                (range-exercise-diatonic 60 34 90 3 1)\n                (range-exercise-diatonic 60 34 90 3 2)\n                (range-exercise-diatonic 60 34 90 4 0)\n                (range-exercise-diatonic 60 34 90 4 1)\n                (range-exercise-diatonic 60 34 90 4 2)\n                (range-exercise-diatonic 60 34 90 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 84 1)\n                (range-exercise-diatonic 60 48 84 2 0)\n                (range-exercise-diatonic 60 48 84 2 1)\n                (range-exercise-diatonic 60 48 84 3 0)\n                (range-exercise-diatonic 60 48 84 3 1)\n                (range-exercise-diatonic 60 48 84 3 2)\n                (range-exercise-diatonic 60 48 84 4 0)\n                (range-exercise-diatonic 60 48 84 4 1)\n                (range-exercise-diatonic 60 48 84 4 2)\n                (range-exercise-diatonic 60 48 84 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 84 1)\n                (range-exercise-diatonic 60 48 84 2 0)\n                (range-exercise-diatonic 60 48 84 2 1)\n                (range-exercise-diatonic 60 48 84 3 0)\n                (range-exercise-diatonic 60 48 84 3 1)\n                (range-exercise-diatonic 60 48 84 3 2)\n                (range-exercise-diatonic 60 48 84 4 0)\n                (range-exercise-diatonic 60 48 84 4 1)\n                (range-exercise-diatonic 60 48 84 4 2)\n                (range-exercise-diatonic 60 48 84 4 3)\n                )\n              (reductions + (clojure.core/repeat 2))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(hook (object-named \&quot;App\&quot;) :update :scheduler)&quot;, :offset 46, :ns &quot;scheduler&quot;} {:command &quot;(def sixense-input (cmpt (object-named \&quot;SixenseInput\&quot;) \&quot;SixenseInput\&quot;))&quot;, :offset 71, :ns &quot;theremin&quot;} {:command &quot;(. sixense-input Docked)&quot;, :offset 24, :ns &quot;theremin&quot;} {:command &quot;(. sixense-input Controllers)&quot;, :offset 29, :ns &quot;theremin&quot;} {:command &quot;(members SixenseInput)&quot;, :offset 22, :ns &quot;theremin&quot;} {:command &quot;(fields SixenseInput)&quot;, :offset 21, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input GetController 1)&quot;, :offset 34, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input (GetController 1))&quot;, :offset 36, :ns &quot;theremin&quot;} {:command &quot;(SixenseInput/GetController 1)&quot;, :offset 30, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input Controllers)&quot;, :offset 30, :ns &quot;theremin&quot;} {:command &quot;(SixenseInput/Controllers)&quot;, :offset 26, :ns &quot;theremin&quot;} {:command &quot;(first (SixenseInput/Controllers))&quot;, :offset 34, :ns &quot;theremin&quot;} {:command &quot;(. (first (SixenseInput/Controllers)) Docked)&quot;, :offset 45, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked)))&quot;, :offset 57, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked))\n     (filter identity))&quot;, :offset 80, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked))\n     (filter identity)\n     (count))&quot;, :offset 93, :ns &quot;theremin&quot;} {:command &quot;(&gt; 0 1)&quot;, :offset 7, :ns &quot;theremin&quot;} {:command &quot;(&lt; 0 1)&quot;, :offset 7, :ns &quot;theremin&quot;} {:command &quot;(defn is-docked []\n  (&lt; 0\n     (-&gt;&gt; (SixenseInput/Controllers)\n          (map #(. % Docked))\n          (filter identity)\n          (count))))&quot;, :offset 141, :ns &quot;theremin&quot;} {:command &quot;(defn send-state []\n  (send \&quot;/theremin/amp\&quot; (if (is-docked) 0 \n                                        (Vector3/Distance (get-pos amp-obj) (get-pos left-hand))))\n  (send \&quot;/theremin/freq\&quot; (if (is-docked) 0 \n                                         (Vector3/Distance (get-pos freq-obj) (get-pos right-hand)))))&quot;, :offset 308, :ns &quot;theremin&quot;} {:command &quot;(ns music-sight-reading\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes]]\n        [music-live-compose]\n        [music-notation :only [clear-notes\n                               set-played-notes!\n                               set-keysig!\n                               +note\n                               -note]]\n        [scheduler :only [now start clear-queue queue+ elapsed]]\n        )\n  (:import (UnityEngine Color GameObject Mathf TextMesh)))&quot;, :offset 496, :ns &quot;theremin&quot;} {:command &quot;(set-keysig! :db)&quot;, :offset 17, :ns &quot;music-sight-reading&quot;} {:command &quot;(set-keysig! :c)&quot;, :offset 16, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 72 1)\n                (range-exercise-diatonic 60 48 72 2 0)\n                (range-exercise-diatonic 60 48 72 2 1)\n                (range-exercise-diatonic 60 48 72 3 0)\n                (range-exercise-diatonic 60 48 72 3 1)\n                (range-exercise-diatonic 60 48 72 3 2)\n                (range-exercise-diatonic 60 48 72 4 0)\n                (range-exercise-diatonic 60 48 72 4 1)\n                (range-exercise-diatonic 60 48 72 4 2)\n                (range-exercise-diatonic 60 48 72 4 3)\n                )\n              (reductions + (clojure.core/repeat 2))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(clear)&quot;, :offset 7, :ns &quot;music-sight-reading&quot;} {:command &quot;(ns haptics\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import (UnityEngine Mathf))\n  (:import OVRManager)\n  )&quot;, :offset 160, :ns &quot;haptics&quot;} {:command &quot;OVRManager&quot;, :offset 10, :ns &quot;haptics&quot;} {:command &quot;(dir arcadia.core)&quot;, :offset 18, :ns &quot;haptics&quot;} {:command &quot;(cmpt+ app OVRManager)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(ns haptics\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import OVRManager OVRHaptics (UnityEngine Mathf))\n  )&quot;, :offset 159, :ns &quot;haptics&quot;} {:command &quot;OVRHaptics&quot;, :offset 10, :ns &quot;haptics&quot;} {:command &quot;(dir arcadia.introspection)&quot;, :offset 27, :ns &quot;haptics&quot;} {:command &quot;(ns haptics\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import OVRManager OVRHaptics OVRHapticsClip (UnityEngine Mathf))\n  )&quot;, :offset 174, :ns &quot;haptics&quot;} {:command &quot;OVRHapticsClip&quot;, :offset 14, :ns &quot;haptics&quot;} {:command &quot;clip&quot;, :offset 4, :ns &quot;haptics&quot;} {:command &quot;(. clip Capacity)&quot;, :offset 17, :ns &quot;haptics&quot;} {:command &quot;(. clip Count)&quot;, :offset 14, :ns &quot;haptics&quot;} {:command &quot;(.. OVRHaptics Config)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(.. OVRHaptics/Config)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(. OVRHaptics/Config)&quot;, :offset 21, :ns &quot;haptics&quot;} {:command &quot;(. OVRHaptics Config/SampleRateHz)&quot;, :offset 34, :ns &quot;haptics&quot;} {:command &quot;OVRHaptics/Config&quot;, :offset 17, :ns &quot;haptics&quot;} {:command &quot;(byte 1)&quot;, :offset 8, :ns &quot;haptics&quot;} {:command &quot;(aset-byte (. clip Samples) 0 12)&quot;, :offset 33, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (.clip Capacity))]\n  (aset-byte (. clip Samples) i 12)\n  )&quot;, :offset 75, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) i 12)\n  )&quot;, :offset 76, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 (Mathf/Pi) 2) (/ i 160)))\n  )&quot;, :offset 141, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 (Mathf/PI) 2) (/ i 160)))\n  )&quot;, :offset 141, :ns &quot;haptics&quot;} {:command &quot;Mathf/PI&quot;, :offset 8, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 Mathf/PI 2) (/ i 160)))\n  )&quot;, :offset 139, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 Mathf/PI 2 (/ i 160))))\n  )&quot;, :offset 139, :ns &quot;haptics&quot;} {:command &quot;(defn scale [inMin inMax outMin outMax in]\n  (let [diffIn (- inMax inMin)\n        normIn (/ in diffIn)\n        ]\n    normIn) \n  )&quot;, :offset 129, :ns &quot;haptics&quot;} {:command &quot;(defn scale [inMin inMax outMin outMax in]\n  (let [diffIn (- inMax inMin)\n        normIn (/ (- in inMin) diffIn)\n        ]\n    normIn) \n  )&quot;, :offset 139, :ns &quot;haptics&quot;} {:command &quot;(defn scale [inMin inMax outMin outMax in]\n  (let [diffIn (- inMax inMin)\n        normIn (/ (- in inMin) diffIn)\n        diffOut (- outMax outMin)\n        ]\n    (+ outMin (* normIn diffOut))) \n  )&quot;, :offset 196, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1. 0 255 -1)&quot;, :offset 23, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1. 0 255 1)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1. 0 255 0)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples)\n             i\n             (scale -1. 1. \n                    0 255\n                    (Mathf/Sin (* 5 Mathf/PI 2 (/ i 160))))))&quot;, :offset 197, :ns &quot;haptics&quot;} {:command &quot;(.. OVRHaptics LeftChannel (Preempt clip))&quot;, :offset 42, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1.\n                    0 255\n                    -1000)&quot;, :offset 66, :ns &quot;haptics&quot;} {:command &quot;(defn play-clip\n  (.. OVRHaptics LeftChannel (Preempt clip)))&quot;, :offset 61, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 3 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 4 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(def clip (OVRHapticsClip. 256))&quot;, :offset 32, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 40 Mathf/PI 2 (/ i total)))))&quot;, :offset 111, :ns &quot;haptics&quot;} {:command &quot;(def clip (OVRHapticsClip. 160))&quot;, :offset 32, :ns &quot;haptics&quot;} {:command &quot;(set! (. clip Count) (. clip Capacity))&quot;, :offset 39, :ns &quot;haptics&quot;} {:command &quot;(defn set-samples [fn]\n  (doseq [i (range (. clip Capacity))]\n    (aset-byte (. clip Samples)\n               i\n               (fn i (. clip Capacity)))))&quot;, :offset 153, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 5 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn play-clip []\n  (.. OVRHaptics LeftChannel (Preempt clip)))&quot;, :offset 64, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 500 Mathf/PI 2 (/ i total)))))&quot;, :offset 112, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 300 Mathf/PI 2 (/ i total)))))&quot;, :offset 112, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 100 Mathf/PI 2 (/ i total)))))&quot;, :offset 112, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Cos (* 1 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 1 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 1 Mathf/PI 2 (/ i total)) Mathf/PI) )))&quot;, :offset 124, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 1 Mathf/PI 2 (/ i total)) (/ Mathf/PI 2)) )))&quot;, :offset 130, :ns &quot;haptics&quot;} {:command &quot;(. clip Samples)&quot;, :offset 16, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 10 Mathf/PI 2 (/ i total)) (/ Mathf/PI 2)) )))&quot;, :offset 131, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 2 Mathf/PI 2 (/ i total)) (/ Mathf/PI 2)) )))&quot;, :offset 130, :ns &quot;haptics&quot;} {:command &quot;(set-samples sin-samples)&quot;, :offset 25, :ns &quot;haptics&quot;} {:command &quot;(play-clip)&quot;, :offset 11, :ns &quot;haptics&quot;} {:command &quot;(def left-hand (object-named \&quot;CapsuleHand_L\&quot;))&quot;, :offset 46, :ns &quot;theremin&quot;} {:command &quot;(ns theremin\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [osc :only [send]])\n  (:import (UnityEngine GameObject Mathf Vector3)))&quot;, :offset 140, :ns &quot;theremin&quot;} {:command &quot;(ns monitors\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import (UnityEngine Mathf))\n  )&quot;, :offset 138, :ns &quot;cursive.repl.runtime&quot;} {:command &quot;(def mon (object-named \&quot;StaticMonitor\&quot;))&quot;, :offset 40, :ns &quot;monitors&quot;}]}}</component>
+  <component name="ReplState" timestamp="1535420475827">{:repl-history {:ide [], :local [], :remote [{:command &quot;(hook+ (object-named \&quot;App\&quot;) :update :theremin #'game-loop)&quot;, :offset 58, :ns &quot;theremin&quot;} {:command &quot;(ns theremin\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [osc :only [send]])\n  (:import (UnityEngine GameObject Mathf Vector2 Vector3)))&quot;, :offset 148, :ns &quot;theremin&quot;} {:command &quot;(ns music-notation\n  (use arcadia.core\n       arcadia.linear\n       clojure.set)\n  (:use [music-glyphs :only [glyphs]])\n  (:import (UnityEngine Color GameObject Mesh MeshFilter MeshRenderer Mathf TextMesh Vector2 Vector3))\n  )&quot;, :offset 226, :ns &quot;music-sight-reading&quot;} {:command &quot;(+note 60 0 :played-notes)&quot;, :offset 26, :ns &quot;music-notation&quot;} {:command &quot;(+note 60 -1 :played-notes)&quot;, :offset 27, :ns &quot;music-notation&quot;} {:command &quot;(+note -1 0 :played-notes)&quot;, :offset 26, :ns &quot;music-notation&quot;} {:command &quot;(+note 0 0 :played-notes)&quot;, :offset 25, :ns &quot;music-notation&quot;} {:command &quot;(+note 1 0 :played-notes)&quot;, :offset 25, :ns &quot;music-notation&quot;} {:command &quot;(+note 128 0 :played-notes)&quot;, :offset 27, :ns &quot;music-notation&quot;} {:command &quot;(defn game-loop [obj key]\n  (set-played-notes! (get-notes)))&quot;, :offset 60, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                ;(range-exercise-diatonic 60 34 99 1)\n                ;(range-exercise-diatonic 60 34 99 2 0)\n                ;(range-exercise-diatonic 60 34 99 2 1)\n                (range-exercise-diatonic 60 34 99 3 0)\n                (range-exercise-diatonic 60 34 99 3 1)\n                (range-exercise-diatonic 60 34 99 3 2)\n                (range-exercise-diatonic 60 34 99 4 0)\n                (range-exercise-diatonic 60 34 99 4 1)\n                (range-exercise-diatonic 60 34 99 4 2)\n                (range-exercise-diatonic 60 34 99 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 694, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 34 90 1)\n                (range-exercise-diatonic 60 34 90 2 0)\n                (range-exercise-diatonic 60 34 90 2 1)\n                (range-exercise-diatonic 60 34 90 3 0)\n                (range-exercise-diatonic 60 34 90 3 1)\n                (range-exercise-diatonic 60 34 90 3 2)\n                (range-exercise-diatonic 60 34 90 4 0)\n                (range-exercise-diatonic 60 34 90 4 1)\n                (range-exercise-diatonic 60 34 90 4 2)\n                (range-exercise-diatonic 60 34 90 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 84 1)\n                (range-exercise-diatonic 60 48 84 2 0)\n                (range-exercise-diatonic 60 48 84 2 1)\n                (range-exercise-diatonic 60 48 84 3 0)\n                (range-exercise-diatonic 60 48 84 3 1)\n                (range-exercise-diatonic 60 48 84 3 2)\n                (range-exercise-diatonic 60 48 84 4 0)\n                (range-exercise-diatonic 60 48 84 4 1)\n                (range-exercise-diatonic 60 48 84 4 2)\n                (range-exercise-diatonic 60 48 84 4 3)\n                )\n              (reductions + (clojure.core/repeat 1))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 84 1)\n                (range-exercise-diatonic 60 48 84 2 0)\n                (range-exercise-diatonic 60 48 84 2 1)\n                (range-exercise-diatonic 60 48 84 3 0)\n                (range-exercise-diatonic 60 48 84 3 1)\n                (range-exercise-diatonic 60 48 84 3 2)\n                (range-exercise-diatonic 60 48 84 4 0)\n                (range-exercise-diatonic 60 48 84 4 1)\n                (range-exercise-diatonic 60 48 84 4 2)\n                (range-exercise-diatonic 60 48 84 4 3)\n                )\n              (reductions + (clojure.core/repeat 2))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(hook (object-named \&quot;App\&quot;) :update :scheduler)&quot;, :offset 46, :ns &quot;scheduler&quot;} {:command &quot;(def sixense-input (cmpt (object-named \&quot;SixenseInput\&quot;) \&quot;SixenseInput\&quot;))&quot;, :offset 71, :ns &quot;theremin&quot;} {:command &quot;(. sixense-input Docked)&quot;, :offset 24, :ns &quot;theremin&quot;} {:command &quot;(. sixense-input Controllers)&quot;, :offset 29, :ns &quot;theremin&quot;} {:command &quot;(members SixenseInput)&quot;, :offset 22, :ns &quot;theremin&quot;} {:command &quot;(fields SixenseInput)&quot;, :offset 21, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input GetController 1)&quot;, :offset 34, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input (GetController 1))&quot;, :offset 36, :ns &quot;theremin&quot;} {:command &quot;(SixenseInput/GetController 1)&quot;, :offset 30, :ns &quot;theremin&quot;} {:command &quot;(.. sixense-input Controllers)&quot;, :offset 30, :ns &quot;theremin&quot;} {:command &quot;(SixenseInput/Controllers)&quot;, :offset 26, :ns &quot;theremin&quot;} {:command &quot;(first (SixenseInput/Controllers))&quot;, :offset 34, :ns &quot;theremin&quot;} {:command &quot;(. (first (SixenseInput/Controllers)) Docked)&quot;, :offset 45, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked)))&quot;, :offset 57, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked))\n     (filter identity))&quot;, :offset 80, :ns &quot;theremin&quot;} {:command &quot;(-&gt;&gt; (SixenseInput/Controllers)\n     (map #(. % Docked))\n     (filter identity)\n     (count))&quot;, :offset 93, :ns &quot;theremin&quot;} {:command &quot;(&gt; 0 1)&quot;, :offset 7, :ns &quot;theremin&quot;} {:command &quot;(&lt; 0 1)&quot;, :offset 7, :ns &quot;theremin&quot;} {:command &quot;(defn is-docked []\n  (&lt; 0\n     (-&gt;&gt; (SixenseInput/Controllers)\n          (map #(. % Docked))\n          (filter identity)\n          (count))))&quot;, :offset 141, :ns &quot;theremin&quot;} {:command &quot;(defn send-state []\n  (send \&quot;/theremin/amp\&quot; (if (is-docked) 0 \n                                        (Vector3/Distance (get-pos amp-obj) (get-pos left-hand))))\n  (send \&quot;/theremin/freq\&quot; (if (is-docked) 0 \n                                         (Vector3/Distance (get-pos freq-obj) (get-pos right-hand)))))&quot;, :offset 308, :ns &quot;theremin&quot;} {:command &quot;(ns music-sight-reading\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes]]\n        [music-live-compose]\n        [music-notation :only [clear-notes\n                               set-played-notes!\n                               set-keysig!\n                               +note\n                               -note]]\n        [scheduler :only [now start clear-queue queue+ elapsed]]\n        )\n  (:import (UnityEngine Color GameObject Mathf TextMesh)))&quot;, :offset 496, :ns &quot;theremin&quot;} {:command &quot;(set-keysig! :db)&quot;, :offset 17, :ns &quot;music-sight-reading&quot;} {:command &quot;(set-keysig! :c)&quot;, :offset 16, :ns &quot;music-sight-reading&quot;} {:command &quot;(doall (map (fn [n t] (queue-event (+ 1 t) n 1))\n              (concat\n                (range-exercise-diatonic 60 48 72 1)\n                (range-exercise-diatonic 60 48 72 2 0)\n                (range-exercise-diatonic 60 48 72 2 1)\n                (range-exercise-diatonic 60 48 72 3 0)\n                (range-exercise-diatonic 60 48 72 3 1)\n                (range-exercise-diatonic 60 48 72 3 2)\n                (range-exercise-diatonic 60 48 72 4 0)\n                (range-exercise-diatonic 60 48 72 4 1)\n                (range-exercise-diatonic 60 48 72 4 2)\n                (range-exercise-diatonic 60 48 72 4 3)\n                )\n              (reductions + (clojure.core/repeat 2))))&quot;, :offset 691, :ns &quot;music-sight-reading&quot;} {:command &quot;(clear)&quot;, :offset 7, :ns &quot;music-sight-reading&quot;} {:command &quot;(ns haptics\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import (UnityEngine Mathf))\n  (:import OVRManager)\n  )&quot;, :offset 160, :ns &quot;haptics&quot;} {:command &quot;OVRManager&quot;, :offset 10, :ns &quot;haptics&quot;} {:command &quot;(dir arcadia.core)&quot;, :offset 18, :ns &quot;haptics&quot;} {:command &quot;(cmpt+ app OVRManager)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(ns haptics\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import OVRManager OVRHaptics (UnityEngine Mathf))\n  )&quot;, :offset 159, :ns &quot;haptics&quot;} {:command &quot;OVRHaptics&quot;, :offset 10, :ns &quot;haptics&quot;} {:command &quot;(dir arcadia.introspection)&quot;, :offset 27, :ns &quot;haptics&quot;} {:command &quot;(ns haptics\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import OVRManager OVRHaptics OVRHapticsClip (UnityEngine Mathf))\n  )&quot;, :offset 174, :ns &quot;haptics&quot;} {:command &quot;OVRHapticsClip&quot;, :offset 14, :ns &quot;haptics&quot;} {:command &quot;clip&quot;, :offset 4, :ns &quot;haptics&quot;} {:command &quot;(. clip Capacity)&quot;, :offset 17, :ns &quot;haptics&quot;} {:command &quot;(. clip Count)&quot;, :offset 14, :ns &quot;haptics&quot;} {:command &quot;(.. OVRHaptics Config)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(.. OVRHaptics/Config)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(. OVRHaptics/Config)&quot;, :offset 21, :ns &quot;haptics&quot;} {:command &quot;(. OVRHaptics Config/SampleRateHz)&quot;, :offset 34, :ns &quot;haptics&quot;} {:command &quot;OVRHaptics/Config&quot;, :offset 17, :ns &quot;haptics&quot;} {:command &quot;(byte 1)&quot;, :offset 8, :ns &quot;haptics&quot;} {:command &quot;(aset-byte (. clip Samples) 0 12)&quot;, :offset 33, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (.clip Capacity))]\n  (aset-byte (. clip Samples) i 12)\n  )&quot;, :offset 75, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) i 12)\n  )&quot;, :offset 76, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 (Mathf/Pi) 2) (/ i 160)))\n  )&quot;, :offset 141, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 (Mathf/PI) 2) (/ i 160)))\n  )&quot;, :offset 141, :ns &quot;haptics&quot;} {:command &quot;Mathf/PI&quot;, :offset 8, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 Mathf/PI 2) (/ i 160)))\n  )&quot;, :offset 139, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples) \n             i\n             (Mathf/Sin (* 5 Mathf/PI 2 (/ i 160))))\n  )&quot;, :offset 139, :ns &quot;haptics&quot;} {:command &quot;(defn scale [inMin inMax outMin outMax in]\n  (let [diffIn (- inMax inMin)\n        normIn (/ in diffIn)\n        ]\n    normIn) \n  )&quot;, :offset 129, :ns &quot;haptics&quot;} {:command &quot;(defn scale [inMin inMax outMin outMax in]\n  (let [diffIn (- inMax inMin)\n        normIn (/ (- in inMin) diffIn)\n        ]\n    normIn) \n  )&quot;, :offset 139, :ns &quot;haptics&quot;} {:command &quot;(defn scale [inMin inMax outMin outMax in]\n  (let [diffIn (- inMax inMin)\n        normIn (/ (- in inMin) diffIn)\n        diffOut (- outMax outMin)\n        ]\n    (+ outMin (* normIn diffOut))) \n  )&quot;, :offset 196, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1. 0 255 -1)&quot;, :offset 23, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1. 0 255 1)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1. 0 255 0)&quot;, :offset 22, :ns &quot;haptics&quot;} {:command &quot;(doseq [i (range (. clip Capacity))]\n  (aset-byte (. clip Samples)\n             i\n             (scale -1. 1. \n                    0 255\n                    (Mathf/Sin (* 5 Mathf/PI 2 (/ i 160))))))&quot;, :offset 197, :ns &quot;haptics&quot;} {:command &quot;(.. OVRHaptics LeftChannel (Preempt clip))&quot;, :offset 42, :ns &quot;haptics&quot;} {:command &quot;(scale -1. 1.\n                    0 255\n                    -1000)&quot;, :offset 66, :ns &quot;haptics&quot;} {:command &quot;(defn play-clip\n  (.. OVRHaptics LeftChannel (Preempt clip)))&quot;, :offset 61, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 3 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 4 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(def clip (OVRHapticsClip. 256))&quot;, :offset 32, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 40 Mathf/PI 2 (/ i total)))))&quot;, :offset 111, :ns &quot;haptics&quot;} {:command &quot;(def clip (OVRHapticsClip. 160))&quot;, :offset 32, :ns &quot;haptics&quot;} {:command &quot;(set! (. clip Count) (. clip Capacity))&quot;, :offset 39, :ns &quot;haptics&quot;} {:command &quot;(defn set-samples [fn]\n  (doseq [i (range (. clip Capacity))]\n    (aset-byte (. clip Samples)\n               i\n               (fn i (. clip Capacity)))))&quot;, :offset 153, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 5 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn play-clip []\n  (.. OVRHaptics LeftChannel (Preempt clip)))&quot;, :offset 64, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 500 Mathf/PI 2 (/ i total)))))&quot;, :offset 112, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 300 Mathf/PI 2 (/ i total)))))&quot;, :offset 112, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 100 Mathf/PI 2 (/ i total)))))&quot;, :offset 112, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Cos (* 1 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (* 1 Mathf/PI 2 (/ i total)))))&quot;, :offset 110, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 1 Mathf/PI 2 (/ i total)) Mathf/PI) )))&quot;, :offset 124, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 1 Mathf/PI 2 (/ i total)) (/ Mathf/PI 2)) )))&quot;, :offset 130, :ns &quot;haptics&quot;} {:command &quot;(. clip Samples)&quot;, :offset 16, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 10 Mathf/PI 2 (/ i total)) (/ Mathf/PI 2)) )))&quot;, :offset 131, :ns &quot;haptics&quot;} {:command &quot;(defn sin-samples [i total]\n  (scale -1. 1.\n         0 255\n         (Mathf/Sin (- (* 2 Mathf/PI 2 (/ i total)) (/ Mathf/PI 2)) )))&quot;, :offset 130, :ns &quot;haptics&quot;} {:command &quot;(set-samples sin-samples)&quot;, :offset 25, :ns &quot;haptics&quot;} {:command &quot;(play-clip)&quot;, :offset 11, :ns &quot;haptics&quot;} {:command &quot;(def left-hand (object-named \&quot;CapsuleHand_L\&quot;))&quot;, :offset 46, :ns &quot;theremin&quot;} {:command &quot;(ns theremin\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [osc :only [send]])\n  (:import (UnityEngine GameObject Mathf Vector3)))&quot;, :offset 140, :ns &quot;theremin&quot;} {:command &quot;(ns monitors\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [arcadia.introspection]\n        )\n  (:import (UnityEngine Mathf))\n  )&quot;, :offset 138, :ns &quot;cursive.repl.runtime&quot;} {:command &quot;(def mon (object-named \&quot;StaticMonitor\&quot;))&quot;, :offset 40, :ns &quot;monitors&quot;}]}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -351,46 +222,104 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure REPL.Remote Arcadia REPL">
-    <configuration default="false" name="arcadia_test" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="ArcadiaPlayground" />
-      <setting name="path" value="$PROJECT_DIR$/Assets/arcadia_test.clj" />
-      <setting name="namespace" value="" />
-      <setting name="useLein" value="false" />
-      <setting name="profiles" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/Assets" />
-      <method />
+  <component name="RunManager" selected="Clojure REPL.Connect to Arcadia REPL">
+    <configuration name="Connect to Arcadia REPL" type="ClojureREPL" factoryName="Remote">
+      <setting name="host" value="127.0.0.1" />
+      <setting name="port" value="7888" />
+      <setting name="replType" value="0" />
+      <module name="arcadia.nrepl" />
     </configuration>
-    <configuration default="false" name="monitors" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="ArcadiaPlayground" />
-      <setting name="path" value="$PROJECT_DIR$/Assets/monitors.clj" />
-      <setting name="namespace" value="" />
-      <setting name="useLein" value="false" />
-      <setting name="profiles" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/Assets" />
-      <method />
+    <configuration name="Remote Arcadia REPL" type="ClojureREPL" factoryName="Remote">
+      <setting name="host" value="192.168.1.6" />
+      <setting name="port" value="7888" />
+      <setting name="replType" value="0" />
+      <module name="arcadia.nrepl" />
     </configuration>
-    <configuration default="false" name="music_sight_reading" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="ArcadiaPlayground" />
-      <setting name="path" value="$PROJECT_DIR$/Assets/music_sight_reading.clj" />
-      <setting name="namespace" value="" />
-      <setting name="useLein" value="false" />
+    <configuration name="Start Arcadia REPL" type="LeiningenRunConfiguration" factoryName="Leiningen">
+      <module name="arcadia.nrepl" />
+      <arguments argument="run" />
       <setting name="profiles" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/Assets" />
-      <method />
+      <setting name="trampoline" value="false" />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
@@ -427,28 +356,6 @@
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local">
@@ -511,27 +418,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
@@ -613,34 +499,27 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
@@ -671,40 +550,61 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="Connect to Arcadia REPL" type="ClojureREPL" factoryName="Remote">
-      <setting name="host" value="127.0.0.1" />
-      <setting name="port" value="7888" />
-      <setting name="replType" value="0" />
-      <module name="arcadia.nrepl" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Remote Arcadia REPL" type="ClojureREPL" factoryName="Remote">
-      <setting name="host" value="192.168.1.6" />
-      <setting name="port" value="7888" />
-      <setting name="replType" value="0" />
-      <module name="arcadia.nrepl" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Start Arcadia REPL" type="LeiningenRunConfiguration" factoryName="Leiningen">
-      <module name="arcadia.nrepl" />
-      <arguments argument="run" />
+    <configuration name="arcadia_test" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="ArcadiaPlayground" />
+      <setting name="path" value="$PROJECT_DIR$/Assets/arcadia_test.clj" />
+      <setting name="namespace" value="" />
+      <setting name="useLein" value="false" />
       <setting name="profiles" value="" />
-      <setting name="trampoline" value="false" />
-      <method />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/Assets" />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Clojure Application.arcadia_test" />
-      <item index="1" class="java.lang.String" itemvalue="Clojure Application.monitors" />
-      <item index="2" class="java.lang.String" itemvalue="Clojure Application.music_sight_reading" />
-      <item index="3" class="java.lang.String" itemvalue="Clojure REPL.Connect to Arcadia REPL" />
-      <item index="4" class="java.lang.String" itemvalue="Clojure REPL.Remote Arcadia REPL" />
-      <item index="5" class="java.lang.String" itemvalue="Leiningen.Start Arcadia REPL" />
+    <configuration name="monitors" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="ArcadiaPlayground" />
+      <setting name="path" value="$PROJECT_DIR$/Assets/monitors.clj" />
+      <setting name="namespace" value="" />
+      <setting name="useLein" value="false" />
+      <setting name="profiles" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/Assets" />
+    </configuration>
+    <configuration name="music_live_compose" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="ArcadiaPlayground" />
+      <setting name="path" value="$PROJECT_DIR$/Assets/music_live_compose.clj" />
+      <setting name="namespace" value="" />
+      <setting name="useLein" value="false" />
+      <setting name="profiles" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/Assets" />
+    </configuration>
+    <configuration name="music_sight_reading" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="ArcadiaPlayground" />
+      <setting name="path" value="$PROJECT_DIR$/Assets/music_sight_reading.clj" />
+      <setting name="namespace" value="" />
+      <setting name="useLein" value="false" />
+      <setting name="profiles" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/Assets" />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Clojure REPL.Connect to Arcadia REPL" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure REPL.Remote Arcadia REPL" />
+      <item index="2" class="java.lang.String" itemvalue="Leiningen.Start Arcadia REPL" />
+      <item index="3" class="java.lang.String" itemvalue="Clojure Application.arcadia_test" />
+      <item index="4" class="java.lang.String" itemvalue="Clojure Application.monitors" />
+      <item index="5" class="java.lang.String" itemvalue="Clojure Application.music_sight_reading" />
+      <item index="6" class="java.lang.String" itemvalue="Clojure Application.music_live_compose" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Clojure Application.music_sight_reading" />
-        <item index="1" class="java.lang.String" itemvalue="Clojure Application.monitors" />
-        <item index="2" class="java.lang.String" itemvalue="Clojure Application.arcadia_test" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Clojure Application.music_live_compose" />
+        <item index="1" class="java.lang.String" itemvalue="Clojure Application.music_sight_reading" />
+        <item index="2" class="java.lang.String" itemvalue="Clojure Application.monitors" />
+        <item index="3" class="java.lang.String" itemvalue="Clojure Application.arcadia_test" />
       </list>
     </recent_temporary>
   </component>
@@ -742,11 +642,15 @@
       <workItem from="1529902633485" duration="888000" />
       <workItem from="1530402595224" duration="4287000" />
       <workItem from="1533671485280" duration="3074000" />
+      <workItem from="1533884870209" duration="5089000" />
+      <workItem from="1534647552502" duration="1215000" />
+      <workItem from="1535410580271" duration="1410000" />
+      <workItem from="1537840986183" duration="1614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="379652000" />
+    <option name="totallyTimeSpent" value="388980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,37 +662,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="3440" height="1440" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3098837" sideWeight="0.5029542" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4652778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30976564" sideWeight="0.5029542" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4652778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994187" sideWeight="0.4970458" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08372093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18984374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -846,25 +749,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/configuration.edn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/nrepl.clj" />
     <entry file="file://$PROJECT_DIR$/Assets/scheduler.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/osc.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -872,21 +768,21 @@
     <entry file="file://$PROJECT_DIR$/Assets/music_live_compose.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
-          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+          <caret line="49" column="35" lean-forward="false" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia_test.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/configuration.edn">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -894,35 +790,35 @@
     <entry file="file://$PROJECT_DIR$/Assets/ArcadiaWorksheet.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/geometry.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia_test.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ArcadiaWorksheet.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4522">
-          <caret line="266" column="13" selection-start-line="266" selection-start-column="13" selection-end-line="266" selection-end-column="13" />
+          <caret line="266" column="13" lean-forward="false" selection-start-line="266" selection-start-column="13" selection-end-line="266" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia_test.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -930,7 +826,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/arcadia_test.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -938,31 +834,17 @@
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/nrepl.clj.meta" />
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/README.md.meta" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
-    <entry file="file://$PROJECT_DIR$/Assets/configuration.edn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ArcadiaWorksheet.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1683">
-          <caret line="99" column="7" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/music_glyphs.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <caret line="99" column="7" lean-forward="false" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/OSC simpl/OscIn.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2884">
-          <caret line="334" column="38" selection-start-line="334" selection-start-column="38" selection-end-line="334" selection-end-column="38" />
+          <caret line="334" column="38" lean-forward="false" selection-start-line="334" selection-start-column="38" selection-end-line="334" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -972,212 +854,234 @@
     <entry file="file://$PROJECT_DIR$/Assets/SixenseInput/Scripts/SixenseInput.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="204" column="42" selection-start-line="204" selection-start-column="29" selection-end-line="204" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/music_live_compose.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scheduler.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="119" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="119" />
+          <caret line="204" column="42" lean-forward="false" selection-start-line="204" selection-start-column="29" selection-end-line="204" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia_test.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHapticsClip.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
-          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/geometry.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/music_instrument_state.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/music_notation.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/osc.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHaptics.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/haptics.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/CapsuleHand.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LeapMotion/Core/Scripts/Hands/HandModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
-          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/theremin.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <caret line="61" column="25" lean-forward="false" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/monitors.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-          <folding>
-            <marker date="1529903048844" expanded="true" signature="10:148" ph="(ns monitors ...)" />
-            <marker date="1529903048844" expanded="true" signature="305:552" ph="(defn r ...)" />
-            <marker date="1529903048844" expanded="true" signature="554:765" ph="(defn p ...)" />
-            <marker date="1529903048844" expanded="true" signature="772:804" ph="(defn game-loop ...)" />
-          </folding>
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/music_sight_reading.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <marker date="1524447114053" expanded="true" signature="16:517" ph="(ns music-sight-reading ...)" />
-            <marker date="1524447114053" expanded="true" signature="519:641" ph="(def perf-state ...)" />
-            <marker date="1524447114053" expanded="true" signature="644:760" ph="(defn prep-stats-for-exercise ...)" />
-            <marker date="1524447114053" expanded="true" signature="762:876" ph="(defn set-stat ...)" />
-            <marker date="1524447114053" expanded="true" signature="878:977" ph="(defn get-stat ...)" />
-            <marker date="1524447114053" expanded="true" signature="979:1050" ph="(defn save-perf-state ...)" />
-            <marker date="1524447114053" expanded="true" signature="1052:1143" ph="(defn load-perf-state ...)" />
-            <marker date="1524447114053" expanded="true" signature="1145:1294" ph="(comment ...)" />
-            <marker date="1524447114053" expanded="true" signature="1297:1357" ph="(defn game-loop ...)" />
-            <marker date="1524447114053" expanded="true" signature="1424:1583" ph="(defn scroll-go ...)" />
-            <marker date="1524447114053" expanded="true" signature="1585:1761" ph="(defn set-go-color ...)" />
-            <marker date="1524447114053" expanded="true" signature="1763:1915" ph="(defn update-queued ...)" />
-            <marker date="1524447114053" expanded="true" signature="1917:2528" ph="(defn update-active ...)" />
-            <marker date="1524447114053" expanded="true" signature="2530:3516" ph="(defn queue-event ...)" />
-            <marker date="1524447114053" expanded="true" signature="3519:3566" ph="(defn clear ...)" />
-            <marker date="1524447114053" expanded="true" signature="3771:5898" ph="(comment ...)" />
-          </folding>
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/.nrepl-port">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/arcadia.nrepl.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/nrepl.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1524434813977" expanded="true" signature="0:440" ph="(ns arcadia.nrepl ...)" />
-            <marker date="1524434813977" expanded="true" signature="466:723" ph="(def filter-patterns ...)" />
-            <marker date="1524434813977" expanded="true" signature="725:906" ph="(defn valid-expr? ...)" />
-            <marker date="1524434813977" expanded="true" signature="908:1034" ph="(defn extract-prompt-ns ...)" />
-            <marker date="1524434813977" expanded="true" signature="1036:1340" ph="(defn prepare-response ...)" />
-            <marker date="1524434813977" expanded="true" signature="1342:1687" ph="(defn arcadia-eval ...)" />
-            <marker date="1524434813977" expanded="true" signature="1689:1843" ph="(defn wrap-arcadia-repl ...)" />
-            <marker date="1524434813977" expanded="true" signature="1845:2001" ph="(set-descriptor! ...)" />
-            <marker date="1524434813977" expanded="true" signature="2003:2190" ph="(defn -main ...)" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/repl/client.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <marker date="1524434813982" expanded="true" signature="0:124" ph="(ns arcadia.repl.client ...)" />
-            <marker date="1524434813982" expanded="true" signature="241:427" ph="(defn send ...)" />
-            <marker date="1524434813982" expanded="true" signature="429:602" ph="(defn recv ...)" />
-            <marker date="1524434813982" expanded="true" signature="604:1239" ph="(def preamble ...)" />
-            <marker date="1524434813982" expanded="true" signature="1241:1421" ph="(defn repl ...)" />
-          </folding>
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/haptics.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/configuration.edn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scheduler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2112">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/theremin.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/music_glyphs.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/music_instrument_state.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/functional_objects.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding>
+            <marker date="1534174582110" expanded="true" signature="0:113" ph="(ns functional-objects ...)" />
+            <marker date="1534174582110" expanded="true" signature="115:947" ph="(def s ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/music_live_compose.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <marker date="1535411345290" expanded="true" signature="0:145" ph="(ns music-live-compose ...)" />
+            <marker date="1535411345290" expanded="true" signature="175:263" ph="(defn send-note ...)" />
+            <marker date="1535411345290" expanded="true" signature="265:363" ph="(defn send-chord ...)" />
+            <marker date="1535411345290" expanded="true" signature="365:479" ph="(comment ...)" />
+            <marker date="1535411345290" expanded="true" signature="481:810" ph="(defn queue-note ...)" />
+            <marker date="1535411345290" expanded="true" signature="812:1027" ph="(defn queue-chord ...)" />
+            <marker date="1535411345290" expanded="true" signature="1030:1195" ph="(defn queue-fn ...)" />
+            <marker date="1535411345290" expanded="true" signature="1306:1456" ph="(defn diatonic-scale-cycle-up ...)" />
+            <marker date="1535411345290" expanded="true" signature="1458:1630" ph="(defn diatonic-scale-cycle-dn ...)" />
+            <marker date="1535411345290" expanded="true" signature="1632:1666" ph="(defn bpm-&gt;dur ...)" />
+            <marker date="1535411345290" expanded="true" signature="1668:2347" ph="(defn queue-pattern ...)" />
+            <marker date="1535411345290" expanded="true" signature="2349:2710" ph="(defn diatonic-pattern ...)" />
+            <marker date="1535411345290" expanded="true" signature="2712:2817" ph="(defn repeat-queue ...)" />
+            <marker date="1535411345290" expanded="true" signature="2819:2941" ph="(defn repeater ...)" />
+            <marker date="1535411345290" expanded="true" signature="2986:5340" ph="(comment ...)" />
+            <marker date="1535411345290" expanded="true" signature="5343:5836" ph="(defn chord-cycle ...)" />
+            <marker date="1535411345290" expanded="true" signature="5840:6272" ph="(defn range-exercise-diatonic ...)" />
+            <marker date="1535411345290" expanded="true" signature="6275:6569" ph="(defn queue-program ...)" />
+            <marker date="1535411345290" expanded="true" signature="6573:6853" ph="(comment ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/geometry.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <marker date="1533681622215" expanded="true" signature="0:144" ph="(ns geometry ...)" />
+            <marker date="1533681622215" expanded="true" signature="147:457" ph="(defn new-go-mesh ...)" />
+            <marker date="1533681622215" expanded="true" signature="459:676" ph="(defn mesh ...)" />
+            <marker date="1533681622215" expanded="true" signature="678:1084" ph="(defn update-mesh! ...)" />
+            <marker date="1533681622215" expanded="true" signature="1130:1276" ph="(defn verts-2d-&gt;v3-xy ...)" />
+            <marker date="1533681622215" expanded="true" signature="1278:1398" ph="(defn verts-2d-&gt;v2 ...)" />
+            <marker date="1533681622215" expanded="true" signature="1400:1754" ph="(defn polygon-verts-2d ...)" />
+            <marker date="1533681622215" expanded="true" signature="1756:1910" ph="(defn polygon-uvs ...)" />
+            <marker date="1533681622215" expanded="true" signature="1912:2199" ph="(defn polygon-tris ...)" />
+            <marker date="1533681622215" expanded="true" signature="2201:2444" ph="(defn polygon-tris-flipped ...)" />
+            <marker date="1533681622215" expanded="true" signature="2446:2736" ph="(defn generate-polygon-mesh! ...)" />
+            <marker date="1533681622215" expanded="true" signature="2738:3032" ph="(defn polygon ...)" />
+            <marker date="1533681622215" expanded="true" signature="3034:3725" ph="(comment ...)" />
+            <marker date="1533681622215" expanded="true" signature="3777:4326" ph="(defn dod-verts ...)" />
+            <marker date="1533681622215" expanded="true" signature="4328:4596" ph="(def pents ...)" />
+            <marker date="1533681622215" expanded="true" signature="4598:4752" ph="(defn pentagon ...)" />
+            <marker date="1533681622215" expanded="true" signature="4871:4956" ph="(defn centroid ...)" />
+            <marker date="1533681622215" expanded="true" signature="5168:6126" ph="(defn dodecahedron ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/monitors.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding />
         </state>
       </provider>
