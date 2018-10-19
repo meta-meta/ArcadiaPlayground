@@ -2,34 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5fcc031-efa8-4017-a5f6-6119c991dc38" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ArcadiaPlayground.Editor.csproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ArcadiaPlayground.csproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/interval-11.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/interval-halo-11.mat" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/app_state.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/ArcadiaPlayground/v15/.suo" afterPath="$PROJECT_DIR$/.vs/ArcadiaPlayground/v15/.suo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/arcadia.nrepl" afterPath="$PROJECT_DIR$/Assets/arcadia.nrepl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArcadiaPlayground.sln" afterPath="$PROJECT_DIR$/ArcadiaPlayground.sln" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/2018-6-24-purple-room-VR.unity" afterPath="$PROJECT_DIR$/Assets/2018-6-24-purple-room-VR.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/OvrAvatarSettings.asset" afterPath="$PROJECT_DIR$/Assets/Resources/OvrAvatarSettings.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tablet.prefab" afterPath="$PROJECT_DIR$/Assets/Tablet.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/music_instrument_state.clj" afterPath="$PROJECT_DIR$/Assets/music_instrument_state.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/2018-10-03-grey-room-VR.unity" afterPath="$PROJECT_DIR$/Assets/2018-10-03-grey-room-VR.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Materials/RoomWireframe.mat" afterPath="$PROJECT_DIR$/Assets/Materials/RoomWireframe.mat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/music_sight_reading.clj" afterPath="$PROJECT_DIR$/Assets/music_sight_reading.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/music_theory_visualization.clj" afterPath="$PROJECT_DIR$/Assets/music_theory_visualization.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/studio.clj" afterPath="$PROJECT_DIR$/Assets/studio.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/uDesktopDuplication/Materials/uDD_Screen_Unlit_Transparent.mat" afterPath="$PROJECT_DIR$/Assets/uDesktopDuplication/Materials/uDD_Screen_Unlit_Transparent.mat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/uDesktopDuplication/Materials/uDD_Screen_Unlit_Displacement.mat" afterPath="$PROJECT_DIR$/Assets/uDesktopDuplication/Materials/uDD_Screen_Unlit_Displacement.mat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets/music_instrument_state.clj" afterPath="$PROJECT_DIR$/Assets/controllers_state.clj" />
     </list>
     <list id="683ade52-2a0d-4562-9c79-69c2ad9da45a" name="New changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,36 +42,18 @@
     <favorites_list name="ArcadiaPlayground" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.31464872">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="music_instrument_state.clj" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/music_instrument_state.clj">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="studio.clj" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/studio.clj">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="175">
-                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="controllers_state.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/controllers_state.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -167,7 +132,6 @@
         <option value="$PROJECT_DIR$/Assets/scheduler.clj" />
         <option value="$PROJECT_DIR$/Assets/music_live_compose.clj" />
         <option value="$PROJECT_DIR$/Assets/arcadia.nrepl/.nrepl-port" />
-        <option value="$PROJECT_DIR$/Assets/music_sight_reading.clj" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHapticsClip.cs" />
         <option value="$PROJECT_DIR$/Assets/haptics.clj" />
         <option value="$PROJECT_DIR$/Assets/theremin.clj" />
@@ -179,7 +143,11 @@
         <option value="$PROJECT_DIR$/Assets/music_notation.clj" />
         <option value="$PROJECT_DIR$/Assets/music_theory_visualization.clj" />
         <option value="$PROJECT_DIR$/Assets/music_instrument_state.clj" />
+        <option value="$PROJECT_DIR$/app_state.clj" />
+        <option value="$PROJECT_DIR$/Assets/app_state.clj" />
+        <option value="$PROJECT_DIR$/Assets/music_sight_reading.clj" />
         <option value="$PROJECT_DIR$/Assets/studio.clj" />
+        <option value="$PROJECT_DIR$/Assets/controllers_state.clj" />
       </list>
     </option>
   </component>
@@ -197,8 +165,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1720" />
-    <option name="height" value="1400" />
+    <option name="width" value="3440" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -225,6 +193,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="ArcadiaUnity">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,120 +244,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpaceNavigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpaceNavigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpaceNavigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArcadiaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpaceNavigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Contents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="ArcadiaUnity">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -381,7 +257,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.By Scope" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -394,15 +270,19 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="cursive.last.file.extension.D\:/Projects/Unity Projects/ArcadiaPlayground/Assets" value="clj" />
     <property name="cursive.last.file.extension.D\:/Projects/ArcadiaPlayground/Assets" value="clj" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\ArcadiaPlayground\Assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\ArcadiaPlayground\Assets" />
       <recent name="D:\Projects\Unity Projects\ArcadiaPlayground\Assets" />
       <recent name="C:\Projects\ArcadiaPlayground\Assets" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1538626786397">{:repl-history {:ide [], :local [], :remote [{:command &quot;(defn on-acoustic-pitch [[note vel]]\n  ;(.SetColor ac-pitch-mat \&quot;_Color\&quot;                          ;slows down too much\n  ;           (Color/HSVToRGB (/ (mod note 12) 12) 1 1))\n  (set! (.. ac-pitch-obj transform localPosition)\n        (note-&gt;spiral-position note))\n  (set! (.. ac-pitch-obj transform localScale)\n        (if (= 0.0 vel)\n          Vector3/zero\n          (note-&gt;spiral-localScale note vel))))&quot;, :offset 405, :ns &quot;music-theory-visualization&quot;} {:command &quot;(def spiral\n  (-&gt;&gt; (range 21 109)\n       (map (fn [n] (let [pos (mod n 12)\n                          localPosition (note-&gt;spiral-position n)\n                          localScale (note-&gt;spiral-localScale n 0)\n                          scale (note-&gt;scale n)\n                          node-name (str \&quot;node-\&quot; n)\n                          note-name (str \&quot;note-\&quot; n)\n                          node (create-primitive :sphere node-name)\n                          note (create-primitive :sphere note-name)\n                          ]\n                      (child+ spiral-obj node)\n                      (child+ spiral-obj note)\n                      (set! (.. node transform localPosition) localPosition)\n                      (set! (.. note transform localPosition) localPosition)\n                      (set! (.. node transform localScale) (v3 (* note-size-min 0.9 scale)))\n                      (set! (.. note transform localScale) (v3 (* 0.1 scale)))\n                      (set! (.. (cmpt node Renderer) material) (mats :node))\n                      (set! (.. (cmpt note Renderer) material) (mats pos))\n                      [(keyword node-name) node\n                       (keyword note-name) note]\n                      )))\n       (flatten)\n       (apply hash-map)))&quot;, :offset 1261, :ns &quot;music-theory-visualization&quot;} {:command &quot;(ns studio\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes listen]])\n  (:import (UnityEngine GameObject Material Renderer Resources UnityEditor)))&quot;, :offset 227, :ns &quot;cursive.repl.runtime&quot;} {:command &quot;(+ 1 1)&quot;, :offset 7, :ns &quot;studio&quot;} {:command &quot;UnityEditor&quot;, :offset 11, :ns &quot;studio&quot;} {:command &quot;Material&quot;, :offset 8, :ns &quot;studio&quot;} {:command &quot;(ns studio\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes listen]])\n  (:import (UnityEngine GameObject Material Renderer Resources)\n           (UnityEditor EditorApplication)))&quot;, :offset 258, :ns &quot;studio&quot;} {:command &quot;EditorApplication&quot;, :offset 17, :ns &quot;studio&quot;} {:command &quot;UnityEditor/isPlaying&quot;, :offset 21, :ns &quot;studio&quot;} {:command &quot;(. UnityEditor isPlaying)&quot;, :offset 25, :ns &quot;studio&quot;} {:command &quot;(set! EditorApplication/isPlaying true)&quot;, :offset 39, :ns &quot;studio&quot;} {:command &quot;EditorApplication/isPlaying&quot;, :offset 27, :ns &quot;studio&quot;} {:command &quot;(dir arcadia.linear)&quot;, :offset 20, :ns &quot;studio&quot;} {:command &quot;(qt)&quot;, :offset 4, :ns &quot;studio&quot;} {:command &quot;(v3)&quot;, :offset 4, :ns &quot;studio&quot;} {:command &quot;(v3 0)&quot;, :offset 6, :ns &quot;studio&quot;} {:command &quot;(qt 0)&quot;, :offset 6, :ns &quot;studio&quot;} {:command &quot;(qt 0 0 0 0)&quot;, :offset 12, :ns &quot;studio&quot;} {:command &quot;(ns studio\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes listen]])\n  (:import (UnityEngine GameObject Material Renderer Resources)\n           ;(UnityEditor EditorApplication)\n           (SpaceNavigatorDriver SpaceNavigator)\n           ))&quot;, :offset 320, :ns &quot;studio&quot;} {:command &quot;(SpaceNavigator/SetRotationSensitivity 5)&quot;, :offset 41, :ns &quot;studio&quot;} {:command &quot;(SpaceNavigator/SetTranslationSensitivity 5)&quot;, :offset 44, :ns &quot;studio&quot;} {:command &quot;(dir SpaceNavigator)&quot;, :offset 20, :ns &quot;studio&quot;} {:command &quot;(ns studio\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes listen]])\n  (:import (UnityEngine GameObject Material Renderer Resources)\n           ;(UnityEditor EditorApplication)\n           (SpaceNavigatorDriver Settings SpaceNavigator)\n           ))&quot;, :offset 329, :ns &quot;studio&quot;} {:command &quot;Settings/RuntimeEditorNav&quot;, :offset 25, :ns &quot;studio&quot;} {:command &quot;(set! Settings/RuntimeEditorNav true)&quot;, :offset 37, :ns &quot;studio&quot;} {:command &quot;(.. spacenav-obj transform children)&quot;, :offset 36, :ns &quot;studio&quot;} {:command &quot;(.. spacenav-obj transform)&quot;, :offset 27, :ns &quot;studio&quot;} {:command &quot;(.. spacenav-obj transform GetChild 0)&quot;, :offset 38, :ns &quot;studio&quot;} {:command &quot;(.. spacenav-obj transform GetChild)&quot;, :offset 36, :ns &quot;studio&quot;} {:command &quot;(dir arcadia.core)&quot;, :offset 18, :ns &quot;studio&quot;} {:command &quot;(first (children spacenav-obj))&quot;, :offset 31, :ns &quot;studio&quot;} {:command &quot;(. (first (children spacenav-obj)) Name)&quot;, :offset 40, :ns &quot;studio&quot;} {:command &quot;(. (first (children spacenav-obj)) name)&quot;, :offset 40, :ns &quot;studio&quot;} {:command &quot;(apropos \&quot;find\&quot;)&quot;, :offset 16, :ns &quot;studio&quot;} {:command &quot;(defn find-child [go name] (some #(= name (.name %)) (children go)))&quot;, :offset 68, :ns &quot;studio&quot;} {:command &quot;(defn find-child [go name] (some #(when (= name (.name %)) go) (children go)))&quot;, :offset 78, :ns &quot;studio&quot;} {:command &quot;(find-child spacenav-obj \&quot;Cylinder\&quot;)&quot;, :offset 36, :ns &quot;studio&quot;} {:command &quot;(find-child spacenav-obj \&quot;Cylinders\&quot;)&quot;, :offset 37, :ns &quot;studio&quot;} {:command &quot;(ns music-instrument-state\n  (:require [osc :as o])\n  (:use [arcadia.core]\n        [clojure.set :only [difference union]])\n  (SpaceNavigatorDriver Settings SpaceNavigator)\n  )&quot;, :offset 175, :ns &quot;studio&quot;} {:command &quot;SpaceNavigator&quot;, :offset 14, :ns &quot;music-instrument-state&quot;} {:command &quot;Settings&quot;, :offset 8, :ns &quot;music-instrument-state&quot;} {:command &quot;(ns music-instrument-state\n  (:require [osc :as o])\n  (:use [arcadia.core]\n        [clojure.set :only [difference union]])\n  (:import (SpaceNavigatorDriver Settings SpaceNavigator))\n  )&quot;, :offset 185, :ns &quot;cursive.repl.runtime&quot;} {:command &quot;(def blank-128-map (-&gt;&gt; (range 128)                         ;TODO: use sparse data instead of vel 0?\n                        (map #(vector % 0))\n                        (flatten)\n                        (apply hash-map)))&quot;, :offset 221, :ns &quot;music-instrument-state&quot;} {:command &quot;(ns music-instrument-state\n  (:require [osc :as o])\n  (:use [arcadia.core\n         arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import (SpaceNavigatorDriver Settings SpaceNavigator))\n  )&quot;, :offset 209, :ns &quot;music-instrument-state&quot;} {:command &quot;(ns music-instrument-state\n  (:require [osc :as o])\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import (SpaceNavigatorDriver Settings SpaceNavigator))\n  )&quot;, :offset 210, :ns &quot;music-instrument-state&quot;} {:command &quot;(def s (let [inst-initial {\n                           :cc        blank-128-map\n                           :notes     blank-128-map\n                           :listeners #{}\n                           }]\n         (atom {\n                :default    inst-initial\n                :a-300      inst-initial\n                :keystation inst-initial\n                :acoustic-pitch {\n                                 :listeners #{}\n                                 :note [0.0 0.0]\n                                 }\n\n                :spacenav {\n                           :listeners #{}\n                           :rotation (qt 0)\n                           :translation (v3 0)\n                           }\n                })))&quot;, :offset 721, :ns &quot;music-instrument-state&quot;} {:command &quot;(def s (let [inst-initial {\n                           :cc        blank-128-map\n                           :notes     blank-128-map\n                           :listeners #{}\n                           }]\n         (atom {\n                :default    inst-initial\n                :a-300      inst-initial\n                :keystation inst-initial\n                :acoustic-pitch {\n                                 :listeners #{}\n                                 :note [0.0 0.0]\n                                 }\n\n                :spacenav {\n                           :listeners #{}\n                           :rotation (qt)\n                           :translation (v3 0)\n                           }\n                })))&quot;, :offset 719, :ns &quot;music-instrument-state&quot;} {:command &quot;@s&quot;, :offset 2, :ns &quot;music-instrument-state&quot;} {:command &quot;(def s (let [blank-128-map (-&gt;&gt; (range 128)                         ;TODO: use sparse data instead of vel 0?\n                                (map #(vector % 0))\n                                (flatten)\n                                (apply hash-map))\n             inst-initial {\n                           :cc        blank-128-map\n                           :notes     blank-128-map\n                           :listeners #{}\n                           }]\n         (atom {\n                :default    inst-initial\n                :a-300      inst-initial\n                :keystation inst-initial\n                :acoustic-pitch {\n                                 :listeners #{}\n                                 :note [0.0 0.0]\n                                 }\n\n                :spacenav {\n                           :listeners #{}\n                           :rotation (qt)\n                           :translation (v3 0)\n                           }\n                })))&quot;, :offset 972, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn- on-midi-evt [instrument event osc-msg]\n  (let [[index val] (vec (. osc-msg (get_args)))\n        listeners (get-in @s [instrument :listeners])]\n    (swap! s assoc-in [instrument event index] val)\n    (doseq [listener listeners] (listener event index val))\n    ;(log (str \&quot;/\&quot; instrument \&quot;/\&quot; event \&quot; \&quot; index \&quot; \&quot; val))\n    ))&quot;, :offset 328, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn- on-pitch-evt [instrument osc-msg]\n  (let [pitch-and-amp (vec (. osc-msg (get_args)))\n        listeners (get-in @s [instrument :listeners])]\n    (swap! s assoc-in [instrument :note] pitch-and-amp)\n    (doseq [listener listeners] (listener pitch-and-amp))\n    ;(log (str \&quot;/\&quot; instrument \&quot;/\&quot; event \&quot; \&quot; index \&quot; \&quot; val))\n    ))&quot;, :offset 327, :ns &quot;music-instrument-state&quot;} {:command &quot;(update-spacenav)&quot;, :offset 17, :ns &quot;music-instrument-state&quot;} {:command &quot;(get-in @s [:spacenav :translation])&quot;, :offset 36, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn poll [go]\n  (update-spacenav)\n  ;(swap! s assoc :keys {\n  ;                      :space (Input/GetKey (. KeyCode Space))\n  ;                      :a (Input/GetKey (. KeyCode A))\n  ;                      :b (Input/GetKey (. KeyCode B))\n  ;                      :c (Input/GetKey (. KeyCode C))\n  ;                      })\n  )&quot;, :offset 329, :ns &quot;music-instrument-state&quot;} {:command &quot;(object-named \&quot;App\&quot;)&quot;, :offset 20, :ns &quot;music-instrument-state&quot;} {:command &quot;'poll&quot;, :offset 5, :ns &quot;music-instrument-state&quot;} {:command &quot;#'poll&quot;, :offset 6, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn update-spacenav []\n  (let [spacenav {\n                  :translation (.. SpaceNavigator Translation)\n                  :rotation (.. SpaceNavigator Rotation)}\n        listeners (get-in @s [:spacenav :listeners])]\n    (log (:translation spacenav))\n    (swap! s update :spacenav #(union % spacenav))\n    (doseq [listener listeners] (listener spacenav))\n    )\n  )&quot;, :offset 366, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn poll []\n  (update-spacenav)\n  ;(swap! s assoc :keys {\n  ;                      :space (Input/GetKey (. KeyCode Space))\n  ;                      :a (Input/GetKey (. KeyCode A))\n  ;                      :b (Input/GetKey (. KeyCode B))\n  ;                      :c (Input/GetKey (. KeyCode C))\n  ;                      })\n  )&quot;, :offset 327, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn poll [obj key]\n  (update-spacenav)\n  ;(swap! s assoc :keys {\n  ;                      :space (Input/GetKey (. KeyCode Space))\n  ;                      :a (Input/GetKey (. KeyCode A))\n  ;                      :b (Input/GetKey (. KeyCode B))\n  ;                      :c (Input/GetKey (. KeyCode C))\n  ;                      })\n  )&quot;, :offset 334, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn update-spacenav []\n  (let [spacenav {\n                  :translation (.. SpaceNavigator Translation)\n                  :rotation (.. SpaceNavigator Rotation)}\n        listeners (get-in @s [:spacenav :listeners])]\n    (log (.. SpaceNavigator Rotation))\n    (swap! s update :spacenav #(union % spacenav))\n    (doseq [listener listeners] (listener spacenav))\n    )\n  )&quot;, :offset 371, :ns &quot;music-instrument-state&quot;} {:command &quot;(SpaceNavigator/SetRotationSensitivity 1)&quot;, :offset 41, :ns &quot;music-instrument-state&quot;} {:command &quot;(SpaceNavigator/SetTranslationSensitivity 0.1)&quot;, :offset 46, :ns &quot;music-instrument-state&quot;} {:command &quot;(set! Settings/RuntimeEditorNav false)&quot;, :offset 38, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn update-spacenav []\n  (let [spacenav {\n                  :translation (.. SpaceNavigator Translation)\n                  :rotation (.. SpaceNavigator Rotation)}\n        listeners (get-in @s [:spacenav :listeners])]\n    (swap! s update :spacenav #(union % spacenav))\n    (doseq [listener listeners] (listener spacenav))\n    )\n  )&quot;, :offset 332, :ns &quot;music-instrument-state&quot;} {:command &quot;(def notes-in-c                                             ;TODO: import from music-notation\n  (-&gt;&gt; (cycle [2 2 1 2 2 2 1])\n       (reductions + (- (mod 0 12) 12))\n       (drop-while #(&lt; % 0))\n       (take-while #(&lt; % 128))))&quot;, :offset 226, :ns &quot;studio&quot;} {:command &quot;(def notes-in-c-set (set notes-in-c))&quot;, :offset 37, :ns &quot;studio&quot;} {:command &quot;(def mat-black (Resources/Load \&quot;black-keys\&quot;))&quot;, :offset 45, :ns &quot;studio&quot;} {:command &quot;(def mat-white (Resources/Load \&quot;white-keys\&quot;))&quot;, :offset 45, :ns &quot;studio&quot;} {:command &quot;(defn- key+ [parent x-offset w note]\n  (let [pivot (GameObject. (str \&quot;pivot-\&quot; note))\n        key (create-primitive :cube \&quot;key\&quot;)\n        [h d] [(* 1.25 w) (* 6.5 w)]]\n    (child+ pivot key)\n    (child+ parent pivot)\n    (set! (.. pivot transform localPosition) (v3 (* w x-offset) 0 0))\n    (set! (.. key transform localPosition) (v3 0 0 (- (/ d 2))))\n    (set! (.. key transform localScale) (v3 (* 0.95 w) h d))\n    (set! (.. (cmpt key Renderer) material)\n          (if (contains? notes-in-c-set note)\n            mat-white\n            mat-black))\n    pivot))&quot;, :offset 558, :ns &quot;studio&quot;} {:command &quot;(defn- index-of [e coll] (first (keep-indexed #(if (= e %2) %1) coll)))&quot;, :offset 71, :ns &quot;studio&quot;} {:command &quot;(defn- notes-in-c-range [low high]\n  (filter #(and (&gt;= % low) (&lt;= % high)) notes-in-c))&quot;, :offset 87, :ns &quot;studio&quot;} {:command &quot;(defn- keys+ \&quot;creates gameobjects for keys on a keyboard, returns a hashmap of note-&gt;gameobject\&quot;\n  [container-obj low high keyboard-width]\n  (let [white-notes (notes-in-c-range low high)\n        black-notes (filter #(not (contains? notes-in-c-set %)) (range low (+ 1 high)))\n        idx-of-middle-c (index-of 60 white-notes)\n        key-width (/ keyboard-width (count white-notes))\n\n        white-keys\n        (-&gt;&gt; white-notes\n             (map-indexed\n               (fn [index note]\n                 [note\n                  (key+ container-obj                       ;parent\n                        (- index idx-of-middle-c)           ;x-offset\n                        key-width                           ;width\n                        note)]))                            ;note\n             )\n\n        black-keys\n        (-&gt;&gt; black-notes\n             (map-indexed\n               (fn [index note]\n                 [note\n                  (let [pivot (key+ container-obj           ;parent\n                                    (- (index-of (+ note 1) white-notes)\n                                       idx-of-middle-c\n                                       0.5)                 ;x-offset\n                                    key-width               ;width\n                                    note                    ;note\n                                    )\n                        key (first (children pivot))]\n                    (.Translate (.. key transform) (v3 0 (/ key-width 2) 0.02))\n                    (set! (.. key transform localScale)\n                          (v3 (/ key-width 2) key-width 0.1))\n                    pivot)])))\n        ]\n\n    (-&gt;&gt; (concat white-keys black-keys)\n         (flatten)\n         (apply hash-map))\n    ))&quot;, :offset 1743, :ns &quot;studio&quot;} {:command &quot;(def keystation-obj (object-named \&quot;Keystation\&quot;))&quot;, :offset 48, :ns &quot;studio&quot;} {:command &quot;(def a-300-obj (object-named \&quot;A-300\&quot;))&quot;, :offset 38, :ns &quot;studio&quot;} {:command &quot;(def object-state\n  (atom {\n         :keystation {\n                      :buttons {}\n                      :faders  {}\n                      :keys    (keys+ keystation-obj 21 108 1.225)\n                      :knobs   {}\n                      }\n         :a-300      {\n                      :buttons {}\n                      :faders  {}\n                      :keys    (keys+ a-300-obj 41 72 0.44)\n                      :knobs   {}\n                      }\n         }))&quot;, :offset 465, :ns &quot;studio&quot;} {:command &quot;(defn find-child \&quot;returns the first child of go with name\&quot;\n  [go name] (some #(when (= name (.name %)) go)\n                  (children go)))&quot;, :offset 140, :ns &quot;studio&quot;} {:command &quot;(def spacenav-obj (object-named \&quot;Spacenav\&quot;))&quot;, :offset 44, :ns &quot;studio&quot;} {:command &quot;poll&quot;, :offset 4, :ns &quot;music-instrument-state&quot;} {:command &quot;(hook+ (object-named \&quot;App\&quot;) :update #'poll)&quot;, :offset 43, :ns &quot;music-instrument-state&quot;} {:command &quot;(defn- on-spacenav [{translation :translation rotation :rotation}]\n  (log translation))&quot;, :offset 87, :ns &quot;studio&quot;} {:command &quot;(defn- on-evt [device-name evt index val]\n  (cond (= evt :note)\n        (let [go (get-in @object-state [device-name :keys index])]\n          (when-not (nil? go)\n            (set! (.. go transform localRotation)\n                  (euler (v3 (if (= val 0) 0 -4) 0 0)))))))&quot;, :offset 270, :ns &quot;studio&quot;} {:command &quot;(defn- on-midi-evt [device-name]\n  (fn [evt index val]\n    (on-evt device-name evt index val)\n    ;(log \&quot;got \&quot; device-name \&quot; \&quot; evt \&quot; \&quot; index \&quot; \&quot; val)\n    ))&quot;, :offset 156, :ns &quot;studio&quot;} {:command &quot;(defn listen\n  \&quot;registers a listener for instrument events. listener must accept args: midi-evt index val\&quot;\n  [instrument listener]\n  (log (str instrument listener))\n  (swap! s update-in [instrument :listeners] #(union % #{listener}))\n  nil\n  )&quot;, :offset 243, :ns &quot;music-instrument-state&quot;} {:command &quot;(listen :keystation (on-midi-evt :keystation))&quot;, :offset 46, :ns &quot;studio&quot;} {:command &quot;(listen :a-300 (on-midi-evt :a-300))&quot;, :offset 36, :ns &quot;studio&quot;} {:command &quot;(listen :spacenav #'spacenav)&quot;, :offset 29, :ns &quot;studio&quot;} {:command &quot;(ns studio\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [music-instrument-state :only [get-notes listen]])\n  (:import (UnityEngine GameObject Material Renderer Resources)\n           ;(UnityEditor EditorApplication)\n           ))&quot;, :offset 271, :ns &quot;studio&quot;} {:command &quot;(listen :spacenav #'on-spacenav)&quot;, :offset 32, :ns &quot;studio&quot;} {:command &quot;(defn- on-spacenav [{translation :translation rotation :rotation}]\n  (log rotation))&quot;, :offset 84, :ns &quot;studio&quot;} {:command &quot;(defn- on-spacenav [{translation :translation rotation :rotation}]\n  (set! (.. spacenav-puck transform localPosition) translation)\n  (set! (.. spacenav-puck transform localRotation) rotation)\n  )&quot;, :offset 195, :ns &quot;studio&quot;} {:command &quot;spacenav-puck&quot;, :offset 13, :ns &quot;studio&quot;} {:command &quot;spacenav-obj&quot;, :offset 12, :ns &quot;studio&quot;} {:command &quot;(find-child spacenav-obj \&quot;Puck\&quot;)&quot;, :offset 32, :ns &quot;studio&quot;} {:command &quot;(children spacenav-obj)&quot;, :offset 23, :ns &quot;studio&quot;} {:command &quot;(defn find-child \&quot;returns the first child of go with name\&quot;\n  [go name] (some #(when (= name (.name %)) %)\n                  (children go)))&quot;, :offset 139, :ns &quot;studio&quot;} {:command &quot;(def spacenav-puck (find-child spacenav-obj \&quot;Puck\&quot;))&quot;, :offset 52, :ns &quot;studio&quot;} {:command &quot;(SpaceNavigator/SetTranslationSensitivity 1)&quot;, :offset 44, :ns &quot;music-instrument-state&quot;} {:command &quot;(SpaceNavigator/SetTranslationSensitivity 0.5)&quot;, :offset 46, :ns &quot;music-instrument-state&quot;} {:command &quot;(ns music-instrument-state\n  (:require [osc :as o])\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import (SpaceNavigatorDriver Settings SpaceNavigator)\n           (UnityEngine Input KeyCode)))&quot;, :offset 246, :ns &quot;cursive.repl.runtime&quot;}]}}</component>
+  <component name="ReplState" timestamp="1539928474184">{:repl-history {:ide [], :local [], :remote [{:command &quot;(get-in @s [:bcr-2000 :knobs 0])&quot;, :offset 32, :ns &quot;music-instrument-state&quot;} {:command &quot;(ns controllers-state\n  (:require [osc :as o]\n            [app-state :as app])\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import\n    OVRInput OVRInput.Button\n    (SpaceNavigatorDriver Settings SpaceNavigator)\n    (UnityEngine Input KeyCode)))&quot;, :offset 299, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput.Button&quot;, :offset 15, :ns &quot;controllers-state&quot;} {:command &quot;(.. OVRInput GetDown)&quot;, :offset 21, :ns &quot;controllers-state&quot;} {:command &quot;Button/None&quot;, :offset 11, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput.Button/None&quot;, :offset 20, :ns &quot;controllers-state&quot;} {:command &quot;(.Button OVRInput)&quot;, :offset 18, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput/AXIS_AS_BUTTON_THRESHOLD&quot;, :offset 33, :ns &quot;controllers-state&quot;} {:command &quot;(.. OVRInput AXIS_AS_BUTTON_THRESHOLD)&quot;, :offset 38, :ns &quot;controllers-state&quot;} {:command &quot;(ns controllers-state\n  (:require [osc :as o]\n            [app-state :as app])\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import\n    OVRInput\n    (SpaceNavigatorDriver Settings SpaceNavigator)\n    (UnityEngine Input KeyCode)))&quot;, :offset 283, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput/GetDown&quot;, :offset 16, :ns &quot;controllers-state&quot;} {:command &quot;(.GetDown OVRInput)&quot;, :offset 19, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput.Button/One&quot;, :offset 19, :ns &quot;controllers-state&quot;} {:command &quot;(. OVRInput.Button/One)&quot;, :offset 23, :ns &quot;controllers-state&quot;} {:command &quot;(. OVRInput.Button)&quot;, :offset 19, :ns &quot;controllers-state&quot;} {:command &quot;(. OVRInput Button)&quot;, :offset 19, :ns &quot;controllers-state&quot;} {:command &quot;(ns controllers-state\n  (:require [osc :as o]\n            [app-state :as app])\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import\n    OVRInput\n    OVRInput.Button\n    (SpaceNavigatorDriver Settings SpaceNavigator)\n    (UnityEngine Input KeyCode)))&quot;, :offset 303, :ns &quot;controllers-state&quot;} {:command &quot;(ns controllers-state\n  (:require [osc :as o]\n            [app-state :as app])\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import\n    OVRInput\n    'OVRInput.Button\n    (SpaceNavigatorDriver Settings SpaceNavigator)\n    (UnityEngine Input KeyCode)))&quot;, :offset 304, :ns &quot;controllers-state&quot;} {:command &quot;(ns controllers-state\n  (:require [osc :as o]\n            [app-state :as app])\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import\n    OVRInput\n    OVRInput/Button\n    (SpaceNavigatorDriver Settings SpaceNavigator)\n    (UnityEngine Input KeyCode)))&quot;, :offset 303, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput/Button&quot;, :offset 15, :ns &quot;controllers-state&quot;} {:command &quot;(ns controllers-state\n  (:require [osc :as o]\n            [app-state :as app])\n  (:use [arcadia.core]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import\n    OVRInput\n    Button\n    (SpaceNavigatorDriver Settings SpaceNavigator)\n    (UnityEngine Input KeyCode)))&quot;, :offset 294, :ns &quot;controllers-state&quot;} {:command &quot;Button&quot;, :offset 6, :ns &quot;controllers-state&quot;} {:command &quot;(import 'OVRInput.Button)&quot;, :offset 25, :ns &quot;controllers-state&quot;} {:command &quot;(fields OVRInput)&quot;, :offset 17, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput&quot;, :offset 8, :ns &quot;controllers-state&quot;} {:command &quot;(properties OVRInput)&quot;, :offset 21, :ns &quot;controllers-state&quot;} {:command &quot;(methods-report OVRInput)&quot;, :offset 25, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput.)&quot;, :offset 11, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/OVRInput)&quot;, :offset 19, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput/OVRInput&quot;, :offset 17, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/OVRInput.)&quot;, :offset 20, :ns &quot;controllers-state&quot;} {:command &quot;(dir arcadia.introspection)&quot;, :offset 27, :ns &quot;controllers-state&quot;} {:command &quot;(members OVRInput)&quot;, :offset 18, :ns &quot;controllers-state&quot;} {:command &quot;(def mm (members OVRInput))&quot;, :offset 27, :ns &quot;controllers-state&quot;} {:command &quot;mm&quot;, :offset 2, :ns &quot;controllers-state&quot;} {:command &quot;'OVRInput.Button&quot;, :offset 16, :ns &quot;controllers-state&quot;} {:command &quot;'OVRInput.Button.One&quot;, :offset 20, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/GetDown 'OVRInput.Button.One)&quot;, :offset 39, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/GetDown 'OVRInput.Button.One (OVRInput/GetActiveController))&quot;, :offset 70, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/GetDown OVRInput.Button.One (OVRInput/GetActiveController))&quot;, :offset 69, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/GetDown (.. OVRInput/Button One) (OVRInput/GetActiveController))&quot;, :offset 74, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/GetDown (.. OVRInput Button One) (OVRInput/GetActiveController))&quot;, :offset 74, :ns &quot;controllers-state&quot;} {:command &quot;(.. OVRInput Button One)&quot;, :offset 24, :ns &quot;controllers-state&quot;} {:command &quot;(ns controllers-state\n  (:require [osc :as o]\n            [app-state :as app])\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import\n    OVRInput OVRInput$Button\n    (SpaceNavigatorDriver Settings SpaceNavigator)\n    (UnityEngine Input KeyCode)))&quot;, :offset 331, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput$Button&quot;, :offset 15, :ns &quot;controllers-state&quot;} {:command &quot;(ns controllers-state\n  (:require [osc :as o]\n            [app-state :as app])\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import\n    OVRInput OVRInput.Button\n    (SpaceNavigatorDriver Settings SpaceNavigator)\n    (UnityEngine Input KeyCode)))&quot;, :offset 331, :ns &quot;controllers-state&quot;} {:command &quot;(ns controllers-state\n  (:require [osc :as o]\n            [app-state :as app])\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import\n    OVRInput 'OVRInput.Button\n    (SpaceNavigatorDriver Settings SpaceNavigator)\n    (UnityEngine Input KeyCode)))&quot;, :offset 332, :ns &quot;controllers-state&quot;} {:command &quot;(ns studio\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [controllers-state :only [get-notes listen]])\n  (:import (UnityEngine GameObject Material Renderer Resources)\n           (UnityEditor EditorApplication)\n           ))&quot;, :offset 265, :ns &quot;controllers-state&quot;} {:command &quot;(set! EditorApplication/isPlaying false)&quot;, :offset 40, :ns &quot;studio&quot;} {:command &quot;TouchInput&quot;, :offset 10, :ns &quot;controllers-state&quot;} {:command &quot;(TouchInput.)&quot;, :offset 13, :ns &quot;controllers-state&quot;} {:command &quot;(def ti (TouchInput.))&quot;, :offset 22, :ns &quot;controllers-state&quot;} {:command &quot;(. ti TestEnum)&quot;, :offset 15, :ns &quot;controllers-state&quot;} {:command &quot;(. ti TestEnum/One)&quot;, :offset 19, :ns &quot;controllers-state&quot;} {:command &quot;(.. ti TestEnum/One)&quot;, :offset 20, :ns &quot;controllers-state&quot;} {:command &quot;ti&quot;, :offset 2, :ns &quot;controllers-state&quot;} {:command &quot;(fields ti)&quot;, :offset 11, :ns &quot;controllers-state&quot;} {:command &quot;(members ti)&quot;, :offset 12, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/GetActiveController)&quot;, :offset 30, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/GetDown (TouchInput/GetButton) (OVRInput/GetConnectedControllers))&quot;, :offset 76, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/GetDown 'Down (OVRInput/GetConnectedControllers))&quot;, :offset 59, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/GetDown Down (OVRInput/GetConnectedControllers))&quot;, :offset 58, :ns &quot;controllers-state&quot;} {:command &quot;(TouchInput/GetButton)&quot;, :offset 22, :ns &quot;controllers-state&quot;} {:command &quot;(class (TouchInput/GetButton))&quot;, :offset 30, :ns &quot;controllers-state&quot;} {:command &quot;(ns controllers-state\n  (:require [osc :as o]\n            [app-state :as app])\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import\n    OVRInput\n    TouchInput\n    (SpaceNavigatorDriver Settings SpaceNavigator)\n    (UnityEngine Input KeyCode)))&quot;, :offset 330, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput+Button&quot;, :offset 15, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput+Button/Down&quot;, :offset 20, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput+Touch/None&quot;, :offset 19, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput+Controller/Gamepad&quot;, :offset 27, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput+Axis2D/PrimaryTouchpad&quot;, :offset 31, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput+Button/PrimaryHandTrigger&quot;, :offset 34, :ns &quot;controllers-state&quot;} {:command &quot;(def ovr-consts {\n                 :button-down                  OVRInput+Button/Down\n                 :button-none                  OVRInput+Button/None\n                 :button-one                   OVRInput+Button/One\n                 :button-two                   OVRInput+Button/Two\n                 :button-three                 OVRInput+Button/Three\n                 :button-four                  OVRInput+Button/Four\n                 :button-start                 OVRInput+Button/Start\n                 :button-back                  OVRInput+Button/Back\n                 :button-pri-shoulder          OVRInput+Button/PrimaryShoulder\n                 :button-pri-index-trigger     OVRInput+Button/PrimaryIndexTrigger\n                 :button-pri-hand-trigger      OVRInput+Button/PrimaryHandTrigger\n                 :button-pri-thumbstick        OVRInput+Button/PrimaryThumbstick\n                 :button-pri-thumbstick-up     OVRInput+Button/PrimaryThumbstickUp\n                 :button-pri-thumbstick-down   OVRInput+Button/PrimaryThumbstickDown\n                 :button-pri-thumbstick-left   OVRInput+Button/PrimaryThumbstickLeft\n                 :button-pri-thumbstick-right  OVRInput+Button/PrimaryThumbstickRight\n                 :button-pri-touchpad          OVRInput+Button/PrimaryTouchpad\n                 :button-sec-shoulder          OVRInput+Button/SecondaryShoulder\n                 :button-sec-index-trigger     OVRInput+Button/SecondaryIndexTrigger\n                 :button-sec-hand-trigger      OVRInput+Button/SecondaryHandTrigger\n                 :button-sec-thumbstick        OVRInput+Button/SecondaryThumbstick\n                 :button-sec-thumbstick-up     OVRInput+Button/SecondaryThumbstickUp\n                 :button-sec-thumbstick-down   OVRInput+Button/SecondaryThumbstickDown\n                 :button-sec-thumbstick-left   OVRInput+Button/SecondaryThumbstickLeft\n                 :button-sec-thumbstick-right  OVRInput+Button/SecondaryThumbstickRight\n                 :button-sec-touchpad          OVRInput+Button/SecondaryTouchpad\n                 :button-dpad-up               OVRInput+Button/DpadUp\n                 :button-dpad-down             OVRInput+Button/DpadDown\n                 :button-dpad-left             OVRInput+Button/DpadLeft\n                 :button-dpad-right            OVRInput+Button/DpadRight\n                 :button-up                    OVRInput+Button/Up\n                 :button-down                  OVRInput+Button/Down\n                 :button-left                  OVRInput+Button/Left\n                 :button-right                 OVRInput+Button/Right\n                 :button-any                   OVRInput+Button/Any\n\n                 :touch-none                   OVRInput+Touch/None\n                 :touch-one                    OVRInput+Touch/One\n                 :touch-two                    OVRInput+Touch/Two\n                 :touch-three                  OVRInput+Touch/Three\n                 :touch-four                   OVRInput+Touch/Four\n                 :touch-pri-index-trigger      OVRInput+Touch/PrimaryIndexTrigger\n                 :touch-pri-thumbstick         OVRInput+Touch/PrimaryThumbstick\n                 :touch-pri-thumb-rest         OVRInput+Touch/PrimaryThumbRest\n                 :touch-pri-touchpad           OVRInput+Touch/PrimaryTouchpad\n                 :touch-sec-index-trigger      OVRInput+Touch/SecondaryIndexTrigger\n                 :touch-sec-thumbstick         OVRInput+Touch/SecondaryThumbstick\n                 :touch-sec-thumb-rest         OVRInput+Touch/SecondaryThumbRest\n                 :touch-sec-touchpad           OVRInput+Touch/SecondaryTouchpad\n                 :touch-any                    OVRInput+Touch/Any\n\n                 :near-touch-none              OVRInput+NearTouch/None\n                 :near-touch-pri-index-trigger OVRInput+NearTouch/PrimaryIndexTrigger\n                 :near-touch-pri-thumb-buttons OVRInput+NearTouch/PrimaryThumbButtons\n                 :near-touch-sec-index-trigger OVRInput+NearTouch/SecondaryIndexTrigger\n                 :near-touch-sec-thumb-buttons OVRInput+NearTouch/SecondaryThumbButtons\n                 :near-touch-any               OVRInput+NearTouch/Any\n\n                 :axis-1d-none                 OVRInput+Axis1D/None\n                 :axis-1d-pri-index-trigger    OVRInput+Axis1D/PrimaryIndexTrigger\n                 :axis-1d-pri-hand-trigger     OVRInput+Axis1D/PrimaryHandTrigger\n                 :axis-1d-sec-index-trigger    OVRInput+Axis1D/SecondaryIndexTrigger\n                 :axis-1d-sec-hand-trigger     OVRInput+Axis1D/SecondaryHandTrigger\n                 :axis-1d-any                  OVRInput+Axis1D/Any\n\n                 :axis-2d-none                 OVRInput+Axis2D/None\n                 :axis-2d-pri-thumbstick       OVRInput+Axis2D/PrimaryThumbstick\n                 :axis-2d-pri-touchpad         OVRInput+Axis2D/PrimaryTouchpad\n                 :axis-2d-sec-thumbstick       OVRInput+Axis2D/SecondaryThumbstick\n                 :axis-2d-sec-touchpad         OVRInput+Axis2D/SecondaryTouchpad\n                 :axis-2d-any                  OVRInput+Axis2D/Any\n\n                 :controller-none              OVRInput+Controller/None\n                 :controller-l-touch           OVRInput+Controller/LTouch\n                 :controller-r-touch           OVRInput+Controller/RTouch\n                 :controller-touch             OVRInput+Controller/Touch\n                 :controller-remote            OVRInput+Controller/Remote\n                 :controller-gamepad           OVRInput+Controller/Gamepad\n                 :controller-touchpad          OVRInput+Controller/Touchpad\n                 :controller-l-tracked-remote  OVRInput+Controller/LTrackedRemote\n                 :controller-r-tracked-remote  OVRInput+Controller/RTrackedRemote\n                 :controller-active            OVRInput+Controller/Active\n                 :controller-all               OVRInput+Controller/All\n                 })&quot;, :offset 6005, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput+Button/Two&quot;, :offset 19, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput+Button/Up&quot;, :offset 18, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput+Touch/PrimaryIndexTrigger&quot;, :offset 34, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput+NearTouch/SecondaryThumbButtons&quot;, :offset 40, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput+Axis1D/SecondaryIndexTrigger&quot;, :offset 37, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput+Axis2D/SecondaryThumbstick&quot;, :offset 35, :ns &quot;controllers-state&quot;} {:command &quot;OVRInput+Controller/LTrackedRemote&quot;, :offset 34, :ns &quot;controllers-state&quot;} {:command &quot;ovr-consts&quot;, :offset 10, :ns &quot;controllers-state&quot;} {:command &quot;(def ovr-consts\n  {\n   :button-down                  OVRInput+Button/Down\n   :button-none                  OVRInput+Button/None\n   :button-one                   OVRInput+Button/One\n   :button-two                   OVRInput+Button/Two\n   :button-three                 OVRInput+Button/Three\n   :button-four                  OVRInput+Button/Four\n   :button-start                 OVRInput+Button/Start\n   :button-back                  OVRInput+Button/Back\n   :button-pri-shoulder          OVRInput+Button/PrimaryShoulder\n   :button-pri-index-trigger     OVRInput+Button/PrimaryIndexTrigger\n   :button-pri-hand-trigger      OVRInput+Button/PrimaryHandTrigger\n   :button-pri-thumbstick        OVRInput+Button/PrimaryThumbstick\n   :button-pri-thumbstick-up     OVRInput+Button/PrimaryThumbstickUp\n   :button-pri-thumbstick-down   OVRInput+Button/PrimaryThumbstickDown\n   :button-pri-thumbstick-left   OVRInput+Button/PrimaryThumbstickLeft\n   :button-pri-thumbstick-right  OVRInput+Button/PrimaryThumbstickRight\n   :button-pri-touchpad          OVRInput+Button/PrimaryTouchpad\n   :button-sec-shoulder          OVRInput+Button/SecondaryShoulder\n   :button-sec-index-trigger     OVRInput+Button/SecondaryIndexTrigger\n   :button-sec-hand-trigger      OVRInput+Button/SecondaryHandTrigger\n   :button-sec-thumbstick        OVRInput+Button/SecondaryThumbstick\n   :button-sec-thumbstick-up     OVRInput+Button/SecondaryThumbstickUp\n   :button-sec-thumbstick-down   OVRInput+Button/SecondaryThumbstickDown\n   :button-sec-thumbstick-left   OVRInput+Button/SecondaryThumbstickLeft\n   :button-sec-thumbstick-right  OVRInput+Button/SecondaryThumbstickRight\n   :button-sec-touchpad          OVRInput+Button/SecondaryTouchpad\n   :button-dpad-up               OVRInput+Button/DpadUp\n   :button-dpad-down             OVRInput+Button/DpadDown\n   :button-dpad-left             OVRInput+Button/DpadLeft\n   :button-dpad-right            OVRInput+Button/DpadRight\n   :button-up                    OVRInput+Button/Up\n   :button-down                  OVRInput+Button/Down\n   :button-left                  OVRInput+Button/Left\n   :button-right                 OVRInput+Button/Right\n   :button-any                   OVRInput+Button/Any\n\n   :touch-none                   OVRInput+Touch/None\n   :touch-one                    OVRInput+Touch/One\n   :touch-two                    OVRInput+Touch/Two\n   :touch-three                  OVRInput+Touch/Three\n   :touch-four                   OVRInput+Touch/Four\n   :touch-pri-index-trigger      OVRInput+Touch/PrimaryIndexTrigger\n   :touch-pri-thumbstick         OVRInput+Touch/PrimaryThumbstick\n   :touch-pri-thumb-rest         OVRInput+Touch/PrimaryThumbRest\n   :touch-pri-touchpad           OVRInput+Touch/PrimaryTouchpad\n   :touch-sec-index-trigger      OVRInput+Touch/SecondaryIndexTrigger\n   :touch-sec-thumbstick         OVRInput+Touch/SecondaryThumbstick\n   :touch-sec-thumb-rest         OVRInput+Touch/SecondaryThumbRest\n   :touch-sec-touchpad           OVRInput+Touch/SecondaryTouchpad\n   :touch-any                    OVRInput+Touch/Any\n\n   :near-touch-none              OVRInput+NearTouch/None\n   :near-touch-pri-index-trigger OVRInput+NearTouch/PrimaryIndexTrigger\n   :near-touch-pri-thumb-buttons OVRInput+NearTouch/PrimaryThumbButtons\n   :near-touch-sec-index-trigger OVRInput+NearTouch/SecondaryIndexTrigger\n   :near-touch-sec-thumb-buttons OVRInput+NearTouch/SecondaryThumbButtons\n   :near-touch-any               OVRInput+NearTouch/Any\n\n   :axis-1d-none                 OVRInput+Axis1D/None\n   :axis-1d-pri-index-trigger    OVRInput+Axis1D/PrimaryIndexTrigger\n   :axis-1d-pri-hand-trigger     OVRInput+Axis1D/PrimaryHandTrigger\n   :axis-1d-sec-index-trigger    OVRInput+Axis1D/SecondaryIndexTrigger\n   :axis-1d-sec-hand-trigger     OVRInput+Axis1D/SecondaryHandTrigger\n   :axis-1d-any                  OVRInput+Axis1D/Any\n\n   :axis-2d-none                 OVRInput+Axis2D/None\n   :axis-2d-pri-thumbstick       OVRInput+Axis2D/PrimaryThumbstick\n   :axis-2d-pri-touchpad         OVRInput+Axis2D/PrimaryTouchpad\n   :axis-2d-sec-thumbstick       OVRInput+Axis2D/SecondaryThumbstick\n   :axis-2d-sec-touchpad         OVRInput+Axis2D/SecondaryTouchpad\n   :axis-2d-any                  OVRInput+Axis2D/Any\n\n   :controller-none              OVRInput+Controller/None\n   :controller-l-touch           OVRInput+Controller/LTouch\n   :controller-r-touch           OVRInput+Controller/RTouch\n   :controller-touch             OVRInput+Controller/Touch\n   :controller-remote            OVRInput+Controller/Remote\n   :controller-gamepad           OVRInput+Controller/Gamepad\n   :controller-touchpad          OVRInput+Controller/Touchpad\n   :controller-l-tracked-remote  OVRInput+Controller/LTrackedRemote\n   :controller-r-tracked-remote  OVRInput+Controller/RTrackedRemote\n   :controller-active            OVRInput+Controller/Active\n   :controller-all               OVRInput+Controller/All\n   })&quot;, :offset 4901, :ns &quot;controllers-state&quot;} {:command &quot;{\n   :button-down                  OVRInput+Button/Down\n   :button-none                  OVRInput+Button/None\n   :button-one                   OVRInput+Button/One\n   :button-two                   OVRInput+Button/Two\n   :button-three                 OVRInput+Button/Three\n   :button-four                  OVRInput+Button/Four\n   :button-start                 OVRInput+Button/Start\n   :button-back                  OVRInput+Button/Back\n   :button-pri-shoulder          OVRInput+Button/PrimaryShoulder\n   :button-pri-index-trigger     OVRInput+Button/PrimaryIndexTrigger\n   :button-pri-hand-trigger      OVRInput+Button/PrimaryHandTrigger\n   :button-pri-thumbstick        OVRInput+Button/PrimaryThumbstick\n   :button-pri-thumbstick-up     OVRInput+Button/PrimaryThumbstickUp\n   :button-pri-thumbstick-down   OVRInput+Button/PrimaryThumbstickDown\n   :button-pri-thumbstick-left   OVRInput+Button/PrimaryThumbstickLeft\n   :button-pri-thumbstick-right  OVRInput+Button/PrimaryThumbstickRight\n   :button-pri-touchpad          OVRInput+Button/PrimaryTouchpad\n   :button-sec-shoulder          OVRInput+Button/SecondaryShoulder\n   :button-sec-index-trigger     OVRInput+Button/SecondaryIndexTrigger\n   :button-sec-hand-trigger      OVRInput+Button/SecondaryHandTrigger\n   :button-sec-thumbstick        OVRInput+Button/SecondaryThumbstick\n   :button-sec-thumbstick-up     OVRInput+Button/SecondaryThumbstickUp\n   :button-sec-thumbstick-down   OVRInput+Button/SecondaryThumbstickDown\n   :button-sec-thumbstick-left   OVRInput+Button/SecondaryThumbstickLeft\n   :button-sec-thumbstick-right  OVRInput+Button/SecondaryThumbstickRight\n   :button-sec-touchpad          OVRInput+Button/SecondaryTouchpad\n   :button-dpad-up               OVRInput+Button/DpadUp\n   :button-dpad-down             OVRInput+Button/DpadDown\n   :button-dpad-left             OVRInput+Button/DpadLeft\n   :button-dpad-right            OVRInput+Button/DpadRight\n   :button-up                    OVRInput+Button/Up\n   :button-down                  OVRInput+Button/Down\n   :button-left                  OVRInput+Button/Left\n   :button-right                 OVRInput+Button/Right\n   :button-any                   OVRInput+Button/Any\n\n   :touch-none                   OVRInput+Touch/None\n   :touch-one                    OVRInput+Touch/One\n   :touch-two                    OVRInput+Touch/Two\n   :touch-three                  OVRInput+Touch/Three\n   :touch-four                   OVRInput+Touch/Four\n   :touch-pri-index-trigger      OVRInput+Touch/PrimaryIndexTrigger\n   :touch-pri-thumbstick         OVRInput+Touch/PrimaryThumbstick\n   :touch-pri-thumb-rest         OVRInput+Touch/PrimaryThumbRest\n   :touch-pri-touchpad           OVRInput+Touch/PrimaryTouchpad\n   :touch-sec-index-trigger      OVRInput+Touch/SecondaryIndexTrigger\n   :touch-sec-thumbstick         OVRInput+Touch/SecondaryThumbstick\n   :touch-sec-thumb-rest         OVRInput+Touch/SecondaryThumbRest\n   :touch-sec-touchpad           OVRInput+Touch/SecondaryTouchpad\n   :touch-any                    OVRInput+Touch/Any\n\n   :near-touch-none              OVRInput+NearTouch/None\n   :near-touch-pri-index-trigger OVRInput+NearTouch/PrimaryIndexTrigger\n   :near-touch-pri-thumb-buttons OVRInput+NearTouch/PrimaryThumbButtons\n   :near-touch-sec-index-trigger OVRInput+NearTouch/SecondaryIndexTrigger\n   :near-touch-sec-thumb-buttons OVRInput+NearTouch/SecondaryThumbButtons\n   :near-touch-any               OVRInput+NearTouch/Any\n\n   :axis-1d-none                 OVRInput+Axis1D/None\n   :axis-1d-pri-index-trigger    OVRInput+Axis1D/PrimaryIndexTrigger\n   :axis-1d-pri-hand-trigger     OVRInput+Axis1D/PrimaryHandTrigger\n   :axis-1d-sec-index-trigger    OVRInput+Axis1D/SecondaryIndexTrigger\n   :axis-1d-sec-hand-trigger     OVRInput+Axis1D/SecondaryHandTrigger\n   :axis-1d-any                  OVRInput+Axis1D/Any\n\n   :axis-2d-none                 OVRInput+Axis2D/None\n   :axis-2d-pri-thumbstick       OVRInput+Axis2D/PrimaryThumbstick\n   :axis-2d-pri-touchpad         OVRInput+Axis2D/PrimaryTouchpad\n   :axis-2d-sec-thumbstick       OVRInput+Axis2D/SecondaryThumbstick\n   :axis-2d-sec-touchpad         OVRInput+Axis2D/SecondaryTouchpad\n   :axis-2d-any                  OVRInput+Axis2D/Any\n\n   :controller-none              OVRInput+Controller/None\n   :controller-l-touch           OVRInput+Controller/LTouch\n   :controller-r-touch           OVRInput+Controller/RTouch\n   :controller-touch             OVRInput+Controller/Touch\n   :controller-remote            OVRInput+Controller/Remote\n   :controller-gamepad           OVRInput+Controller/Gamepad\n   :controller-touchpad          OVRInput+Controller/Touchpad\n   :controller-l-tracked-remote  OVRInput+Controller/LTrackedRemote\n   :controller-r-tracked-remote  OVRInput+Controller/RTrackedRemote\n   :controller-active            OVRInput+Controller/Active\n   :controller-all               OVRInput+Controller/All\n   }&quot;, :offset 4882, :ns &quot;controllers-state&quot;} {:command &quot;{\n :controller-none              OVRInput+Controller/None\n :controller-l-touch           OVRInput+Controller/LTouch\n }&quot;, :offset 118, :ns &quot;controllers-state&quot;} {:command &quot;{\n :axis-2d-none                 OVRInput+Axis2D/None\n :axis-2d-pri-thumbstick       OVRInput+Axis2D/PrimaryThumbstick\n :axis-2d-pri-touchpad         OVRInput+Axis2D/PrimaryTouchpad\n :axis-2d-sec-thumbstick       OVRInput+Axis2D/SecondaryThumbstick\n :axis-2d-sec-touchpad         OVRInput+Axis2D/SecondaryTouchpad\n :axis-2d-any                  OVRInput+Axis2D/Any\n\n :controller-none              OVRInput+Controller/None\n :controller-l-touch           OVRInput+Controller/LTouch\n :controller-r-touch           OVRInput+Controller/RTouch\n :controller-touch             OVRInput+Controller/Touch\n :controller-remote            OVRInput+Controller/Remote\n :controller-gamepad           OVRInput+Controller/Gamepad\n :controller-touchpad          OVRInput+Controller/Touchpad\n :controller-l-tracked-remote  OVRInput+Controller/LTrackedRemote\n :controller-r-tracked-remote  OVRInput+Controller/RTrackedRemote\n :controller-active            OVRInput+Controller/Active\n :controller-all               OVRInput+Controller/All\n }&quot;, :offset 1019, :ns &quot;controllers-state&quot;} {:command &quot;{\n :button-down                  OVRInput+Button/Down\n :button-none                  OVRInput+Button/None\n :button-one                   OVRInput+Button/One\n :button-two                   OVRInput+Button/Two\n :button-three                 OVRInput+Button/Three\n :button-four                  OVRInput+Button/Four\n :button-start                 OVRInput+Button/Start\n :button-back                  OVRInput+Button/Back\n :button-pri-shoulder          OVRInput+Button/PrimaryShoulder\n :button-pri-index-trigger     OVRInput+Button/PrimaryIndexTrigger\n :button-pri-hand-trigger      OVRInput+Button/PrimaryHandTrigger\n :button-pri-thumbstick        OVRInput+Button/PrimaryThumbstick\n :button-pri-thumbstick-up     OVRInput+Button/PrimaryThumbstickUp\n :button-pri-thumbstick-down   OVRInput+Button/PrimaryThumbstickDown\n :button-pri-thumbstick-left   OVRInput+Button/PrimaryThumbstickLeft\n :button-pri-thumbstick-right  OVRInput+Button/PrimaryThumbstickRight\n :button-pri-touchpad          OVRInput+Button/PrimaryTouchpad\n :button-sec-shoulder          OVRInput+Button/SecondaryShoulder\n :button-sec-index-trigger     OVRInput+Button/SecondaryIndexTrigger\n :button-sec-hand-trigger      OVRInput+Button/SecondaryHandTrigger\n :button-sec-thumbstick        OVRInput+Button/SecondaryThumbstick\n :button-sec-thumbstick-up     OVRInput+Button/SecondaryThumbstickUp\n :button-sec-thumbstick-down   OVRInput+Button/SecondaryThumbstickDown\n :button-sec-thumbstick-left   OVRInput+Button/SecondaryThumbstickLeft\n :button-sec-thumbstick-right  OVRInput+Button/SecondaryThumbstickRight\n :button-sec-touchpad          OVRInput+Button/SecondaryTouchpad\n :button-dpad-up               OVRInput+Button/DpadUp\n :button-dpad-down             OVRInput+Button/DpadDown\n :button-dpad-left             OVRInput+Button/DpadLeft\n :button-dpad-right            OVRInput+Button/DpadRight\n :button-up                    OVRInput+Button/Up\n :button-down                  OVRInput+Button/Down\n :button-left                  OVRInput+Button/Left\n :button-right                 OVRInput+Button/Right\n :button-any                   OVRInput+Button/Any\n }&quot;, :offset 2117, :ns &quot;controllers-state&quot;} {:command &quot;(:controller-all ovr-consts)&quot;, :offset 28, :ns &quot;controllers-state&quot;} {:command &quot;(:axis-1d-pri-index-trigger ovr-consts)&quot;, :offset 39, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/Get (:axis-1d-pri-index-trigger ovr-consts))&quot;, :offset 54, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/GetConnectedControllers)&quot;, :offset 34, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/Get (:axis-1d-pri-index-trigger ovr-consts) (OVRInput/GetConnectedControllers))&quot;, :offset 89, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/Get (:axis-1d-sec-index-trigger ovr-consts) (OVRInput/GetConnectedControllers))&quot;, :offset 89, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/Get (:axis-1d-sec-index-trigger ovr-consts))&quot;, :offset 54, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/Get (:button-any ovr-consts) (OVRInput/GetConnectedControllers))&quot;, :offset 74, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/Get (:axis-1d-sec-index-trigger ovr-consts) (:controller-l-touch ovr-consts))&quot;, :offset 87, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/Get (:axis-1d-pri-index-trigger ovr-consts) (:controller-all ovr-consts))&quot;, :offset 83, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/Get (:axis-1d-pri-index-trigger ovr-consts) (:controller-touch ovr-consts))&quot;, :offset 85, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/Get (:button-any ovr-consts) (:controller-l-touch ovr-consts))&quot;, :offset 72, :ns &quot;controllers-state&quot;} {:command &quot;(ns controllers-state\n  (:require [osc :as o]\n            [app-state :as app])\n  (:use [arcadia.core]\n        [arcadia.introspection]\n        [arcadia.linear]\n        [clojure.set :only [difference union]])\n  (:import\n    OVRInput\n    (SpaceNavigatorDriver Settings SpaceNavigator)\n    (UnityEngine Input KeyCode)))&quot;, :offset 315, :ns &quot;cursive.repl.runtime&quot;} {:command &quot;(def ovr-consts\n  {\n   :button-none                  OVRInput+Button/None\n   :button-one                   OVRInput+Button/One\n   :button-two                   OVRInput+Button/Two\n   :button-three                 OVRInput+Button/Three\n   :button-four                  OVRInput+Button/Four\n   :button-start                 OVRInput+Button/Start\n   :button-back                  OVRInput+Button/Back\n   :button-pri-shoulder          OVRInput+Button/PrimaryShoulder\n   :button-pri-index-trigger     OVRInput+Button/PrimaryIndexTrigger\n   :button-pri-hand-trigger      OVRInput+Button/PrimaryHandTrigger\n   :button-pri-thumbstick        OVRInput+Button/PrimaryThumbstick\n   :button-pri-thumbstick-up     OVRInput+Button/PrimaryThumbstickUp\n   :button-pri-thumbstick-down   OVRInput+Button/PrimaryThumbstickDown\n   :button-pri-thumbstick-left   OVRInput+Button/PrimaryThumbstickLeft\n   :button-pri-thumbstick-right  OVRInput+Button/PrimaryThumbstickRight\n   :button-pri-touchpad          OVRInput+Button/PrimaryTouchpad\n   :button-sec-shoulder          OVRInput+Button/SecondaryShoulder\n   :button-sec-index-trigger     OVRInput+Button/SecondaryIndexTrigger\n   :button-sec-hand-trigger      OVRInput+Button/SecondaryHandTrigger\n   :button-sec-thumbstick        OVRInput+Button/SecondaryThumbstick\n   :button-sec-thumbstick-up     OVRInput+Button/SecondaryThumbstickUp\n   :button-sec-thumbstick-down   OVRInput+Button/SecondaryThumbstickDown\n   :button-sec-thumbstick-left   OVRInput+Button/SecondaryThumbstickLeft\n   :button-sec-thumbstick-right  OVRInput+Button/SecondaryThumbstickRight\n   :button-sec-touchpad          OVRInput+Button/SecondaryTouchpad\n   :button-dpad-up               OVRInput+Button/DpadUp\n   :button-dpad-down             OVRInput+Button/DpadDown\n   :button-dpad-left             OVRInput+Button/DpadLeft\n   :button-dpad-right            OVRInput+Button/DpadRight\n   :button-up                    OVRInput+Button/Up\n   :button-down                  OVRInput+Button/Down\n   :button-left                  OVRInput+Button/Left\n   :button-right                 OVRInput+Button/Right\n   :button-any                   OVRInput+Button/Any\n\n   :touch-none                   OVRInput+Touch/None\n   :touch-one                    OVRInput+Touch/One\n   :touch-two                    OVRInput+Touch/Two\n   :touch-three                  OVRInput+Touch/Three\n   :touch-four                   OVRInput+Touch/Four\n   :touch-pri-index-trigger      OVRInput+Touch/PrimaryIndexTrigger\n   :touch-pri-thumbstick         OVRInput+Touch/PrimaryThumbstick\n   :touch-pri-thumb-rest         OVRInput+Touch/PrimaryThumbRest\n   :touch-pri-touchpad           OVRInput+Touch/PrimaryTouchpad\n   :touch-sec-index-trigger      OVRInput+Touch/SecondaryIndexTrigger\n   :touch-sec-thumbstick         OVRInput+Touch/SecondaryThumbstick\n   :touch-sec-thumb-rest         OVRInput+Touch/SecondaryThumbRest\n   :touch-sec-touchpad           OVRInput+Touch/SecondaryTouchpad\n   :touch-any                    OVRInput+Touch/Any\n\n   :near-touch-none              OVRInput+NearTouch/None\n   :near-touch-pri-index-trigger OVRInput+NearTouch/PrimaryIndexTrigger\n   :near-touch-pri-thumb-buttons OVRInput+NearTouch/PrimaryThumbButtons\n   :near-touch-sec-index-trigger OVRInput+NearTouch/SecondaryIndexTrigger\n   :near-touch-sec-thumb-buttons OVRInput+NearTouch/SecondaryThumbButtons\n   :near-touch-any               OVRInput+NearTouch/Any\n\n   :axis-1d-none                 OVRInput+Axis1D/None\n   :axis-1d-pri-index-trigger    OVRInput+Axis1D/PrimaryIndexTrigger\n   :axis-1d-pri-hand-trigger     OVRInput+Axis1D/PrimaryHandTrigger\n   :axis-1d-sec-index-trigger    OVRInput+Axis1D/SecondaryIndexTrigger\n   :axis-1d-sec-hand-trigger     OVRInput+Axis1D/SecondaryHandTrigger\n   :axis-1d-any                  OVRInput+Axis1D/Any\n\n   :axis-2d-none                 OVRInput+Axis2D/None\n   :axis-2d-pri-thumbstick       OVRInput+Axis2D/PrimaryThumbstick\n   :axis-2d-pri-touchpad         OVRInput+Axis2D/PrimaryTouchpad\n   :axis-2d-sec-thumbstick       OVRInput+Axis2D/SecondaryThumbstick\n   :axis-2d-sec-touchpad         OVRInput+Axis2D/SecondaryTouchpad\n   :axis-2d-any                  OVRInput+Axis2D/Any\n\n   :controller-none              OVRInput+Controller/None\n   :controller-l-touch           OVRInput+Controller/LTouch\n   :controller-r-touch           OVRInput+Controller/RTouch\n   :controller-touch             OVRInput+Controller/Touch\n   :controller-remote            OVRInput+Controller/Remote\n   :controller-gamepad           OVRInput+Controller/Gamepad\n   :controller-touchpad          OVRInput+Controller/Touchpad\n   :controller-l-tracked-remote  OVRInput+Controller/LTrackedRemote\n   :controller-r-tracked-remote  OVRInput+Controller/RTrackedRemote\n   :controller-active            OVRInput+Controller/Active\n   :controller-all               OVRInput+Controller/All\n   })&quot;, :offset 4847, :ns &quot;controllers-state&quot;} {:command &quot;(OVRInput/Get (:axis-1d-pri-index-trigger ovr-consts) (:controller-l-touch ovr-consts))&quot;, :offset 87, :ns &quot;controllers-state&quot;}]}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -785,6 +665,15 @@
       <workItem from="1538332150844" duration="411000" />
       <workItem from="1538333337115" duration="5407000" />
       <workItem from="1538616078907" duration="9573000" />
+      <workItem from="1538848697720" duration="2807000" />
+      <workItem from="1538852118567" duration="4074000" />
+      <workItem from="1538885715397" duration="1769000" />
+      <workItem from="1538935951802" duration="11411000" />
+      <workItem from="1538951234920" duration="905000" />
+      <workItem from="1539015484502" duration="4004000" />
+      <workItem from="1539907434420" duration="1296000" />
+      <workItem from="1539920998729" duration="828000" />
+      <workItem from="1539922060892" duration="4230000" />
     </task>
     <task id="LOCAL-00001" summary="upgrade to latest Unity 2018-2.9f1;&#10;update OVR plugin;&#10;update OSC simpl;&#10;add Arcadia and arcadia.nrepl as submodules;&#10;">
       <created>1537819625210</created>
@@ -825,7 +714,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="451949000" />
+    <option name="totallyTimeSpent" value="483273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -837,7 +726,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1720" height="1400" extended-state="0" />
+    <frame x="0" y="0" width="3440" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -845,15 +734,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28286386" sideWeight="0.66741407" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22441861" sideWeight="0.6958333" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44428572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28286386" sideWeight="0.33258596" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22441861" sideWeight="0.30416667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994187" sideWeight="0.4970458" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16725352" sideWeight="0.4857997" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2366279" sideWeight="0.4857997" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -867,6 +755,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -939,43 +828,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/geometry.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/arcadia_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ArcadiaWorksheet.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4522">
-          <caret line="266" column="13" selection-start-line="266" selection-start-column="13" selection-end-line="266" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/arcadia_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Arcadia/configuration.edn" />
-    <entry file="file://$PROJECT_DIR$/Assets/arcadia_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Arcadia/configuration.edn" />
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/src/arcadia/nrepl.clj.meta" />
     <entry file="file://$PROJECT_DIR$/Assets/arcadia.nrepl/README.md.meta" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
@@ -990,13 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OSC simpl/OscIn.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2884">
-          <caret line="334" column="38" selection-start-line="334" selection-start-column="38" selection-end-line="334" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1029,31 +874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHapticsClip.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHaptics.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/haptics.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1156,13 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/osc.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Arcadia/Source/arcadia/linear.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1174,23 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1061">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1537801494104" expanded="true" signature="103:2682" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="219:2626" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="353:884" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="479:879" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="548:841" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="928:1498" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="1028:1493" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="1113:1492" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="1212:1491" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="1823:2100" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="1832:2027" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="1859:1968" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="2378:2594" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="2387:2521" ph="{...}" />
-            <marker date="1537801494104" expanded="true" signature="2437:2516" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,10 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1537801494088" expanded="true" signature="51:1510" ph="{...}" />
-            <marker date="1537801494088" expanded="true" signature="96:1508" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1209,14 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-125">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1537801494063" expanded="true" signature="82:1091" ph="{...}" />
-            <marker date="1537801494063" expanded="true" signature="164:1089" ph="{...}" />
-            <marker date="1537801494063" expanded="true" signature="299:444" ph="{...}" />
-            <marker date="1537801494063" expanded="true" signature="479:570" ph="{...}" />
-            <marker date="1537801494063" expanded="true" signature="605:696" ph="{...}" />
-            <marker date="1537801494063" expanded="true" signature="995:1086" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1224,62 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1475">
           <caret line="59" column="67" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="67" />
-          <folding>
-            <marker date="1537801494065" expanded="true" signature="153:12187" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="218:12185" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="880:1105" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="1176:1291" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="1334:1421" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="1473:2889" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="1586:1655" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="2172:2211" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="2239:2686" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="3135:4049" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="3521:3894" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="3553:3768" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="3774:3889" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="4091:5129" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="4192:4230" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="4585:4738" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="4744:4974" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="5177:7243" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="5751:7239" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="5873:6266" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="6295:6484" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="6490:6868" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="7288:9262" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="7833:9140" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="9304:9627" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="10077:10612" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="10238:10414" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="10751:11122" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="10791:11118" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="11164:11246" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="11353:11664" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="11531:11660" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="11734:11937" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="11796:11932" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="12004:12156" ph="{...}" />
-            <marker date="1537801494065" expanded="true" signature="12027:12151" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/music_theory_visualization.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <marker date="1538277119705" expanded="true" signature="0:255" ph="(ns music-theory-visualization ...)" />
-            <marker date="1538277119705" expanded="true" signature="257:458" ph="(def mats ...)" />
-            <marker date="1538277119705" expanded="true" signature="622:821" ph="(defn- note-&gt;spiral-position ...)" />
-            <marker date="1538277119705" expanded="true" signature="823:1009" ph="(defn- note-&gt;spiral-localScale ...)" />
-            <marker date="1538277119705" expanded="true" signature="1011:2272" ph="(def spiral ...)" />
-            <marker date="1538277119705" expanded="true" signature="2327:2545" ph="(def ac-pitch-obj ...)" />
-            <marker date="1538277119705" expanded="true" signature="2548:2969" ph="(defn- on-evt ...)" />
-            <marker date="1538277119705" expanded="true" signature="2971:3066" ph="(defn- on-midi-evt ...)" />
-            <marker date="1538277119705" expanded="true" signature="3158:3580" ph="(defn on-acoustic-pitch ...)" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1287,31 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1537801494095" expanded="true" signature="142:20464" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="393:20462" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="2921:3210" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="3241:14195" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="3478:3781" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="5246:5643" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="5649:6109" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="6292:6659" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="6665:7095" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="8810:8976" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="9499:10841" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="11105:11765" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="11134:11760" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="12057:12705" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="12086:12700" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="14296:15940" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="15024:15283" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="16041:17941" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="16858:17198" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="18255:18764" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="19086:19541" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="19790:20459" ph="{...}" />
-            <marker date="1537801494095" expanded="true" signature="20147:20455" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,9 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
-          <folding>
-            <marker date="1537801488828" expanded="true" signature="0:5641" ph="(do ...)" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1329,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1337,53 +1040,328 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="12" column="48" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="48" />
-          <folding>
-            <marker date="1537801494096" expanded="true" signature="142:1438" ph="{...}" />
-            <marker date="1537801494096" expanded="true" signature="197:1436" ph="{...}" />
-            <marker date="1537801494096" expanded="true" signature="964:1273" ph="{...}" />
-            <marker date="1537801494096" expanded="true" signature="973:1239" ph="{...}" />
-            <marker date="1537801494096" expanded="true" signature="1002:1212" ph="{...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/music_theory_visualization.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/music_sight_reading.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-          <folding>
-            <marker date="1537801494558" expanded="true" signature="16:517" ph="(ns music-sight-reading ...)" />
-            <marker date="1537801494558" expanded="true" signature="519:641" ph="(def perf-state ...)" />
-            <marker date="1537801494558" expanded="true" signature="644:760" ph="(defn prep-stats-for-exercise ...)" />
-            <marker date="1537801494558" expanded="true" signature="762:876" ph="(defn set-stat ...)" />
-            <marker date="1537801494558" expanded="true" signature="878:977" ph="(defn get-stat ...)" />
-            <marker date="1537801494558" expanded="true" signature="979:1050" ph="(defn save-perf-state ...)" />
-            <marker date="1537801494558" expanded="true" signature="1052:1143" ph="(defn load-perf-state ...)" />
-            <marker date="1537801494558" expanded="true" signature="1145:1294" ph="(comment ...)" />
-            <marker date="1537801494558" expanded="true" signature="1297:1357" ph="(defn game-loop ...)" />
-            <marker date="1537801494558" expanded="true" signature="1424:1583" ph="(defn scroll-go ...)" />
-            <marker date="1537801494558" expanded="true" signature="1585:1761" ph="(defn set-go-color ...)" />
-            <marker date="1537801494558" expanded="true" signature="1763:1915" ph="(defn update-queued ...)" />
-            <marker date="1537801494558" expanded="true" signature="1917:2528" ph="(defn update-active ...)" />
-            <marker date="1537801494558" expanded="true" signature="2530:3516" ph="(defn queue-event ...)" />
-            <marker date="1537801494558" expanded="true" signature="3519:3566" ph="(defn clear ...)" />
-            <marker date="1537801494558" expanded="true" signature="3771:5898" ph="(comment ...)" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/music_instrument_state.clj">
+    <entry file="file://$PROJECT_DIR$/Assets/app_state.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OSC simpl/Base/Internal/OscPacket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OSC simpl/Examples/02 ArgumentTypes/ArgumentTypeTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8250">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OSC simpl/OscIn.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5586">
+          <caret line="598" column="12" selection-start-line="598" selection-start-column="9" selection-end-line="598" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OSC simpl/Base/OscMessage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/osc.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatar.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHapticsClip.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHaptics.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/haptics.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Arcadia/Source/arcadia/introspection.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+          <folding>
+            <marker date="1537801493366" expanded="true" signature="1212:126601" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="1346:7285" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="7407:12643" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="12819:15432" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="15566:18207" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="18520:19581" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="19713:20964" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="21121:22131" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="22276:23289" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="23448:24429" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="24576:25579" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="25703:27114" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="27833:28287" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="27843:28284" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="27895:28236" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="28378:28871" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="28426:28867" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="29054:30810" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="29211:29661" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="29388:29657" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="29763:29876" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="30138:30490" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="30532:30807" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="30994:31231" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="31536:31935" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="31566:31932" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="32234:32618" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="32264:32615" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="32926:33348" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="32956:33345" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="33678:34130" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="33720:34124" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="34471:34931" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="34513:34925" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="35249:35660" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="35279:35657" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="36029:36427" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="36059:36424" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="36815:37221" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="36845:37218" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="38054:38544" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="38197:38524" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="38328:38520" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="39540:40236" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="39705:40217" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="39836:40213" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="41220:41909" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="41383:41892" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="41514:41888" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="42729:43217" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="42872:43197" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="43003:43193" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="44198:44890" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="44363:44871" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="44494:44867" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="45859:46544" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="46022:46527" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="46153:46523" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="47420:47920" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="47563:47900" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="47694:47896" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="48967:49687" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="49132:49668" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="49263:49664" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="50722:51435" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="50885:51418" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="51016:51414" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="52358:53875" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="52526:53853" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="52657:53849" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="52800:53017" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="53077:53294" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="53353:53569" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="53628:53844" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="54808:56595" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="54986:56573" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="55117:56569" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="55258:55542" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="55598:55882" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="55940:56224" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="56280:56564" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="57545:57893" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="57688:57890" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="58277:58601" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="58420:58598" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="58963:59355" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="59137:59327" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="59854:60255" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="60024:60227" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="60155:60223" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="60656:61049" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="60820:61027" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="60951:61023" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="61114:61226" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="61285:61403" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="61475:61672" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="61740:61933" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="62035:62467" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="62512:75836" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="62548:67443" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="64683:67439" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="67478:69433" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="68338:69429" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="69472:70413" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="69884:70409" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="70449:71329" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="70825:71325" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="71365:72225" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="71741:72221" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="72842:72974" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="73015:74559" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="75893:79970" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="76018:78037" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="78084:78836" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="78887:79243" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="79291:79615" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="79663:79967" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="80028:83988" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="80155:82113" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="82160:82896" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="82947:83285" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="83333:83640" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="83688:83985" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="84046:88005" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="84173:86130" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="86177:86913" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="86964:87302" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="87350:87657" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="87705:88002" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="88063:91862" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="88190:90075" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="90122:90842" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="90893:91193" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="91241:91526" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="91574:91859" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="91923:95931" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="92054:94082" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="94129:94849" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="94900:95220" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="95268:95576" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="95624:95928" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="95993:105630" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="96071:96225" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="96306:96471" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="96548:96647" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="96680:96755" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="96797:100489" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="100537:102565" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="102612:103332" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="103383:103703" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="103751:104059" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="104107:104411" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="104495:104729" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="105696:109709" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="105832:107860" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="107907:108627" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="108678:108998" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="109046:109354" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="109402:109706" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="109769:115142" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="110030:111389" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="110292:111354" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="110589:110787" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="110834:111349" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="110932:111123" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="111155:111343" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="111437:113340" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="113387:114117" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="114168:114468" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="114516:114801" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="114849:115139" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="115208:120878" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="115472:117383" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="117430:118169" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="118220:118520" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="118568:118870" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="118918:119208" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="119262:120554" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="119393:119486" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="119729:120519" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="119999:120514" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="120097:120288" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="120320:120508" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="120944:126599" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="121208:123119" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="123166:123905" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="123956:124256" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="124304:124606" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="124654:124944" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="124998:126272" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="125129:125222" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="125447:126237" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="125717:126232" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="125815:126006" ph="{...}" />
+            <marker date="1537801493366" expanded="true" signature="126038:126226" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/studio.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="1035">
+          <caret line="142" column="54" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="54" />
+          <folding>
+            <marker date="1538944098319" expanded="true" signature="0:266" ph="(ns studio ...)" />
+            <marker date="1538944098319" expanded="true" signature="310:536" ph="(def notes-in-c ...)" />
+            <marker date="1538944098319" expanded="true" signature="670:1228" ph="(defn- key+ ...)" />
+            <marker date="1538944098319" expanded="true" signature="1303:1390" ph="(defn- notes-in-c-range ...)" />
+            <marker date="1538944098319" expanded="true" signature="1392:3135" ph="(defn- keys+ ...)" />
+            <marker date="1538944098319" expanded="true" signature="3271:3841" ph="(def object-state ...)" />
+            <marker date="1538944098319" expanded="true" signature="3845:3984" ph="(defn find-child ...)" />
+            <marker date="1538944098319" expanded="true" signature="4084:4279" ph="(defn- on-spacenav ...)" />
+            <marker date="1538944098319" expanded="true" signature="4281:4357" ph="(some ...)" />
+            <marker date="1538944098319" expanded="true" signature="4722:4992" ph="(defn- on-evt ...)" />
+            <marker date="1538944098319" expanded="true" signature="4994:5150" ph="(defn- on-midi-evt ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/controllers_state.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
           <folding />
         </state>
       </provider>

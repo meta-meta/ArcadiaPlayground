@@ -2,7 +2,7 @@
   (:use [arcadia.core]
         [arcadia.introspection]
         [arcadia.linear]
-        [music-instrument-state :only [get-notes listen]])
+        [controllers-state :only [get-notes listen]])
   (:import (UnityEngine Color GameObject Material Mathf Renderer Resources Vector3)))
 
 (def mats (->> (range 12)

@@ -2,7 +2,7 @@
   (:use [arcadia.core]
         [arcadia.introspection]
         [arcadia.linear]
-        [music-instrument-state :only [get-notes listen]])
+        [controllers-state :only [get-notes listen]])
   (:import (UnityEngine GameObject Material Renderer Resources)
            ;(UnityEditor EditorApplication)
            ))
@@ -84,6 +84,7 @@
 
 (def keystation-obj (object-named "Keystation"))
 (def a-300-obj (object-named "A-300"))
+(def bcr-2000-obj (object-named "BCR-2000"))
 
 (def object-state
   (atom {
@@ -99,6 +100,10 @@
                       :keys    (keys+ a-300-obj 41 72 0.44)
                       :knobs   {}
                       }
+         :bcr-2000 {
+                    :buttons {}
+                    :knobs {}
+                    }
          }))
 
 

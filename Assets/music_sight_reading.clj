@@ -1,23 +1,7 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 (ns music-sight-reading
   (:use [arcadia.core]
         [arcadia.linear]
-        [music-instrument-state :only [get-notes]]
+        [controllers-state :only [get-notes]]
         [music-live-compose]
         [music-notation :only [clear-notes
                                set-played-notes!
