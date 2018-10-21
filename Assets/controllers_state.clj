@@ -10,7 +10,7 @@
   (:import
     OVRInput
     (SpaceNavigatorDriver Settings SpaceNavigator)
-    (UnityEngine ForceMode Input KeyCode Rigidbody)))
+    (UnityEngine ForceMode Input KeyCode Quaternion Rigidbody Time Vector3)))
 
 (def ovr-consts
   {
@@ -142,6 +142,7 @@
           :bike           {
                            :listeners #{}
                            :rpm       0.0
+                           :gravity   0.0
                            }
           }))
 
@@ -152,16 +153,81 @@
 
 
 ; BIKE
-(def cube (object-named "Cube"))
+(def airship-prop-ring (object-named "airship-prop-ring"))
+(def airship-prop (object-named "airship-prop"))
+(def airship (object-named "Airship"))
 (def avatar (object-named "MyAvatar"))
 (def handlebar (object-named "Handlebar"))
 
 (defn- move-bike []
+  (let [
+        rpm (get-in @app/s [:controllers :bike :rpm])
+        angle (Vector3/SignedAngle
+                (.. handlebar transform forward)
+                (.. airship transform forward)
+                Vector3/up)
+        torque (* angle
+                  (* (Time/deltaTime)
+                     rpm
+                     -0.004
+                     ))
+        ]
 
-  (.AddForce (cmpt cube Rigidbody)
-             (v3* (.. handlebar transform forward)
-                  (get-in @app/s [:controllers :bike :rpm]) 0.1)
-             ForceMode/Acceleration)
+
+
+    (.Rotate (.. airship-prop transform)
+             0
+             0
+             (* (Time/deltaTime)
+                10
+                rpm))
+
+    (comment (set! (.. airship-prop-ring transform rotation)
+                   (Quaternion/LookRotation (Vector3/ProjectOnPlane
+                                              (.. handlebar transform forward)
+                                              Vector3/up)
+                                            Vector3/up)))
+
+    (set! (.. airship-prop-ring transform localRotation)
+          (euler (v3 0 angle 0)))
+
+    (.AddRelativeForce (cmpt airship Rigidbody)
+                       (v3*
+                         Vector3/forward
+                         (* Time/deltaTime
+                            rpm
+                            1)
+                         )
+                       ForceMode/Acceleration)
+
+    (.AddRelativeForce (cmpt airship Rigidbody)
+                       (v3*
+                         Vector3/up
+                         (* Time/deltaTime
+                            100
+                            (OVRInput/Get (:axis-1d-pri-index-trigger ovr-consts)
+                                          (:controller-l-touch ovr-consts)))
+                         )
+                       ForceMode/Acceleration)
+
+    (.AddRelativeForce (cmpt airship Rigidbody)
+                       (v3*
+                         Vector3/up
+                         (* Time/deltaTime
+                            -100
+                            (OVRInput/Get (:axis-1d-pri-hand-trigger ovr-consts)
+                                          (:controller-l-touch ovr-consts)))
+                         )
+                       ForceMode/Acceleration)
+
+    (.AddRelativeTorque (cmpt airship Rigidbody)
+                        (v3*
+                          Vector3/up
+                          torque
+                          )
+                        ForceMode/Acceleration)
+    )
+  ;(OVRInput/Get (:axis-1d-pri-index-trigger ovr-consts) (:controller-l-touch ovr-consts))
 
   )
 
