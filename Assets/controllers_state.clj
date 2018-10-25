@@ -141,8 +141,6 @@
 
           :bike           {
                            :listeners #{}
-                           :rpm       0.0
-                           :gravity   0.0
                            }
           }))
 
@@ -159,17 +157,22 @@
 (def avatar (object-named "MyAvatar"))
 (def handlebar (object-named "Handlebar"))
 
+(def freewheel (object-named "Cube"))
+(def freewheel-body (cmpt freewheel Rigidbody))
+
+(def airship-body (cmpt airship Rigidbody))
+
 (defn- move-bike []
   (let [
-        rpm (get-in @app/s [:controllers :bike :rpm])
+        vel (* 100 (.. freewheel-body angularVelocity magnitude))
         angle (Vector3/SignedAngle
                 (.. handlebar transform forward)
                 (.. airship transform forward)
                 Vector3/up)
         torque (* angle
                   (* (Time/deltaTime)
-                     rpm
-                     -0.004
+                     vel
+                     -0.001
                      ))
         ]
 
@@ -179,8 +182,8 @@
              0
              0
              (* (Time/deltaTime)
-                10
-                rpm))
+                1
+                vel))
 
     (comment (set! (.. airship-prop-ring transform rotation)
                    (Quaternion/LookRotation (Vector3/ProjectOnPlane
@@ -191,16 +194,16 @@
     (set! (.. airship-prop-ring transform localRotation)
           (euler (v3 0 angle 0)))
 
-    (.AddRelativeForce (cmpt airship Rigidbody)
+    (.AddRelativeForce airship-body
                        (v3*
                          Vector3/forward
                          (* Time/deltaTime
-                            rpm
+                            vel
                             1)
                          )
-                       ForceMode/Acceleration)
+                       ForceMode/Force)
 
-    (.AddRelativeForce (cmpt airship Rigidbody)
+    (.AddRelativeForce airship-body
                        (v3*
                          Vector3/up
                          (* Time/deltaTime
@@ -210,7 +213,7 @@
                          )
                        ForceMode/Acceleration)
 
-    (.AddRelativeForce (cmpt airship Rigidbody)
+    (.AddRelativeForce airship-body
                        (v3*
                          Vector3/up
                          (* Time/deltaTime
@@ -220,18 +223,26 @@
                          )
                        ForceMode/Acceleration)
 
-    (.AddRelativeTorque (cmpt airship Rigidbody)
+    (.AddRelativeTorque airship-body
                         (v3*
                           Vector3/up
                           torque
                           )
                         ForceMode/Acceleration)
+
     )
   ;(OVRInput/Get (:axis-1d-pri-index-trigger ovr-consts) (:controller-l-touch ovr-consts))
 
   )
 
-
+(defn- move-freewheel [pulse]
+  (.AddRelativeTorque freewheel-body
+                      (v3*
+                        Vector3/up
+                        (* 10 pulse)
+                        )
+                      ForceMode/Force)                      ; ForceMode/Impulse ??
+  )
 
 
 (defn- on-midi-evt [instrument event osc-msg]
@@ -248,12 +259,15 @@
     (doseq [listener listeners] (listener pitch-and-amp))
     ))
 
-(defn- on-rpm-evt [osc-msg]
-  (let [[rpm] (vec (. osc-msg (get_args)))
-        listeners (get-in @app/s [:bike :rpm :listeners])]
-    (swap! app/s assoc-in [:controllers :bike :rpm] rpm)
-    (doseq [listener listeners] (listener rpm))
+(defn- on-bike-evt [osc-msg]
+  (let [[pulse] (vec (. osc-msg (get_args)))
+        listeners (get-in @app/s [:bike :listeners])]
+    (doseq [listener listeners] (listener pulse))
+    (move-freewheel pulse)
+    ;(move-bike (* 100 pulse))
     ))
+
+
 
 (defn update-spacenav []
   (let [spacenav {
@@ -276,7 +290,8 @@
   ;                      })
   )
 
-(hook+ (object-named "App") :update #'poll)
+;(hook+ (object-named "App") :update #'poll)
+(hook+ (object-named "App") :fixed-update #'poll)
 
 (o/listen "/a-300/note" (fn [osc-msg] (on-midi-evt :a-300 :note osc-msg)))
 (o/listen "/keystation/note" (fn [osc-msg] (on-midi-evt :keystation :note osc-msg)))
@@ -284,7 +299,7 @@
 (o/listen "/bcr-2000/knobs" (fn [osc-msg] (on-midi-evt :bcr-2000 :knobs osc-msg)))
 (o/listen "/acoustic-pitch/note" (fn [osc-msg] (on-pitch-evt :acoustic-pitch osc-msg)))
 
-(o/listen "/rpm" (fn [osc-msg] (on-rpm-evt osc-msg)))
+(o/listen "/bike" (fn [osc-msg] (on-bike-evt osc-msg)))
 
 (defn listen
   "registers a listener for instrument events. listener must accept args: midi-evt index val"
