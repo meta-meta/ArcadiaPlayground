@@ -145,6 +145,7 @@ spacenav-puck
 (defn- on-midi-evt [device-name]
   (fn [evt index val]
     (on-evt device-name evt index val)
+    (log index)
     ;(log "got " device-name " " evt " " index " " val)
     ))
 

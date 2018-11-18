@@ -148,106 +148,115 @@
 
 
 
+(comment
+
+  ; BIKE
+  (def airship-prop-ring (object-named "airship-prop-ring"))
+  (def airship-prop (object-named "airship-prop"))
+  (def airship (object-named "Airship"))
+  (def avatar (object-named "MyAvatar"))
+  (def handlebar (object-named "Handlebar"))
+
+  (def freewheel (object-named "Cube"))
+  (def freewheel-body (cmpt freewheel Rigidbody))
+
+  (def airship-body (cmpt airship Rigidbody))
+
+  (defn- move-bike []
+    (let [
+          vel (* 100 (.. freewheel-body angularVelocity magnitude))
+          angle (Vector3/SignedAngle
+                  (.. handlebar transform forward)
+                  (.. airship transform forward)
+                  Vector3/up)
+          torque (* angle
+                    (* (Time/deltaTime)
+                       vel
+                       -0.001
+                       ))
+          ]
 
 
-; BIKE
-(def airship-prop-ring (object-named "airship-prop-ring"))
-(def airship-prop (object-named "airship-prop"))
-(def airship (object-named "Airship"))
-(def avatar (object-named "MyAvatar"))
-(def handlebar (object-named "Handlebar"))
 
-(def freewheel (object-named "Cube"))
-(def freewheel-body (cmpt freewheel Rigidbody))
+      (.Rotate (.. airship-prop transform)
+               0
+               0
+               (* (Time/deltaTime)
+                  1
+                  vel))
 
-(def airship-body (cmpt airship Rigidbody))
+      (comment (set! (.. airship-prop-ring transform rotation)
+                     (Quaternion/LookRotation (Vector3/ProjectOnPlane
+                                                (.. handlebar transform forward)
+                                                Vector3/up)
+                                              Vector3/up)))
 
-(defn- move-bike []
-  (let [
-        vel (* 100 (.. freewheel-body angularVelocity magnitude))
-        angle (Vector3/SignedAngle
-                (.. handlebar transform forward)
-                (.. airship transform forward)
-                Vector3/up)
-        torque (* angle
-                  (* (Time/deltaTime)
-                     vel
-                     -0.001
-                     ))
-        ]
+      (set! (.. airship-prop-ring transform localRotation)
+            (euler (v3 0 angle 0)))
 
+      (.AddRelativeForce airship-body
+                         (v3*
+                           Vector3/forward
+                           (* Time/deltaTime
+                              vel
+                              1)
+                           )
+                         ForceMode/Force)
 
+      (.AddRelativeForce airship-body
+                         (v3*
+                           Vector3/up
+                           (* Time/deltaTime
+                              100
+                              (OVRInput/Get (:axis-1d-pri-index-trigger ovr-consts)
+                                            (:controller-l-touch ovr-consts)))
+                           )
+                         ForceMode/Acceleration)
 
-    (.Rotate (.. airship-prop transform)
-             0
-             0
-             (* (Time/deltaTime)
-                1
-                vel))
+      (.AddRelativeForce airship-body
+                         (v3*
+                           Vector3/up
+                           (* Time/deltaTime
+                              -100
+                              (OVRInput/Get (:axis-1d-pri-hand-trigger ovr-consts)
+                                            (:controller-l-touch ovr-consts)))
+                           )
+                         ForceMode/Acceleration)
 
-    (comment (set! (.. airship-prop-ring transform rotation)
-                   (Quaternion/LookRotation (Vector3/ProjectOnPlane
-                                              (.. handlebar transform forward)
-                                              Vector3/up)
-                                            Vector3/up)))
+      (.AddRelativeTorque airship-body
+                          (v3*
+                            Vector3/up
+                            torque
+                            )
+                          ForceMode/Acceleration)
 
-    (set! (.. airship-prop-ring transform localRotation)
-          (euler (v3 0 angle 0)))
-
-    (.AddRelativeForce airship-body
-                       (v3*
-                         Vector3/forward
-                         (* Time/deltaTime
-                            vel
-                            1)
-                         )
-                       ForceMode/Force)
-
-    (.AddRelativeForce airship-body
-                       (v3*
-                         Vector3/up
-                         (* Time/deltaTime
-                            100
-                            (OVRInput/Get (:axis-1d-pri-index-trigger ovr-consts)
-                                          (:controller-l-touch ovr-consts)))
-                         )
-                       ForceMode/Acceleration)
-
-    (.AddRelativeForce airship-body
-                       (v3*
-                         Vector3/up
-                         (* Time/deltaTime
-                            -100
-                            (OVRInput/Get (:axis-1d-pri-hand-trigger ovr-consts)
-                                          (:controller-l-touch ovr-consts)))
-                         )
-                       ForceMode/Acceleration)
-
-    (.AddRelativeTorque airship-body
-                        (v3*
-                          Vector3/up
-                          torque
-                          )
-                        ForceMode/Acceleration)
+      )
+    ;(OVRInput/Get (:axis-1d-pri-index-trigger ovr-consts) (:controller-l-touch ovr-consts))
 
     )
-  ;(OVRInput/Get (:axis-1d-pri-index-trigger ovr-consts) (:controller-l-touch ovr-consts))
+
+  (defn- move-freewheel [pulse]
+    (.AddRelativeTorque freewheel-body
+                        (v3*
+                          Vector3/up
+                          (* 10 pulse)
+                          )
+                        ForceMode/Force)                    ; ForceMode/Impulse ??
+    )
+
+  (defn- on-bike-evt [osc-msg]
+    (let [[pulse] (vec (. osc-msg (get_args)))
+          listeners (get-in @app/s [:bike :listeners])]
+      (doseq [listener listeners] (listener pulse))
+      (move-freewheel pulse)
+      ;(move-bike (* 100 pulse))
+      ))
 
   )
-
-(defn- move-freewheel [pulse]
-  (.AddRelativeTorque freewheel-body
-                      (v3*
-                        Vector3/up
-                        (* 10 pulse)
-                        )
-                      ForceMode/Force)                      ; ForceMode/Impulse ??
-  )
-
 
 (defn- on-midi-evt [instrument event osc-msg]
   (let [[index val] (vec (. osc-msg (get_args)))
-        listeners (get-in @app/s [instrument :listeners])]
+        listeners (get-in @app/s [:controllers instrument :listeners])]
     (swap! app/s assoc-in [:controllers instrument event index] val)
     (doseq [listener listeners] (listener event index val))
     ))
@@ -259,13 +268,7 @@
     (doseq [listener listeners] (listener pitch-and-amp))
     ))
 
-(defn- on-bike-evt [osc-msg]
-  (let [[pulse] (vec (. osc-msg (get_args)))
-        listeners (get-in @app/s [:bike :listeners])]
-    (doseq [listener listeners] (listener pulse))
-    (move-freewheel pulse)
-    ;(move-bike (* 100 pulse))
-    ))
+
 
 
 
@@ -281,7 +284,7 @@
 
 (defn poll [obj key]
   (update-spacenav)
-  (move-bike)
+  ;(move-bike)
   ;(swap! s assoc :keys {
   ;                      :space (Input/GetKey (. KeyCode Space))
   ;                      :a (Input/GetKey (. KeyCode A))
@@ -299,7 +302,7 @@
 (o/listen "/bcr-2000/knobs" (fn [osc-msg] (on-midi-evt :bcr-2000 :knobs osc-msg)))
 (o/listen "/acoustic-pitch/note" (fn [osc-msg] (on-pitch-evt :acoustic-pitch osc-msg)))
 
-(o/listen "/bike" (fn [osc-msg] (on-bike-evt osc-msg)))
+;(o/listen "/bike" (fn [osc-msg] (on-bike-evt osc-msg)))
 
 (defn listen
   "registers a listener for instrument events. listener must accept args: midi-evt index val"
