@@ -181,4 +181,4 @@ Material:
     - _LayerSampleParameters5: {r: 0, g: 0, b: 0, a: 0}
     - _LayerSampleParameters6: {r: 0, g: 0, b: 0, a: 0}
     - _LayerSampleParameters7: {r: 0, g: 0, b: 0, a: 0}
-    - _TintColor: {r: 1, g: 0, b: 0, a: 0.16862746}
+    - _TintColor: {r: 0, g: 1, b: 0, a: 0.5019608}

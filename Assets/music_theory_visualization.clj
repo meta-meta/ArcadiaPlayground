@@ -85,14 +85,15 @@
                               Vector3
                               (map #(.. (spiral (keyword (str "node-" %)))
                                         transform
-                                        position)
+                                        localPosition)
                                    pair)))))
      go))
   ([pair]
    (let [go (GameObject.)
          lr (cmpt+ go LineRenderer)]
      (child+ spiral-obj go)
-     (.. lr (SetWidth 0.02 0.02))
+     (set! (.. lr useWorldSpace) false)
+     (.. lr (SetWidth 0.005 0.005))
      (.. lr (SetVertexCount 2))
      (update-interval pair go))))
 

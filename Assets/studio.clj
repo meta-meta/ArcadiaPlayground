@@ -136,7 +136,7 @@ spacenav-puck
 ;  (log "got " evt " " index " " val))
 
 (defn- on-evt [device-name evt index val]
-  (cond (= evt :note)
+  (cond (= evt :notes)
         (let [go (get-in @object-state [device-name :keys index])]
           (when-not (nil? go)
             (set! (.. go transform localRotation)
