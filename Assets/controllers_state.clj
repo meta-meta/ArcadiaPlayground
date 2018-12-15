@@ -297,7 +297,7 @@
 (hook+ (object-named "App") :fixed-update #'poll)
 
 (o/listen "/a-300/note" (fn [osc-msg] (on-midi-evt :a-300 :note osc-msg)))
-(o/listen "/keystation/note" (fn [osc-msg] (on-midi-evt :keystation :note osc-msg)))
+(o/listen "/keystation/note" (fn [osc-msg] (on-midi-evt :keystation :notes osc-msg)))
 (o/listen "/bcr-2000/buttons" (fn [osc-msg] (on-midi-evt :bcr-2000 :buttons osc-msg)))
 (o/listen "/bcr-2000/knobs" (fn [osc-msg] (on-midi-evt :bcr-2000 :knobs osc-msg)))
 (o/listen "/acoustic-pitch/note" (fn [osc-msg] (on-pitch-evt :acoustic-pitch osc-msg)))
