@@ -87,14 +87,15 @@
 (defn diatonic-pattern
   "returns seq of notes given a root and seq of scale degrees +/-"
   [root scale-degrees]
-  (map (fn [sd]
-         (if (= sd :r)
+  (map (fn [sd-one-based]
+         (if (= sd-one-based :r)
            :r
-           (if (> sd 0)
-             (nth (diatonic-scale-cycle-up root)
-                  sd)
-             (nth (diatonic-scale-cycle-dn root)
-                  (- sd)))))
+           (let [sd (- sd-one-based 1)]
+             (if (> sd 0)
+               (nth (diatonic-scale-cycle-up root)
+                    sd)
+               (nth (diatonic-scale-cycle-dn root)
+                    (- sd))))))
        scale-degrees))
 
 (defn repeat-queue [pattern-fn]
@@ -115,31 +116,31 @@
 
     (defn five []
       (repeater 74
-                [7 6 1 4 2]
+                [8 7 2 5 3]
                 [1 1 1 1 2]
                 bpm))
 
     (defn four []
       (repeater 62
-                [0 2 0 2 :r]
+                [1 3 1 3 :r]
                 [1 1 1 1 1]
                 bpm))
 
     (defn one []
       (repeater 62
-                [5 :r]
+                [6 :r]
                 [2/3 3/3]
                 bpm))
 
     (defn three-long []
       (repeater 62
-                [5 :r 6 :r 7 :r :r]
+                [6 :r 7 :r 8 :r :r]
                 [20 8 20 8 20 24]
                 bpm))
 
     (defn three-short []
       (repeater 74
-                [:r 1 :r 4 :r 2]
+                [:r 2 :r 5 :r 3]
                 [1/2 7/2 1/2 7/2 1/2 7/2]
                 bpm))
 
@@ -166,19 +167,19 @@
 
     (defn eight-seven []
       (repeater 29
-                (flatten (concat (re 8 [7 :r])
-                                 (re 7 [5 :r])))
+                (flatten (concat (re 8 [8 :r])
+                                 (re 7 [6 :r])))
                 (re 30 1/2)
                 bpm))
     (defn four []
       (repeater 65
-                [0 2 4 5 :r]
+                [1 3 5 6 :r]
                 (re 5 1/2)
                 bpm))
 
     (defn six []
       (repeater 53
-                [6 4 2 0 2 4]
+                [7 5 3 1 3 5]
                 (re 6 1/3)
                 bpm))
 
@@ -193,26 +194,27 @@
   (do ; Six
     (def bpm 88)
 
-    (defn drone []
-      (let [dur (* 10 (bpm->dur bpm))]
-        (queue-chord 0 dur [46])
-        dur))
+    (defn drone [] ;TODO: use actual tonic and -scale degrees
+      (repeater 41
+                [4]
+                [10]
+                bpm))
 
     (defn five [] ;TODO: use actual tonic and -scale degrees
       (repeater 53
-                [3 4 7 4 0]
+                [4 5 8 5 1]
                 (re 5 1)
                 bpm))
 
     (defn five-rest []
       (repeater 77
-                (concat (flatten (re 5 [0 :r])) [:r])
+                (concat (flatten (re 5 [1 :r])) [:r])
                 (concat (flatten (re 5 [3/5 1/5])) [4/5])
                 bpm))
 
     (defn four []
       (repeater 70
-                [2 3 4 0]
+                [3 4 5 1]
                 [5/3 5/3 5/3 20/3]
                 bpm))
 
